@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/wamp2/bin/apache/apache2.4.65/conf/extra/**)"
+    ]
+  }
+}
