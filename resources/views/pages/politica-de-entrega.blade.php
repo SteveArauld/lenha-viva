@@ -45,11 +45,11 @@
 
 
 
-                        <p>Portugal</p>
+                        <p>España (Península e Islas Baleares)</p>
 
 
 
-                        <p>Europa (zonas disponibles indicadas en el momento del pedido)</p>
+                        <p>Resto de Europa (zonas disponibles indicadas en el momento del pedido)</p>
 
 
 
@@ -59,11 +59,11 @@
 
 
 
-                        <p><strong>Portugal</strong>: de 3 a 5 días hábiles tras la confirmación del pedido</p>
+                        <p><strong>España</strong>: de 3 a 5 días hábiles tras la confirmación del pedido</p>
 
 
 
-                        <p><strong>Europa</strong>: de 5 a 10 días hábiles</p>
+                        <p><strong>Resto de Europa</strong>: de 5 a 10 días hábiles</p>
 
 
 
@@ -85,7 +85,7 @@
 
 
                         <p>En https://lenhaviva.com, la entrega de todos los productos adquiridos es gratuita en
-                            Portugal y en Europa.</p>
+                            España y en el resto de Europa.</p>
 
 
 

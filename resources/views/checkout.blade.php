@@ -76,11 +76,10 @@
                                         class="lv-input lv-select @error('shipping-country') is-invalid @enderror"
                                         @error('shipping-country') aria-describedby="shipping-country-error" @enderror
                                         required>
-                                        <option value="" disabled {{ old('shipping-country') ? '' : 'selected' }}>
-                                            Selecciona un país/región</option>
+                                        <option value="" disabled>Selecciona un país/región</option>
                                         @foreach ($pays as $code => $nom)
                                             <option value="{{ $code }}"
-                                                {{ old('shipping-country') == $code ? 'selected' : '' }}>{{ $nom }}
+                                                {{ old('shipping-country', 'ES') == $code ? 'selected' : '' }}>{{ $nom }}
                                             </option>
                                         @endforeach
                                     </select>
@@ -173,11 +172,10 @@
                                     <select id="billing-country" name="billing-country" autocomplete="country"
                                         class="lv-input lv-select @error('billing-country') is-invalid @enderror"
                                         @error('billing-country') aria-describedby="billing-country-error" @enderror>
-                                        <option value="" disabled {{ old('billing-country') ? '' : 'selected' }}>
-                                            Selecciona un país/región</option>
+                                        <option value="" disabled>Selecciona un país/región</option>
                                         @foreach ($pays as $code => $nom)
                                             <option value="{{ $code }}"
-                                                {{ old('billing-country') == $code ? 'selected' : '' }}>{{ $nom }}
+                                                {{ old('billing-country', 'ES') == $code ? 'selected' : '' }}>{{ $nom }}
                                             </option>
                                         @endforeach
                                     </select>

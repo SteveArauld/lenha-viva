@@ -5,6 +5,11 @@ namespace App\Http\Controllers;
 class FeedController extends Controller
 {
     /**
+     * Google Merchant Center namespace for the g: prefixed elements.
+     */
+    private const G_NS = 'http://base.google.com/ns/1.0';
+
+    /**
      * Google Merchant Center product feed (RSS 2.0 + g: namespace).
      * https://support.google.com/merchants/answer/7052112
      */
@@ -12,80 +17,119 @@ class FeedController extends Controller
     {
         $products = collect(config('loja_products', []));
 
-        $xml = new \SimpleXMLElement('<?xml version="1.0" encoding="UTF-8"?><rss/>');
-        $xml->addAttribute('version', '2.0');
-        $xml->addAttribute('xmlns:g', 'http://base.google.com/ns/1.0');
+        $dom = new \DOMDocument('1.0', 'UTF-8');
+        $dom->formatOutput = false;
 
-        $channel = $xml->addChild('channel');
-        $channel->addChild('title', htmlspecialchars(config('app.name', 'Lenha Viva')));
-        $channel->addChild('link', route('home'));
-        $channel->addChild('description', 'Catálogo de productos Lenha Viva — pellets de madera, leña y equipos de calefacción.');
-        $channel->addChild('language', 'es');
+        $rss = $dom->createElement('rss');
+        $rss->setAttribute('version', '2.0');
+        // Declare the g: prefix once, on the root element, as a real namespace
+        // declaration. SimpleXMLElement::addAttribute('xmlns:g', ...) produced a
+        // bogus `g="..."` attribute instead and forced a redeclaration on every child.
+        $rss->setAttributeNS('http://www.w3.org/2000/xmlns/', 'xmlns:g', self::G_NS);
+        $dom->appendChild($rss);
+
+        $channel = $dom->createElement('channel');
+        $rss->appendChild($channel);
+
+        $channel->appendChild($this->text($dom, 'title', config('app.name', 'Lenha Viva')));
+        $channel->appendChild($this->text($dom, 'link', route('home')));
+        $channel->appendChild($this->text($dom, 'description', 'Catálogo de productos Lenha Viva — pellets de madera, leña y equipos de calefacción.'));
+        $channel->appendChild($this->text($dom, 'language', 'es'));
 
         foreach ($products as $product) {
-            $this->addItem($channel, $product);
+            if (is_array($product)) {
+                $this->addItem($dom, $channel, $product);
+            }
         }
 
-        return response($xml->asXML(), 200, [
+        return response($dom->saveXML(), 200, [
             'Content-Type' => 'application/xml; charset=UTF-8',
         ]);
     }
 
-    private function addItem(\SimpleXMLElement $channel, array $product): void
+    private function addItem(\DOMDocument $dom, \DOMElement $channel, array $product): void
     {
         $price = $this->cleanPrice($product['price'] ?? 0);
         $oldPrice = isset($product['old_price']) ? $this->cleanPrice($product['old_price']) : null;
-        $images = $product['images'] ?? [];
+        $images = array_values(array_filter($product['images'] ?? [], fn ($i) => ! empty($i)));
         $mainImage = $images[0] ?? ($product['hover_image'] ?? null);
 
-        if (empty($product['slug']) || empty($mainImage) || $price <= 0) {
-            // Google rejects items missing a landing page, image, or a positive price —
-            // skip incomplete catalog entries rather than submitting a broken item.
+        if (empty($product['slug']) || empty($product['id']) || empty($mainImage) || $price <= 0) {
+            // Google rejects items missing an id, a landing page, an image, or a positive
+            // price — skip incomplete catalog entries rather than submitting a broken item.
             return;
         }
 
-        $item = $channel->addChild('item');
-        $item->addChild('g:id', 'lv-'.$product['id'], 'http://base.google.com/ns/1.0');
-        $this->addCdataChild($item, 'title', $this->truncate($product['title'] ?? '', 150));
-        $this->addCdataChild($item, 'description', $this->truncate($this->plainText($product['description'] ?? ($product['short_description'] ?? '')), 5000));
-        $item->addChild('link', route('product.show', ['slug' => $product['slug']]));
-        $item->addChild('g:image_link', htmlspecialchars(asset($mainImage)), 'http://base.google.com/ns/1.0');
+        $item = $dom->createElement('item');
+        $channel->appendChild($item);
+
+        $item->appendChild($this->gText($dom, 'id', 'lv-'.$product['id']));
+        $item->appendChild($this->cdata($dom, 'title', $this->truncate($product['title'] ?? '', 150)));
+        $item->appendChild($this->cdata($dom, 'description', $this->truncate($this->plainText($product['description'] ?? ($product['short_description'] ?? '')), 5000)));
+        $item->appendChild($this->text($dom, 'link', route('product.show', ['slug' => $product['slug']])));
+        $item->appendChild($this->gText($dom, 'image_link', asset($mainImage)));
 
         foreach (array_slice(array_diff($images, [$mainImage]), 0, 10) as $extraImage) {
-            $item->addChild('g:additional_image_link', htmlspecialchars(asset($extraImage)), 'http://base.google.com/ns/1.0');
+            $item->appendChild($this->gText($dom, 'additional_image_link', asset($extraImage)));
         }
 
-        $item->addChild('g:availability', ! empty($product['in_stock']) ? 'in_stock' : 'out_of_stock', 'http://base.google.com/ns/1.0');
-        $item->addChild('g:condition', 'new', 'http://base.google.com/ns/1.0');
+        $item->appendChild($this->gText($dom, 'availability', ! empty($product['in_stock']) ? 'in_stock' : 'out_of_stock'));
+        $item->appendChild($this->gText($dom, 'condition', 'new'));
 
         if ($oldPrice && $oldPrice > $price) {
-            $item->addChild('g:price', number_format($oldPrice, 2, '.', '').' EUR', 'http://base.google.com/ns/1.0');
-            $item->addChild('g:sale_price', number_format($price, 2, '.', '').' EUR', 'http://base.google.com/ns/1.0');
+            $item->appendChild($this->gText($dom, 'price', number_format($oldPrice, 2, '.', '').' EUR'));
+            $item->appendChild($this->gText($dom, 'sale_price', number_format($price, 2, '.', '').' EUR'));
         } else {
-            $item->addChild('g:price', number_format($price, 2, '.', '').' EUR', 'http://base.google.com/ns/1.0');
+            $item->appendChild($this->gText($dom, 'price', number_format($price, 2, '.', '').' EUR'));
         }
 
         // No brand/GTIN/MPN is stored for these products — tell Google explicitly
         // rather than submitting an item with a missing unique identifier.
-        $item->addChild('g:identifier_exists', 'no', 'http://base.google.com/ns/1.0');
+        $item->appendChild($this->gText($dom, 'identifier_exists', 'no'));
 
         if (! empty($product['category'])) {
-            $item->addChild('g:product_type', htmlspecialchars(\App\Support\CategoryLabels::label($product['category'])), 'http://base.google.com/ns/1.0');
+            $item->appendChild($this->gText($dom, 'product_type', \App\Support\CategoryLabels::label($product['category'])));
         }
 
-        $shipping = $item->addChild('g:shipping', null, 'http://base.google.com/ns/1.0');
-        $shipping->addChild('g:country', 'ES', 'http://base.google.com/ns/1.0');
-        $shipping->addChild('g:service', 'Estándar', 'http://base.google.com/ns/1.0');
-        $shipping->addChild('g:price', '0.00 EUR', 'http://base.google.com/ns/1.0');
+        $shipping = $dom->createElementNS(self::G_NS, 'g:shipping');
+        $item->appendChild($shipping);
+        $shipping->appendChild($this->gText($dom, 'country', 'ES'));
+        $shipping->appendChild($this->gText($dom, 'service', 'Estándar'));
+        $shipping->appendChild($this->gText($dom, 'price', '0.00 EUR'));
     }
 
-    private function addCdataChild(\SimpleXMLElement $parent, string $name, string $value): void
+    /**
+     * Plain RSS element carrying a text value (safely escaped).
+     */
+    private function text(\DOMDocument $dom, string $name, string $value): \DOMElement
     {
-        $node = dom_import_simplexml($parent);
-        $document = $node->ownerDocument;
-        $child = $document->createElement($name);
-        $child->appendChild($document->createCDATASection($value));
-        $node->appendChild($child);
+        $node = $dom->createElement($name);
+        $node->appendChild($dom->createTextNode($value));
+
+        return $node;
+    }
+
+    /**
+     * Google-namespaced (g:) element carrying a text value (safely escaped).
+     */
+    private function gText(\DOMDocument $dom, string $name, string $value): \DOMElement
+    {
+        $node = $dom->createElementNS(self::G_NS, 'g:'.$name);
+        $node->appendChild($dom->createTextNode($value));
+
+        return $node;
+    }
+
+    /**
+     * Plain RSS element wrapping its value in a CDATA section.
+     */
+    private function cdata(\DOMDocument $dom, string $name, string $value): \DOMElement
+    {
+        $node = $dom->createElement($name);
+        // A CDATA section cannot contain the literal "]]>" — split it if present.
+        $node->appendChild($dom->createCDATASection(str_replace(']]>', ']]]]><![CDATA[>', $value)));
+
+        return $node;
     }
 
     private function plainText(string $text): string
