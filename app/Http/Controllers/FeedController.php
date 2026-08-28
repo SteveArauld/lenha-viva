@@ -53,10 +53,14 @@ class FeedController extends Controller
         $oldPrice = isset($product['old_price']) ? $this->cleanPrice($product['old_price']) : null;
         $images = array_values(array_filter($product['images'] ?? [], fn ($i) => ! empty($i)));
         $mainImage = $images[0] ?? ($product['hover_image'] ?? null);
+        $title = $this->plainText($product['title'] ?? '');
+        $description = $this->plainText($product['description'] ?? ($product['short_description'] ?? ''));
 
-        if (empty($product['slug']) || empty($product['id']) || empty($mainImage) || $price <= 0) {
-            // Google rejects items missing an id, a landing page, an image, or a positive
-            // price — skip incomplete catalog entries rather than submitting a broken item.
+        if (empty($product['slug']) || empty($product['id']) || empty($mainImage)
+            || $price <= 0 || $title === '' || $description === '') {
+            // Google rejects items missing an id, a landing page, an image, a title,
+            // a description or a positive price — skip incomplete catalog entries
+            // rather than submitting a broken item.
             return;
         }
 
@@ -64,8 +68,8 @@ class FeedController extends Controller
         $channel->appendChild($item);
 
         $item->appendChild($this->gText($dom, 'id', 'lv-'.$product['id']));
-        $item->appendChild($this->cdata($dom, 'title', $this->truncate($product['title'] ?? '', 150)));
-        $item->appendChild($this->cdata($dom, 'description', $this->truncate($this->plainText($product['description'] ?? ($product['short_description'] ?? '')), 5000)));
+        $item->appendChild($this->cdata($dom, 'title', $this->truncate($title, 150)));
+        $item->appendChild($this->cdata($dom, 'description', $this->truncate($description, 5000)));
         $item->appendChild($this->text($dom, 'link', route('product.show', ['slug' => $product['slug']])));
         $item->appendChild($this->gText($dom, 'image_link', asset($mainImage)));
 
