@@ -150,9 +150,9 @@
                                                     importaciones de países productores, LENHA VIVA se presenta
                                                     como una solución diferenciadora para el suministro de Productos
                                                     de Biomasa y Energía.</p>
-                                                <p>LENHA VIVA cuenta con centros de distribución ubicados en Francia y
-                                                    Portugal, realizándose la comercialización en toda Europa
-                                                    desde ambos países.</p>
+                                                <p>LENHA VIVA cuenta con centros de distribución ubicados en España,
+                                                    en Gurb y Manlleu (Barcelona), realizándose la comercialización en
+                                                    toda España y el resto de Europa.</p>
                                             </div>
                                         </div>
                                     </div>

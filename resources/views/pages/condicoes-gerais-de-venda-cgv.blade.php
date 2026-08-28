@@ -51,19 +51,19 @@
 
 
 
-                        <p>Nombre: Lenha Viva, Unipessoal Lda</p>
+                        <p>Nombre: Casacuberta Trias S.L.</p>
 
 
 
-                        <p><strong>NIF:</strong> 516429655</p>
+                        <p><strong>NIF:</strong> B64055007</p>
 
 
 
-                        <p><strong>IVA:</strong> PT516429655</p>
+                        <p><strong>IVA:</strong> ESB64055007</p>
 
 
 
-                        <p>Dirección: Rua Da Graça Nr. 19 Corga 3550-243 PINDO Portugal</p>
+                        <p>Dirección: Carrer Narcís Monturiol, 23 Bajo, 08503 Gurb (Barcelona), España</p>
 
 
 
@@ -123,7 +123,7 @@
 
 
 
-                        <p>Las entregas se realizan en Portugal e internacionalmente (según las zonas atendidas).
+                        <p>Las entregas se realizan en España y en el resto de Europa (según las zonas atendidas).
                         </p>
 
 
@@ -146,9 +146,10 @@
 
 
 
-                        <p>De acuerdo con el Artículo L. 221-18 del Código del Consumidor de Portugal, el cliente
-                            dispone de 14 días desde la recepción del pedido para ejercer el derecho de
-                            desistimiento, sin necesidad de justificación.</p>
+                        <p>De acuerdo con los artículos 102 y siguientes del Real Decreto Legislativo 1/2007, de 16 de
+                            noviembre, por el que se aprueba el texto refundido de la Ley General para la Defensa de los
+                            Consumidores y Usuarios, el cliente dispone de 14 días naturales desde la recepción del
+                            pedido para ejercer el derecho de desistimiento, sin necesidad de justificación.</p>
 
 
 
@@ -175,9 +176,9 @@
 
 
 
-                        <p>Todos los productos están cubiertos por la garantía legal de conformidad (artículos
-                            L. 217-3 y siguientes del Código del Consumidor portugués) y por la garantía frente a
-                            vicios ocultos (artículos 1641 y siguientes del Código Civil portugués).</p>
+                        <p>Todos los productos están cubiertos por la garantía legal de conformidad prevista en los
+                            artículos 114 y siguientes del Real Decreto Legislativo 1/2007, de 16 de noviembre (texto
+                            refundido de la Ley General para la Defensa de los Consumidores y Usuarios).</p>
 
 
 
@@ -213,9 +214,9 @@
 
 
 
-                        <p>Estas Condiciones Generales se rigen por la legislación portuguesa. En caso de litigio, y
-                            en ausencia de una solución amistosa, los tribunales competentes serán los de la
-                            jurisdicción del Tribunal da Relação de Lisboa (Portugal).</p>
+                        <p>Estas Condiciones Generales se rigen por la legislación española. En caso de litigio, y
+                            en ausencia de una solución amistosa, serán competentes los Juzgados y Tribunales de Vic
+                            (Barcelona), sin perjuicio del fuero que legalmente corresponda al consumidor.</p>
                     </div><!-- .site-main -->
 
                 </div><!-- .content-area -->

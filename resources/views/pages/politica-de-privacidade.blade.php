@@ -49,8 +49,9 @@
 
 
 
-                        <p>La empresa matriz es LENHA VIVA Unipessoal Lda, una filial de LENHA VIVA, registrada
-                            con el número de identificación de <strong>IVA:</strong> PT516429655 </p>
+                        <p>El responsable del tratamiento es <strong>Casacuberta Trias S.L.</strong>, titular de la marca
+                            LENHA VIVA, con NIF <strong>B64055007</strong> y domicilio en Carrer Narcís Monturiol, 23 Bajo,
+                            08503 Gurb (Barcelona), España.</p>
 
 
 

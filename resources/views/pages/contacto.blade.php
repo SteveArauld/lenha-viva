@@ -1431,8 +1431,7 @@
                                                             <div class="elementor-element elementor-element-d8b4bb1 elementor-widget elementor-widget-text-editor"
                                                                 data-id="d8b4bb1" data-element_type="widget"
                                                                 data-widget_type="text-editor.default">
-                                                                <p><strong>Dirección:</strong> Rua Da Graça Nr. 19
-                                                                    Corga 3550-243 PINDO Portugal</p>
+                                                                <p><strong>Dirección:</strong> Carrer Narcís Monturiol, 23 Bajo, 08503 Gurb (Barcelona), España</p>
                                                             </div>
                                                         </div>
                                                     </div>

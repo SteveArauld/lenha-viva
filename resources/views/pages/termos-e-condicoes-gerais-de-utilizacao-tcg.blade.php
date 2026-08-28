@@ -46,19 +46,19 @@
 
 
 
-                        <p><strong>Denominación:&nbsp;</strong>Lenha Viva, Unipessoal Lda</p>
+                        <p><strong>Denominación:&nbsp;</strong>Casacuberta Trias S.L.</p>
 
 
 
-                        <p><strong>NIF:</strong> 516429655</p>
+                        <p><strong>NIF:</strong> B64055007</p>
 
 
 
-                        <p><strong>IVA:</strong> PT516429655</p>
+                        <p><strong>IVA:</strong> ESB64055007</p>
 
 
 
-                        <p>Dirección: Rua Da Graça Nr. 19 Corga 3550-243 PINDO Portugal</p>
+                        <p>Dirección: Carrer Narcís Monturiol, 23 Bajo, 08503 Gurb (Barcelona), España</p>
 
 
 
@@ -196,9 +196,9 @@
 
 
 
-                        <p>Estas Condiciones están sujetas a la legislación portuguesa. En caso de litigio, y en
-                            ausencia de una solución amistosa, los tribunales competentes serán los de la
-                            jurisdicción del Tribunal da Relação de Lisboa (Portugal).</p>
+                        <p>Estas Condiciones están sujetas a la legislación española. En caso de litigio, y en
+                            ausencia de una solución amistosa, serán competentes los Juzgados y Tribunales de Vic
+                            (Barcelona), sin perjuicio del fuero que legalmente corresponda al consumidor.</p>
 
 
 

@@ -115,7 +115,7 @@
                         </div>
                         <div class="elementor-element elementor-element-28eaac98 elementor-widget elementor-widget-text-editor"
                             data-id="28eaac98" data-element_type="widget" data-widget_type="text-editor.default">
-                            <p><strong>Dirección:</strong> Rua Da Graça Nr. 19 Corga 3550-243 PINDO Portugal</p>
+                            <p><strong>Dirección:</strong> Carrer Narcís Monturiol, 23 Bajo, 08503 Gurb (Barcelona), España</p>
                         </div>
                         <div class="elementor-element elementor-element-4d89dafe elementor-widget elementor-widget-text-editor"
                             data-id="4d89dafe" data-element_type="widget" data-widget_type="text-editor.default">
@@ -124,16 +124,15 @@
                         </div>
                         <div class="elementor-element elementor-element-4cf5ce6 elementor-widget elementor-widget-text-editor"
                             data-id="4cf5ce6" data-element_type="widget" data-widget_type="text-editor.default">
-                            <p><span style="color: #191919;"><strong>Denominación: </strong></span>Lenha Viva,
-                                Unipessoal Lda</p>
+                            <p><span style="color: #191919;"><strong>Denominación: </strong></span>Casacuberta Trias S.L.</p>
                         </div>
                         <div class="elementor-element elementor-element-99b9b26 elementor-widget elementor-widget-text-editor"
                             data-id="99b9b26" data-element_type="widget" data-widget_type="text-editor.default">
-                            <p><strong>NIF:</strong> 516429655</p>
+                            <p><strong>NIF:</strong> B64055007</p>
                         </div>
                         <div class="elementor-element elementor-element-4996a4d elementor-widget elementor-widget-text-editor"
                             data-id="4996a4d" data-element_type="widget" data-widget_type="text-editor.default">
-                            <p><strong>IVA:</strong> PT516429655</p>
+                            <p><strong>IVA:</strong> ESB64055007</p>
                         </div>
                     </div>
                 </div>

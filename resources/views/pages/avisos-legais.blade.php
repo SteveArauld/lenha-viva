@@ -28,12 +28,12 @@
                 <div id="main-content" class="main-page col-12">
                     <div id="main" class="site-main">
 
-                        <p>Divulgación de acuerdo con la Sección 5 de la Ley de Comercio Electrónico</p>
+                        <p>Información facilitada en cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de
+                            Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE).</p>
 
 
 
-                        <p>Lenha Viva, Unipessoal Lda<br>Mayorista de Madera<br><strong>Dirección:</strong> Rua Da
-                            Graça Nr. 19 Corga 3550-243 PINDO Portugal</p>
+                        <p>Casacuberta Trias S.L.<br>Mayorista de Madera<br><strong>Dirección:</strong> Carrer Narcís Monturiol, 23 Bajo, 08503 Gurb (Barcelona), España</p>
 
 
 
@@ -41,18 +41,19 @@
 
 
 
-                        <p><strong>NIF:</strong> 516429655</p>
+                        <p><strong>NIF:</strong> B64055007</p>
 
 
 
-                        <p><strong>IVA:</strong> PT516429655</p>
+                        <p><strong>IVA:</strong> ESB64055007</p>
 
 
 
-                        <p>La empresa <strong>LENHA VIVA UNIPESSOAL LDA</strong> es una Sociedad Limitada
-                            Unipersonal, <strong>constituida</strong> el <strong>miércoles, 28 de
-                                abril de 2021</strong>, con domicilio social en el municipio de PENALVA DO CASTELO.<br>Objeto
-                            Comercial: Comercio, explotación forestal<br>Rama Profesional: Comercio de madera<br>
+                        <p>La empresa <strong>Casacuberta Trias S.L.</strong> es una Sociedad Limitada,
+                            <strong>constituida</strong> el <strong>1 de enero de 2006</strong>, con domicilio social en
+                            el municipio de Gurb (Barcelona), España.<br>Objeto Comercial: venta al por mayor y al por
+                            menor de leña, maderas, carbón y combustibles sólidos (CNAE 4671).<br>Capital social:
+                            204.980&nbsp;€.<br>
                         </p>
 
 
@@ -68,7 +69,7 @@
 
                         <p>El contenido de este sitio (texto e imágenes) se pone a disposición de los internautas
                             exclusivamente para su uso privado. Cualquier uso comercial del contenido requiere la
-                            autorización por escrito de Lenha Viva, Unipessoal Lda. El operador de este sitio se
+                            autorización por escrito de Casacuberta Trias S.L. El operador de este sitio se
                             reserva el derecho exclusivo de utilización del texto y de las imágenes. Quedan
                             excluidas las imágenes no modificadas y libres de derechos.</p>
 
@@ -107,7 +108,7 @@
 
 
 
-                        <p>Dirección postal: LENHA VIVA Niederlassung im Lenha Viva, Unipessoal Lda</p>
+                        <p>Dirección postal: Casacuberta Trias S.L. — Carrer Narcís Monturiol, 23 Bajo, 08503 Gurb (Barcelona), España</p>
 
 
 
