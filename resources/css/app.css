@@ -873,10 +873,9 @@ h1.page-title {
   .elementor-element.elementor-element-cc1c659
   > .elementor-motion-effects-container
   > .elementor-motion-effects-layer {
-  background-image: url("/wp-content/uploads/2025/10/765424359870807615.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* Background photo removed on request — only the customer reviews show here. */
+  background-image: none;
+  background-color: var(--lv-bg, #f9f8f6);
 }
 
 .elementor-145 .elementor-element.elementor-element-cc1c659 {

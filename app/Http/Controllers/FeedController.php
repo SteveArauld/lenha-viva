@@ -71,10 +71,10 @@ class FeedController extends Controller
         $item->appendChild($this->cdata($dom, 'title', $this->truncate($title, 150)));
         $item->appendChild($this->cdata($dom, 'description', $this->truncate($description, 5000)));
         $item->appendChild($this->text($dom, 'link', route('product.show', ['slug' => $product['slug']])));
-        $item->appendChild($this->gText($dom, 'image_link', asset($mainImage)));
+        $item->appendChild($this->gText($dom, 'image_link', asset($this->largestVariant($mainImage))));
 
         foreach (array_slice(array_diff($images, [$mainImage]), 0, 10) as $extraImage) {
-            $item->appendChild($this->gText($dom, 'additional_image_link', asset($extraImage)));
+            $item->appendChild($this->gText($dom, 'additional_image_link', asset($this->largestVariant($extraImage))));
         }
 
         $item->appendChild($this->gText($dom, 'availability', ! empty($product['in_stock']) ? 'in_stock' : 'out_of_stock'));
@@ -134,6 +134,34 @@ class FeedController extends Controller
         $node->appendChild($dom->createCDATASection(str_replace(']]>', ']]]]><![CDATA[>', $value)));
 
         return $node;
+    }
+
+    /**
+     * WordPress-style thumbnails (foo-480x480.webp) are exported alongside their
+     * full-size original (foo.webp). Google recommends images of at least
+     * 800x800, so prefer the un-suffixed original when it exists on disk and is
+     * genuinely larger than the thumbnail referenced in the catalog.
+     */
+    private function largestVariant(string $path): string
+    {
+        if (! preg_match('/^(.*)-(\d+)x(\d+)(\.[a-zA-Z]+)$/', $path, $m)) {
+            return $path;
+        }
+
+        $original = $m[1].$m[4];
+        $originalFile = public_path($original);
+
+        if (! is_file($originalFile)) {
+            return $path;
+        }
+
+        $size = @getimagesize($originalFile);
+
+        if ($size && $size[0] >= (int) $m[2] && $size[1] >= (int) $m[3]) {
+            return $original;
+        }
+
+        return $path;
     }
 
     private function plainText(string $text): string

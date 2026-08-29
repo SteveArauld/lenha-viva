@@ -52,8 +52,9 @@
 
 
 
-                        <p>Ejerce su derecho de desistimiento dentro del plazo legal de 14 días (excluyendo joyas
-                            personalizadas o grabadas)</p>
+                        <p>Ejerce su derecho de desistimiento dentro del plazo legal de 14 días naturales, de
+                            acuerdo con la Directiva 2011/83/UE y con los artículos 102 y siguientes del Real Decreto
+                            Legislativo 1/2007 (Ley General para la Defensa de los Consumidores y Usuarios)</p>
 
 
 
@@ -71,7 +72,8 @@
 
 
 
-                        <p>El reembolso se emitirá en un plazo de 7 a 14 días</p>
+                        <p>El reembolso se emitirá en un plazo máximo de 14 días naturales desde que se recibe la
+                            devolución o la prueba de su expedición</p>
 
 
 
@@ -91,13 +93,16 @@
 
 
                         <ol start="4" class="wp-block-list">
-                            <li>Joyas Personalizadas</li>
+                            <li>Excepciones al Derecho de Desistimiento</li>
                         </ol>
 
 
 
-                        <p>Las joyas personalizadas (grabadas o a medida) no son reembolsables, excepto en
-                            caso de defecto o error de fabricación comprobado en el momento de la entrega.</p>
+                        <p>De acuerdo con el artículo 103 del Real Decreto Legislativo 1/2007, no se admite el
+                            desistimiento de productos entregados a granel o desprecintados que, por su naturaleza
+                            (leña o pellets suministrados sueltos o en sacos abiertos), no puedan devolverse en su
+                            estado original. En estos casos solo procede el reembolso si el producto llega
+                            defectuoso, dañado o no corresponde al pedido.</p>
 
 
 

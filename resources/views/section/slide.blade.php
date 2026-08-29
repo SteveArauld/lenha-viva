@@ -5,7 +5,7 @@
             <div class="content">
                 <h1 style="color:white" >Leña densificada</h1>
                 <p>El confort de los troncos comprimidos, ¡entregados en tu puerta!</p>
-                <a href="#" class=" btn-1" >TIENDA</a>
+                <a href="{{ route('loja') }}" class=" btn-1">TIENDA</a>
             </div>
         </div>
         <div class="slide" style="background-image:url({{ asset('wp-content/uploads/2025/10/holzpellets-rekord-flamme.webp') }});">
@@ -13,7 +13,7 @@
             <div class="content">
                 <h1 style="color:white">Pellets de madera certificados</h1>
                 <p>¡Somos el socio ideal!</p>
-                <a href="#" class="btn-1">TIENDA</a>
+                <a href="{{ route('loja') }}" class="btn-1">TIENDA</a>
             </div>
         </div>
         <div class="slide" style="background-image:url({{ asset('wp-content/uploads/2025/10/fire-with-burning-firewood-smoldering-coals-dark_124507-21228.jpg') }});">
@@ -21,7 +21,7 @@
             <div class="content">
                 <h1 style="color:white">Comprar leña ecológica</h1>
                 <p>Leña cuidadosamente seleccionada para ti</p>
-                <a href="#" class="btn-3">TIENDA</a>
+                <a href="{{ route('loja') }}" class="btn-3">TIENDA</a>
             </div>
         </div>
 

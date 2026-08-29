@@ -37,6 +37,8 @@ Route::get('/termos-e-condicoes-gerais-de-utilizacao-tcg',[App\Http\Controllers\
 Route::get('/politica-de-entrega',[App\Http\Controllers\HomeController::class,'politicaDeEntrega'])->name('politicaDeEntrega');
 Route::get('/politica-de-reembolso',[App\Http\Controllers\HomeController::class,'politicaDeReembolso'])->name('politicaDeReembolso');
 Route::get('/politica-de-pagamento',[App\Http\Controllers\HomeController::class,'politicaDePagamento'])->name('politicaDePagamento');
+Route::get('/certificaciones',[App\Http\Controllers\HomeController::class,'certificaciones'])->name('certificaciones');
+Route::post('/contacto', [App\Http\Controllers\ContactController::class, 'send'])->name('contacto.send');
 
 
 

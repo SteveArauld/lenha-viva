@@ -1614,9 +1614,32 @@
                                                     <div class="wpforms-container wpforms-container-full wpforms-render-modern"
                                                         id="wpforms-5449">
                                                         <form id="wpforms-form-5449"
-                                                            class="wpforms-validate wpforms-form wpforms-ajax-form"
+                                                            class="wpforms-form"
                                                             data-formid="5449" method="post"
-                                                            enctype="multipart/form-data" action="#">
+                                                            action="{{ route('contacto.send') }}">
+                                                            @csrf
+                                                            @if (session('contact_success'))
+                                                                <div class="wpforms-confirmation-container-full"
+                                                                    style="padding:14px 16px;border-radius:8px;background:#eaf6ec;color:#1e7a34;margin-bottom:16px">
+                                                                    {{ session('contact_success') }}
+                                                                </div>
+                                                            @endif
+                                                            @if (session('contact_error'))
+                                                                <div
+                                                                    style="padding:14px 16px;border-radius:8px;background:#ffdad6;color:#ba1a1a;margin-bottom:16px">
+                                                                    {{ session('contact_error') }}
+                                                                </div>
+                                                            @endif
+                                                            @if ($errors->any())
+                                                                <div
+                                                                    style="padding:14px 16px;border-radius:8px;background:#ffdad6;color:#ba1a1a;margin-bottom:16px">
+                                                                    <ul style="margin:0;padding-left:18px">
+                                                                        @foreach ($errors->all() as $e)
+                                                                            <li>{{ $e }}</li>
+                                                                        @endforeach
+                                                                    </ul>
+                                                                </div>
+                                                            @endif
                                                             <div class="wpforms-field-container">
                                                                 <div id="wpforms-5449-field_1-container"
                                                                     class="wpforms-field wpforms-field-name"

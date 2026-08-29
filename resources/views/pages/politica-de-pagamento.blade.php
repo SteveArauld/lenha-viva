@@ -39,7 +39,7 @@
 
 
                         <p>2 – USO DE UN CERTIFICADO SSL PARA PROTEGER SUS DATOS
-                            PERSONALES<br>opensea-container.com utiliza un certificado SSL para proteger la
+                            PERSONALES<br>lenhaviva.com utiliza un certificado SSL para proteger la
                             información transmitida entre usted y el sitio web. Con este certificado, la información se
                             cifra y no puede ser interceptada.</p>
 
@@ -56,7 +56,14 @@
 
 
 
-                        <p>4 – PAGO POR TRANSFERENCIA BANCARIA (INMEDIATA)</p>
+                        <p>4 – MEDIOS DE PAGO ACEPTADOS</p>
+
+
+
+                        <p>Actualmente el único medio de pago aceptado en lenhaviva.com es la
+                            <strong>transferencia bancaria</strong>. Tras confirmar el pedido, el cliente recibe
+                            por correo electrónico los datos bancarios (titular, IBAN y BIC) de Casacuberta Trias S.L.
+                            El pedido se prepara una vez confirmada la recepción del pago íntegro.</p>
 
 
 

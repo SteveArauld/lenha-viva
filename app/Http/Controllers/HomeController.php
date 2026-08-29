@@ -870,6 +870,13 @@ class HomeController extends Controller
     {
         return view('pages.politica-de-pagamento');
     }
+
+    public function certificaciones()
+    {
+        return view('pages.certificaciones', [
+            'certificaciones' => \App\Support\Certifications::all(),
+        ]);
+    }
     public function finalizacaoDeCompra()
     {
         return view('finalizacao-de-compra');

@@ -693,6 +693,13 @@
                                                 </a>
                                             </li>
 
+                                            <li
+                                                class="menu-item {{ request()->routeIs('certificaciones') ? 'active' : '' }}">
+                                                <a class="elementor-item" href="{{ route('certificaciones') }}">
+                                                    <span class="menu-title">Certificaciones</span>
+                                                </a>
+                                            </li>
+
                                         </ul>
 
                                     </nav>

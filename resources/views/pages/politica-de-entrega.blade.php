@@ -105,17 +105,52 @@
 
 
                         <ol start="5" class="wp-block-list">
+                            <li>Entrega de Palés y Cargas Voluminosas</li>
+                        </ol>
+
+
+
+                        <p>La leña, los pellets y los equipos pesados se entregan sobre palé mediante transporte de
+                            mercancías. Antes de realizar el pedido, tenga en cuenta las siguientes condiciones:</p>
+
+
+
+                        <p>El domicilio de entrega debe ser accesible para un camión de gran tonelaje. Si el acceso
+                            es restringido (calle estrecha, zona peatonal, altura limitada), indíquelo en las
+                            observaciones del pedido para organizar un vehículo adaptado.</p>
+
+
+
+                        <p>La entrega se realiza a pie de calle, en el punto accesible más cercano al domicilio.
+                            El transportista dispone de camión con plataforma elevadora (hayón) y transpaleta para
+                            depositar el palé en el suelo.</p>
+
+
+
+                        <p>El desplazamiento del palé hasta el interior de la vivienda, garaje o sótano corre a
+                            cargo del cliente. Recomendamos prever la ayuda de una segunda persona el día de la
+                            entrega.</p>
+
+
+
+                        <p>El cliente debe estar presente en la franja horaria acordada con el transportista y
+                            comprobar el estado del palé antes de firmar el albarán de entrega. Cualquier daño
+                            aparente debe anotarse en el albarán y comunicarse en un plazo de 48 horas.</p>
+
+
+
+                        <ol start="6" class="wp-block-list">
                             <li>Embalaje</li>
                         </ol>
 
 
 
                         <p>Sus productos de calefacción se embalan cuidadosamente para garantizar su protección
-                            durante el transporte y ofrecer una presentación ideal como regalo.</p>
+                            durante el transporte.</p>
 
 
 
-                        <ol start="6" class="wp-block-list">
+                        <ol start="7" class="wp-block-list">
                             <li>Paquete Dañado o Perdido</li>
                         </ol>
 
@@ -138,7 +173,7 @@
 
 
 
-                        <ol start="7" class="wp-block-list">
+                        <ol start="8" class="wp-block-list">
                             <li>Devoluciones y Cambios</li>
                         </ol>
 

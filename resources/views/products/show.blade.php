@@ -76,6 +76,18 @@
                         <li><i class="tb-icon tb-icon-check-circle"></i> Devolución en un plazo de 14 días</li>
                     </ul>
 
+                    @php($lvCerts = \App\Support\Certifications::forProduct($product))
+                    @if (!empty($lvCerts))
+                        <div class="lv-product__certs">
+                            @foreach ($lvCerts as $lvCert)
+                                <a class="lv-cert-badge" href="{{ route('certificaciones') }}#{{ $lvCert['key'] }}"
+                                    title="Ver certificación {{ $lvCert['name'] }}">
+                                    <i class="tb-icon tb-icon-check-circle"></i> {{ $lvCert['name'] }}
+                                </a>
+                            @endforeach
+                        </div>
+                    @endif
+
                     @if(!empty($product['short_description']))
                         <p class="lv-product__desc">{{ $product['short_description'] }}</p>
                     @endif

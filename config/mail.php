@@ -115,4 +115,15 @@ return [
         'name' => env('MAIL_FROM_NAME', 'Example'),
     ],
 
+    /*
+    |--------------------------------------------------------------------------
+    | Admin Notification Address
+    |--------------------------------------------------------------------------
+    |
+    | Where order and contact-form notifications are delivered.
+    |
+    */
+
+    'admin_email' => env('MAIL_ADMIN_EMAIL', 'contactlehnaviva@gmail.com'),
+
 ];

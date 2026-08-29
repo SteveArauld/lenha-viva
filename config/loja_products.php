@@ -1656,8 +1656,8 @@ La Estufa de Leña Moravia 9112 es la elección ideal para quienes buscan una es
         'category' => 'pellets-de-madeira',
 
         'images' => [
-            'wp-content/uploads/2025/10/10-Pellet-Ardenforest-Palette-de-70-sacs-de-15-kg-300x300-2.webp',
-            'wp-content/uploads/2025/10/2-Pellet-Excellent-Pellets-Palette-de-65-sacs-de-15-kg-700x700-1-480x480.webp'
+            'wp-content/uploads/2025/10/2-Pellet-Excellent-Pellets-Palette-de-65-sacs-de-15-kg-700x700-1-480x480.webp',
+            'wp-content/uploads/2025/10/10-Pellet-Ardenforest-Palette-de-70-sacs-de-15-kg-300x300-2.webp'
         ],
 
         'in_stock' => true, 'color' => '',

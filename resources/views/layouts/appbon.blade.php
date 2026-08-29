@@ -269,7 +269,7 @@ voici la strucuture de ma page selon toi quelle sont les lient qui ne serve a ri
     <link href="{{ asset('wp-content/plugins/revslider/public/css/fonts/revicons/css/revicons.css') }}"
         rel="stylesheet" property="stylesheet" media="all" type="text/css" />
     <link
-        href="http://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&amp;family=Lato:wght@400&amp;display=swap"
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&amp;family=Lato:wght@400&amp;display=swap"
         rel="stylesheet" property="stylesheet" media="all" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 

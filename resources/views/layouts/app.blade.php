@@ -130,7 +130,7 @@
     <link rel='stylesheet' id='sumoselect-css' href="{{ asset('wp-content/themes/maia/css/sumoselect8a54.css') }}"
         type='text/css' media='all' />
     <link
-        href="http://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&amp;family=Lato:wght@400&amp;display=swap"
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&amp;family=Lato:wght@400&amp;display=swap"
         rel="stylesheet" property="stylesheet" media="all" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 

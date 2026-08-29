@@ -176,6 +176,9 @@
                                             <li class="menu-item">
                                                 <a href="{{ route('contacto') }}">Contacto</a>
                                             </li>
+                                            <li class="menu-item">
+                                                <a href="{{ route('certificaciones') }}">Certificaciones</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -292,6 +295,12 @@
                                             <li class="menu-item">
                                                 <a href="{{ route('politicaDePagamento') }}">
                                                     Política de pago
+                                                </a>
+                                            </li>
+
+                                            <li class="menu-item">
+                                                <a href="{{ route('certificaciones') }}">
+                                                    Certificaciones
                                                 </a>
                                             </li>
                                         </ul>

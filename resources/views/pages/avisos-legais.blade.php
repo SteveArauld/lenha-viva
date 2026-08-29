@@ -37,15 +37,22 @@
 
 
 
-                        <p><strong>Correo electrónico:</strong> contactlehnaviva@gmail.com <br>WhatsApp: +34 683 5735 16</p>
+                        <p><strong>Correo electrónico:</strong> contactlehnaviva@gmail.com <br>
+                            <strong>Teléfono / WhatsApp:</strong> +34 683 57 35 16</p>
 
 
 
-                        <p><strong>NIF:</strong> B64055007</p>
+                        <p><strong>CIF / NIF:</strong> B64055007</p>
 
 
 
-                        <p><strong>IVA:</strong> ESB64055007</p>
+                        <p><strong>IVA intracomunitario:</strong> ESB64055007</p>
+
+
+
+                        <p><strong>Datos registrales:</strong> Sociedad inscrita en el Registro Mercantil de
+                            Barcelona — Tomo [POR COMPLETAR], Folio [POR COMPLETAR], Hoja [POR COMPLETAR],
+                            Inscripción [POR COMPLETAR].</p>
 
 
 
