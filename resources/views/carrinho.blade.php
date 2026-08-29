@@ -50,8 +50,8 @@
                                                         $oldPrice = $product['old_price'] ?? null;
 
                                                         // Afficher avec 3 décimales
-                                                        $formattedPrice = number_format($price, 3, ',', ' ');
-                                                        $formattedOldPrice = $oldPrice ? number_format($oldPrice, 3, ',', ' ') : null
+                                                        $formattedPrice = number_format($price, 2, ',', '.');
+                                                        $formattedOldPrice = $oldPrice ? number_format($oldPrice, 2, ',', '.') : null
                                                     @endphp
 
                                                     <li class="wc-block-grid__product">
@@ -158,8 +158,8 @@
                                                         $itemTotal = $itemPrice * $itemQuantity;
 
                                                         // Afficher avec 3 décimales
-                                                        $formattedItemPrice = number_format($itemPrice, 3, ',', ' ');
-                                                        $formattedItemTotal = number_format($itemTotal, 3, ',', ' ')
+                                                        $formattedItemPrice = number_format($itemPrice, 2, ',', '.');
+                                                        $formattedItemTotal = number_format($itemTotal, 2, ',', '.')
                                                     @endphp
 
                                                     <tr class="wc-block-cart-items__row cart-item-row"

@@ -182,7 +182,7 @@
 
 
                         <p>Puede obtenerse más información sobre las medidas de seguridad adoptadas y los países a los que se
-                            transfieren los datos a través de la dirección contactlehnaviva@gmail.com
+                            transfieren los datos a través de la dirección contacto@lenhaviva.es
                         </p>
 
 
@@ -308,7 +308,7 @@
 
 
 
-                        <p>Por correo electrónico: contactlehnaviva@gmail.com </p>
+                        <p>Por correo electrónico: contacto@lenhaviva.es </p>
 
 
 
@@ -324,11 +324,11 @@
 
 
 
-                        <p>WhatsApp: +34 683 5735 16</p>
+                        <p>WhatsApp: +34 683 573 516</p>
 
 
 
-                        <p>Correo electrónico: contactlehnaviva@gmail.com </p>
+                        <p>Correo electrónico: contacto@lenhaviva.es </p>
 
 
 

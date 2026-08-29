@@ -3,12 +3,12 @@
 return [
     [
         'id' => 5625,
-        'title' => 'Ardenforest Pellets – Palets de 70 sacos de 15 kg',
+        'title' => 'Ardenforest pellets – palé de 70 sacos de 15 kg',
 
         'hover_image' => '',
         'old_price' => '565.00',
         'price' => '308.00',
-        'category' => 'pellets-de-madeira',
+        'category' => 'pellets-de-madera',
         'images' => [
             'wp-content/uploads/2025/10/10-Pellet-Ardenforest-Palette-de-70-sacs-de-15-kg-480x480.webp',
 
@@ -50,17 +50,17 @@ Con los pellets Ardenforest, podrá disfrutar de una calefacción eficiente, eco
         'ref' => '53745625',
 
 
-        'slug' => 'ardenforest-pellets-paletes-de-70-sacos-de-15-kg'
+        'slug' => 'ardenforest-pellets-palet-de-70-sacos-de-15-kg'
     ],
     [
         'id' => 5522,
-        'title' => 'Caldera de Leña Maciza 40 kW',
+        'title' => 'Caldera de leña maciza 40 kW',
 
         'hover_image' => '',
 
         'old_price' => '2,999.00',
         'price' => '2,099.00',
-        'category' => 'caldeira-de-lenha',
+        'category' => 'calderas-de-lena',
         'images' => [
             'wp-content/uploads/2025/10/chaudiere-buche-solid-25kw-2-1-480x480.webp'
         ],
@@ -105,17 +105,17 @@ Con la Caldera de Leña Maciza de 40 kW, podrá disfrutar de una calefacción ef
         'ref' => '53745522',
 
 
-        'slug' => 'caldeira-a-lenha-macica-40-kw'
+        'slug' => 'caldera-de-lena-maciza-40-kw'
     ],
     [
         'id' => 5519,
-        'title' => 'Caldera de Leña Sólida 25 kW',
+        'title' => 'Caldera de leña sólida 25 kW',
 
         'hover_image' => '',
 
         'old_price' => '2,499.00',
         'price' => '1,749.00',
-        'category' => 'caldeira-de-lenha',
+        'category' => 'calderas-de-lena',
         'images' => [
             'wp-content/uploads/2025/10/chaudiere-buche-solid-25kw-2-480x480.webp'
         ],
@@ -158,17 +158,17 @@ Con la Caldera de Leña 25 kW Sólida, disfrutará de un sistema de calefacción
         'ref' => '53745519',
 
 
-        'slug' => 'caldeira-a-lenha-solida-25-kw'
+        'slug' => 'caldera-de-lena-solida-25-kw'
     ],
     [
         'id' => 5521,
-        'title' => 'Caldera de Leña Sólida 35 kW',
+        'title' => 'Caldera de leña sólida 35 kW',
 
         'hover_image' => '',
 
         'old_price' => '2,799.00',
         'price' => '1,999.00',
-        'category' => 'caldeira-de-lenha',
+        'category' => 'calderas-de-lena',
         'images' => [
             'wp-content/uploads/2025/10/chaudiere-buche-solid-25kw-2-1-480x480.webp'
         ],
@@ -230,16 +230,16 @@ Con la Caldera de Leña Sólida 35 kW, disfrute de un ambiente cálido, conforta
         'ref' => '53745521',
 
 
-        'slug' => 'caldeira-a-lenha-solida-35-kw'
+        'slug' => 'caldera-de-lena-solida-35-kw'
     ],
     [
         'id' => 5512,
-        'title' => 'Caldera de esteatita Thermo Magnum',
+        'title' => 'Caldera de leña MBS Thermo Magnum – esteatita',
 
         'hover_image' => 'wp-content/uploads/2025/10/cuisiniere-bouilleur-thermo-magnum-pierre-1-1-480x480.webp',
         'old_price' => '2,699.00',
         'price' => '1,899.00',
-        'category' => 'chef-de-madeira',
+        'category' => 'calderas-de-lena',
         'images' => [
             'wp-content/uploads/2025/10/cuisiniere-bouilleur-thermo-magnum-pierre-1-480x480.webp',
             'wp-content/uploads/2025/10/cuisiniere-bouilleur-thermo-magnum-pierre-1-1-480x480.webp'
@@ -291,13 +291,13 @@ Con la Caldera de Esteatita Thermo Magnum, podrá disfrutar de una calefacción 
     ],
     [
         'id' => 5523,
-        'title' => 'Caldera de leña 50 kW Sólida',
+        'title' => 'Caldera de leña 50 kW sólida',
 
         'hover_image' => '',
 
         'old_price' => '3,199.00',
         'price' => '2,299.00',
-        'category' => 'caldeira-de-lenha',
+        'category' => 'calderas-de-lena',
         'images' => [
             'wp-content/uploads/2025/10/chaudiere-buche-solid-30kw-1-480x480.webp'
         ],
@@ -360,7 +360,7 @@ La Caldera de Leña 50 kW Sólida es la solución perfecta para aquellos que req
 
         'old_price' => '2,199.00',
         'price' => '1,599.00',
-        'category' => 'caldeira-de-lenha',
+        'category' => 'calderas-de-lena',
         'images' => [
             'wp-content/uploads/2025/10/chaudiere-buche-solid-25kw-2-1-480x480.webp'
         ],
@@ -415,7 +415,7 @@ Con la Silla de Madera Maciza con Calefacción de 20 kW, podrá disfrutar de cal
 
         'old_price' => '2,699.00',
         'price' => '1,899.00',
-        'category' => 'caldeira-de-lenha',
+        'category' => 'calderas-de-lena',
         'images' => [
             'wp-content/uploads/2025/10/chaudiere-buche-solid-30kw-1-480x480.webp'
         ],
@@ -476,13 +476,13 @@ Confort continuo incluso en las temperaturas más bajas
     ],
     [
         'id' => 5510,
-        'title' => 'Caldera termomagnum',
+        'title' => 'Caldera de leña MBS Thermo Magnum',
 
         'hover_image' => '',
 
         'old_price' => '2,499.00',
         'price' => '1,799.00',
-        'category' => 'chef-de-madeira',
+        'category' => 'calderas-de-lena',
         'images' => [
             'wp-content/uploads/2025/10/cuisiniere-bouilleur-thermo-magnum-2-480x480.webp'
         ],
@@ -529,17 +529,17 @@ La Caldera Termomagnum es la solución perfecta para quienes buscan una caldera 
         'ref' => '53745510',
 
 
-        'slug' => 'aldera-termomagnum'
+        'slug' => 'caldera-termomagnum'
     ],
     [
         'id' => 5507,
-        'title' => 'Estufa de Leña Moravia 9112 EX con Caldera',
+        'title' => 'Estufa de leña Moravia 9112 EX con caldera',
 
         'hover_image' => '',
 
         'old_price' => '3,499.00',
         'price' => '2,499.00',
-        'category' => 'chef-de-madeira',
+        'category' => 'cocinas-de-lena',
         'images' => [
             'wp-content/uploads/2025/10/cuisiniere-a-bois-moravia-9112-ex-avec-bouilleur-1-1-1-480x480.webp'
         ],
@@ -581,16 +581,16 @@ La Estufa de Leña Moravia 9112 EX con Caldera es la elección perfecta para qui
         'ref' => '53745507',
 
 
-        'slug' => 'estufa-a-lenha-moravia-9112-ex-com-caldeira'
+        'slug' => 'estufa-de-lena-moravia-9112-ex-con-caldera'
     ],
     [
         'id' => 5508,
-        'title' => 'Estufa de Leña Moravia 9114',
+        'title' => 'Estufa de leña Moravia 9114',
 
         'hover_image' => '',
         'old_price' => '1,580.00',
         'price' => '1,497.00',
-        'category' => 'chef-de-madeira',
+        'category' => 'cocinas-de-lena',
         'images' => [
             'wp-content/uploads/2025/10/cuisiniere-a-bois-moravia-9114-1-480x480.webp',
 
@@ -638,16 +638,16 @@ La Estufa de Leña Moravia 9114 es la elección ideal para quienes buscan una so
         'ref' => '53745508',
 
 
-        'slug' => 'estufa-a-lenha-moravia-9114'
+        'slug' => 'estufa-de-lena-moravia-9114'
     ],
     [
         'id' => 5514,
-        'title' => 'Estufa de Leña Olimpia',
+        'title' => 'Estufa de leña Olimpia',
 
         'hover_image' => 'wp-content/uploads/2025/10/poele-cuisiniere-olympia-1-1-480x480.webp',
         'old_price' => '1,699.00',
         'price' => '1,299.00',
-        'category' => 'chef-de-madeira',
+        'category' => 'cocinas-de-lena',
         'images' => [
             'wp-content/uploads/2025/10/poele-cuisiniere-olympia-3-480x480.webp',
             'wp-content/uploads/2025/10/poele-cuisiniere-olympia-1-1-480x480.webp'
@@ -690,16 +690,16 @@ La Estufa de Leña Olimpia es la elección perfecta para quienes desean una cale
         'ref' => '53745514',
 
 
-        'slug' => 'estufa-a-lenha-olimpia'
+        'slug' => 'estufa-de-lena-olimpia'
     ],
     [
         'id' => 5506,
-        'title' => 'Estufa de Leña Temy Plus P 20 + Caldera',
+        'title' => 'Estufa de leña Temy Plus P 20 + caldera',
 
         'hover_image' => 'wp-content/uploads/2025/10/cuisiniere-bois-bouilleur-termomont-temy-plus-1-480x480.webp',
         'old_price' => '3,499.00',
         'price' => '2,499.00',
-        'category' => 'chef-de-madeira',
+        'category' => 'cocinas-de-lena',
 
         'images' => [
             'wp-content/uploads/2025/10/cuisiniere-bois-bouilleur-termomont-temy-plus-2-480x480.webp',
@@ -748,17 +748,17 @@ Fácil de operar y mantener, con controles simples y accesibles
 Con la Estufa de Leña Temy Plus P 20 + Caldera, disfrutará de un sistema de calefacción eficiente, económico y respetuoso con el medio ambiente, manteniendo su casa cálida y confortable durante todo el año.',
         'ref' => '53745506',
 
-        'slug' => 'estufa-a-lenha-temy-plus-p-20-caldeira'
+        'slug' => 'estufa-de-lena-temy-plus-p-20-caldera'
     ],
     [
         'id' => 5527,
-        'title' => 'Estufa de Leña Vulkan 14kW',
+        'title' => 'Estufa de leña Vulkan 14 kW',
 
 
         'hover_image' => '',
         'old_price' => '1,810.00',
         'price' => '1,599.00',
-        'category' => 'fogao-a-lenha',
+        'category' => 'cocinas-de-lena',
 
         'images' => [
             'wp-content/uploads/2025/10/poele-a-bois-vulkan-17-kw-1-480x480.webp'
@@ -803,17 +803,17 @@ La Estufa de Leña Vulkan 14kW es la solución perfecta para quienes buscan una 
         'ref' => '53745527',
 
 
-        'slug' => 'estufa-a-lenha-vulkan-14kw'
+        'slug' => 'estufa-de-lena-vulkan-14kw'
     ],
     [
         'id' => 5516,
-        'title' => 'Estufa Caldera Super Thermo Magnum',
+        'title' => 'Estufa-caldera de leña MBS Super Thermo Magnum',
 
 
         'hover_image' => '',
         'old_price' => '2,699.00',
         'price' => '1,899.00',
-        'category' => 'chef-de-madeira',
+        'category' => 'cocinas-de-lena',
 
         'images' => [
             'wp-content/uploads/2025/10/cuisiniere-bouilleur-thermo-magnum-1-1-480x480.webp'
@@ -860,17 +860,17 @@ La Estufa Caldera Super Thermo Magnum es la elección perfecta para quienes busc
         'ref' => '53745516',
 
 
-        'slug' => 'estufa-caldeira-super-thermo-magnum'
+        'slug' => 'estufa-caldera-super-thermo-magnum'
     ],
     [
         'id' => 5517,
-        'title' => 'Estufa con Caldera de Esteatita Super Thermo Magnum',
+        'title' => 'Estufa-caldera de leña MBS Super Thermo Magnum – esteatita',
 
 
         'hover_image' => 'wp-content/uploads/2025/10/cuisiniere-bouilleur-super-thermo-magnum-pierre-ollaire-1-1-480x480.webp',
         'old_price' => '2,899.00',
         'price' => '1,999.00',
-        'category' => 'chef-de-madeira',
+        'category' => 'cocinas-de-lena',
 
         'images' => [
             'wp-content/uploads/2025/10/cuisiniere-bouilleur-super-thermo-magnum-pierre-ollaire-1-480x480.webp',
@@ -921,17 +921,17 @@ Fácil uso y mantenimiento, con sistema intuitivo de control y fácil acceso par
 La Estufa con Caldera de Esteatita Super Thermo Magnum es la elección ideal para quienes buscan una estufa de leña de alta calidad, eficiente, ecológica y capaz de proporcionar tanto calefacción ambiental como agua caliente para su hogar. La combinación de tecnología avanzada y materiales de alta calidad garantiza un rendimiento excepcional y una larga vida útil.',
         'ref' => '53745517',
 
-        'slug' => 'estufa-com-caldeira-de-esteatita-super-thermo-magnum'
+        'slug' => 'estufa-con-caldera-de-esteatita-super-thermo-magnum'
     ],
     [
         'id' => 5526,
-        'title' => 'Estufa de Leña 3 Caras MBS Eva',
+        'title' => 'Estufa de leña 3 caras MBS Eva',
 
 
         'hover_image' => 'wp-content/uploads/2025/10/poele-a-bois-mbs-eva-3-faces-1-1-480x480.webp',
         'old_price' => '1,699.00',
         'price' => '1,497.00',
-        'category' => 'fogao-a-lenha',
+        'category' => 'cocinas-de-lena',
 
         'images' => [
             'wp-content/uploads/2025/10/poele-a-bois-mbs-eva-3-faces-1-480x480.webp',
@@ -980,13 +980,13 @@ La Estufa de Leña 3 Caras MBS Eva es la opción perfecta para quienes desean un
     ],
     [
         'id' => 5530,
-        'title' => 'Estufa de Leña con Caldera MBS Thermo In',
+        'title' => 'Estufa de leña con caldera MBS Thermo In',
 
 
         'hover_image' => 'wp-content/uploads/2025/10/poele-bouilleur-mbs-thermo-in-1-1-480x480.webp',
         'old_price' => '1,910.00',
         'price' => '1,797.00',
-        'category' => 'fogao-a-lenha',
+        'category' => 'cocinas-de-lena',
 
         'images' => [
             'wp-content/uploads/2025/10/poele-bouilleur-mbs-thermo-in-1-480x480.webp',
@@ -1041,7 +1041,7 @@ La Estufa de Leña con Caldera MBS Thermo In es la opción ideal para quienes de
         'hover_image' => '',
         'old_price' => '2,729.00',
         'price' => '2,499.00',
-        'category' => 'fogao-a-lenha',
+        'category' => 'cocinas-de-lena',
 
         'images' => [
             'wp-content/uploads/2025/10/poele-a-bois-chaudiere-hunter-14b-1-480x480.webp'
@@ -1096,7 +1096,7 @@ La Estufa de Leña Hunter 14B es la opción ideal para aquellos que buscan una e
         'hover_image' => '',
         'old_price' => '3,219.00',
         'price' => '2,997.00',
-        'category' => 'fogao-a-lenha',
+        'category' => 'cocinas-de-lena',
 
         'images' => [
             'wp-content/uploads/2025/10/poele-a-bois-chaudiere-hunter-14b-1-480x480.webp'
@@ -1150,7 +1150,7 @@ La Estufa de Leña Hunter 80B es la solución perfecta para quienes buscan una c
         'hover_image' => '',
         'old_price' => '1,899.00',
         'price' => '1,797.00',
-        'category' => 'chef-de-madeira',
+        'category' => 'cocinas-de-lena',
 
         'images' => [
             'wp-content/uploads/2025/10/cuisiniere-a-bois-mbs-magnum-1-480x480.webp'
@@ -1206,13 +1206,13 @@ Con la Estufa de Leña MBS Magnum, disfrutará de una calefacción eficiente, ec
     ],
     [
         'id' => 5513,
-        'title' => 'Estufa de leña MBS Magnum de esteatita',
+        'title' => 'Estufa de leña MBS Magnum – esteatita',
 
 
         'hover_image' => '',
         'old_price' => '1,999.00',
         'price' => '1,899.00',
-        'category' => 'chef-de-madeira',
+        'category' => 'cocinas-de-lena',
 
         'images' => [
             'wp-content/uploads/2025/10/cuisiniere-mbs-magnum-pierre-ollaire-2-480x480.webp'
@@ -1269,13 +1269,13 @@ La Estufa de Leña MBS Magnum de Esteatita es la elección ideal para quienes bu
     ],
     [
         'id' => 5531,
-        'title' => 'Estufa de Leña MBS Vesta',
+        'title' => 'Estufa de leña MBS Vesta',
 
 
         'hover_image' => '',
         'old_price' => '999.00',
         'price' => '897.00',
-        'category' => 'fogao-a-lenha',
+        'category' => 'cocinas-de-lena',
 
         'images' => [
             'wp-content/uploads/2025/10/poele-a-bois-vesta-1-480x480.webp',
@@ -1323,7 +1323,7 @@ La Estufa de Leña MBS Vesta combina eficiencia, durabilidad y estilo para ofrec
         'hover_image' => '',
         'old_price' => '1,899.00',
         'price' => '1,797.00',
-        'category' => 'chef-de-madeira',
+        'category' => 'cocinas-de-lena',
 
         'images' => [
             'wp-content/uploads/2025/10/cuisiniere-bois-moravia-9103-1-480x480.webp'
@@ -1375,13 +1375,13 @@ Con la Estufa de Leña Moravia 9103, podrá disfrutar de una calefacción eficie
     ],
     [
         'id' => 5533,
-        'title' => 'Estufa de Leña Olimp',
+        'title' => 'Estufa de leña Olimp',
 
 
         'hover_image' => '',
         'old_price' => '1,089.00',
         'price' => '999.00',
-        'category' => 'fogao-a-lenha',
+        'category' => 'cocinas-de-lena',
 
         'images' => [
             'wp-content/uploads/2025/10/poele-bois-olymp-2-480x480.webp',
@@ -1419,13 +1419,13 @@ Perfecta para estufas, chimeneas y calderas de leña',
     ],
     [
         'id' => 5528,
-        'title' => 'Estufa de Leña Olympia',
+        'title' => 'Estufa de leña Olympia',
 
 
         'hover_image' => 'wp-content/uploads/2025/10/poele-cuisiniere-olympia-1-480x480.webp',
         'old_price' => ' 1,499.00',
         'price' => '1,299.00',
-        'category' => 'fogao-a-lenha',
+        'category' => 'cocinas-de-lena',
 
         'images' => [
             'wp-content/uploads/2025/10/poele-cuisiniere-olympia-480x480.webp',
@@ -1475,13 +1475,13 @@ La Estufa de Leña Olympia es la elección perfecta para quienes buscan una estu
     ],
     [
         'id' => 5535,
-        'title' => 'Estufa de leña Thermo Vulkan Plus',
+        'title' => 'Estufa de leña Thermo Vulkan plus',
 
 
         'hover_image' => '',
         'old_price' => '2,199.00',
         'price' => '1,890.00',
-        'category' => 'fogao-a-lenha',
+        'category' => 'cocinas-de-lena',
 
         'images' => [
             'wp-content/uploads/2025/10/poele-a-bois-thermovulkan-plus-1-480x480.webp',
@@ -1534,13 +1534,13 @@ La Estufa de Leña Thermo Vulkan Plus es la opción ideal para quienes buscan un
     ],
     [
         'id' => 5534,
-        'title' => 'Estufa de Leña con Caldera Thermo Vulcan de 18 kW',
+        'title' => 'Estufa de leña con caldera Thermo Vulcan de 18 kW',
 
 
         'hover_image' => '',
         'old_price' => '1,799.00',
         'price' => '1,698.00',
-        'category' => 'fogao-a-lenha',
+        'category' => 'cocinas-de-lena',
 
         'images' => [
             'wp-content/uploads/2025/10/poele-a-bois-thermovulkan-20-kw-1-480x480.webp',
@@ -1586,17 +1586,17 @@ Con la Estufa de Leña con Caldera Thermo Vulcan de 18 kW, podrá disfrutar de u
 
 
 
-        'slug' => 'estufa-de-lenha-com-caldeira-thermo-vulcan-de-18-kw'
+        'slug' => 'estufa-de-lena-con-caldera-thermo-vulcan-de-18-kw'
     ],
     [
         'id' => 5515,
-        'title' => 'Estufa de Leña Moravia 9112',
+        'title' => 'Estufa de leña Moravia 9112',
 
 
         'hover_image' => 'wp-content/uploads/2025/10/cuisiniere-a-bois-moravia-9112-ex-avec-bouilleur-1-1-480x480.webp',
         'old_price' => '2,499.00',
         'price' => '2,298.00 ',
-        'category' => 'chef-de-madeira',
+        'category' => 'cocinas-de-lena',
 
         'images' => [
             'wp-content/uploads/2025/10/cuisiniere-a-bois-moravia-9112-ex-avec-bouilleur-1-480x480.webp',
@@ -1643,17 +1643,17 @@ La Estufa de Leña Moravia 9112 es la elección ideal para quienes buscan una es
 
 
 
-        'slug' => 'estufa-de-lenha-moravia-9112'
+        'slug' => 'estufa-de-lena-moravia-9112'
     ],
     [
         'id' => 5629,
-        'title' => 'Excellent Pellets – Palet de 65 sacos de 15 kg',
+        'title' => 'Excellent pellets – palé de 65 sacos de 15 kg',
 
 
         'hover_image' => 'wp-content/uploads/2025/10/2-Pellet-Excellent-Pellets-Palette-de-65-sacs-de-15-kg-700x700-1-480x480.webp',
         'old_price' => '679.00',
         'price' => '320.00',
-        'category' => 'pellets-de-madeira',
+        'category' => 'pellets-de-madera',
 
         'images' => [
             'wp-content/uploads/2025/10/2-Pellet-Excellent-Pellets-Palette-de-65-sacs-de-15-kg-700x700-1-480x480.webp',
@@ -1696,17 +1696,17 @@ Con los Excellent Pellets, tendrá una calefacción de alto rendimiento y bajo i
 
 
 
-        'slug' => 'excellent-pellets-palete-com-65-sacos-de-15-kg'
+        'slug' => 'excellent-pellets-palet-con-65-sacos-de-15-kg'
     ],
     [
         'id' => 5529,
-        'title' => 'Estufa de Leña de Esteatita Olymp',
+        'title' => 'Estufa de leña de esteatita Olymp',
 
 
         'hover_image' => 'wp-content/uploads/2025/10/poele-bois-olymp-pierre-ollaire-1-1-480x480.webp',
         'old_price' => '1,199.00',
         'price' => '1,098.00',
-        'category' => 'fogao-a-lenha',
+        'category' => 'cocinas-de-lena',
 
         'images' => [
             'wp-content/uploads/2025/10/poele-bois-olymp-pierre-ollaire-1-480x480.webp',
@@ -1755,17 +1755,17 @@ La Estufa de Leña de Esteatita Olymp es la opción ideal para quienes desean un
 
 
 
-        'slug' => 'fogao-a-lenha-de-pedra-sabao-olymp'
+        'slug' => 'cocina-de-lena-de-esteatita-olymp'
     ],
     [
         'id' => 5532,
-        'title' => 'Fogão Olímpia en Piedra Sabão',
+        'title' => 'Cocina Olimpia de esteatita',
 
 
         'hover_image' => '',
         'old_price' => '1,570.00',
         'price' => '1,398.00',
-        'category' => 'fogao-a-lenha',
+        'category' => 'cocinas-de-lena',
 
         'images' => [
             'wp-content/uploads/2025/10/poele-cuisiniere-olympia-ollaire-2-480x480.webp',
@@ -1808,17 +1808,17 @@ Con la Estufa Olympia en Esteatita, disfruta de una calefacción eficiente, sost
 
 
 
-        'slug' => 'fogao-olimpia-en-piedra-sabao'
+        'slug' => 'cocina-olimpia-de-esteatita'
     ],
     [
         'id' => 5630,
-        'title' => 'Green Energy Pellet – Palet de 65 sacos de 15 kg',
+        'title' => 'Green Energy pellet – palé de 65 sacos de 15 kg',
 
 
         'hover_image' => '',
         'old_price' => '410.00',
         'price' => '380.00',
-        'category' => 'pellets-de-madeira',
+        'category' => 'pellets-de-madera',
 
         'images' => [
             'wp-content/uploads/2025/10/3-Pellet-Green-Energy-Palette-de-65-sacs-de-15-kg-480x480.webp'
@@ -1859,17 +1859,17 @@ Con los pellets Green Energy, podrá disfrutar de un ambiente cálido y conforta
 
 
 
-        'slug' => 'green-energy-pellet-palete-de-65-sacos-de-15-kg'
+        'slug' => 'green-energy-pellet-palet-de-65-sacos-de-15-kg'
     ],
     [
         'id' => 5822,
-        'title' => 'LEÑA – 25 CM – ALTO RENDIMIENTO – 1,3 M3',
+        'title' => 'Leña – 25 cm – alto rendimiento – 1,3 m³',
 
 
         'hover_image' => '',
         'old_price' => '375.00',
         'price' => '338.00',
-        'category' => 'madeira-de-fogo',
+        'category' => 'lena',
 
         'images' => [
             'wp-content/uploads/2025/10/LENHA-25-CM-ALTO-RENDIMENTO-13-M3-1-480x480.jpg'
@@ -1902,17 +1902,17 @@ Su fardo contiene trozos de madera más pequeños que pueden utilizarse para enc
 
 
 
-        'slug' => 'lenha-25-cm-alto-rendimento-13-m3'
+        'slug' => 'lena-25-cm-alto-rendimiento-13-m3'
     ],
     [
         'id' => 5817,
-        'title' => 'LEÑA – 30 CM – ALTO RENDIMIENTO – 2 M3',
+        'title' => 'Leña – 30 cm – alto rendimiento – 2 m³',
 
 
         'hover_image' => 'wp-content/uploads/2025/10/BOIS-DE-CHAUFFAGE-30-CM-ALTO-DESEMPENHO-2-M32-480x480.jpg',
         'old_price' => '343.00',
         'price' => '286.00',
-        'category' => 'madeira-de-fogo',
+        'category' => 'lena',
 
         'images' => [
             'wp-content/uploads/2025/10/BOIS-DE-CHAUFFAGE-30-CM-ALTO-DESEMPENHO-2-M3-480x480.jpg',
@@ -1942,17 +1942,17 @@ Su fardo contendrá trozos de madera más pequeños que pueden utilizarse para e
 
 
 
-        'slug' => 'lenha-30-cm-alto-desempenho-2-m3'
+        'slug' => 'lena-30-cm-alto-rendimiento-2-m3'
     ],
     [
         'id' => 5821,
-        'title' => 'LEÑA – 30 CM – ALTO RENDIMIENTO – 1,3 M3',
+        'title' => 'Leña – 30 cm – alto rendimiento – 1,3 m³',
 
 
         'hover_image' => '',
         'old_price' => '376.00',
         'price' => '341.00',
-        'category' => 'madeira-de-fogo',
+        'category' => 'lena',
 
         'images' => [
             'wp-content/uploads/2025/10/bois-de-chauffage-30-cm-haute-performance-13-m3-480x480.jpg'
@@ -1979,17 +1979,17 @@ Su fardo contiene trozos de madera más pequeños que pueden utilizarse para enc
 
 
 
-        'slug' => 'lenha-30-cm-alto-rendimento-13-m3'
+        'slug' => 'lena-30-cm-alto-rendimiento-13-m3'
     ],
     [
         'id' => 5818,
-        'title' => 'LEÑA – 33 CM – MEZCLA DE MADERAS DURAS – PALÉ 2 M3 – 2,9 ESTEROS',
+        'title' => 'Leña – 33 cm – mezcla de maderas duras – palé 2 m³ – 2,9 estéreos',
 
 
         'hover_image' => '',
         'old_price' => '336.00',
         'price' => '299.00',
-        'category' => 'madeira-de-fogo',
+        'category' => 'lena',
 
         'images' => [
             'wp-content/uploads/2025/10/LENHA-33-CM-MISTURA-DE-MADEIRAS-DURAS-PALETE-2-M3-29-STERES-480x480.jpg'
@@ -2009,17 +2009,17 @@ Estas maderas se encienden rápidamente con bonitas llamas, pero arden más ráp
 
 
 
-        'slug' => 'lenha-33-cm-mistura-de-madeiras-duras-palete-2-m3-29-steres'
+        'slug' => 'lena-33-cm-mezcla-de-maderas-duras-palet-2-m3-29-estereos'
     ],
     [
         'id' => 5823,
-        'title' => 'LEÑA – 40 CM – ALTO RENDIMIENTO – 1,3 M3',
+        'title' => 'Leña – 40 cm – alto rendimiento – 1,3 m³',
 
 
         'hover_image' => '',
         'old_price' => '364.00',
         'price' => '287.00',
-        'category' => 'madeira-de-fogo',
+        'category' => 'lena',
 
         'images' => [
             'wp-content/uploads/2025/10/bois-de-chauffage-40-cm-haute-performance-13-m3-480x480.jpg'
@@ -2048,17 +2048,17 @@ Su fardo contiene trozos de madera más pequeños que pueden utilizarse para enc
 
 
 
-        'slug' => 'lenha-40-cm-alto-rendimento-13-m3'
+        'slug' => 'lena-40-cm-alto-rendimiento-13-m3'
     ],
     [
         'id' => 5820,
-        'title' => 'LEÑA – 40 CM – ALTO RENDIMIENTO – 2 M3',
+        'title' => 'Leña – 40 cm – alto rendimiento – 2 m³',
 
 
         'hover_image' => '',
         'old_price' => '388.00',
         'price' => '349.00',
-        'category' => 'madeira-de-fogo',
+        'category' => 'lena',
 
         'images' => [
             'wp-content/uploads/2025/10/LENHA-40-CM-ALTO-RENDIMENTO-2-M3-480x480.jpg'
@@ -2092,17 +2092,17 @@ Su fardo contiene trozos de madera más pequeños que pueden utilizarse para enc
 
 
 
-        'slug' => 'lenha-40-cm-alto-rendimento-2-m3'
+        'slug' => 'lena-40-cm-alto-rendimiento-2-m3'
     ],
     [
         'id' => 5819,
-        'title' => 'LEÑA – 50 CM – MEZCLA DE MADERAS DURAS – PALÉ 2 M3 – 2,5 ESTEROS',
+        'title' => 'Leña – 50 cm – mezcla de maderas duras – palé 2 m³ – 2,5 estéreos',
 
 
         'hover_image' => '',
         'old_price' => '325.00',
         'price' => '289.00',
-        'category' => 'madeira-de-fogo',
+        'category' => 'lena',
 
         'images' => [
             'wp-content/uploads/2025/10/LENHA-50-CM-MISTURA-DE-MADEIRAS-DURAS-PALETE-2-M3-25-STERES-480x480.jpg'
@@ -2129,11 +2129,11 @@ La chimenea debe limpiarse dos veces al año, una de ellas durante la temporada 
 
 
 
-        'slug' => 'lenha-50-cm-mistura-de-madeiras-duras-palete-2-m3-25-steres'
+        'slug' => 'lena-50-cm-mezcla-de-maderas-duras-palet-2-m3-25-estereos'
     ],
     [
         'id' => 5811,
-        'title' => 'LEÑA PARA CALEFACCIÓN – 40 CM – 2 M3 – 1,85 ESTEROS POR CAMIÓN COMPLETO',
+        'title' => 'Leña para calefacción – 40 cm – 2 m³ – 1,85 estéreos por camión completo',
 
 
         'hover_image' => '',
@@ -2156,17 +2156,17 @@ Madera limpia, bien dividida y parcialmente descortezada, certificada NF, 100% f
 
 
 
-        'slug' => 'lenha-para-aquecimento-40-cm-2-m3-185-pes-por-camiao-completo'
+        'slug' => 'lena-para-calefaccion-40-cm-2-m3-185-por-camion-completo'
     ],
     [
         'id' => 5816,
-        'title' => 'LEÑA – 25 CM – ALTO RENDIMIENTO – 2 M3',
+        'title' => 'Leña – 25 cm – alto rendimiento – 2 m³',
 
 
         'hover_image' => 'wp-content/uploads/2025/10/BOIS-DE-CHAUFFAGE-25-CM-ALTO-DESEMPENHO-2-M3-1-480x480.jpg',
         'old_price' => '369.00',
         'price' => '279.00',
-        'category' => 'madeira-de-fogo',
+        'category' => 'lena',
 
         'images' => [
             'wp-content/uploads/2025/10/BOIS-DE-CHAUFFAGE-25-CM-ALTO-DESEMPENHO-2-M3-480x480.jpg',
@@ -2201,17 +2201,17 @@ Su fardo contiene trozos de madera más pequeños que pueden utilizarse para enc
 
 
 
-        'slug' => 'madeira-de-fogo-25-cm-alto-desempenho-2-m3'
+        'slug' => 'lena-25-cm-alto-rendimiento-2-m3'
     ],
     [
         'id' => 5806,
-        'title' => 'LEÑA – 40 CM – ALTO RENDIMIENTO – 1,3 M3 – 1,25 ESTEROS',
+        'title' => 'Leña – 40 cm – alto rendimiento – 1,3 m³ – 1,25 estéreos',
 
 
         'hover_image' => 'wp-content/uploads/2025/10/BOIS-DE-CHAUFFAGE-40-CM-ALTO-DESEMPENHO-13-M3-125-PES-2-480x480.jpg',
         'old_price' => '364.00 ',
         'price' => '325.00',
-        'category' => 'uncategorized',
+        'category' => 'lena',
 
         'images' => [
             'wp-content/uploads/2025/10/BOIS-DE-CHAUFFAGE-40-CM-ALTO-DESEMPENHO-13-M3-125-PES-480x480.jpg',
@@ -2240,17 +2240,17 @@ Su fardo contiene trozos de madera más pequeños que pueden utilizarse para enc
 
 
 
-        'slug' => 'madeira-de-fogo-40-cm-alto-desempenho-13-m3-125-pes'
+        'slug' => 'lena-40-cm-alto-rendimiento-13-m3-125'
     ],
     [
         'id' => 5638,
-        'title' => 'Madera Densificada – Madera Dura – 1 Tonelada por Palé',
+        'title' => 'Madera densificada – madera dura – 1 tonelada por palé',
 
 
         'hover_image' => '',
         'old_price' => '499.00',
         'price' => '315.00 ',
-        'category' => 'lenha',
+        'category' => 'lena',
 
         'images' => [
             'wp-content/uploads/2025/10/78526181fe9259225efa6257b4ae1b24-563x393-1-480x393.webp'
@@ -2296,17 +2296,17 @@ La Madera Densificada – Madera Dura es la elección perfecta para quienes busc
 
 
 
-        'slug' => 'madeira-densificada-madeira-dura-1-tonelada-por-palete'
+        'slug' => 'madera-densificada-madera-dura-1-tonelada-por-palet'
     ],
     [
         'id' => 5639,
-        'title' => 'Madera Densificada – Madera Dura + Madera Blanda – 1/2 Palé de 480 kg',
+        'title' => 'Madera densificada – madera dura + madera blanda – 1/2 palé de 480 kg',
 
 
         'hover_image' => '',
         'old_price' => '256.00',
         'price' => '206.00',
-        'category' => 'lenha',
+        'category' => 'lena',
 
         'images' => [
             'wp-content/uploads/2025/10/29-Bois-densifie-Buches-de-nuit-12-palette-de-480-kg-1-480x480.webp'
@@ -2354,17 +2354,17 @@ La Madera Densificada – Madera Dura + Madera Blanda es la elección perfecta p
 
 
 
-        'slug' => 'madeira-densificada-madeira-dura-madeira-macia-1-2-palete-de-480-kg'
+        'slug' => 'madera-densificada-madera-dura-madera-macia-1-2-palet-de-480-kg'
     ],
     [
         'id' => 5640,
-        'title' => 'Madera Densificada – Madera Dura + Madera Blanda – Palé de 960 kg',
+        'title' => 'Madera densificada – madera dura + madera blanda – palé de 960 kg',
 
 
         'hover_image' => '',
         'old_price' => '499.00',
         'price' => '309.00',
-        'category' => 'lenha',
+        'category' => 'lena',
 
         'images' => [
             'wp-content/uploads/2025/10/78526181fe9259225efa6257b4ae1b24-563x393-1-1-1-480x393.webp'
@@ -2409,17 +2409,17 @@ Con el palé de Madera Densificada – Madera Dura + Madera Blanda, podrá disfr
 
 
 
-        'slug' => 'madeira-densificada-madeira-dura-madeira-macia-palete-de-960-kg'
+        'slug' => 'madera-densificada-madera-dura-madera-macia-palet-de-960-kg'
     ],
     [
         'id' => 5641,
-        'title' => 'Madera Densificada – Madera Blanda – Palé de 960 kg',
+        'title' => 'Madera densificada – madera blanda – palé de 960 kg',
 
 
         'hover_image' => '',
         'old_price' => '310.00',
         'price' => '245.00',
-        'category' => 'lenha',
+        'category' => 'lena',
 
         'images' => [
             'wp-content/uploads/2025/10/78526181fe9259225efa6257b4ae1b24-563x393-1-1-480x393.webp'
@@ -2463,17 +2463,17 @@ Con el palé de madera densificada – madera blanda, podrá disfrutar de una ca
 
 
 
-        'slug' => 'madeira-densificada-madeira-macia-palete-de-960-kg'
+        'slug' => 'madera-densificada-madera-macia-palet-de-960-kg'
     ],
     [
         'id' => 5637,
-        'title' => 'Madera Densificada – Troncos Nocturnos – 1/2 Palé de 480 kg',
+        'title' => 'Madera densificada – troncos nocturnos – 1/2 palé de 480 kg',
 
 
         'hover_image' => '',
         'old_price' => '130.00 ',
         'price' => '110.00',
-        'category' => 'lenha',
+        'category' => 'lena',
 
         'images' => [
             'wp-content/uploads/2025/10/29-Bois-densifie-Buches-de-nuit-12-palette-de-480-kg-480x480.webp'
@@ -2518,17 +2518,17 @@ La Madera Densificada – Troncos Nocturnos es la solución perfecta para quiene
 
 
 
-        'slug' => 'madeira-densificada-troncos-nocturnos-1-2-palete-de-480-kg'
+        'slug' => 'madera-densificada-troncos-nocturnos-1-2-palet-de-480-kg'
     ],
     [
         'id' => 5809,
-        'title' => 'MADERA DENSIFICADA – PALÉ DE 96 PAQUETES DE 5 TRONCOS',
+        'title' => 'Madera densificada – palé de 96 paquetes de 5 troncos',
 
 
         'hover_image' => '',
         'old_price' => '478.00',
         'price' => '422.00',
-        'category' => 'madeira-compactada',
+        'category' => 'madera-densificada',
 
         'images' => [
             'wp-content/uploads/2025/10/MADEIRA-DENSIFICADA-PALETE-DE-96-PACOTES-DE-5-TOROS-480x480.jpg'
@@ -2549,17 +2549,17 @@ Estos troncos pueden utilizarse en todos los aparatos de leña: insert o estufa.
 
 
 
-        'slug' => 'madeira-densificada-palete-de-96-pacotes-de-5-toros'
+        'slug' => 'madera-densificada-palet-de-96-paquetes-de-5-troncos'
     ],
     [
         'id' => 5810,
-        'title' => 'MADERA DENSIFICADA – CALIDAD SUPERIOR – PALÉ DE 80 CAJAS DE 6 TRONCOS',
+        'title' => 'Madera densificada – calidad superior – palé de 80 cajas de 6 troncos',
 
 
         'hover_image' => 'wp-content/uploads/2025/10/MADEIRA-DENSIFICADA-QUALIDADE-SUPERIOR-PALETE-DE-80-CAIXAS-DE-6-TOROS2.jpg',
         'old_price' => '429.00',
         'price' => '378.00',
-        'category' => 'madeira-compactada',
+        'category' => 'madera-densificada',
 
         'images' => [
             'wp-content/uploads/2025/10/MADEIRA-DENSIFICADA-QUALIDADE-SUPERIOR-PALETE-DE-80-CAIXAS-DE-6-TOROS-480x480.jpg',
@@ -2592,17 +2592,17 @@ Ecológica: porque es una madera 100% natural hecha de serrín reciclado, sin pr
 Práctica: fácil de transportar y almacenar, sobre todo protegida de la humedad. Los troncos se embalan en cartón, lo que facilita su manejo sin ensuciarse. También pueden apilarse para ahorrar espacio.',
 
 
-        'slug' => 'madeira-densificada-qualidade-superior-palete-de-80-caixas-de-6-toros'
+        'slug' => 'madera-densificada-calidad-superior-palet-de-80-cajas-de-6-troncos'
     ],
     [
         'id' => 5807,
-        'title' => 'MADERA DENSIFICADA – SIN ENVASE DE PLÁSTICO INDIVIDUAL – 1/2 PALÉ DE 480 KG',
+        'title' => 'Madera densificada – sin envase de plástico individual – 1/2 palé de 480 kg',
 
 
         'hover_image' => '',
         'old_price' => '353.00',
         'price' => '298.00',
-        'category' => 'madeira-compactada',
+        'category' => 'madera-densificada',
 
         'images' => [
             'wp-content/uploads/2025/10/MADEIRA-DENSIFICADA-SEM-EMBALAGEM-DE-PLASTICO-INDIVIDUAL-12-PALETE-DE-480-KG100-480x480.jpg'
@@ -2626,17 +2626,17 @@ ATENCIÓN: La madera densificada debe almacenarse en un lugar seco.',
 
 
 
-        'slug' => 'madeira-densificada-sem-embalagem-de-plastico-individual-1-2-palete-de-480-kg'
+        'slug' => 'madera-densificada-sin-envase-de-plastico-individual-1-2-palet-de-480-kg'
     ],
     [
         'id' => 5808,
-        'title' => 'MADERA DENSIFICADA – SIN ENVASE DE PLÁSTICO INDIVIDUAL – PALÉ DE 960 KG',
+        'title' => 'Madera densificada – sin envase de plástico individual – palé de 960 kg',
 
 
         'hover_image' => '',
         'old_price' => '436.00',
         'price' => '399.00',
-        'category' => 'madeira-compactada',
+        'category' => 'madera-densificada',
 
         'images' => [
             'wp-content/uploads/2025/10/MADEIRA-DENSIFICADA-SEM-EMBALAGEM-DE-PLASTICO-INDIVIDUAL-PALETE-DE-960-KG-480x480.jpg'
@@ -2660,17 +2660,17 @@ Le recordamos que la madera densificada debe almacenarse en un lugar cerrado, pr
 
 
 
-        'slug' => 'madeira-densificada-sem-embalagem-de-plastico-individual-palete-de-960-kg'
+        'slug' => 'madera-densificada-sin-envase-de-plastico-individual-palet-de-960-kg'
     ],
     [
         'id' => 5815,
-        'title' => 'TRONCOS DE CALEFACCIÓN – 33 CM – SECO – 1,7 M3 – 1,9 ESTEROS',
+        'title' => 'Troncos de calefacción – 33 cm – seco – 1,7 m³ – 1,9 estéreos',
 
 
         'hover_image' => '',
         'old_price' => '244.00',
         'price' => '210.00 ',
-        'category' => 'madeira-de-fogo',
+        'category' => 'lena',
 
         'images' => [
             'wp-content/uploads/2025/10/PAINEIS-DE-AQUECIMENTO-33-CM-SEC-17-M3-19-PES-480x480.jpg'
@@ -2698,17 +2698,17 @@ Es ideal para salamandras y recuperadores de calor para troncos de hasta 33 cm d
 
 
 
-        'slug' => 'paineis-de-aquecimento-33-cm-sec-17-m3-19-pes'
+        'slug' => 'troncos-de-calefaccion-33-cm-seco-17-m3'
     ],
     [
         'id' => 5614,
-        'title' => 'Palé de Leña – 25 cm – 3 Estrellas',
+        'title' => 'Palé de leña – 25 cm – 3 estéreos',
 
 
         'hover_image' => '',
         'old_price' => '219.00',
         'price' => '200.00 ',
-        'category' => 'lenha',
+        'category' => 'lena',
 
         'images' => [
             'wp-content/uploads/2025/10/26-Bois-de-chauffage-25-cm-Melange-de-bois-durs-Palette-2-m3-3.3-steres-480x480.webp'
@@ -2754,17 +2754,17 @@ El Palé de Leña – 25 cm – 3 Estrellas es la elección perfecta para quiene
 
 
 
-        'slug' => 'palete-de-lenha-25-cm-3-estrelas'
+        'slug' => 'palet-de-lena-25-cm-3-estereos'
     ],
     [
         'id' => 5615,
-        'title' => 'Palé de Leña – 33 cm – 3 Esteros',
+        'title' => 'Palé de leña – 33 cm – 3 estéreos',
 
 
         'hover_image' => '',
         'old_price' => '230.00',
         'price' => '190.00',
-        'category' => 'lenha',
+        'category' => 'lena',
 
         'images' => [
             'wp-content/uploads/2025/10/23-Bois-de-chauffage-30-cm-Melange-de-bois-durs-Palette-2-m3-3-steres-480x480.webp'
@@ -2805,17 +2805,17 @@ Con el Palé de Leña – 33 cm – 3 Esteros, podrá disfrutar de una fuente de
 
 
 
-        'slug' => 'palete-de-lenha-33-cm-3-esteres'
+        'slug' => 'palet-de-lena-33-cm-3-estereos'
     ],
     [
         'id' => 5616,
-        'title' => 'Palé de Leña – 40 cm – 3 Esteros',
+        'title' => 'Palé de leña – 40 cm – 3 estéreos',
 
 
         'hover_image' => '',
         'old_price' => '210.00',
         'price' => '180.00',
-        'category' => 'lenha',
+        'category' => 'lena',
 
         'images' => [
             'wp-content/uploads/2025/10/25-Bois-de-chauffage-45-cm-Melange-de-bois-durs-Palette-2-m3-3.3-steres-1-480x480.webp'
@@ -2854,17 +2854,17 @@ Con el Palé de Leña – 40 cm – 3 Esteros, disfrutará de una fuente de calo
 
 
 
-        'slug' => 'palete-de-lenha-40-cm-3-esteres'
+        'slug' => 'palet-de-lena-40-cm-3-estereos'
     ],
     [
         'id' => 5617,
-        'title' => 'Palé de Leña – 45 cm – 3 Esteros',
+        'title' => 'Palé de leña – 45 cm – 3 estéreos',
 
 
         'hover_image' => '',
         'old_price' => '239.00',
         'price' => '200.00',
-        'category' => 'lenha',
+        'category' => 'lena',
 
         'images' => [
             'wp-content/uploads/2025/10/23-Bois-de-chauffage-30-cm-Melange-de-bois-durs-Palette-2-m3-3-steres-480x480.webp'
@@ -2905,11 +2905,11 @@ Con el Palé de Leña – 45 cm – 3 Esteros, podrá disfrutar de una fuente de
 
 
 
-        'slug' => 'palete-de-lenha-45-cm-3-esteres'
+        'slug' => 'palet-de-lena-45-cm-3-estereos'
     ],
     [
         'id' => 5812,
-        'title' => 'PALÉ DE LEÑA (1,7 M3) POR CAMIÓN',
+        'title' => 'Palé de leña (1,7 m³) por camión',
 
 
         'hover_image' => '',
@@ -2942,11 +2942,11 @@ Un almacenamiento correcto evitará que la madera se vuelva negra o mohosa e imp
 
 
 
-        'slug' => 'palete-de-lenha-17-m3-por-camiao'
+        'slug' => 'palet-de-lena-17-m3-por-camion'
     ],
     [
         'id' => 5814,
-        'title' => 'PALÉ DE PELLETS DIN PLUS (65 SACOS) POR CARGA DE CAMIÓN',
+        'title' => 'Palé de pellets DIN Plus (65 sacos) por carga de camión',
 
 
         'hover_image' => '',
@@ -2974,17 +2974,17 @@ Los sacos deben estar elevados del suelo sobre un palé y alejados de las parede
 
 
 
-        'slug' => 'palete-de-pellets-din-plus-65-sacos-por-carga-de-camiao'
+        'slug' => 'palet-de-pellets-din-plus-65-sacos-por-carga-de-camion'
     ],
     [
         'id' => 5623,
-        'title' => 'Palé de Pellets MM ROYAL – 78 Sacos Plásticos',
+        'title' => 'Palé de pellets MM Royal – 78 sacos plásticos',
 
 
         'hover_image' => 'wp-content/uploads/2025/10/63-large_default-700x700-1.webp',
         'old_price' => '410.00',
         'price' => '380.00',
-        'category' => 'pellets-de-madeira',
+        'category' => 'pellets-de-madera',
 
         'images' => [
             'wp-content/uploads/2025/10/65-large_default-480x480.webp',
@@ -3029,17 +3029,17 @@ Con los Pellets MM ROYAL, disfrute de una calefacción eficiente, económica y r
 
 
 
-        'slug' => 'palete-de-pellets-mm-royal-78-sacos-plasticos'
+        'slug' => 'palet-de-pellets-mm-royal-78-sacos-plasticos'
     ],
     [
         'id' => 5624,
-        'title' => 'Palé de Pellets Proxima Star',
+        'title' => 'Palé de pellets Proxima Star',
 
 
         'hover_image' => '',
         'old_price' => '420.00',
         'price' => '320.00',
-        'category' => 'pellets-de-madeira',
+        'category' => 'pellets-de-madera',
 
         'images' => [
             'wp-content/uploads/2025/10/11-480x480.webp'
@@ -3081,11 +3081,11 @@ Con los Pellets Proxima Star, disfrute de una calefacción limpia, eficiente y a
 
 
 
-        'slug' => 'palete-de-pellets-proxima-star'
+        'slug' => 'palet-de-pellets-proxima-star'
     ],
     [
         'id' => 5813,
-        'title' => 'PALÉ EXTRA DE PELLETS (65 SACOS) POR CAMIÓN COMPLETO',
+        'title' => 'Palé extra de pellets (65 sacos) por camión completo',
 
 
         'hover_image' => '',
@@ -3113,17 +3113,17 @@ Los sacos deben estar elevados del suelo sobre un palé y alejados de las parede
 
 
 
-        'slug' => 'palete-extra-de-pellets-65-sacos-por-camiao-completo'
+        'slug' => 'palet-extra-de-pellets-65-sacos-por-camion-completo'
     ],
     [
         'id' => 5622,
-        'title' => 'Palé HELIOS – 65 sacos de 15 kg',
+        'title' => 'Palé Helios – 65 sacos de 15 kg',
 
 
         'hover_image' => '',
         'old_price' => '410.00',
         'price' => '380.00',
-        'category' => 'pellets-de-madeira',
+        'category' => 'pellets-de-madera',
 
         'images' => [
             'wp-content/uploads/2025/10/20-large_default-480x480.webp'
@@ -3164,17 +3164,17 @@ Con el Palé HELIOS de 65 sacos de 15 kg, podrá disfrutar de una calefacción e
 
 
 
-        'slug' => 'palete-helios-65-sacos-de-15-kg'
+        'slug' => 'palet-helios-65-sacos-de-15-kg'
     ],
     [
         'id' => 5716,
-        'title' => 'Palser Pellet 15 kg',
+        'title' => 'Palser pellet 15 kg',
 
 
         'hover_image' => 'wp-content/uploads/2025/10/images.jpg',
         'old_price' => '380.00',
         'price' => '366.00',
-        'category' => 'pellets-de-madeira',
+        'category' => 'pellets-de-madera',
 
         'images' => [
             'wp-content/uploads/2025/10/71xE02KwlL-480x480.jpg',
@@ -3225,13 +3225,13 @@ Poder calorífico: 16,5 MJ/kg ≤ Q ≤ 19 MJ/kg',
     ],
     [
         'id' => 5626,
-        'title' => 'Pellet Badger – Palé con 65 sacos de 15 kg',
+        'title' => 'Pellet Badger – palé con 65 sacos de 15 kg',
 
 
         'hover_image' => 'wp-content/uploads/2025/10/11-Pellet-SunFire-Palette-de-70-sacs-de-15-kg-430x430-1.webp',
         'old_price' => '590.00',
         'price' => '308.00',
-        'category' => 'pellets-de-madeira',
+        'category' => 'pellets-de-madera',
 
         'images' => [
             'wp-content/uploads/2025/10/8-Pellet-Badger-Palette-de-65-sacs-de-15-kg-480x480.webp',
@@ -3274,17 +3274,17 @@ Con los pellets Badger, disfrutará de una calefacción eficiente, económica y 
 
 
 
-        'slug' => 'pellet-badger-palete-com-65-sacos-de-15-kg'
+        'slug' => 'pellet-badger-palet-con-65-sacos-de-15-kg'
     ],
     [
         'id' => 5799,
-        'title' => 'PELLET BEAR – PALÉ DE 65 SACOS DE 15 KG',
+        'title' => 'Pellet Bear – palé de 65 sacos de 15 kg',
 
 
         'hover_image' => '',
         'old_price' => '464.00 ',
         'price' => '395.00',
-        'category' => 'pellets-de-madeira-e-pellets',
+        'category' => 'pellets-de-madera',
 
         'images' => [
             'wp-content/uploads/2025/10/PELLET-BEAR-PALETE-DE-65-SACOS-DE-15-KG-480x480.jpg'
@@ -3303,17 +3303,17 @@ Al elegir este pellet, está eligiendo calidad a un muy buen precio.',
 
 
 
-        'slug' => 'pellet-bear-palete-de-65-sacos-de-15-kg'
+        'slug' => 'pellet-bear-palet-de-65-sacos-de-15-kg'
     ],
     [
         'id' => 5627,
-        'title' => 'Pellet Bio Energy – Palé de 66 sacos de 15 kg',
+        'title' => 'Pellet Bio Energy – palé de 66 sacos de 15 kg',
 
 
         'hover_image' => '',
         'old_price' => '580.00',
         'price' => '308.00',
-        'category' => 'pellets-de-madeira',
+        'category' => 'pellets-de-madera',
 
         'images' => [
             'wp-content/uploads/2025/10/74-large_default-1-480x480.webp'
@@ -3354,17 +3354,17 @@ Con los pellets Bio Energy, podrá disfrutar de una calefacción de alto rendimi
 
 
 
-        'slug' => 'pellet-bio-energy-palete-de-66-sacos-de-15-kg'
+        'slug' => 'pellet-bio-energy-palet-de-66-sacos-de-15-kg'
     ],
     [
         'id' => 5628,
-        'title' => 'Pellet Din Pellets – Palé con 65 sacos de 15 kg',
+        'title' => 'Pellet DIN Pellets – palé con 65 sacos de 15 kg',
 
 
         'hover_image' => 'wp-content/uploads/2025/10/818oJAVwyJL._AC_SL1500_-700x639-1.webp',
         'old_price' => '505.00',
         'price' => '423.00',
-        'category' => 'pellets-de-madeira',
+        'category' => 'pellets-de-madera',
 
         'images' => [
             'wp-content/uploads/2025/10/9-Pellet-Din-Pellets-Palette-de-65-sacs-de-15-kg-480x480.webp',
@@ -3410,17 +3410,17 @@ Con los Pellet Din Pellets, podrá disfrutar de una calefacción de alto rendimi
 
 
 
-        'slug' => 'pellet-din-pellets-palete-com-65-sacos-de-15-kg'
+        'slug' => 'pellet-din-pellets-palet-con-65-sacos-de-15-kg'
     ],
     [
         'id' => 5801,
-        'title' => 'PELLET GOLD – PALÉ DE 65 SACOS DE 15 KG',
+        'title' => 'Pellet Gold – palé de 65 sacos de 15 kg',
 
 
         'hover_image' => 'wp-content/uploads/2025/10/PELLET-GOLD-PALETE-DE-65-SACOS-DE-15-KG4.jpg',
         'old_price' => '545.00',
         'price' => '308.00',
-        'category' => 'pellets-de-madeira-e-pellets',
+        'category' => 'pellets-de-madera',
 
         'images' => [
             'wp-content/uploads/2025/10/PELLET-GOLD-PALETE-DE-65-SACOS-DE-15-KG3-480x480.jpg',
@@ -3451,17 +3451,17 @@ El color de los pellets puede, por lo tanto, variar de un lote a otro sin afecta
 
 
 
-        'slug' => 'pellet-gold-palete-de-65-sacos-de-15-kg'
+        'slug' => 'pellet-gold-palet-de-65-sacos-de-15-kg'
     ],
     [
         'id' => 5631,
-        'title' => 'Pellet Limouzi – Palé con 66 sacos de 15 kg',
+        'title' => 'Pellet Limouzi – palé con 66 sacos de 15 kg',
 
 
         'hover_image' => '',
         'old_price' => '535.00',
         'price' => '439.00',
-        'category' => 'pellets-de-madeira',
+        'category' => 'pellets-de-madera',
 
         'images' => [
             'wp-content/uploads/2025/10/1-Pellet-Limouzi-Palette-de-66-sacs-de-15-kg-480x480.webp'
@@ -3502,17 +3502,17 @@ Con los Pellet Limouzi, podrá disfrutar de una calefacción de alto rendimiento
 
 
 
-        'slug' => 'pellet-limouzi-palete-com-66-sacos-de-15-kg'
+        'slug' => 'pellet-limouzi-palet-con-66-sacos-de-15-kg'
     ],
     [
         'id' => 5804,
-        'title' => 'PELLET LIMOUZI – PALÉ DE 66 SACOS DE 15 KG',
+        'title' => 'Pellet Limouzi – palé de 66 sacos de 15 kg',
 
 
         'hover_image' => '',
         'old_price' => '517.00',
         'price' => '405.00 ',
-        'category' => 'pellets-de-madeira-e-pellets',
+        'category' => 'pellets-de-madera',
 
         'images' => [
             'wp-content/uploads/2025/10/PELLET-LIMOUZI-PALETE-DE-66-SACOS-DE-15-KG-480x480.webp'
@@ -3534,17 +3534,17 @@ Sacos de polietileno prácticos, reciclables, más resistentes y fáciles de vac
 
 
 
-        'slug' => 'pellet-limouzi-palete-de-66-sacos-de-15-kg'
+        'slug' => 'pellet-limouzi-palet-de-66-sacos-de-15-kg'
     ],
     [
         'id' => 5805,
-        'title' => 'PELLET NATURAL ENERGIE – PALÉ DE 65 SACOS DE 15 KG',
+        'title' => 'Pellet Natural Energie – palé de 65 sacos de 15 kg',
 
 
         'hover_image' => 'wp-content/uploads/2025/10/WeChatImage_20221115125434-100x100.webp',
         'old_price' => '648.00',
         'price' => '308.00',
-        'category' => 'pellets-de-madeira-e-pellets',
+        'category' => 'pellets-de-madera',
 
         'images' => [
             'wp-content/uploads/2025/10/PELLET-NATURAL-ENERGIE-PALETE-DE-65-SACOS-DE-15-KG-480x480.jpg',
@@ -3576,17 +3576,17 @@ Optar por los pellets de madera premium de Natural Energie significa elegir una 
 
 
 
-        'slug' => 'pellet-natural-energie-palete-de-65-sacos-de-15-kg'
+        'slug' => 'pellet-natural-energie-palet-de-65-sacos-de-15-kg'
     ],
     [
         'id' => 5643,
-        'title' => 'PELLET NOVA LEÑA – 77 sacos de 15 kg',
+        'title' => 'Pellet Nova Leña – 77 sacos de 15 kg',
 
 
         'hover_image' => '',
-        'old_price' => '',
-        'price' => '',
-        'category' => 'pellets-de-madeira',
+        'old_price' => '450.00',
+        'price' => '320.00',
+        'category' => 'pellets-de-madera',
 
         'images' => [
             'wp-content/uploads/2025/10/71TyPYydzdL-480x480.jpg',
@@ -3596,7 +3596,7 @@ Optar por los pellets de madera premium de Natural Energie significa elegir una 
         'in_stock' => true, 'color' => '',
         'short_description' => 'CERTIFICADO A1 Plus. Composición: madera de pino 100% pura, prensada sin aditivos. Valor calórico: 4700 kcal/kg, 18 kJ/kg. Un palé contiene 77 sacos de 15 kg.',
              'ref' => '53745643',
-             'description' => 'PELLET NOVA LEÑA – 77 sacos de 15 kg
+             'description' => 'Pellet Nova Leña – 77 sacos de 15 kg
 Los pellets Nova Leña son la solución perfecta para una calefacción eficiente, ecológica y económica. Con 77 sacos de 15 kg cada uno, este paquete proporciona una cantidad suficiente para mantener su casa caliente durante un largo período. Fabricados con madera de alta calidad y sin aditivos, los pellets Nova Leña tienen bajo contenido de humedad y alto poder calorífico, garantizando una combustión eficiente y limpia.
 Características:
 
@@ -3630,17 +3630,17 @@ Un palé contiene 77 sacos de 15 kg.',
 
 
 
-        'slug' => 'pellet-nova-lenha-77-sacos-de-15-kg'
+        'slug' => 'pellet-nova-lena-77-sacos-de-15-kg'
     ],
     [
         'id' => 5633,
-        'title' => 'Pellet Valboval – Palé de 65 sacos de 15 kg',
+        'title' => 'Pellet Valboval – palé de 65 sacos de 15 kg',
 
 
         'hover_image' => '',
         'old_price' => '600.00',
         'price' => '350.00',
-        'category' => 'pellets-de-madeira',
+        'category' => 'pellets-de-madera',
 
         'images' => [
             'wp-content/uploads/2025/10/5-Pellet-Valboval-Palette-de-65-sacs-de-15-kg-480x480.webp'
@@ -3681,17 +3681,17 @@ Con los pellets Valboval, podrá disfrutar de una calefacción eficiente y econ�
 
 
 
-        'slug' => 'pellet-valboval-palete-de-65-sacos-de-15-kg'
+        'slug' => 'pellet-valboval-palet-de-65-sacos-de-15-kg'
     ],
     [
         'id' => 5802,
-        'title' => 'PELLET VALBOVAL – PALÉ DE 65 SACOS DE 15 KG',
+        'title' => 'Pellet Valboval – palé de 65 sacos de 15 kg',
 
 
         'hover_image' => '',
         'old_price' => '421.00',
         'price' => '374.00',
-        'category' => 'pellets-de-madeira-e-pellets',
+        'category' => 'pellets-de-madera',
 
         'images' => [
             'wp-content/uploads/2025/10/PELLET-VALBOVAL-PALETE-DE-65-SACOS-DE-15-KG-480x480.jpg'
@@ -3711,17 +3711,17 @@ Este pellet se fabrica en Francia, por lo que, al comprarlo, está eligiendo un 
 
 
 
-        'slug' => 'pellet-valboval-palete-de-65-sacos-de-15-kg-2'
+        'slug' => 'pellet-valboval-palet-de-65-sacos-de-15-kg-2'
     ],
     [
         'id' => 5634,
-        'title' => 'Pellet Van Roje – Palé de 65 sacos',
+        'title' => 'Pellet Van Roje – palé de 65 sacos',
 
 
         'hover_image' => '',
         'old_price' => '557.00 ',
         'price' => '308.00',
-        'category' => 'pellets-de-madeira',
+        'category' => 'pellets-de-madera',
 
         'images' => [
             'wp-content/uploads/2025/10/6-Pellet-Van-Roje-Palette-de-65-sacs-de-15-kg-480x480.webp'
@@ -3762,7 +3762,7 @@ Con los pellets Van Roje, podrá disfrutar de una calefacción eficiente y econ�
 
 
 
-        'slug' => 'pellet-van-roje-palete-de-65-sacos'
+        'slug' => 'pellet-van-roje-palet-de-65-sacos'
     ],
     [
         'id' => 5636,
@@ -3772,7 +3772,7 @@ Con los pellets Van Roje, podrá disfrutar de una calefacción eficiente y econ�
         'hover_image' => '',
         'old_price' => '640.00',
         'price' => '320.00',
-        'category' => 'pellets-de-madeira',
+        'category' => 'pellets-de-madera',
 
         'images' => [
             'wp-content/uploads/2025/10/cr_pito-palette-granul_s_2-480x480.webp'
@@ -3822,13 +3822,13 @@ Los Pellets de Crema Premium son la opción perfecta para quienes buscan un prod
     ],
     [
         'id' => 5635,
-        'title' => 'Pellets de Energía Natural – Palé con 70 sacos de 15 kg',
+        'title' => 'Pellets de energía natural – palé con 70 sacos de 15 kg',
 
 
         'hover_image' => '',
         'old_price' => '615.00',
         'price' => '320.00 ',
-        'category' => 'pellets-de-madeira',
+        'category' => 'pellets-de-madera',
 
         'images' => [
             'wp-content/uploads/2025/10/7-Pellets-Natural-Energie-Palette-de-70-sacs-de-15-kg-480x480.webp'
@@ -3874,17 +3874,17 @@ Los Pellets de Energía Natural son la elección perfecta para quienes buscan un
 
 
 
-        'slug' => 'pellets-de-energia-natural-palete-com-70-sacos-de-15-kg'
+        'slug' => 'pellets-de-energia-natural-palet-con-70-sacos-de-15-kg'
     ],
     [
         'id' => 5803,
-        'title' => 'PELLETS EXCELLENT PELLETS – PALÉ DE 65 SACOS DE 15 KG',
+        'title' => 'Pellets excellent pellets – palé de 65 sacos de 15 kg',
 
 
         'hover_image' => '',
         'old_price' => '526.00',
         'price' => '410.00',
-        'category' => 'pellets-de-madeira-e-pellets',
+        'category' => 'pellets-de-madera',
 
         'images' => [
             'wp-content/uploads/2025/10/PELLETS-EXCELENTES-PELLETS-PALETE-DE-65-SACOS-DE-15-KG-480x480.jpg'
@@ -3903,17 +3903,17 @@ Son ideales para todos los sistemas de calefacción de pellets de madera.',
 
 
 
-        'slug' => 'pellets-excelentes-pellets-palete-de-65-sacos-de-15-kg'
+        'slug' => 'pellets-excelentes-pellets-palet-de-65-sacos-de-15-kg'
     ],
     [
         'id' => 5798,
-        'title' => 'PELLETS NATURKRAFT – PALÉ DE 33 SACOS DE 15 KG',
+        'title' => 'Pellets Naturkraft – palé de 33 sacos de 15 kg',
 
 
         'hover_image' => '',
         'old_price' => '316.00',
         'price' => '252.00',
-        'category' => 'pellets-de-madeira-e-pellets',
+        'category' => 'pellets-de-madera',
 
         'images' => [
             'wp-content/uploads/2025/10/pellet-naturkraft-pallet-de-33-sacos-de-15-kg-480x480.jpg'
@@ -3929,17 +3929,17 @@ Sus características técnicas permiten reducir la frecuencia de limpieza de la 
 
 
 
-        'slug' => 'pellets-naturkraft-palete-de-33-sacos-de-15-kg'
+        'slug' => 'pellets-naturkraft-palet-de-33-sacos-de-15-kg'
     ],
     [
         'id' => 5800,
-        'title' => 'PELLETS NATURKRAFT – PALÉ DE 66 SACOS DE 15 KG',
+        'title' => 'Pellets Naturkraft – palé de 66 sacos de 15 kg',
 
 
         'hover_image' => '',
         'old_price' => '485.00',
         'price' => '399.00',
-        'category' => 'pellets-de-madeira-e-pellets',
+        'category' => 'pellets-de-madera',
 
         'images' => [
             'wp-content/uploads/2025/10/PELLETS-NATURKRAFT-PALETE-DE-66-SACOS-DE-15-KG-480x480.jpg'
@@ -3958,17 +3958,17 @@ Sus características técnicas permiten reducir la frecuencia de limpieza de la 
 
 
 
-        'slug' => 'pellets-naturkraft-palete-de-66-sacos-de-15-kg'
+        'slug' => 'pellets-naturkraft-palet-de-66-sacos-de-15-kg'
     ],
     [
         'id' => 5632,
-        'title' => 'Starforest Pellet – Palé de 70 sacos de 15 kg',
+        'title' => 'Starforest pellet – palé de 70 sacos de 15 kg',
 
 
         'hover_image' => '',
         'old_price' => '515.00 ',
         'price' => '308.00',
-        'category' => 'pellets-de-madeira',
+        'category' => 'pellets-de-madera',
 
         'images' => [
             'wp-content/uploads/2025/10/12-Pellet-Starforest-Palette-de-70-sacs-de-15-kg-480x480.webp'
@@ -4010,17 +4010,17 @@ Con el Starforest Pellet, podrá disfrutar de una calefacción de alto rendimien
 
 
 
-        'slug' => 'starforest-pellet-palete-de-70-sacos-de-15-kg'
+        'slug' => 'starforest-pellet-palet-de-70-sacos-de-15-kg'
     ],
     [
         'id' => 5618,
-        'title' => 'Troncos 50 cm: 4 palés – 2 de Roble Blanco + 2 de Haya/Carpe',
+        'title' => 'Troncos 50 cm: 4 palés – 2 de roble blanco + 2 de haya/carpe',
 
 
         'hover_image' => '',
         'old_price' => '520.00',
         'price' => '308.00',
-        'category' => 'lenha',
+        'category' => 'lena',
 
         'images' => [
             'wp-content/uploads/2025/10/54-large_default-480x480.webp'
@@ -4060,17 +4060,17 @@ Con los Troncos 50 cm: 4 Palés de Roble Blanco y Haya/Carpe, disfrutará de un 
 
 
 
-        'slug' => 'toros-50-cm-4-paletes-2-de-carvalho-branco-2-de-faia-carpinho'
+        'slug' => 'troncos-50-cm-4-palet-2-de-roble-blanco-2-de-haya-carpe'
     ],
     [
         'id' => 5620,
-        'title' => 'Troncos de Roble Blanco – 50 cm (2 Esteros)',
+        'title' => 'Troncos de roble blanco – 50 cm (2 estéreos)',
 
 
         'hover_image' => '',
         'old_price' => '300.00',
         'price' => '270.00',
-        'category' => 'lenha',
+        'category' => 'lena',
 
         'images' => [
             'wp-content/uploads/2025/10/50-large_default-480x480.webp'
@@ -4110,7 +4110,7 @@ Con los Troncos de Roble Blanco de 50 cm (2 esteros), tendrá una fuente de calo
 
 
 
-        'slug' => 'toros-de-carvalho-branco-50-cm-2-esteres'
+        'slug' => 'troncos-de-roble-blanco-50-cm-2-estereos'
     ],
     [
         'id' => 5619,
@@ -4120,7 +4120,7 @@ Con los Troncos de Roble Blanco de 50 cm (2 esteros), tendrá una fuente de calo
         'hover_image' => '',
         'old_price' => '380.00 ',
         'price' => '300.00',
-        'category' => 'lenha',
+        'category' => 'lena',
 
         'images' => [
             'wp-content/uploads/2025/10/55-large_default-480x480.webp'
@@ -4160,17 +4160,17 @@ Con los troncos de 50 cm, podrá disfrutar de una fuente de calor eficiente y ec
 
 
 
-        'slug' => 'troncos-de-50-cm-2-paletes-1-de-carvalho-branco-1-de-faia-carpinheiro'
+        'slug' => 'troncos-de-50-cm-2-palet-1-de-roble-blanco-1-de-haya-carpe'
     ],
     [
         'id' => 5642,
-        'title' => 'Vimasol Pellet – Palé de 72 sacos',
+        'title' => 'Vimasol pellet – palé de 72 sacos',
 
 
         'hover_image' => 'wp-content/uploads/2025/10/image_1_720x_1_f6c2331e-6d81-4428-9f68-1cd87a681361-480x480.webp',
         'old_price' => '448.00',
         'price' => '358.00 ',
-        'category' => 'pellets-de-madeira',
+        'category' => 'pellets-de-madera',
 
         'images' => [
             'wp-content/uploads/2025/10/images-4.jpg',
@@ -4213,17 +4213,17 @@ Con los pellets Vimasol, podrá disfrutar de una calefacción eficiente y econó
 
 
 
-        'slug' => 'vimasol-pellet-palete-de-72-sacos'
+        'slug' => 'vimasol-pellet-palet-de-72-sacos'
     ],
     [
         'id' => 5621,
-        'title' => 'WOODSTOCK Calidad Premium – Palé con 78 sacos de 15 kg',
+        'title' => 'Woodstock calidad premium – palé con 78 sacos de 15 kg',
 
 
         'hover_image' => '',
         'old_price' => '450.00',
         'price' => '320.00',
-        'category' => 'pellets-de-madeira',
+        'category' => 'pellets-de-madera',
 
         'images' => [
             'wp-content/uploads/2025/10/47-Granules-de-Bois-WOODSTOCK-qualite-Premium-Palette-de-78-sacs-de-15-kg-480x480.webp'
@@ -4267,6 +4267,6 @@ Con los pellets WOODSTOCK Calidad Premium, podrá disfrutar de un ambiente cáli
 
 
 
-        'slug' => 'woodstock-qualidade-premium-palete-com-78-sacos-de-15-kg'
+        'slug' => 'woodstock-calidad-premium-palet-con-78-sacos-de-15-kg'
     ]
 ];

@@ -88,7 +88,7 @@ class Certifications
             }
         }
 
-        $isFirewood = in_array($category, ['lenha', 'madeira-de-fogo', 'madeira-compactada', 'a-granel'], true)
+        $isFirewood = in_array($category, ['lena', 'madera-densificada', 'a-granel'], true)
             || str_contains($haystack, 'leña')
             || str_contains($haystack, 'troncos');
 

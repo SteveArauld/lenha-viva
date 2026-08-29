@@ -14,7 +14,7 @@
                             <div class="elementor-icon-box-wrapper">
 
                                 <div class="elementor-icon-box-icon">
-                                    <a href="tel:+34683573516" class="elementor-icon" tabindex="-1"
+                                    <a href="https://wa.me/34683573516" target="_blank" rel="noopener" class="elementor-icon" tabindex="-1"
                                         aria-label="¿Necesitas ayuda? Whatsapp:">
                                         <svg aria-hidden="true" class="e-font-icon-svg e-fab-whatsapp-square"
                                             viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
@@ -28,12 +28,12 @@
                                 <div class="elementor-icon-box-content">
 
                                     <h3 class="elementor-icon-box-title">
-                                        <a href="tel:+34 683 5735 16">
+                                        <a href="https://wa.me/34683573516" target="_blank" rel="noopener">
                                             ¿Necesitas ayuda? Whatsapp: </a>
                                     </h3>
 
                                     <p class="elementor-icon-box-description">
-                                        +34 683 5735 16 </p>
+                                        +34 683 573 516 </p>
 
                                 </div>
 
@@ -120,7 +120,7 @@
                         <div class="elementor-element elementor-element-4d89dafe elementor-widget elementor-widget-text-editor"
                             data-id="4d89dafe" data-element_type="widget" data-widget_type="text-editor.default">
                             <p><span style="color: #191919;"><strong>E-mail:</strong></span>
-                                contactlehnaviva@gmail.com </p>
+                                contacto@lenhaviva.es </p>
                         </div>
                         <div class="elementor-element elementor-element-4cf5ce6 elementor-widget elementor-widget-text-editor"
                             data-id="4cf5ce6" data-element_type="widget" data-widget_type="text-editor.default">
@@ -170,7 +170,7 @@
                                             </li>
 
                                             <li class="menu-item">
-                                                <a href="{{ route('avisos-legais') }}">Avisos legais</a>
+                                                <a href="{{ route('avisos-legais') }}">Avisos legales</a>
                                             </li>
 
                                             <li class="menu-item">
@@ -187,9 +187,7 @@
                         </div>
                         <div class="elementor-element elementor-element-3b979dd elementor-widget elementor-widget-image"
                             data-id="3b979dd" data-element_type="widget" data-widget_type="image.default">
-                            <img width="503" height="170"
-                                src="/wp-content/uploads/2022/01/Enplus-e-ISO9001-cor-1.png"
-                                class="attachment-large size-large wp-image-6038" alt="" />
+                            <a href="{{ route('certificaciones') }}" title="Ver nuestras certificaciones"><img width="503" height="170" src="/wp-content/uploads/2022/01/Enplus-e-ISO9001-cor-1.png" class="attachment-large size-large wp-image-6038" alt="Certificaciones ENplus A1, DINplus, ISO 9001 y NF de Lenha Viva" loading="lazy" /></a>
                         </div>
                     </div>
                 </div>
@@ -386,7 +384,7 @@
 
                 <div class="chaty-channel Email-channel-link" id="Email-0-channel" data-id="Email-0" data-widget="0"
                     data-channel="Email">
-                    <a href="mailto:contactlehnaviva@gmail.com?subject=Solicitud%20de%20informaci%C3%B3n&body=Hola%2C%0D%0A%0D%0AMe%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios%20o%20productos.%0D%0A%0D%0AAtentamente%2C"
+                    <a href="mailto:contacto@lenhaviva.es?subject=Solicitud%20de%20informaci%C3%B3n&body=Hola%2C%0D%0A%0D%0AMe%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios%20o%20productos.%0D%0A%0D%0AAtentamente%2C"
                         target="_blank" rel="nofollow noopener" aria-label="Enviar email"
                         class="chaty-tooltip Email-channel chaty-link chaty-email-channel pos-left"
                         data-form="chaty-form-0-Email" data-hover="Enviar email">

@@ -126,6 +126,8 @@
                     <p>{{ $order['customer']['address_2'] }}</p>
                 @endif
                 <p>{{ $order['customer']['postcode'] }} {{ $order['customer']['city'] }}</p>
+                <p>{{ $order['customer']['state'] ?? '' }}</p>
+                @if(!empty($order['customer']['nif']))<p><strong>DNI/NIF:</strong> {{ $order['customer']['nif'] }}</p>@endif
                 <p>{{ $order['customer']['country'] }}</p>
             </div>
 
@@ -137,6 +139,8 @@
                     <p>{{ $order['billing']['address_2'] }}</p>
                 @endif
                 <p>{{ $order['billing']['postcode'] }} {{ $order['billing']['city'] }}</p>
+                <p>{{ $order['billing']['state'] ?? '' }}</p>
+                @if(!empty($order['billing']['nif']))<p><strong>DNI/NIF:</strong> {{ $order['billing']['nif'] }}</p>@endif
                 <p>{{ $order['billing']['country'] }}</p>
                 @if (!empty($order['billing']['phone']))
                     <p><strong>Téléphone (Facturation) :</strong> {{ $order['billing']['phone'] }}</p>
@@ -158,8 +162,8 @@
                         <tr>
                             <td>{{ $item['title'] ?? ($item['name'] ?? 'Produit') }}</td>
                             <td>{{ $item['quantity'] }}</td>
-                            <td>{{ number_format($item['price'], 3, ',', ' ') }} €</td>
-                            <td>{{ number_format($item['price'] * $item['quantity'], 3, ',', ' ') }} €</td>
+                            <td>{{ number_format($item['price'], 2, ',', '.') }} €</td>
+                            <td>{{ number_format($item['price'] * $item['quantity'], 2, ',', '.') }} €</td>
                         </tr>
                     @endforeach
                 </tbody>

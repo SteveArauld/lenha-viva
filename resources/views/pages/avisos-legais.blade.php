@@ -37,8 +37,8 @@
 
 
 
-                        <p><strong>Correo electrónico:</strong> contactlehnaviva@gmail.com <br>
-                            <strong>Teléfono / WhatsApp:</strong> +34 683 57 35 16</p>
+                        <p><strong>Correo electrónico:</strong> contacto@lenhaviva.es <br>
+                            <strong>Teléfono / WhatsApp:</strong> +34 683 573 516</p>
 
 
 
@@ -119,11 +119,11 @@
 
 
 
-                        <p>Correo electrónico: contactlehnaviva@gmail.com </p>
+                        <p>Correo electrónico: contacto@lenhaviva.es </p>
 
 
 
-                        <p>WhatsApp: +34 683 5735 16</p>
+                        <p>WhatsApp: +34 683 573 516</p>
 
 
 

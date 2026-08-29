@@ -161,7 +161,7 @@
 
 
                         <p>Contacte con nuestro servicio de atención al cliente a través del correo electrónico
-                            contactlehnaviva@gmail.com en un plazo de 48 horas tras la entrega.</p>
+                            contacto@lenhaviva.es en un plazo de 48 horas tras la entrega.</p>
 
 
 

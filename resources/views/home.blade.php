@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
-@section('title', __('Compre su leña, pellets de madera y estufa de leña con'))
+@section('title', 'Leña, pellets de madera y estufas de leña con envío gratis')
+@section('meta_description', 'Compra online leña seca, pellets de madera certificados, estufas, cocinas y calderas de leña. Envío gratis a toda España y Europa en 3-5 días laborables. Pago seguro por transferencia.')
 
 @push('styles')
     @vite(['resources/css/home.css'])
@@ -38,7 +39,7 @@
                                                                         height="832"
                                                                         src="{{ asset('wp-content/uploads/2025/10/765424359870807610.jpeg') }}"
                                                                         class="attachment-full size-full wp-image-5734"
-                                                                        alt="" />
+                                                                        alt="Leña y pellets de madera de calidad — Lenha Viva" />
                                                                 </div>
                                                             </div>
                                                             <div class="wrapper-content-banner">
@@ -74,7 +75,7 @@
                                                                         height="800"
                                                                         src="{{ asset('wp-content/uploads/2025/10/765424359870807621.jpg') }}"
                                                                         class="attachment-full size-full wp-image-5736"
-                                                                        alt="" />
+                                                                        alt="Leña y pellets de madera de calidad — Lenha Viva" />
                                                                 </div>
                                                             </div>
                                                             <div class="wrapper-content-banner">
@@ -116,7 +117,7 @@
 
                                                             <div class="wrapper-heading-tab">
                                                                 <ul class="product-tabs-title tabs-list nav nav-tabs"
-                                                                    data-atts="{&quot;categories&quot;:[&quot;pellets-de-madeira&quot;],&quot;cat_operator&quot;:&quot;IN&quot;,&quot;limit&quot;:16,&quot;orderby&quot;:&quot;date&quot;,&quot;order&quot;:&quot;asc&quot;,&quot;product_style&quot;:&quot;v1&quot;,&quot;attr_row&quot;:&quot;class=\&quot;product-tabs row grid products\&quot; data-xlgdesktop=\&quot;4\&quot; data-desktop=\&quot;4\&quot; data-desktopsmall=\&quot;4\&quot; data-tablet=\&quot;3\&quot; data-landscape=\&quot;2\&quot; data-mobile=\&quot;2\&quot;&quot;}">
+                                                                    data-atts="{&quot;categories&quot;:[&quot;pellets-de-madera&quot;],&quot;cat_operator&quot;:&quot;IN&quot;,&quot;limit&quot;:16,&quot;orderby&quot;:&quot;date&quot;,&quot;order&quot;:&quot;asc&quot;,&quot;product_style&quot;:&quot;v1&quot;,&quot;attr_row&quot;:&quot;class=\&quot;product-tabs row grid products\&quot; data-xlgdesktop=\&quot;4\&quot; data-desktop=\&quot;4\&quot; data-desktopsmall=\&quot;4\&quot; data-tablet=\&quot;3\&quot; data-landscape=\&quot;2\&quot; data-mobile=\&quot;2\&quot;&quot;}">
                                                                     <li>
                                                                         <a href="javascript:void(0)" data-bs-toggle="pill"
                                                                             data-bs-target="#best_selling-7t9jG-c11dc16"
@@ -140,7 +141,7 @@
                                                                         @foreach ($pelletProducts as $product)
                                                                             <div class="item">
                                                                                 <div
-                                                                                    class="products-grid product type-product post-{{ $product['id'] }} status-publish instock product_cat-pellets-de-madeira has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
+                                                                                    class="products-grid product type-product post-{{ $product['id'] }} status-publish instock product_cat-pellets-de-madera has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
                                                                                     <div class="product-block grid product v1"
                                                                                         data-product-id="{{ $product['id'] }}">
                                                                                         <div class="product-content">
@@ -156,7 +157,7 @@
                                                                                                             height="480"
                                                                                                             src="{{ asset($product['images'][0]) }}"
                                                                                                             class="@if(empty($product['hover_image'])) image-no-effect @else image-effect attachment-shop_catalog @endif"
-                                                                                                            alt="" />
+                                                                                                            alt="{{ $product['title'] }}" />
                                                                                                         @if ($product['hover_image'])
                                                                                                             <img loading="lazy"
                                                                                                                 decoding="async"
@@ -213,7 +214,7 @@
                                                                                                                 </svg>
                                                                                                                 <span
                                                                                                                     class="yith-wcwl-add-to-wishlist-button__label">
-                                                                                                                    {{ in_array($product['id'], array_keys(Session::get('wishlist', []))) ? 'Dans la liste' : 'Add to wishlist' }}
+                                                                                                                    {{ in_array($product['id'], array_keys(Session::get('wishlist', []))) ? 'En la lista' : 'Añadir a favoritos' }}
                                                                                                                 </span>
                                                                                                             </a>
                                                                                                         </div>
@@ -236,7 +237,7 @@
                                                                                             </div>
 
                                                                                             <span class="onsale"><span
-                                                                                                    class="saled">Sale</span></span>
+                                                                                                    class="saled">Oferta</span></span>
 
                                                                                             <div class="caption">
                                                                                                 <span class="price">
@@ -244,26 +245,26 @@
                                                                                                         aria-hidden="true">
                                                                                                         <span
                                                                                                             class="woocommerce-Price-amount amount">
-                                                                                                            <bdi>{{ $product['old_price'] }}&nbsp;<span
+                                                                                                            <bdi>{{ \App\Support\Money::format($product['old_price']) }}&nbsp;<span
                                                                                                                     class="woocommerce-Price-currencySymbol">&euro;</span></bdi>
                                                                                                         </span>
                                                                                                     </del>
                                                                                                     <span
                                                                                                         class="screen-reader-text">El
                                                                                                         precio original era:
-                                                                                                        {{ $product['old_price'] }}&nbsp;&euro;.</span>
+                                                                                                        {{ \App\Support\Money::format($product['old_price']) }}&nbsp;&euro;.</span>
                                                                                                     <ins
                                                                                                         aria-hidden="true">
                                                                                                         <span
                                                                                                             class="woocommerce-Price-amount amount">
-                                                                                                            <bdi>{{ $product['price'] }}&nbsp;<span
+                                                                                                            <bdi>{{ \App\Support\Money::format($product['price']) }}&nbsp;<span
                                                                                                                     class="woocommerce-Price-currencySymbol">&euro;</span></bdi>
                                                                                                         </span>
                                                                                                     </ins>
                                                                                                     <span
                                                                                                         class="screen-reader-text">El
                                                                                                         precio actual es:
-                                                                                                        {{ $product['price'] }}&nbsp;&euro;.</span>
+                                                                                                        {{ \App\Support\Money::format($product['price']) }}&nbsp;&euro;.</span>
                                                                                                     <small
                                                                                                         class="woocommerce-price-suffix">IVA
                                                                                                         incluido</small>
@@ -293,9 +294,9 @@
                                                     data-id="b6e20e7" data-element_type="widget"
                                                     data-widget_type="button.default">
                                                     <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="{{ route('category', ['category' => 'pellets-de-madeira']) }}">
+                                                        href="{{ route('category', ['category' => 'pellets-de-madera']) }}">
                                                         <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Ver tudo</span>
+                                                            <span class="elementor-button-text">Ver todo</span>
                                                         </span>
                                                     </a>
                                                 </div>
@@ -415,7 +416,7 @@
                                                                                                                 </svg>
                                                                                                                 <span
                                                                                                                     class="yith-wcwl-add-to-wishlist-button__label">
-                                                                                                                    {{ in_array($product['id'], array_keys(Session::get('wishlist', []))) ? 'Dans la liste' : 'Add to wishlist' }}
+                                                                                                                    {{ in_array($product['id'], array_keys(Session::get('wishlist', []))) ? 'En la lista' : 'Añadir a favoritos' }}
                                                                                                                 </span>
                                                                                                             </a>
                                                                                                         </div>
@@ -437,7 +438,7 @@
                                                                                             </div>
 
                                                                                             <span class="onsale"><span
-                                                                                                    class="saled">Sale</span></span>
+                                                                                                    class="saled">Oferta</span></span>
 
                                                                                             <div class="caption">
                                                                                                 <span class="price">
@@ -445,26 +446,26 @@
                                                                                                         aria-hidden="true">
                                                                                                         <span
                                                                                                             class="woocommerce-Price-amount amount">
-                                                                                                            <bdi>{{ $product['old_price'] }}&nbsp;<span
+                                                                                                            <bdi>{{ \App\Support\Money::format($product['old_price']) }}&nbsp;<span
                                                                                                                     class="woocommerce-Price-currencySymbol">&euro;</span></bdi>
                                                                                                         </span>
                                                                                                     </del>
                                                                                                     <span
                                                                                                         class="screen-reader-text">El
                                                                                                         precio original era:
-                                                                                                        {{ $product['old_price'] }}&nbsp;&euro;.</span>
+                                                                                                        {{ \App\Support\Money::format($product['old_price']) }}&nbsp;&euro;.</span>
                                                                                                     <ins
                                                                                                         aria-hidden="true">
                                                                                                         <span
                                                                                                             class="woocommerce-Price-amount amount">
-                                                                                                            <bdi>{{ $product['price'] }}&nbsp;<span
+                                                                                                            <bdi>{{ \App\Support\Money::format($product['price']) }}&nbsp;<span
                                                                                                                     class="woocommerce-Price-currencySymbol">&euro;</span></bdi>
                                                                                                         </span>
                                                                                                     </ins>
                                                                                                     <span
                                                                                                         class="screen-reader-text">El
                                                                                                         precio actual es:
-                                                                                                        {{ $product['price'] }}&nbsp;&euro;.</span>
+                                                                                                        {{ \App\Support\Money::format($product['price']) }}&nbsp;&euro;.</span>
                                                                                                     <small
                                                                                                         class="woocommerce-price-suffix">IVA
                                                                                                         incluido</small>
@@ -494,9 +495,9 @@
                                                     data-id="ec242d1" data-element_type="widget"
                                                     data-widget_type="button.default">
                                                     <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="{{ route('category', ['category' => 'lenha']) }}">
+                                                        href="{{ route('category', ['category' => 'lena']) }}">
                                                         <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Ver tudo</span>
+                                                            <span class="elementor-button-text">Ver todo</span>
                                                         </span>
                                                     </a>
                                                 </div>
@@ -547,7 +548,7 @@
 
                                                             <div class="wrapper-heading-tab">
                                                                 <ul class="product-tabs-title tabs-list nav nav-tabs"
-                                                                    data-atts="{&quot;categories&quot;:[&quot;chef-de-madeira&quot;],&quot;cat_operator&quot;:&quot;IN&quot;,&quot;limit&quot;:12,&quot;orderby&quot;:&quot;date&quot;,&quot;order&quot;:&quot;asc&quot;,&quot;product_style&quot;:&quot;v1&quot;,&quot;attr_row&quot;:&quot;class=\&quot;product-tabs row grid products\&quot; data-xlgdesktop=\&quot;4\&quot; data-desktop=\&quot;4\&quot; data-desktopsmall=\&quot;4\&quot; data-tablet=\&quot;3\&quot; data-landscape=\&quot;2\&quot; data-mobile=\&quot;2\&quot;&quot;}">
+                                                                    data-atts="{&quot;categories&quot;:[&quot;cocinas-de-lena&quot;],&quot;cat_operator&quot;:&quot;IN&quot;,&quot;limit&quot;:12,&quot;orderby&quot;:&quot;date&quot;,&quot;order&quot;:&quot;asc&quot;,&quot;product_style&quot;:&quot;v1&quot;,&quot;attr_row&quot;:&quot;class=\&quot;product-tabs row grid products\&quot; data-xlgdesktop=\&quot;4\&quot; data-desktop=\&quot;4\&quot; data-desktopsmall=\&quot;4\&quot; data-tablet=\&quot;3\&quot; data-landscape=\&quot;2\&quot; data-mobile=\&quot;2\&quot;&quot;}">
                                                                     <li>
                                                                         <a href="javascript:void(0)" data-bs-toggle="pill"
                                                                             data-bs-target="#best_selling-kAljt-c11dc16"
@@ -568,7 +569,7 @@
                                                                         @foreach ($chefProducts as $product)
                                                                             <div class="item">
                                                                                 <div
-                                                                                    class="products-grid product type-product post-{{ $product['id'] }} status-publish instock product_cat-chef-de-madeira has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
+                                                                                    class="products-grid product type-product post-{{ $product['id'] }} status-publish instock product_cat-cocinas-de-lena has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
                                                                                     <div class="product-block grid product v1"
                                                                                         data-product-id="{{ $product['id'] }}">
                                                                                         <div class="product-content">
@@ -583,7 +584,7 @@
                                                                                                             height="480"
                                                                                                             src="{{ asset($product['images'][0]) }}"
                                                                                                             class="@if(empty($product['hover_image'])) image-no-effect @else image-effect attachment-shop_catalog @endif"
-                                                                                                            alt="" />
+                                                                                                            alt="{{ $product['title'] }}" />
                                                                                                         @if ($product['hover_image'])
                                                                                                             <img loading="lazy"
                                                                                                                 decoding="async"
@@ -640,7 +641,7 @@
                                                                                                                 </svg>
                                                                                                                 <span
                                                                                                                     class="yith-wcwl-add-to-wishlist-button__label">
-                                                                                                                    {{ in_array($product['id'], array_keys(Session::get('wishlist', []))) ? 'Dans la liste' : 'Add to wishlist' }}
+                                                                                                                    {{ in_array($product['id'], array_keys(Session::get('wishlist', []))) ? 'En la lista' : 'Añadir a favoritos' }}
                                                                                                                 </span>
                                                                                                             </a>
                                                                                                         </div>
@@ -662,7 +663,7 @@
                                                                                             </div>
 
                                                                                             <span class="onsale"><span
-                                                                                                    class="saled">Sale</span></span>
+                                                                                                    class="saled">Oferta</span></span>
 
                                                                                             <div class="caption">
                                                                                                 <span class="price">
@@ -670,26 +671,26 @@
                                                                                                         aria-hidden="true">
                                                                                                         <span
                                                                                                             class="woocommerce-Price-amount amount">
-                                                                                                            <bdi>{{ $product['old_price'] }}&nbsp;<span
+                                                                                                            <bdi>{{ \App\Support\Money::format($product['old_price']) }}&nbsp;<span
                                                                                                                     class="woocommerce-Price-currencySymbol">&euro;</span></bdi>
                                                                                                         </span>
                                                                                                     </del>
                                                                                                     <span
                                                                                                         class="screen-reader-text">El
                                                                                                         precio original era:
-                                                                                                        {{ $product['old_price'] }}&nbsp;&euro;.</span>
+                                                                                                        {{ \App\Support\Money::format($product['old_price']) }}&nbsp;&euro;.</span>
                                                                                                     <ins
                                                                                                         aria-hidden="true">
                                                                                                         <span
                                                                                                             class="woocommerce-Price-amount amount">
-                                                                                                            <bdi>{{ $product['price'] }}&nbsp;<span
+                                                                                                            <bdi>{{ \App\Support\Money::format($product['price']) }}&nbsp;<span
                                                                                                                     class="woocommerce-Price-currencySymbol">&euro;</span></bdi>
                                                                                                         </span>
                                                                                                     </ins>
                                                                                                     <span
                                                                                                         class="screen-reader-text">El
                                                                                                         precio actual es:
-                                                                                                        {{ $product['price'] }}&nbsp;&euro;.</span>
+                                                                                                        {{ \App\Support\Money::format($product['price']) }}&nbsp;&euro;.</span>
                                                                                                     <small
                                                                                                         class="woocommerce-price-suffix">IVA
                                                                                                         incluido</small>
@@ -719,9 +720,9 @@
                                                     data-id="4a52e6d" data-element_type="widget"
                                                     data-widget_type="button.default">
                                                     <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="{{ route('category', ['category' => 'chef-de-madeira']) }}">
+                                                        href="{{ route('category', ['category' => 'cocinas-de-lena']) }}">
                                                         <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Ver tudo</span>
+                                                            <span class="elementor-button-text">Ver todo</span>
                                                         </span>
                                                     </a>
                                                 </div>
@@ -763,22 +764,22 @@
                                                                                         width="1280" height="800"
                                                                                         src="wp-content/uploads/2025/10/765424359870807617.jpg"
                                                                                         class="attachment-full size-full wp-image-5738"
-                                                                                        alt="" />
+                                                                                        alt="Leña y pellets de madera de calidad — Lenha Viva" />
                                                                                 </div>
                                                                             </div>
                                                                             <div class="wrapper-content-banner">
                                                                                 <div class="content-banner">
                                                                                     <h3 class="banner-tbay-title">
-                                                                                        <span class="title">TUGAS
-                                                                                            LENHA</span>
+                                                                                        <span class="title">LENHA
+                                                                                            VIVA</span>
 
-                                                                                        <span class="subtitle">Procura um
-                                                                                            fornecedor de PELLETS?</span>
+                                                                                        <span class="subtitle">¿Buscas un
+                                                                                            proveedor de PELLETS?</span>
                                                                                     </h3>
 
 
                                                                                     <div class="banner-label">
-                                                                                        <span>CONTACTE-NOS!</span>
+                                                                                        <span>¡CONTÁCTANOS!</span>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -826,7 +827,7 @@
 
                                                             <div class="wrapper-heading-tab">
                                                                 <ul class="product-tabs-title tabs-list nav nav-tabs"
-                                                                    data-atts="{&quot;categories&quot;:[&quot;madeira-compactada&quot;],&quot;cat_operator&quot;:&quot;IN&quot;,&quot;limit&quot;:4,&quot;orderby&quot;:&quot;date&quot;,&quot;order&quot;:&quot;asc&quot;,&quot;product_style&quot;:&quot;v1&quot;,&quot;attr_row&quot;:&quot;class=\&quot;product-tabs row grid products\&quot; data-xlgdesktop=\&quot;4\&quot; data-desktop=\&quot;4\&quot; data-desktopsmall=\&quot;4\&quot; data-tablet=\&quot;3\&quot; data-landscape=\&quot;2\&quot; data-mobile=\&quot;2\&quot;&quot;}">
+                                                                    data-atts="{&quot;categories&quot;:[&quot;madera-densificada&quot;],&quot;cat_operator&quot;:&quot;IN&quot;,&quot;limit&quot;:4,&quot;orderby&quot;:&quot;date&quot;,&quot;order&quot;:&quot;asc&quot;,&quot;product_style&quot;:&quot;v1&quot;,&quot;attr_row&quot;:&quot;class=\&quot;product-tabs row grid products\&quot; data-xlgdesktop=\&quot;4\&quot; data-desktop=\&quot;4\&quot; data-desktopsmall=\&quot;4\&quot; data-tablet=\&quot;3\&quot; data-landscape=\&quot;2\&quot; data-mobile=\&quot;2\&quot;&quot;}">
                                                                     <li>
                                                                         <a href="javascript:void(0)" data-bs-toggle="pill"
                                                                             data-bs-target="#best_selling-ktTFY-c11dc16"
@@ -848,7 +849,7 @@
                                                                         @foreach ($compactadaProducts as $product)
                                                                             <div class="item">
                                                                                 <div
-                                                                                    class="products-grid product type-product post-{{ $product['id'] }} status-publish instock product_cat-madeira-compactada has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
+                                                                                    class="products-grid product type-product post-{{ $product['id'] }} status-publish instock product_cat-madera-densificada has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
                                                                                     <div class="product-block grid product v1"
                                                                                         data-product-id="{{ $product['id'] }}">
                                                                                         <div class="product-content">
@@ -863,7 +864,7 @@
                                                                                                             height="480"
                                                                                                             src="{{ asset($product['images'][0]) }}"
                                                                                                             class="@if(empty($product['hover_image'])) image-no-effect @else image-effect attachment-shop_catalog @endif"
-                                                                                                            alt="" />
+                                                                                                            alt="{{ $product['title'] }}" />
                                                                                                         @if ($product['hover_image'])
                                                                                                             <img loading="lazy"
                                                                                                                 decoding="async"
@@ -920,7 +921,7 @@
                                                                                                                 </svg>
                                                                                                                 <span
                                                                                                                     class="yith-wcwl-add-to-wishlist-button__label">
-                                                                                                                    {{ in_array($product['id'], array_keys(Session::get('wishlist', []))) ? 'Dans la liste' : 'Add to wishlist' }}
+                                                                                                                    {{ in_array($product['id'], array_keys(Session::get('wishlist', []))) ? 'En la lista' : 'Añadir a favoritos' }}
                                                                                                                 </span>
                                                                                                             </a>
                                                                                                         </div>
@@ -942,7 +943,7 @@
                                                                                             </div>
 
                                                                                             <span class="onsale"><span
-                                                                                                    class="saled">Sale</span></span>
+                                                                                                    class="saled">Oferta</span></span>
 
                                                                                             <div class="caption">
                                                                                                 <span class="price">
@@ -950,26 +951,26 @@
                                                                                                         aria-hidden="true">
                                                                                                         <span
                                                                                                             class="woocommerce-Price-amount amount">
-                                                                                                            <bdi>{{ $product['old_price'] }}&nbsp;<span
+                                                                                                            <bdi>{{ \App\Support\Money::format($product['old_price']) }}&nbsp;<span
                                                                                                                     class="woocommerce-Price-currencySymbol">&euro;</span></bdi>
                                                                                                         </span>
                                                                                                     </del>
                                                                                                     <span
                                                                                                         class="screen-reader-text">El
                                                                                                         precio original era:
-                                                                                                        {{ $product['old_price'] }}&nbsp;&euro;.</span>
+                                                                                                        {{ \App\Support\Money::format($product['old_price']) }}&nbsp;&euro;.</span>
                                                                                                     <ins
                                                                                                         aria-hidden="true">
                                                                                                         <span
                                                                                                             class="woocommerce-Price-amount amount">
-                                                                                                            <bdi>{{ $product['price'] }}&nbsp;<span
+                                                                                                            <bdi>{{ \App\Support\Money::format($product['price']) }}&nbsp;<span
                                                                                                                     class="woocommerce-Price-currencySymbol">&euro;</span></bdi>
                                                                                                         </span>
                                                                                                     </ins>
                                                                                                     <span
                                                                                                         class="screen-reader-text">El
                                                                                                         precio actual es:
-                                                                                                        {{ $product['price'] }}&nbsp;&euro;.</span>
+                                                                                                        {{ \App\Support\Money::format($product['price']) }}&nbsp;&euro;.</span>
                                                                                                     <small
                                                                                                         class="woocommerce-price-suffix">IVA
                                                                                                         incluido</small>
@@ -999,9 +1000,9 @@
                                                     data-id="cb12240" data-element_type="widget"
                                                     data-widget_type="button.default">
                                                     <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="{{ route('category', ['category' => 'madeira-compactada']) }}">
+                                                        href="{{ route('category', ['category' => 'madera-densificada']) }}">
                                                         <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Ver tudo</span>
+                                                            <span class="elementor-button-text">Ver todo</span>
                                                         </span>
                                                     </a>
                                                 </div>
@@ -1027,7 +1028,7 @@
 
                                                             <div class="wrapper-heading-tab">
                                                                 <ul class="product-tabs-title tabs-list nav nav-tabs"
-                                                                    data-atts="{&quot;categories&quot;:[&quot;caldeira-de-lenha&quot;],&quot;cat_operator&quot;:&quot;IN&quot;,&quot;limit&quot;:4,&quot;orderby&quot;:&quot;date&quot;,&quot;order&quot;:&quot;asc&quot;,&quot;product_style&quot;:&quot;v1&quot;,&quot;attr_row&quot;:&quot;class=\&quot;product-tabs row grid products\&quot; data-xlgdesktop=\&quot;4\&quot; data-desktop=\&quot;4\&quot; data-desktopsmall=\&quot;4\&quot; data-tablet=\&quot;3\&quot; data-landscape=\&quot;2\&quot; data-mobile=\&quot;2\&quot;&quot;}">
+                                                                    data-atts="{&quot;categories&quot;:[&quot;calderas-de-lena&quot;],&quot;cat_operator&quot;:&quot;IN&quot;,&quot;limit&quot;:4,&quot;orderby&quot;:&quot;date&quot;,&quot;order&quot;:&quot;asc&quot;,&quot;product_style&quot;:&quot;v1&quot;,&quot;attr_row&quot;:&quot;class=\&quot;product-tabs row grid products\&quot; data-xlgdesktop=\&quot;4\&quot; data-desktop=\&quot;4\&quot; data-desktopsmall=\&quot;4\&quot; data-tablet=\&quot;3\&quot; data-landscape=\&quot;2\&quot; data-mobile=\&quot;2\&quot;&quot;}">
                                                                     <li>
                                                                         <a href="javascript:void(0)" data-bs-toggle="pill"
                                                                             data-bs-target="#best_selling-P94n5-c11dc16"
@@ -1049,7 +1050,7 @@
                                                                         @foreach ($caldeiraProducts as $product)
                                                                             <div class="item">
                                                                                 <div
-                                                                                    class="products-grid product type-product post-{{ $product['id'] }} status-publish instock product_cat-caldeira-de-lenha has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
+                                                                                    class="products-grid product type-product post-{{ $product['id'] }} status-publish instock product_cat-calderas-de-lena has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
                                                                                     <div class="product-block grid product v1"
                                                                                         data-product-id="{{ $product['id'] }}">
                                                                                         <div class="product-content">
@@ -1064,7 +1065,7 @@
                                                                                                             height="480"
                                                                                                             src="{{ asset($product['images'][0]) }}"
                                                                                                             class="@if(empty($product['hover_image'])) image-no-effect @else image-effect attachment-shop_catalog @endif"
-                                                                                                            alt="" />
+                                                                                                            alt="{{ $product['title'] }}" />
                                                                                                         @if ($product['hover_image'])
                                                                                                             <img loading="lazy"
                                                                                                                 decoding="async"
@@ -1121,7 +1122,7 @@
                                                                                                                 </svg>
                                                                                                                 <span
                                                                                                                     class="yith-wcwl-add-to-wishlist-button__label">
-                                                                                                                    {{ in_array($product['id'], array_keys(Session::get('wishlist', []))) ? 'Dans la liste' : 'Add to wishlist' }}
+                                                                                                                    {{ in_array($product['id'], array_keys(Session::get('wishlist', []))) ? 'En la lista' : 'Añadir a favoritos' }}
                                                                                                                 </span>
                                                                                                             </a>
                                                                                                         </div>
@@ -1143,7 +1144,7 @@
                                                                                             </div>
 
                                                                                             <span class="onsale"><span
-                                                                                                    class="saled">Sale</span></span>
+                                                                                                    class="saled">Oferta</span></span>
 
                                                                                             <div class="caption">
                                                                                                 <span class="price">
@@ -1151,26 +1152,26 @@
                                                                                                         aria-hidden="true">
                                                                                                         <span
                                                                                                             class="woocommerce-Price-amount amount">
-                                                                                                            <bdi>{{ $product['old_price'] }}&nbsp;<span
+                                                                                                            <bdi>{{ \App\Support\Money::format($product['old_price']) }}&nbsp;<span
                                                                                                                     class="woocommerce-Price-currencySymbol">&euro;</span></bdi>
                                                                                                         </span>
                                                                                                     </del>
                                                                                                     <span
                                                                                                         class="screen-reader-text">El
                                                                                                         precio original era:
-                                                                                                        {{ $product['old_price'] }}&nbsp;&euro;.</span>
+                                                                                                        {{ \App\Support\Money::format($product['old_price']) }}&nbsp;&euro;.</span>
                                                                                                     <ins
                                                                                                         aria-hidden="true">
                                                                                                         <span
                                                                                                             class="woocommerce-Price-amount amount">
-                                                                                                            <bdi>{{ $product['price'] }}&nbsp;<span
+                                                                                                            <bdi>{{ \App\Support\Money::format($product['price']) }}&nbsp;<span
                                                                                                                     class="woocommerce-Price-currencySymbol">&euro;</span></bdi>
                                                                                                         </span>
                                                                                                     </ins>
                                                                                                     <span
                                                                                                         class="screen-reader-text">El
                                                                                                         precio actual es:
-                                                                                                        {{ $product['price'] }}&nbsp;&euro;.</span>
+                                                                                                        {{ \App\Support\Money::format($product['price']) }}&nbsp;&euro;.</span>
                                                                                                     <small
                                                                                                         class="woocommerce-price-suffix">IVA
                                                                                                         incluido</small>
@@ -1200,9 +1201,9 @@
                                                     data-id="6f53353" data-element_type="widget"
                                                     data-widget_type="button.default">
                                                     <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="{{ route('category', ['category' => 'caldeira-de-lenha']) }}">
+                                                        href="{{ route('category', ['category' => 'calderas-de-lena']) }}">
                                                         <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Ver tudo</span>
+                                                            <span class="elementor-button-text">Ver todo</span>
                                                         </span>
                                                     </a>
                                                 </div>
@@ -1265,7 +1266,7 @@
                                                                                                             height="480"
                                                                                                             src="{{ asset($product['images'][0]) }}"
                                                                                                             class="@if(empty($product['hover_image'])) image-no-effect @else image-effect attachment-shop_catalog @endif"
-                                                                                                            alt="" />
+                                                                                                            alt="{{ $product['title'] }}" />
                                                                                                         @if ($product['hover_image'])
                                                                                                             <img loading="lazy"
                                                                                                                 decoding="async"
@@ -1322,7 +1323,7 @@
                                                                                                                 </svg>
                                                                                                                 <span
                                                                                                                     class="yith-wcwl-add-to-wishlist-button__label">
-                                                                                                                    {{ in_array($product['id'], array_keys(Session::get('wishlist', []))) ? 'Dans la liste' : 'Add to wishlist' }}
+                                                                                                                    {{ in_array($product['id'], array_keys(Session::get('wishlist', []))) ? 'En la lista' : 'Añadir a favoritos' }}
                                                                                                                 </span>
                                                                                                             </a>
                                                                                                         </div>
@@ -1344,7 +1345,7 @@
                                                                                             </div>
 
                                                                                             <span class="onsale"><span
-                                                                                                    class="saled">Sale</span></span>
+                                                                                                    class="saled">Oferta</span></span>
 
                                                                                             <div class="caption">
                                                                                                 <span class="price">
@@ -1352,26 +1353,26 @@
                                                                                                         aria-hidden="true">
                                                                                                         <span
                                                                                                             class="woocommerce-Price-amount amount">
-                                                                                                            <bdi>{{ $product['old_price'] }}&nbsp;<span
+                                                                                                            <bdi>{{ \App\Support\Money::format($product['old_price']) }}&nbsp;<span
                                                                                                                     class="woocommerce-Price-currencySymbol">&euro;</span></bdi>
                                                                                                         </span>
                                                                                                     </del>
                                                                                                     <span
                                                                                                         class="screen-reader-text">El
                                                                                                         precio original era:
-                                                                                                        {{ $product['old_price'] }}&nbsp;&euro;.</span>
+                                                                                                        {{ \App\Support\Money::format($product['old_price']) }}&nbsp;&euro;.</span>
                                                                                                     <ins
                                                                                                         aria-hidden="true">
                                                                                                         <span
                                                                                                             class="woocommerce-Price-amount amount">
-                                                                                                            <bdi>{{ $product['price'] }}&nbsp;<span
+                                                                                                            <bdi>{{ \App\Support\Money::format($product['price']) }}&nbsp;<span
                                                                                                                     class="woocommerce-Price-currencySymbol">&euro;</span></bdi>
                                                                                                         </span>
                                                                                                     </ins>
                                                                                                     <span
                                                                                                         class="screen-reader-text">El
                                                                                                         precio actual es:
-                                                                                                        {{ $product['price'] }}&nbsp;&euro;.</span>
+                                                                                                        {{ \App\Support\Money::format($product['price']) }}&nbsp;&euro;.</span>
                                                                                                     <small
                                                                                                         class="woocommerce-price-suffix">IVA
                                                                                                         incluido</small>
@@ -1403,7 +1404,7 @@
                                                     <a class="elementor-button elementor-button-link elementor-size-sm"
                                                         href="{{ route('category', ['category' => 'a-granel']) }}">
                                                         <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Ver tudo</span>
+                                                            <span class="elementor-button-text">Ver todo</span>
                                                         </span>
                                                     </a>
                                                 </div>
@@ -1430,7 +1431,7 @@
 
                                                             <div class="wrapper-heading-tab">
                                                                 <ul class="product-tabs-title tabs-list nav nav-tabs"
-                                                                    data-atts="{&quot;categories&quot;:[&quot;madeira-de-fogo&quot;],&quot;cat_operator&quot;:&quot;IN&quot;,&quot;limit&quot;:8,&quot;orderby&quot;:&quot;date&quot;,&quot;order&quot;:&quot;asc&quot;,&quot;product_style&quot;:&quot;v1&quot;,&quot;attr_row&quot;:&quot;class=\&quot;product-tabs row grid products\&quot; data-xlgdesktop=\&quot;4\&quot; data-desktop=\&quot;4\&quot; data-desktopsmall=\&quot;4\&quot; data-tablet=\&quot;3\&quot; data-landscape=\&quot;2\&quot; data-mobile=\&quot;2\&quot;&quot;}">
+                                                                    data-atts="{&quot;categories&quot;:[&quot;lena&quot;],&quot;cat_operator&quot;:&quot;IN&quot;,&quot;limit&quot;:8,&quot;orderby&quot;:&quot;date&quot;,&quot;order&quot;:&quot;asc&quot;,&quot;product_style&quot;:&quot;v1&quot;,&quot;attr_row&quot;:&quot;class=\&quot;product-tabs row grid products\&quot; data-xlgdesktop=\&quot;4\&quot; data-desktop=\&quot;4\&quot; data-desktopsmall=\&quot;4\&quot; data-tablet=\&quot;3\&quot; data-landscape=\&quot;2\&quot; data-mobile=\&quot;2\&quot;&quot;}">
                                                                     <li>
                                                                         <a href="javascript:void(0)" data-bs-toggle="pill"
                                                                             data-bs-target="#best_selling-2Rht9-c11dc16"
@@ -1452,7 +1453,7 @@
                                                                         @foreach ($madeiraFogoProducts as $product)
                                                                             <div class="item">
                                                                                 <div
-                                                                                    class="products-grid product type-product post-{{ $product['id'] }} status-publish instock product_cat-madeira-de-fogo has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
+                                                                                    class="products-grid product type-product post-{{ $product['id'] }} status-publish instock product_cat-lena has-post-thumbnail sale taxable shipping-taxable purchasable product-type-simple">
                                                                                     <div class="product-block grid product v1"
                                                                                         data-product-id="{{ $product['id'] }}">
                                                                                         <div class="product-content">
@@ -1467,7 +1468,7 @@
                                                                                                             height="480"
                                                                                                             src="{{ asset($product['images'][0]) }}"
                                                                                                             class="@if(empty($product['hover_image'])) image-no-effect @else image-effect attachment-shop_catalog @endif"
-                                                                                                            alt="" />
+                                                                                                            alt="{{ $product['title'] }}" />
                                                                                                         @if ($product['hover_image'])
                                                                                                             <img loading="lazy"
                                                                                                                 decoding="async"
@@ -1524,7 +1525,7 @@
                                                                                                                 </svg>
                                                                                                                 <span
                                                                                                                     class="yith-wcwl-add-to-wishlist-button__label">
-                                                                                                                    {{ in_array($product['id'], array_keys(Session::get('wishlist', []))) ? 'Dans la liste' : 'Add to wishlist' }}
+                                                                                                                    {{ in_array($product['id'], array_keys(Session::get('wishlist', []))) ? 'En la lista' : 'Añadir a favoritos' }}
                                                                                                                 </span>
                                                                                                             </a>
                                                                                                         </div>
@@ -1546,7 +1547,7 @@
                                                                                             </div>
 
                                                                                             <span class="onsale"><span
-                                                                                                    class="saled">Sale</span></span>
+                                                                                                    class="saled">Oferta</span></span>
 
                                                                                             <div class="caption">
                                                                                                 <span class="price">
@@ -1554,26 +1555,26 @@
                                                                                                         aria-hidden="true">
                                                                                                         <span
                                                                                                             class="woocommerce-Price-amount amount">
-                                                                                                            <bdi>{{ $product['old_price'] }}&nbsp;<span
+                                                                                                            <bdi>{{ \App\Support\Money::format($product['old_price']) }}&nbsp;<span
                                                                                                                     class="woocommerce-Price-currencySymbol">&euro;</span></bdi>
                                                                                                         </span>
                                                                                                     </del>
                                                                                                     <span
                                                                                                         class="screen-reader-text">El
                                                                                                         precio original era:
-                                                                                                        {{ $product['old_price'] }}&nbsp;&euro;.</span>
+                                                                                                        {{ \App\Support\Money::format($product['old_price']) }}&nbsp;&euro;.</span>
                                                                                                     <ins
                                                                                                         aria-hidden="true">
                                                                                                         <span
                                                                                                             class="woocommerce-Price-amount amount">
-                                                                                                            <bdi>{{ $product['price'] }}&nbsp;<span
+                                                                                                            <bdi>{{ \App\Support\Money::format($product['price']) }}&nbsp;<span
                                                                                                                     class="woocommerce-Price-currencySymbol">&euro;</span></bdi>
                                                                                                         </span>
                                                                                                     </ins>
                                                                                                     <span
                                                                                                         class="screen-reader-text">El
                                                                                                         precio actual es:
-                                                                                                        {{ $product['price'] }}&nbsp;&euro;.</span>
+                                                                                                        {{ \App\Support\Money::format($product['price']) }}&nbsp;&euro;.</span>
                                                                                                     <small
                                                                                                         class="woocommerce-price-suffix">IVA
                                                                                                         incluido</small>
@@ -1603,9 +1604,9 @@
                                                     data-id="deef3b9" data-element_type="widget"
                                                     data-widget_type="button.default">
                                                     <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="{{ route('category', ['category' => 'madeira-de-fogo']) }}">
+                                                        href="{{ route('category', ['category' => 'lena']) }}">
                                                         <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Ver tudo</span>
+                                                            <span class="elementor-button-text">Ver todo</span>
                                                         </span>
                                                     </a>
                                                 </div>

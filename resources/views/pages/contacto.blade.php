@@ -1476,7 +1476,7 @@
                                                                 data-widget_type="text-editor.default">
                                                                 <p><strong><span
                                                                             style="color: #191919;">E-mail:</span></strong>
-                                                                    contactlehnaviva@gmail.com </p>
+                                                                    contacto@lenhaviva.es </p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1525,7 +1525,7 @@
                                                             <div class="elementor-element elementor-element-6ba2899 elementor-widget elementor-widget-text-editor"
                                                                 data-id="6ba2899" data-element_type="widget"
                                                                 data-widget_type="text-editor.default">
-                                                                <p><strong>+34 683 5735 16 </strong></p>
+                                                                <p><strong>+34 683 573 516 </strong></p>
                                                             </div>
                                                         </div>
                                                     </div>

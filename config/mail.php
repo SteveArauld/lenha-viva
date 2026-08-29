@@ -124,6 +124,6 @@ return [
     |
     */
 
-    'admin_email' => env('MAIL_ADMIN_EMAIL', 'contactlehnaviva@gmail.com'),
+    'admin_email' => env('MAIL_ADMIN_EMAIL', 'contacto@lenhaviva.es'),
 
 ];

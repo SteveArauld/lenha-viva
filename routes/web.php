@@ -18,8 +18,8 @@ Route::get('/lista-de-desejos',[App\Http\Controllers\HomeController::class,'list
 //Route::get('finalizacao-de-compra/order-received',[App\Http\Controllers\HomeController::class,'orderReceived'])->name('order-received');
 
 
-Route::get('/product/{slug}', [HomeController::class, 'show'])->name('product.show');
-Route::get('/category/product-category/{category}', [HomeController::class, 'category'])->name('category');
+Route::get('/producto/{slug}', [HomeController::class, 'show'])->name('product.show');
+Route::get('/categoria/{category}', [HomeController::class, 'category'])->name('category');
 //Route::get('/lista-desejos/adicionar/{productId}', [HomeController::class, 'addToWishlist'])->name('wishlist.add');
 
 

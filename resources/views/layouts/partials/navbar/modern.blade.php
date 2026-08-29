@@ -23,7 +23,7 @@
     <div class="lv-navbar__topbar">
         <div class="lv-container lv-navbar__topbar-inner">
             <span class="lv-navbar__topbar-item">🚚 Envio grátis para Espanha e Europa</span>
-            <a href="tel:+34683573516" class="lv-navbar__topbar-item lv-navbar__topbar-link">📞 +34 683 5735 16</a>
+            <a href="tel:+34683573516" class="lv-navbar__topbar-item lv-navbar__topbar-link">📞 +34 683 573 516</a>
         </div>
     </div>
 
@@ -49,7 +49,7 @@
                 <a href="{{ route('loja') }}"
                     class="lv-navbar__link {{ request()->routeIs('loja') ? 'is-active' : '' }}">
                     <i class="tb-icon tb-icon-store"></i>
-                    <span>Loja</span>
+                    <span>Tienda</span>
                 </a>
 
                 <div class="lv-navbar__dropdown dropdown">
@@ -79,7 +79,7 @@
                 <a href="{{ route('sobre-nos') }}"
                     class="lv-navbar__link {{ request()->routeIs('sobre-nos') ? 'is-active' : '' }}">
                     <i class="tb-icon tb-icon-info"></i>
-                    <span>Sobre nós</span>
+                    <span>Sobre nosotros</span>
                 </a>
                 <a href="{{ route('contacto') }}"
                     class="lv-navbar__link {{ request()->routeIs('contacto') ? 'is-active' : '' }}">
@@ -126,8 +126,8 @@
             </form>
 
             <div class="lv-navbar__actions">
-                <a href="{{ route('wishlist.index') }}" class="lv-navbar__icon-btn" title="Lista de desejos"
-                    aria-label="Lista de desejos">
+                <a href="{{ route('wishlist.index') }}" class="lv-navbar__icon-btn" title="Lista de deseos"
+                    aria-label="Lista de deseos">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M12.001 19.6935L11.0129 18.7961C7.55236 15.6541 5.25098 13.5651 5.25098 10.9814C5.25098 8.89239 6.87611 7.25 8.94824 7.25C10.1268 7.25 11.2603 7.80243 12.001 8.66634C12.7417 7.80243 13.8752 7.25 15.0537 7.25C17.1259 7.25 18.751 8.89239 18.751 10.9814C18.751 13.5651 16.4496 15.6541 12.9891 18.7998L12.001 19.6935Z"
@@ -136,7 +136,7 @@
                     <span class="lv-badge wishlist-count">0</span>
                 </a>
 
-                <button type="button" class="lv-navbar__icon-btn lv-navbar__cart-btn" title="Carrinho" aria-label="Carrinho"
+                <button type="button" class="lv-navbar__icon-btn lv-navbar__cart-btn" title="Carrito" aria-label="Carrito"
                     data-bs-toggle="offcanvas" data-bs-target="#cart-offcanvas-mobile"
                     aria-controls="cart-offcanvas-mobile">
                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -179,14 +179,14 @@
 
         <nav class="lv-mobile-nav">
             <a href="{{ route('home') }}" class="{{ request()->routeIs('home') ? 'is-active' : '' }}">Início</a>
-            <a href="{{ route('loja') }}" class="{{ request()->routeIs('loja') ? 'is-active' : '' }}">Loja</a>
+            <a href="{{ route('loja') }}" class="{{ request()->routeIs('loja') ? 'is-active' : '' }}">Tienda</a>
             <a href="{{ route('sobre-nos') }}"
-                class="{{ request()->routeIs('sobre-nos') ? 'is-active' : '' }}">Sobre nós</a>
+                class="{{ request()->routeIs('sobre-nos') ? 'is-active' : '' }}">Sobre nosotros</a>
             <a href="{{ route('contacto') }}"
                 class="{{ request()->routeIs('contacto') ? 'is-active' : '' }}">Contacto</a>
-            <a href="{{ route('wishlist.index') }}">Lista de desejos <span
+            <a href="{{ route('wishlist.index') }}">Lista de deseos <span
                     class="lv-badge wishlist-count">0</span></a>
-            <a href="{{ route('carrinho') }}">Carrinho <span class="lv-badge mini-cart-items">0</span></a>
+            <a href="{{ route('carrinho') }}">Carrito <span class="lv-badge mini-cart-items">0</span></a>
         </nav>
 
         <div class="lv-mobile-categories">
@@ -207,13 +207,13 @@
 <div class="offcanvas offcanvas-end lv-drawer lv-cart-drawer" tabindex="-1" id="cart-offcanvas-mobile"
     aria-labelledby="lvCartDrawerLabel">
     <div class="offcanvas-header lv-drawer__header">
-        <h3 class="offcanvas-title lv-drawer__title" id="lvCartDrawerLabel">Carrinho de compras</h3>
+        <h3 class="offcanvas-title lv-drawer__title" id="lvCartDrawerLabel">Carrito de compras</h3>
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Fechar"></button>
     </div>
     <div class="offcanvas-body widget_shopping_cart_content">
         <div class="mini_cart_content">
             <div class="mini_cart_inner">
-                <p class="lv-cart-loading">A carregar carrinho...</p>
+                <p class="lv-cart-loading">Cargando carrito...</p>
             </div>
         </div>
     </div>

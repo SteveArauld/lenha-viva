@@ -141,7 +141,7 @@
                     <span class="whatsapp-icon">💬</span> Contactar por WhatsApp
                 </a>
                 <p style="margin-top: 10px; font-size: 14px; color: #666;">
-                    <strong>Número:</strong> +34 683 5735 16
+                    <strong>Número:</strong> +34 683 573 516
                 </p>
             </div>
 
@@ -171,6 +171,8 @@
                     <p>{{ $order['customer']['address_2'] }}</p>
                 @endif
                 <p>{{ $order['customer']['postcode'] }} {{ $order['customer']['city'] }}</p>
+                <p>{{ $order['customer']['state'] ?? '' }}</p>
+                @if(!empty($order['customer']['nif']))<p><strong>DNI/NIF:</strong> {{ $order['customer']['nif'] }}</p>@endif
                 <p>{{ $order['customer']['country'] }}</p>
             </div>
 
@@ -182,6 +184,8 @@
                     <p>{{ $order['billing']['address_2'] }}</p>
                 @endif
                 <p>{{ $order['billing']['postcode'] }} {{ $order['billing']['city'] }}</p>
+                <p>{{ $order['billing']['state'] ?? '' }}</p>
+                @if(!empty($order['billing']['nif']))<p><strong>DNI/NIF:</strong> {{ $order['billing']['nif'] }}</p>@endif
                 <p>{{ $order['billing']['country'] }}</p>
                 @if (!empty($order['billing']['phone']))
                     <p><strong>Teléfono:</strong> {{ $order['billing']['phone'] }}</p>
@@ -203,8 +207,8 @@
                         <tr>
                             <td>{{ $item['title'] ?? ($item['name'] ?? 'Producto') }}</td>
                             <td>{{ $item['quantity'] }}</td>
-                            <td>{{ number_format($item['price'], 3, ',', ' ') }} €</td>
-                            <td>{{ number_format($item['price'] * $item['quantity'], 3, ',', ' ') }} €</td>
+                            <td>{{ number_format($item['price'], 2, ',', '.') }} €</td>
+                            <td>{{ number_format($item['price'] * $item['quantity'], 2, ',', '.') }} €</td>
                         </tr>
                     @endforeach
                 </tbody>
@@ -236,8 +240,8 @@
 
         <div class="footer">
             <p>Lenha Viva &copy; {{ date('Y') }}</p>
-            <p>Si tienes alguna duda, contáctanos: contactlehnaviva@gmail.com</p>
-            <p><strong>WhatsApp:</strong> +34 683 5735 16</p>
+            <p>Si tienes alguna duda, contáctanos: contacto@lenhaviva.es</p>
+            <p><strong>WhatsApp:</strong> +34 683 573 516</p>
         </div>
     </div>
 </body>

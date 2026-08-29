@@ -35,7 +35,7 @@
                                 </div>
                                 <div
                                     class="wc-block-components-main wc-block-checkout__main wp-block-woocommerce-checkout-fields-block">
-                                    <form aria-label="Finalizar compras"
+                                    <form aria-label="Finalizar compra"
                                         class="wc-block-components-form wc-block-checkout__form">
                                         <div></div>
 
@@ -1321,7 +1321,7 @@
 
 
     <div class="wc-block-components-main wc-block-checkout__main wp-block-woocommerce-checkout-fields-block">
-        <form method="POST" action="{{ route('checkout.process') }}" aria-label="Finalizar compras"
+        <form method="POST" action="{{ route('checkout.process') }}" aria-label="Finalizar compra"
             class="wc-block-components-form wc-block-checkout__form" id="checkout-form">
             @csrf
 

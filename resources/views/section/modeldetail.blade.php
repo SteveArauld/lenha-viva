@@ -240,7 +240,7 @@
                                                 </div>
 
                                                 <div class="details-btn-wrapper">
-                                                    <a class="view-details-btn" href="/product/${product.slug}">Ver detalles</a>
+                                                    <a class="view-details-btn" href="/producto/${product.slug}">Ver detalles</a>
                                                 </div>
                                             </div>
                                         </div>

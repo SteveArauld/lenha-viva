@@ -51,10 +51,7 @@
 
     <div class="lv-product-card__body">
         <span class="lv-product-card__price">
-            @if ($hasDiscount)
-                <del class="lv-product-card__price-old">{{ $product['old_price'] }} €</del>
-            @endif
-            {{ $product['price'] }} €
+            {{ \App\Support\Money::eur($product['price']) }}
         </span>
         <h3 class="lv-product-card__title">
             <a href="{{ route('product.show', ['slug' => $product['slug']]) }}">{{ $product['title'] }}</a>

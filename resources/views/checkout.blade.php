@@ -140,6 +140,31 @@
                                 </div>
 
                                 <div class="lv-field">
+                                    <label for="shipping-state">Provincia</label>
+                                    <select id="shipping-state" name="shipping-state" autocomplete="address-level1"
+                                        class="lv-input lv-select @error('shipping-state') is-invalid @enderror" required>
+                                        <option value="">Selecciona una provincia</option>
+                                        @foreach (config('spain.provinces') as $prov)
+                                            <option value="{{ $prov }}" {{ old('shipping-state') === $prov ? 'selected' : '' }}>{{ $prov }}</option>
+                                        @endforeach
+                                    </select>
+                                    @error('shipping-state')
+                                        <span class="lv-field-error">{{ $message }}</span>
+                                    @enderror
+                                </div>
+
+                                <div class="lv-field">
+                                    <label for="shipping-nif">DNI / NIF</label>
+                                    <input type="text" id="shipping-nif" name="shipping-nif" inputmode="text"
+                                        placeholder="12345678Z"
+                                        class="lv-input @error('shipping-nif') is-invalid @enderror"
+                                        value="{{ old('shipping-nif') }}" required>
+                                    @error('shipping-nif')
+                                        <span class="lv-field-error">{{ $message }}</span>
+                                    @enderror
+                                </div>
+
+                                <div class="lv-field">
                                     <label for="shipping-postcode">Código postal</label>
                                     <input type="text" id="shipping-postcode" name="shipping-postcode"
                                         autocomplete="postal-code"
@@ -236,6 +261,30 @@
                                 </div>
 
                                 <div class="lv-field">
+                                    <label for="billing-state">Provincia</label>
+                                    <select id="billing-state" name="billing-state" autocomplete="address-level1"
+                                        class="lv-input lv-select @error('billing-state') is-invalid @enderror">
+                                        <option value="">Selecciona una provincia</option>
+                                        @foreach (config('spain.provinces') as $prov)
+                                            <option value="{{ $prov }}" {{ old('billing-state') === $prov ? 'selected' : '' }}>{{ $prov }}</option>
+                                        @endforeach
+                                    </select>
+                                    @error('billing-state')
+                                        <span class="lv-field-error">{{ $message }}</span>
+                                    @enderror
+                                </div>
+
+                                <div class="lv-field">
+                                    <label for="billing-nif">DNI / NIF</label>
+                                    <input type="text" id="billing-nif" name="billing-nif" placeholder="12345678Z"
+                                        class="lv-input @error('billing-nif') is-invalid @enderror"
+                                        value="{{ old('billing-nif') }}">
+                                    @error('billing-nif')
+                                        <span class="lv-field-error">{{ $message }}</span>
+                                    @enderror
+                                </div>
+
+                                <div class="lv-field">
                                     <label for="billing-postcode">Código postal</label>
                                     <input type="text" id="billing-postcode" name="billing-postcode"
                                         autocomplete="postal-code"
@@ -323,7 +372,7 @@
                                                 {{ Str::limit($item['short_description'] ?? '', 70) }}</p>
                                         </div>
                                         <div class="lv-summary-item__total">
-                                            {{ number_format($itemTotal, 2, ',', ' ') }} €
+                                            {{ number_format($itemTotal, 2, ',', '.') }} €
                                         </div>
                                     </li>
                                 @endforeach

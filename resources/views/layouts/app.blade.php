@@ -9,6 +9,13 @@
     <title>
         {{ trim(View::yieldContent('title') . ' | ' . config('app.name')) }}
     </title>
+    <meta name="description"
+        content="{{ trim(View::yieldContent('meta_description')) ?: 'Lenha Viva: venta online de leña, pellets de madera, estufas, cocinas y calderas de leña. Envío gratis a toda España y Europa en 3-5 días laborables.' }}">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:site_name" content="{{ config('app.name') }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ trim(View::yieldContent('title') . ' | ' . config('app.name')) }}">
+    <link rel="alternate" hreflang="es-ES" href="{{ url()->current() }}">
 
     <link rel="icon" type="image/png" href="{{ asset('/wp-content/uploads/2022/01/er-01-scaled.png') }}" sizes="96x96">
     <link rel="icon" type="image/svg+xml" href="{{ asset('/wp-content/uploads/2022/01/er-01-scaled.png') }}">
@@ -341,9 +348,9 @@
                             <div class="mini_cart_inner">
                                 <div class="text-center p-3">
                                     <div class="spinner-border spinner-border-sm text-primary" role="status">
-                                        <span class="visually-hidden">Carregando...</span>
+                                        <span class="visually-hidden">Cargando...</span>
                                     </div>
-                                    <span class="ms-2">Carregando carrinho...</span>
+                                    <span class="ms-2">Cargando carrito...</span>
                                 </div>
                             </div>
                         </div>
@@ -355,9 +362,9 @@
                             <div class="mini_cart_inner">
                                 <div class="text-center p-3">
                                     <div class="spinner-border spinner-border-sm text-primary" role="status">
-                                        <span class="visually-hidden">Carregando...</span>
+                                        <span class="visually-hidden">Cargando...</span>
                                     </div>
-                                    <span class="ms-2">Carregando carrinho...</span>
+                                    <span class="ms-2">Cargando carrito...</span>
                                 </div>
                             </div>
                         </div>
@@ -1192,7 +1199,7 @@
                 if (tbody) {
                     tbody.innerHTML = `
                 <tr class="no-products">
-                    <td colspan="5" class="wishlist-empty">Nenhum produto adicionado à lista de desejos</td>
+                    <td colspan="5" class="wishlist-empty">No hay productos en la lista de deseos</td>
                 </tr>
             `;
                 }

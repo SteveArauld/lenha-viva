@@ -97,7 +97,7 @@
                         </div>
 
                         <p>Para solicitar una copia de cualquiera de estos certificados, escríbanos a
-                            <a href="mailto:contactlehnaviva@gmail.com">contactlehnaviva@gmail.com</a>.</p>
+                            <a href="mailto:contacto@lenhaviva.es">contacto@lenhaviva.es</a>.</p>
 
                     </div><!-- .site-main -->
                 </div>

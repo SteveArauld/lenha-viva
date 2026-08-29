@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
-@section('title', __($product['title'] . ' - ' . $product['category']))
+@section('title', $product['title'])
+@section('meta_description', \Illuminate\Support\Str::limit(strip_tags($product['short_description'] ?? $product['title']), 155))
 
 @section('content')
     @include('layouts.partials.navbar.public-show')
@@ -58,10 +59,7 @@
                     <h1 class="lv-product__title">{{ $product['title'] }}</h1>
 
                     <div class="lv-product__price-row">
-                        @if($product['old_price'] && floatval(str_replace(',', '', $product['old_price'])) > floatval(str_replace(',', '', $product['price'])))
-                            <span class="lv-product__price-old">{{ $product['old_price'] }} €</span>
-                        @endif
-                        <span class="lv-product__price">{{ $product['price'] }} €</span>
+                        <span class="lv-product__price">{{ \App\Support\Money::eur($product['price']) }}</span>
                         <span class="lv-product__price-note">(IVA incluido)</span>
                     </div>
 
@@ -191,10 +189,7 @@
                                 </figure>
                                 <div class="caption">
                                     <span class="price">
-                                        @if (!empty($relatedProduct['old_price']) && (float) str_replace(',', '', $relatedProduct['old_price']) > (float) str_replace(',', '', $relatedProduct['price']))
-                                            <del aria-hidden="true">{{ $relatedProduct['old_price'] }}&nbsp;&euro;</del>
-                                        @endif
-                                        {{ $relatedProduct['price'] }}&nbsp;&euro;
+                                        {{ \App\Support\Money::format($relatedProduct['price']) }}&nbsp;&euro;
                                     </span>
                                     <h3 class="name">
                                         <a href="{{ route('product.show', $relatedProduct['slug']) }}">{{ $relatedProduct['title'] }}</a>

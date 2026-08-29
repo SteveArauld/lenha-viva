@@ -62,7 +62,7 @@
 
 
 
-                        <p>Correo electrónico: contactlehnaviva@gmail.com </p>
+                        <p>Correo electrónico: contacto@lenhaviva.es </p>
 
 
 

@@ -43,7 +43,7 @@ class CheckoutController extends Controller
             'cart' => $cart,
             'totalItems' => $totalItems,
             'totalPrice' => $totalPrice,
-            'formattedTotalPrice' => number_format($totalPrice, 3, ',', ' '),
+            'formattedTotalPrice' => number_format($totalPrice, 2, ',', '.'),
             'isEmpty' => empty($cart),
             'pays' => $this->pays,
         ]);
@@ -65,7 +65,7 @@ class CheckoutController extends Controller
     public function store(Request $request)
     {
 
-//        dd($request);
+        //        dd($request);
         // Valider les données du formulaire
         $validated = $request->validate([
             'shipping_method' => 'required|string|max:255',
@@ -78,7 +78,9 @@ class CheckoutController extends Controller
             'shipping-address_1' => 'required|string|max:500',
             'shipping-address_2' => 'nullable|string|max:500',
             'shipping-city' => 'required|string|max:255',
-            'shipping-postcode' => 'required|string|max:20',
+            'shipping-state' => 'required|string|in:'.implode(',', config('spain.provinces')),
+            'shipping-nif' => ['required', 'string', 'regex:/^([0-9]{8}[A-Za-z]|[XYZxyz][0-9]{7}[A-Za-z]|[A-HJ-NP-SUVWa-hj-np-suvw][0-9]{7}[0-9A-Ja-j])$/'],
+            'shipping-postcode' => ['required', 'string', 'regex:/^(0[1-9]|[1-4][0-9]|5[0-2])[0-9]{3}$/'],
             'shipping-phone' => 'nullable|string|max:20',
 
             'billing-country' => 'required|string|max:100',
@@ -87,8 +89,16 @@ class CheckoutController extends Controller
             'billing-address_1' => 'required|string|max:500',
             'billing-address_2' => 'nullable|string|max:500',
             'billing-city' => 'required|string|max:255',
-            'billing-postcode' => 'required|string|max:20',
+            'billing-state' => 'nullable|string|in:'.implode(',', config('spain.provinces')),
+            'billing-nif' => ['nullable', 'string', 'regex:/^([0-9]{8}[A-Za-z]|[XYZxyz][0-9]{7}[A-Za-z]|[A-HJ-NP-SUVWa-hj-np-suvw][0-9]{7}[0-9A-Ja-j])$/'],
+            'billing-postcode' => ['required', 'string', 'regex:/^(0[1-9]|[1-4][0-9]|5[0-2])[0-9]{3}$/'],
             'billing-phone' => 'nullable|string|max:20',
+        ], [
+            'shipping-nif.regex' => 'Introduce un DNI/NIF español válido (p. ej. 12345678Z).',
+            'billing-nif.regex' => 'Introduce un DNI/NIF español válido (p. ej. 12345678Z).',
+            'shipping-postcode.regex' => 'Introduce un código postal español válido (5 dígitos).',
+            'billing-postcode.regex' => 'Introduce un código postal español válido (5 dígitos).',
+            'shipping-state.in' => 'Selecciona una provincia española.',
         ]);
 
         // Récupérer le panier
@@ -126,6 +136,8 @@ class CheckoutController extends Controller
                 'address_1' => $validated['shipping-address_1'],
                 'address_2' => $validated['shipping-address_2'] ?? '',
                 'city' => $validated['shipping-city'],
+                'state' => $validated['shipping-state'],
+                'nif' => strtoupper($validated['shipping-nif']),
                 'postcode' => $validated['shipping-postcode'],
                 'country' => $validated['shipping-country'],
                 'phone' => $validated['shipping-phone'] ?? '',
@@ -136,6 +148,8 @@ class CheckoutController extends Controller
                 'address_1' => $validated['billing-address_1'],
                 'address_2' => $validated['billing-address_2'] ?? '',
                 'city' => $validated['billing-city'],
+                'state' => $validated['billing-state'] ?? '',
+                'nif' => isset($validated['billing-nif']) ? strtoupper($validated['billing-nif']) : '',
                 'postcode' => $validated['billing-postcode'],
                 'country' => $validated['billing-country'],
                 'phone' => $validated['billing-phone'] ?? '',
@@ -143,7 +157,7 @@ class CheckoutController extends Controller
             'items' => $cart,
             'total_items' => $totalItems,
             'total_price' => $totalPrice,
-            'formatted_total_price' => number_format($totalPrice, 3, ',', ' '),
+            'formatted_total_price' => number_format($totalPrice, 2, ',', '.'),
             'order_comments' => $validated['order_notes'] ?? '',
             'order_date' => now()->format('Y-m-d H:i:s'),
         ];
@@ -153,7 +167,7 @@ class CheckoutController extends Controller
             Mail::to($validated['email'])->send(new OrderConfirmation($orderData));
 
             // Envoyer la notification à l'admin
-            $adminEmail = config('mail.admin_email', 'contactlehnaviva@gmail.com');
+            $adminEmail = config('mail.admin_email', 'contacto@lenhaviva.es');
             if ($adminEmail) {
                 Mail::to($adminEmail)->send(new AdminOrderNotification($orderData));
             }

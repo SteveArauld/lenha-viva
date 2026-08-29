@@ -1,7 +1,7 @@
 <div class="lv-navbar__topbar">
     <div class="lv-container lv-navbar__topbar-inner">
         <span class="lv-navbar__topbar-item">🚚 Envío gratis a España y Europa</span>
-        <a href="tel:+34683573516" class="lv-navbar__topbar-item lv-navbar__topbar-link">📞 +34 683 5735 16</a>
+        <a href="tel:+34683573516" class="lv-navbar__topbar-item lv-navbar__topbar-link">📞 +34 683 573 516</a>
     </div>
 </div>
 
@@ -32,18 +32,18 @@
                         <!-- Fallback si pas de catégories trouvées -->
                         <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat">
                             <a class="elementor-item"
-                                href="{{ route('category', ['category' => 'pellets-de-madeira']) }}">
-                                <span class="menu-title">PELLETS DE MADERA</span>
+                                href="{{ route('category', ['category' => 'pellets-de-madera']) }}">
+                                <span class="menu-title">Pellets de madera</span>
                             </a>
                         </li>
                         <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat">
-                            <a class="elementor-item" href="{{ route('category', ['category' => 'chef-de-madeira']) }}">
-                                <span class="menu-title">COCINAS DE LEÑA</span>
+                            <a class="elementor-item" href="{{ route('category', ['category' => 'cocinas-de-lena']) }}">
+                                <span class="menu-title">Cocinas de leña</span>
                             </a>
                         </li>
                         <li class="menu-item menu-item-type-taxonomy menu-item-object-product_cat">
-                            <a class="elementor-item" href="{{ route('category', ['category' => 'fogao-a-lenha']) }}">
-                                <span class="menu-title">ESTUFAS DE LEÑA</span>
+                            <a class="elementor-item" href="{{ route('category', ['category' => 'cocinas-de-lena']) }}">
+                                <span class="menu-title">Cocinas de leña</span>
                             </a>
                         </li>
                     @endif
@@ -73,7 +73,7 @@
                 class="tb-icon tb-icon-menu"></i></a><a href="#page" class="btn btn-sm"><i
                 class="tb-icon tb-icon-cross"></i></a></div>
     <div class="mobile-logo"><a href="{{ route('home') }}"><img fetchpriority="high"
-                src="{{ asset('wp-content/uploads/2025/10/er-01-scaled.png') }}" width="70" height="100"
+                src="{{ asset('wp-content/uploads/2022/01/er-01-scaled.png') }}" width="70" height="100"
                 alt="Lenha Viva"></a></div>
     <div class="device-mini_cart top-cart tbay-element-mini-cart">
         <div class="tbay-offcanvas-cart sidebar-right offcanvas offcanvas-end" id="cart-offcanvas-mobile">
@@ -108,7 +108,7 @@
                     <i class="tb-icon tb-icon-cart"></i>
                     <span class="mini-cart-items">
                         0 </span>
-                    <span>Carrinho</span>
+                    <span>Carrito</span>
                 </a>
             </div>
         </div>
@@ -449,22 +449,22 @@
                                                     <li
                                                         class="menu-item menu-item-type-taxonomy menu-item-object-product_cat">
                                                         <a class="elementor-item"
-                                                            href="{{ route('category', ['category' => 'pellets-de-madeira']) }}">
-                                                            <span class="menu-title">PELLETS DE MADERA</span>
+                                                            href="{{ route('category', ['category' => 'pellets-de-madera']) }}">
+                                                            <span class="menu-title">Pellets de madera</span>
                                                         </a>
                                                     </li>
                                                     <li
                                                         class="menu-item menu-item-type-taxonomy menu-item-object-product_cat">
                                                         <a class="elementor-item"
-                                                            href="{{ route('category', ['category' => 'chef-de-madeira']) }}">
-                                                            <span class="menu-title">COCINAS DE LEÑA</span>
+                                                            href="{{ route('category', ['category' => 'cocinas-de-lena']) }}">
+                                                            <span class="menu-title">Cocinas de leña</span>
                                                         </a>
                                                     </li>
                                                     <li
                                                         class="menu-item menu-item-type-taxonomy menu-item-object-product_cat">
                                                         <a class="elementor-item"
-                                                            href="{{ route('category', ['category' => 'fogao-a-lenha']) }}">
-                                                            <span class="menu-title">ESTUFAS DE LEÑA</span>
+                                                            href="{{ route('category', ['category' => 'cocinas-de-lena']) }}">
+                                                            <span class="menu-title">Cocinas de leña</span>
                                                         </a>
                                                     </li>
                                                 @endif
@@ -627,9 +627,9 @@
                                                             <div class="text-center p-3">
                                                                 <div class="spinner-border spinner-border-sm"
                                                                     role="status">
-                                                                    <span class="visually-hidden">Carregando...</span>
+                                                                    <span class="visually-hidden">Cargando...</span>
                                                                 </div>
-                                                                <span class="ms-2">Carregando carrinho...</span>
+                                                                <span class="ms-2">Cargando carrito...</span>
                                                             </div>
                                                         </div>
                                                     </div>

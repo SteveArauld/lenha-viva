@@ -1880,3 +1880,21 @@
 
 .lv-cert-badge i { color: var(--lv-success-ink, #1e7a34); }
 .lv-cert-badge:hover { border-color: var(--lv-primary, #d97706); color: var(--lv-primary, #d97706); }
+
+/* ---- Struck-through "old" prices removed from all product displays (client request).
+   On this site <del> is used exclusively for the previous price. ---- */
+ins { text-decoration: none; }
+del,
+.lv-product-card__price-old,
+.lv-product__price-old,
+.price-old,
+.wc-block-components-product-price__regular {
+    display: none !important;
+}
+
+/* ---- "Vistos recientemente" widget hid: it only held one hard-coded product
+   with a dead link and there is no recently-viewed tracking. ---- */
+.tbay-element-product-recently-viewed,
+.elementor-element-ce2e2b5 {
+    display: none !important;
+}

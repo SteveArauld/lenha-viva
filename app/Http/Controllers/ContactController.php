@@ -30,7 +30,7 @@ class ContactController extends Controller
         $subject = $fields[4] ?: 'Nuevo mensaje desde el formulario de contacto';
         $message = $fields[3];
 
-        $to = config('mail.admin_email', 'contactlehnaviva@gmail.com');
+        $to = config('mail.admin_email', 'contacto@lenhaviva.es');
 
         $body = "Nombre: {$name}\n"
             ."Email: {$fromEmail}\n"

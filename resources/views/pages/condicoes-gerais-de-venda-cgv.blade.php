@@ -67,7 +67,7 @@
 
 
 
-                        <p>Correo electrónico: contactlehnaviva@gmail.com </p>
+                        <p>Correo electrónico: contacto@lenhaviva.es </p>
 
 
 
@@ -206,7 +206,7 @@
 
 
                         <p>Para cualquier duda o reclamación, el cliente puede ponerse en contacto con el servicio
-                            de atención al cliente a través de la siguiente dirección:<br>📧 contactlehnaviva@gmail.com </p>
+                            de atención al cliente a través de la siguiente dirección:<br>📧 contacto@lenhaviva.es </p>
 
 
 

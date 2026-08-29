@@ -55,7 +55,7 @@
                             {{-- <p>Caro cliente,</p>
                             <p>Obrigado pelo seu pedido. Para confirmar o seu pedido, transfira o valor do mesmo para o
                                 conta bancária do nosso gestor de contas e envie-nos por e-mail o seu comprovativo de
-                                confirmação para: contactlehnaviva@gmail.com antes da entrega.</p>
+                                confirmação para: contacto@lenhaviva.es antes da entrega.</p>
                             <p>Titular: MARIA NEVES ALVES MAIA </p>
                             <p>IBAN: PT50 0189 0006 0642 6010 0055 5</p>
                             <p>BIC: BAPAPTPL</p>
@@ -159,6 +159,8 @@
                                             @endif
                                             {{ $order['billing']['city'] }}<br>
                                             {{ $order['billing']['postcode'] }}<br>
+                                            {{ $order['billing']['state'] ?? '' }}<br>
+                                            @if(!empty($order['billing']['nif']))DNI/NIF: {{ $order['billing']['nif'] }}<br>@endif
                                             {{ $order['billing']['country'] }}
                                             @if (!empty($order['billing']['phone']))
                                                 <p class="woocommerce-customer-details--phone">
@@ -184,6 +186,8 @@
                                             @endif
                                             {{ $order['customer']['city'] }}<br>
                                             {{ $order['customer']['postcode'] }}<br>
+                                            {{ $order['customer']['state'] ?? '' }}<br>
+                                            @if(!empty($order['customer']['nif']))DNI/NIF: {{ $order['customer']['nif'] }}<br>@endif
                                             {{ $order['customer']['country'] }}
                                             @if (!empty($order['customer']['phone']))
                                                 <p class="woocommerce-customer-details--phone">

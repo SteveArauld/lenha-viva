@@ -11,23 +11,23 @@ class HomeController extends Controller
     public function index()
     {
         $pelletProducts = LojaProduct::query()
-            ->applyFilters(['category' => 'pellets-de-madeira'])
+            ->applyFilters(['category' => 'pellets-de-madera'])
             ->paginate(16);
 
         $lenhaProducts = LojaProduct::query()
-            ->applyFilters(['category' => 'lenha'])
+            ->applyFilters(['category' => 'lena'])
             ->paginate(12);
 
         $chefProducts = LojaProduct::query()
-            ->applyFilters(['category' => 'chef-de-madeira'])
+            ->applyFilters(['category' => 'cocinas-de-lena'])
             ->paginate(12);
 
         $compactadaProducts = LojaProduct::query()
-            ->applyFilters(['category' => 'madeira-compactada'])
+            ->applyFilters(['category' => 'madera-densificada'])
             ->paginate(12);
 
         $caldeiraProducts = LojaProduct::query()
-            ->applyFilters(['category' => 'caldeira-de-lenha'])
+            ->applyFilters(['category' => 'calderas-de-lena'])
             ->paginate(4);
 
 
@@ -36,7 +36,7 @@ class HomeController extends Controller
             ->paginate(4);
 
         $madeiraFogoProducts = LojaProduct::query()
-            ->applyFilters(['category' => 'madeira-de-fogo'])
+            ->applyFilters(['category' => 'lena'])
             ->paginate(8);
 
         return view('home', compact(
@@ -202,7 +202,7 @@ class HomeController extends Controller
 
         // Formater les prix
         $formatPrice = function ($price) {
-            return number_format(floatval($price), 2, ',', ' ');
+            return number_format(floatval($price), 2, ',', '.');
         };
 
         //dd($relatedProducts);
@@ -221,7 +221,7 @@ class HomeController extends Controller
 
     private function formatPrice($price)
     {
-        return number_format($price, 3, ',', ' ');
+        return number_format($price, 2, ',', '.');
     }
 
 
@@ -586,7 +586,7 @@ class HomeController extends Controller
             }
 
             // Formater le prix avec 3 décimales
-            $formattedTotalPrice = number_format($totalPrice, 3, ',', ' ');
+            $formattedTotalPrice = number_format($totalPrice, 2, ',', '.');
 
             // Générer le HTML du mini-panier (desktop et mobile)
             $desktopHtml = '';
@@ -629,8 +629,8 @@ class HomeController extends Controller
                     $itemPrice = $this->cleanPrice($item['price'] ?? 0);
                     $itemQuantity = (int) ($item['quantity'] ?? 0);
                     $itemTotal = $itemPrice * $itemQuantity;
-                    $formattedItemPrice = number_format($itemPrice, 3, ',', ' ');
-                    $formattedItemTotal = number_format($itemTotal, 3, ',', ' ');
+                    $formattedItemPrice = number_format($itemPrice, 2, ',', '.');
+                    $formattedItemTotal = number_format($itemTotal, 2, ',', '.');
 
                     $desktopProductsHtml .= '
                 <li class="mini-cart-item mini_cart_item">
@@ -710,8 +710,8 @@ class HomeController extends Controller
                     $itemPrice = $this->cleanPrice($item['price'] ?? 0);
                     $itemQuantity = (int) ($item['quantity'] ?? 0);
                     $itemTotal = $itemPrice * $itemQuantity;
-                    $formattedItemPrice = number_format($itemPrice, 3, ',', ' ');
-                    $formattedItemTotal = number_format($itemTotal, 3, ',', ' ');
+                    $formattedItemPrice = number_format($itemPrice, 2, ',', '.');
+                    $formattedItemTotal = number_format($itemTotal, 2, ',', '.');
 
                     $mobileProductsHtml .= '
                 <li class="mini-cart-item mini_cart_item">
