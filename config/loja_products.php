@@ -4268,5 +4268,1744 @@ Con los pellets WOODSTOCK Calidad Premium, podrá disfrutar de un ambiente cáli
 
 
         'slug' => 'woodstock-calidad-premium-palet-con-78-sacos-de-15-kg'
+    ],
+    [
+        'id' => 29153,
+        'title' => 'Estufa de pellets sin electricidad – modelo CERO rem',
+        'hover_image' => 'wp-content/uploads/estufas-pellets/sin-electricidad-modelo-cero-rem-2.png',
+        'old_price' => '',
+        'price' => '454.00',
+        'category' => 'estufas-de-pellets',
+        'images' => [
+            'wp-content/uploads/estufas-pellets/sin-electricidad-modelo-cero-rem-1.png',
+            'wp-content/uploads/estufas-pellets/sin-electricidad-modelo-cero-rem-2.png',
+            'wp-content/uploads/estufas-pellets/sin-electricidad-modelo-cero-rem-3.png'
+        ],
+        'in_stock' => true, 'color' => '',
+        'short_description' => 'Detalles del producto',
+        'ref' => '8436572630222',
+        'description' => 'Detalles del producto
+La estufa de pellets de 11 kW está diseñada para ofrecer una calefacción estable, práctica y eficiente en espacios de hasta 110 m². Su potencia térmica proporciona un buen equilibrio entre capacidad de calefacción y consumo de combustible, permitiendo disfrutar de un ambiente confortable durante los meses más fríos.
+
+Con un rendimiento del 75 %, esta estufa permite aprovechar de forma eficiente el pellet de madera. Su depósito de 15 kg ofrece una capacidad adecuada para el uso diario, reduciendo la necesidad de recargas frecuentes.
+
+Su diseño compacto, con unas dimensiones de 97 × 47 × 51 cm, facilita su integración en diferentes espacios del hogar. La estructura robusta y el cestillo quemador de acero están pensados para ofrecer resistencia y fiabilidad durante el uso continuado.
+
+La salida de humos superior de Ø 100 mm facilita la configuración de la instalación, mientras que su diseño sencillo permite un manejo práctico y cómodo.
+
+Una solución adecuada para quienes buscan una estufa que combine potencia, construcción resistente, formato compacto y un funcionamiento sencillo.
+
+Ficha técnica
+Rendimiento y funcionamiento
+
+Potencia térmica: 11 kW
+Superficie calefactable: Hasta 110 m²
+Rendimiento: 75 %
+Combustible: Pellet de madera
+Capacidad del depósito: 15 kg
+
+Conexiones
+
+Salida de humos: Superior, Ø 100 mm
+
+Construcción y materiales
+
+Cestillo quemador: Acero
+Construcción: Estructura robusta y resistente
+
+Dimensiones y peso
+
+Altura: 97 cm
+Anchura: 47 cm
+Fondo: 51 cm
+Peso: 120 kg
+
+Ventajas destacadas
+
+Buena potencia de calefacción: 11 kW para climatizar superficies de hasta 110 m².
+Uso eficiente: Rendimiento del 75 % para aprovechar adecuadamente el combustible.
+Buena autonomía: Depósito de pellets de 15 kg.
+Diseño compacto: Facilita su integración en diferentes espacios domésticos.
+Construcción resistente: Cestillo quemador de acero para un uso prolongado.
+Instalación práctica: Salida de humos superior de Ø 100 mm.
+Funcionamiento sencillo: Una solución práctica para la calefacción diaria del hogar.',
+        'slug' => 'estufa-de-pellets-sin-electricidad-modelo-cero-rem'
+    ],
+    [
+        'id' => 29150,
+        'title' => 'Estufa de pellets modelo ELITE / watt 7kw',
+        'hover_image' => '',
+        'old_price' => '',
+        'price' => '315.00',
+        'category' => 'estufas-de-pellets',
+        'images' => [
+            'wp-content/uploads/estufas-pellets/modelo-elite-watt-7kw-1.png'
+        ],
+        'in_stock' => true, 'color' => '',
+        'short_description' => 'Detalles del producto',
+        'ref' => '3666964032258',
+        'description' => 'Detalles del producto
+La estufa de pellets Elite de 7 kW combina eficiencia energética, diseño moderno y facilidad de uso para ofrecer una solución de calefacción confortable durante los meses más fríos. Con una potencia de 7 kW, está diseñada para climatizar espacios de hasta 70 m², proporcionando una distribución uniforme del calor y un ambiente agradable en el hogar.
+
+Su diseño contemporáneo, disponible en una elegante combinación de negro y crema, permite integrarla fácilmente en diferentes estilos de decoración. La estructura fabricada en acero laminado en frío aporta resistencia y durabilidad, al mismo tiempo que ofrece un acabado cuidado y atractivo.
+
+Equipada con una pantalla LCD intuitiva, permite controlar el funcionamiento de la estufa de manera sencilla y cómoda. Su depósito de 13 kg ofrece una buena capacidad de almacenamiento de pellets, facilitando el uso diario y reduciendo la frecuencia de recarga.
+
+Con una clasificación energética A+, la Elite destaca por su eficiencia y su capacidad para aprovechar el combustible de forma óptima, contribuyendo a un consumo energético más eficiente.
+
+Una opción ideal para quienes buscan combinar calefacción eficiente, diseño elegante, facilidad de uso y ahorro energético en una única estufa de pellets.
+
+Ficha técnica
+
+Modelo: Elite
+Tipo de producto: Estufa de pellets
+Potencia térmica: 7 kW
+Superficie calefactable: Hasta 70 m²
+Capacidad de la tolva: 13 kg
+Sistema de control: Pantalla LCD intuitiva
+Diámetro de salida de humos: Ø 80 mm
+Clase de eficiencia energética: A+
+Material: Acero laminado en frío
+Color: Negro y crema
+Combustible: Pellets de madera
+Uso recomendado: Calefacción doméstica de espacios medianos
+Diseño: Moderno y elegante
+Rendimiento energético: Alto
+
+Ventajas destacadas
+
+Calefacción eficiente: 7 kW de potencia para espacios de hasta 70 m².
+Alta eficiencia energética: Clasificación A+ para un consumo optimizado.
+Diseño elegante: Combinación de colores negro y crema que se adapta a diferentes ambientes.
+Construcción resistente: Acero laminado en frío para una mayor durabilidad.
+Control sencillo: Pantalla LCD intuitiva para facilitar la gestión del equipo.
+Buena autonomía: Tolva de 13 kg para reducir la frecuencia de recarga.
+Formato práctico: Una solución adecuada para la calefacción diaria de espacios domésticos medianos.',
+        'slug' => 'estufa-de-pellets-modelo-elite-watt-7kw'
+    ],
+    [
+        'id' => 29147,
+        'title' => 'Estufa de Pellets de Pasillo BP-402 12 kW',
+        'hover_image' => '',
+        'old_price' => '',
+        'price' => '745.00',
+        'category' => 'estufas-de-pellets',
+        'images' => [
+            'wp-content/uploads/estufas-pellets/de-pasillo-bp-402-12-kw-1.png'
+        ],
+        'in_stock' => true, 'color' => '',
+        'short_description' => 'Detalles del producto',
+        'ref' => '8427561023200',
+        'description' => 'Detalles del producto
+La estufa de pellets BP-402 de 12 kW con diseño tipo pasillo ha sido especialmente desarrollada para aprovechar al máximo los espacios estrechos, ofreciendo una solución compacta sin renunciar a la potencia ni al rendimiento. Su formato de solo 32,1 cm de fondo facilita su integración en pasillos, zonas de paso y estancias con espacio limitado.
+
+Con un rendimiento del 96 %, esta estufa permite aprovechar eficazmente el combustible y optimizar el consumo de pellets. Su potencia nominal de 12 kW permite climatizar volúmenes de hasta 270 m³, proporcionando una calefacción estable y confortable.
+
+Incorpora el sistema RAC (Regulación Automática de Combustión), que ajusta automáticamente los parámetros de combustión para favorecer un funcionamiento eficiente y constante. Además, dispone de programación semanal, permitiendo adaptar el funcionamiento de la estufa a los horarios y necesidades de cada hogar.
+
+Su construcción combina una estructura de acero de hasta 5 mm de espesor con un intercambiador y quemador de fundición, ofreciendo una elevada resistencia y una excelente transmisión del calor. El interior de la cámara está revestido en vermiculita, un material que favorece la conservación del calor y contribuye a optimizar la combustión.
+
+El sistema de cristal limpio, junto con el cristal vitrocerámico resistente hasta 750 °C, permite disfrutar de una visión más clara de la llama y facilita el mantenimiento. La salida de humos puede configurarse en diferentes posiciones, mientras que la canalización opcional del aire caliente permite distribuir la calefacción hacia otras estancias.
+
+Su depósito de 23 litros ofrece una buena autonomía, y el display electrónico de 6 botones facilita el control y la programación del equipo. Además, es posible ampliar sus prestaciones mediante accesorios como mando a distancia, módulo Wi-Fi y kit de canalización.
+
+Una solución ideal para quienes buscan alta eficiencia, potencia, diseño ultracompacto y posibilidades avanzadas de control y distribución del calor.
+
+Ficha técnica
+Rendimiento y funcionamiento
+
+Potencia nominal: 12 kW
+Rendimiento: 96 %
+Volumen calefactable: Hasta 270 m³
+Temperatura máxima de humos: 113 °C
+Combustible: Pellet de madera
+Encendido: Automático
+Resistencia de encendido: Cerámica
+Sistema RAC: Regulación Automática de Combustión
+Programación: Semanal
+
+Construcción y materiales
+
+Estructura: Acero de hasta 5 mm de espesor
+Intercambiador: Fundición
+Quemador: Fundición
+Interior de la cámara: Vermiculita
+Cristal: Vitrocerámico resistente hasta 750 °C
+Sistema de cristal limpio: Sí
+Pintura interior: Anticalórica resistente hasta 800 °C
+Revestimiento exterior: Pintura epoxi
+
+Control y electrónica
+
+Display: Electrónico de 6 botones
+Control: Programable
+Programación semanal: Sí
+Regulación automática de combustión: Sistema RAC
+
+Conexiones
+
+Salida de humos: Ø 80 mm
+Configuraciones de salida: Derecha, superior y/o trasera
+Canalización de aire caliente: Opcional
+Posibilidad de distribución: Permite dirigir el aire caliente hacia otras estancias
+
+Depósito
+
+Capacidad de la tolva: 23 litros
+
+Dimensiones y peso
+
+Altura: 103 cm
+Anchura: 83,8 cm
+Fondo: 32,1 cm
+Peso: 145 kg
+
+Accesorios opcionales
+
+Mando a distancia
+Mando por radiofrecuencia V2.0
+Módulo Wi-Fi V2.0
+Codos de 90°: Para salida de humos y canalización
+Kit de canalización de aire caliente: Ø 80 mm
+
+Ventajas destacadas
+
+Diseño tipo pasillo: Fondo reducido de solo 32,1 cm, ideal para espacios estrechos.
+Alta eficiencia: Rendimiento del 96 % para optimizar el consumo de pellets.
+Gran capacidad de calefacción: 12 kW para climatizar hasta 270 m³.
+Combustión optimizada: Sistema RAC de regulación automática.
+Construcción robusta: Acero de hasta 5 mm, intercambiador y quemador de fundición.
+Excelente aislamiento térmico: Interior de vermiculita para mejorar la conservación del calor.
+Distribución del calor: Posibilidad de canalizar el aire caliente hacia otras habitaciones.
+Control avanzado: Programación semanal y display electrónico.
+Conectividad opcional: Posibilidad de incorporar módulo Wi-Fi y diferentes sistemas de control remoto.',
+        'slug' => 'estufa-de-pellets-de-pasillo-bp-402-12-kw'
+    ],
+    [
+        'id' => 29142,
+        'title' => 'Estufa de pellets canalizable edilkamin modelo CHIP2 PLUS',
+        'hover_image' => 'wp-content/uploads/estufas-pellets/canalizable-edilkamin-modelo-chip2-plus-2.png',
+        'old_price' => '',
+        'price' => '585.00',
+        'category' => 'estufas-de-pellets',
+        'images' => [
+            'wp-content/uploads/estufas-pellets/canalizable-edilkamin-modelo-chip2-plus-1.png',
+            'wp-content/uploads/estufas-pellets/canalizable-edilkamin-modelo-chip2-plus-2.png',
+            'wp-content/uploads/estufas-pellets/canalizable-edilkamin-modelo-chip2-plus-3.png'
+        ],
+        'in_stock' => true, 'color' => '',
+        'short_description' => 'Detalles del producto',
+        'ref' => '8023857870192',
+        'description' => 'Detalles del producto
+La estufa de pellets de 9 kW ofrece una solución práctica, eficiente y versátil para la calefacción del hogar. Diseñada para climatizar espacios de hasta 90 m², proporciona una potencia adecuada para disfrutar de un ambiente confortable mientras optimiza el consumo de combustible.
+
+Uno de sus principales puntos fuertes es su sistema de salida de humos múltiple, que permite realizar la instalación en diferentes configuraciones. La salida puede situarse en la parte superior, trasera o en cualquiera de los laterales, ofreciendo una mayor flexibilidad para adaptarse a las características de cada estancia y facilitar la integración de la estufa.
+
+Su depósito de 15 kg proporciona una buena capacidad de almacenamiento de pellets, mientras que el encendido automático facilita la puesta en marcha y el uso cotidiano. Además, el mando a distancia incluido permite controlar cómodamente el funcionamiento y ajustar la temperatura sin necesidad de desplazarse hasta el equipo.
+
+Con unas dimensiones de 93 × 49 × 50 cm, presenta un formato compacto que facilita su instalación en diferentes espacios domésticos. Su construcción sólida, con un peso de 132 kg, aporta estabilidad y robustez.
+
+Una opción ideal para quienes buscan combinar potencia de calefacción, flexibilidad de instalación, facilidad de uso y un diseño compacto.
+
+Ficha técnica
+Rendimiento y funcionamiento
+
+Potencia térmica: 9 kW
+Superficie calefactable: Hasta 90 m²
+Combustible: Pellet de madera
+Capacidad del depósito: 15 kg
+Encendido: Automático
+
+Conexiones y salida de humos
+
+Diámetro de salida de humos: Ø 80 mm
+Configuraciones disponibles: Salida superior, trasera, lateral derecha y lateral izquierda
+Ventaja: Mayor flexibilidad para adaptar la instalación a diferentes espacios
+
+Dimensiones y peso
+
+Altura: 93 cm
+Anchura: 49 cm
+Fondo: 50 cm
+Peso: 132 kg
+
+Funciones y accesorios
+
+Mando a distancia: Incluido
+Control remoto: Permite gestionar cómodamente el funcionamiento de la estufa
+Diseño: Adaptable a diferentes configuraciones de instalación
+Uso: Sencillo y práctico para el día a día
+
+Ventajas destacadas
+
+Instalación flexible: Múltiples opciones de salida de humos para adaptarse a las características de cada estancia.
+Calefacción eficiente: 9 kW de potencia para espacios de hasta 90 m².
+Formato compacto: Facilita su integración en diferentes ambientes domésticos.
+Buena capacidad: Depósito de 15 kg para reducir la frecuencia de recarga.
+Mayor comodidad: Mando a distancia incluido para controlar el equipo fácilmente.
+Diseño versátil: Adecuado para diferentes necesidades de instalación y distribución del espacio.',
+        'slug' => 'estufa-de-pellets-canalizable-edilkamin-modelo-chip2-plus'
+    ],
+    [
+        'id' => 29138,
+        'title' => 'Estufa de pellets aire rincón FM BP-100 R 9 KW',
+        'hover_image' => 'wp-content/uploads/estufas-pellets/aire-rincon-fm-bp-100-r-9-kw-2.png',
+        'old_price' => '',
+        'price' => '715.00',
+        'category' => 'estufas-de-pellets',
+        'images' => [
+            'wp-content/uploads/estufas-pellets/aire-rincon-fm-bp-100-r-9-kw-1.png',
+            'wp-content/uploads/estufas-pellets/aire-rincon-fm-bp-100-r-9-kw-2.png'
+        ],
+        'in_stock' => true, 'color' => '',
+        'short_description' => 'Detalles del producto',
+        'ref' => '8427561021497',
+        'description' => 'Detalles del producto
+La estufa de pellets de rincón FM de 9 kW ha sido diseñada específicamente para aprovechar al máximo los espacios disponibles, adaptándose perfectamente a la instalación en esquinas. Su diseño permite optimizar la distribución de la estancia sin renunciar a un elevado rendimiento térmico.
+
+Con un rendimiento del 95 %, esta estufa ofrece una calefacción eficiente y un consumo optimizado de pellets. Su potencia de 9 kW permite climatizar espacios de hasta 240 m³, proporcionando un calor confortable y constante.
+
+Incorpora una resistencia de encendido cerámica que garantiza un arranque rápido y fiable. El intercambiador y el quemador de fundición aportan resistencia y durabilidad, además de favorecer una excelente transmisión del calor. Por su parte, el interior revestido en vermiculita mejora las condiciones de combustión y ayuda a conservar el calor de manera eficiente.
+
+El sistema de cristal limpio permite mantener una visión clara de la llama durante más tiempo, mientras que el cristal vitrocerámico resistente hasta 750 °C garantiza una adecuada resistencia frente a las altas temperaturas.
+
+Su depósito de 27 litros proporciona una buena autonomía de funcionamiento, reduciendo la frecuencia de recarga. La construcción en acero de hasta 5 mm de espesor y el revestimiento exterior de pintura epoxi completan un conjunto robusto y duradero.
+
+Una solución ideal para quienes buscan combinar alto rendimiento energético, diseño específico para esquinas, autonomía y materiales de elevada resistencia.
+
+Ficha técnica
+Rendimiento y funcionamiento
+
+Potencia térmica total: 9 kW
+Rendimiento: 95 %
+Consumo de pellets: 1,97 kg/h – 0,85 kg/h
+Volumen calefactable: Hasta 240 m³
+Combustible: Pellet de madera
+Encendido: Automático
+Resistencia de encendido: Cerámica
+
+Construcción y materiales
+
+Estructura: Acero de hasta 5 mm de espesor
+Intercambiador: Fundición
+Quemador: Fundición
+Interior: Vermiculita
+Puerta: Con cordón vitrocerámico
+Pintura interior: Pintura anticalórica inorgánica resistente hasta 800 °C
+Revestimiento exterior: Pintura epoxi
+Cristal: Vitrocerámico resistente hasta 750 °C
+Sistema de cristal limpio: Sí
+
+Sistema de ventilación
+
+Ventilador tangencial: 265 m³/h
+Potencia del ventilador: 43 W
+Salida de aire: Frontal
+
+Conexiones
+
+Salida de humos: Ø 80 mm macho
+Entrada de aire primario: Ø 40 mm
+
+Depósito
+
+Capacidad de la tolva: 27 litros
+
+Dimensiones y peso
+
+Altura: 85,1 cm
+Anchura: 78,3 cm
+Fondo: 48,5 cm
+Peso: 90 kg
+
+Ventajas destacadas
+
+Diseño para esquinas: Permite aprovechar mejor el espacio disponible y facilita su instalación en rincones.
+Alta eficiencia: Rendimiento del 95 % para un consumo optimizado de pellets.
+Construcción robusta: Acero de hasta 5 mm, intercambiador y quemador de fundición.
+Combustión optimizada: Interior de vermiculita para mejorar el aprovechamiento y la retención del calor.
+Buena autonomía: Tolva de 27 litros que reduce la frecuencia de recarga.
+Encendido fiable: Resistencia cerámica de rápida respuesta.
+Visión clara de la llama: Sistema de cristal limpio para facilitar el mantenimiento del cristal.',
+        'slug' => 'estufa-de-pellets-aire-rincon-fm-bp-100-r-9-kw'
+    ],
+    [
+        'id' => 29130,
+        'title' => 'Estufa de pellets Aire Frontal Modelo BP-CH0 5,5 Kw',
+        'hover_image' => 'wp-content/uploads/estufas-pellets/aire-frontal-modelo-bp-ch0-55-kw-2.png',
+        'old_price' => '',
+        'price' => '555.00',
+        'category' => 'estufas-de-pellets',
+        'images' => [
+            'wp-content/uploads/estufas-pellets/aire-frontal-modelo-bp-ch0-55-kw-1.png',
+            'wp-content/uploads/estufas-pellets/aire-frontal-modelo-bp-ch0-55-kw-2.png',
+            'wp-content/uploads/estufas-pellets/aire-frontal-modelo-bp-ch0-55-kw-3.png'
+        ],
+        'in_stock' => true, 'color' => '',
+        'short_description' => 'Detalles del producto',
+        'ref' => '8427561020346',
+        'description' => 'Detalles del producto
+La estufa de pellets de aire frontal BP-CH 0 de 5,5 kW ha sido diseñada para proporcionar una calefacción eficiente, confortable y fiable en espacios residenciales de hasta 125 m³. Su potencia y diseño compacto la convierten en una solución práctica para disfrutar de un ambiente cálido y agradable en el hogar.
+
+Equipada con una resistencia de encendido cerámica, garantiza un arranque rápido y fiable. Su quemador de fundición ofrece una elevada resistencia al uso y contribuye a mejorar el rendimiento y la durabilidad del equipo.
+
+El sistema de cristal limpio ayuda a mantener una visión más clara de la llama durante el funcionamiento, mientras que el cristal vitrocerámico, resistente hasta 750 °C, proporciona seguridad y durabilidad frente a las altas temperaturas.
+
+Su estructura fabricada en acero de hasta 5 mm de espesor, junto con el interior de acero y el revestimiento exterior de pintura epoxi, proporciona una construcción sólida y resistente. El interior está protegido con pintura anticalórica capaz de soportar temperaturas de hasta 800 °C.
+
+El depósito de 23 litros ofrece una buena capacidad de almacenamiento de pellets, reduciendo la frecuencia de recarga y facilitando el uso diario. Además, incorpora un sistema de ventilación mediante ventilador tangencial de 265 m³/h para favorecer una distribución eficaz del aire caliente.
+
+La estufa también permite ampliar sus prestaciones mediante accesorios opcionales, como módulo Wi-Fi, mando a distancia y codo reducido de 90° para la salida lateral de humos.
+
+Ficha técnica
+Rendimiento y funcionamiento
+
+Potencia nominal útil: 5,5 kW
+Rendimiento: 86 %
+Emisiones: 0,04 %
+Consumo de pellets: 1,08 kg/h
+Volumen calefactable: Hasta 125 m³
+Combustible: Pellet de madera
+Encendido: Automático
+Resistencia de encendido: Cerámica
+
+Construcción y materiales
+
+Estructura: Acero de hasta 5 mm de espesor
+Interior: Acero
+Quemador: Fundición
+Puerta: Con cordón vitrocerámico
+Pintura interior: Pintura anticalórica resistente hasta 800 °C
+Revestimiento exterior: Pintura epoxi
+Cristal: Vitrocerámico resistente hasta 750 °C
+Sistema de cristal limpio: Sí
+
+Sistema de ventilación
+
+Ventilador tangencial: 265 m³/h
+Potencia del ventilador: 43 W
+Salida de aire: Frontal
+
+Conexiones
+
+Salida de humos: Ø 80 mm macho
+Entrada de aire primario: Ø 30 mm
+
+Depósito
+
+Capacidad de la tolva: 23 litros
+
+Dimensiones y peso
+
+Altura: 70,4 cm
+Anchura: 44,6 cm
+Fondo: 44,2 cm
+Peso: 60 kg
+
+Accesorios opcionales
+
+Codo reducido de 90°: Para adaptar la salida de humos lateral
+Módulo Wi-Fi: Para gestionar el equipo de forma remota
+Mando a distancia: Para un control más cómodo del funcionamiento
+Control remoto: Opción adicional para facilitar la gestión diaria de la estufa
+
+Ventajas destacadas
+
+Calefacción eficiente: 5,5 kW de potencia para espacios de hasta 125 m³.
+Encendido fiable: Resistencia cerámica de respuesta rápida y elevada durabilidad.
+Construcción robusta: Acero de hasta 5 mm y quemador de fundición.
+Visión de la llama: Sistema de cristal limpio para mantener el cristal en mejores condiciones durante el uso.
+Mayor autonomía: Depósito de 23 litros que reduce la frecuencia de recarga.
+Buena distribución del calor: Ventilador tangencial de 265 m³/h con salida frontal.
+Control ampliable: Posibilidad de incorporar Wi-Fi y mando a distancia.
+Diseño compacto: Dimensiones reducidas que facilitan su integración en diferentes espacios del hogar.',
+        'slug' => 'estufa-de-pellets-aire-frontal-modelo-bp-ch0-55-kw'
+    ],
+    [
+        'id' => 29125,
+        'title' => 'Estufa de pellets Aire Frontal Modelo BP-100',
+        'hover_image' => 'wp-content/uploads/estufas-pellets/aire-frontal-modelo-bp-100-2.png',
+        'old_price' => '',
+        'price' => '654.00',
+        'category' => 'estufas-de-pellets',
+        'images' => [
+            'wp-content/uploads/estufas-pellets/aire-frontal-modelo-bp-100-1.png',
+            'wp-content/uploads/estufas-pellets/aire-frontal-modelo-bp-100-2.png',
+            'wp-content/uploads/estufas-pellets/aire-frontal-modelo-bp-100-3.png'
+        ],
+        'in_stock' => true, 'color' => '',
+        'short_description' => 'Detalles del producto',
+        'ref' => '8427561009914',
+        'description' => 'Detalles del producto
+La estufa de pellets BP-100 con salida de aire frontal ha sido diseñada para ofrecer una calefacción potente, eficiente y con un consumo optimizado. Con una potencia térmica regulable de 4,0 a 9,5 kW y un rendimiento de hasta el 95 %, permite climatizar espacios de hasta 240 m³, proporcionando un calor confortable y constante.
+
+Su resistencia de encendido cerámica garantiza un arranque rápido y fiable, además de ofrecer una excelente durabilidad. El intercambiador y el quemador de fundición favorecen una transferencia térmica eficiente y aportan una elevada resistencia al uso continuado.
+
+El interior revestido en vermiculita mejora las condiciones de combustión y ayuda a optimizar el aprovechamiento del calor. Asimismo, incorpora una puerta equipada con cordón vitrocerámico, cristal resistente a altas temperaturas y un sistema de cristal limpio, que facilita la conservación de una visión clara de la llama.
+
+La estructura, fabricada en acero de hasta 5 mm de espesor, proporciona una construcción sólida y resistente. El acabado exterior en pintura epoxi está disponible en burdeos, negro o blanco, permitiendo elegir la opción que mejor se adapte al estilo del espacio.
+
+Su depósito de 27 litros ofrece una buena autonomía de funcionamiento, mientras que el ventilador tangencial de 265 m³/h garantiza una distribución eficaz del aire caliente.
+
+Una solución ideal para quienes buscan combinar potencia, eficiencia energética, materiales de alta calidad, autonomía y un diseño moderno.
+
+Ficha técnica
+Rendimiento y funcionamiento
+
+Potencia térmica total: 9,5 kW – 4,0 kW
+Potencia nominal útil: 8,8 kW – 3,8 kW
+Rendimiento: 92 % – 95 %
+Emisiones: 0,01 % – 0,02 %
+Consumo de pellets: 1,97 kg/h – 0,85 kg/h
+Volumen calefactable: Hasta 240 m³
+Combustible: Pellet de madera
+Encendido: Automático
+Resistencia de encendido: Cerámica
+
+Construcción y materiales
+
+Estructura: Acero de hasta 5 mm de espesor
+Intercambiador: Fundición
+Quemador: Fundición
+Interior: Vermiculita
+Puerta: Con cordón vitrocerámico
+Pintura interior: Pintura anticalórica inorgánica resistente hasta 800 °C
+Revestimiento exterior: Pintura epoxi
+Cristal: Vitrocerámico resistente hasta 750 °C
+Sistema de cristal limpio: Sí
+
+Sistema de ventilación
+
+Ventilador tangencial: 265 m³/h
+Potencia del ventilador: 43 W
+Salida de aire: Frontal
+
+Conexiones
+
+Salida de humos: Ø 80 mm macho
+Entrada de aire primario: Ø 40 mm
+
+Depósito
+
+Capacidad de la tolva: 27 litros
+
+Dimensiones y peso
+
+Altura: 851 mm
+Anchura: 408 mm
+Fondo: 442 mm
+Peso: 80 kg
+
+Colores disponibles
+
+Burdeos
+Negro
+Blanco
+
+Ventajas destacadas
+
+Alta eficiencia térmica: Rendimiento de hasta el 95 % para optimizar el consumo de pellets.
+Construcción robusta: Acero de hasta 5 mm, intercambiador y quemador de fundición.
+Encendido fiable: Resistencia cerámica de rápida respuesta y elevada durabilidad.
+Combustión optimizada: Interior de vermiculita para mejorar el aprovechamiento térmico.
+Buena autonomía: Tolva de 27 litros para reducir la frecuencia de recarga.
+Distribución eficaz del calor: Ventilador tangencial de 265 m³/h con salida frontal.
+Fácil mantenimiento: Sistema de cristal limpio y materiales resistentes a altas temperaturas.
+Diseño versátil: Disponible en acabados burdeos, negro y blanco.',
+        'slug' => 'estufa-de-pellets-aire-frontal-modelo-bp-100'
+    ],
+    [
+        'id' => 29120,
+        'title' => 'Estufa de pellets – modelo VEGA 10kw',
+        'hover_image' => 'wp-content/uploads/estufas-pellets/modelo-vega-10kw-2.png',
+        'old_price' => '',
+        'price' => '445.00',
+        'category' => 'estufas-de-pellets',
+        'images' => [
+            'wp-content/uploads/estufas-pellets/modelo-vega-10kw-1.png',
+            'wp-content/uploads/estufas-pellets/modelo-vega-10kw-2.png',
+            'wp-content/uploads/estufas-pellets/modelo-vega-10kw-3.png'
+        ],
+        'in_stock' => true, 'color' => '',
+        'short_description' => 'Detalles del producto',
+        'ref' => '8436572633322',
+        'description' => 'Detalles del producto
+La estufa de pellets de 10 kW ha sido diseñada para ofrecer una calefacción eficiente y un excelente rendimiento energético en espacios de hasta 100 m². Con un rendimiento del 94 %, permite aprovechar al máximo el combustible, proporcionando un calor confortable y constante con un consumo optimizado.
+
+Su sistema de autorregulación de potencia adapta automáticamente el funcionamiento de la estufa a las necesidades de calefacción, ayudando a mejorar la eficiencia y el confort. Además, incorpora programación horaria para configurar fácilmente los periodos de funcionamiento y adaptar la calefacción a la rutina diaria del hogar.
+
+La posibilidad de añadir conectividad Wi-Fi permite gestionar el equipo de forma más cómoda e inteligente, ofreciendo un mayor control sobre su funcionamiento. Su diseño compacto, con unas dimensiones de 97 × 43 × 44 cm, facilita su integración en diferentes espacios domésticos sin ocupar demasiado espacio.
+
+Con una tolva de 15 kg, esta estufa proporciona una buena capacidad de almacenamiento de combustible y está equipada con una salida de humos trasera de Ø 80 mm y una toma de aire exterior de Ø 60 mm.
+
+Una solución ideal para quienes buscan combinar alta eficiencia energética, comodidad de uso, control inteligente y un diseño compacto para la calefacción del hogar.
+
+Ficha técnica
+
+Tipo de producto: Estufa de pellets
+Potencia térmica: 10 kW
+Rendimiento: 94 %
+Superficie calefactable: Hasta 100 m²
+Capacidad de la tolva: 15 kg
+Salida de humos: Ø 80 mm, trasera
+Toma de aire exterior: Ø 60 mm
+Programación horaria: Sí
+Conectividad Wi-Fi: Sí
+Autorregulación de potencia: Sí
+Combustible: Pellet de madera
+
+Dimensiones y peso
+
+Altura: 97 cm
+Anchura: 43 cm
+Fondo: 44 cm
+Peso: 81 kg
+
+Ventajas destacadas
+
+Alta eficiencia: Rendimiento del 94 % para un consumo optimizado.
+Potencia adecuada: 10 kW para calefactar superficies de hasta 100 m².
+Funcionamiento inteligente: Autorregulación de potencia según las necesidades térmicas.
+Mayor comodidad: Programación horaria para adaptar el funcionamiento a la rutina diaria.
+Control remoto: Posibilidad de gestionar la estufa mediante conexión Wi-Fi.
+Diseño compacto: Fácil de integrar en diferentes espacios del hogar.
+Buena autonomía: Tolva de 15 kg para un uso prolongado.',
+        'slug' => 'estufa-de-pellets-modelo-vega-10kw'
+    ],
+    [
+        'id' => 29115,
+        'title' => 'Estufa de pellets – modelo MATILDE HIERRO FUNDIDO',
+        'hover_image' => 'wp-content/uploads/estufas-pellets/modelo-matilde-hierro-fundido-2.png',
+        'old_price' => '',
+        'price' => '585.00',
+        'category' => 'estufas-de-pellets',
+        'images' => [
+            'wp-content/uploads/estufas-pellets/modelo-matilde-hierro-fundido-1.png',
+            'wp-content/uploads/estufas-pellets/modelo-matilde-hierro-fundido-2.png',
+            'wp-content/uploads/estufas-pellets/modelo-matilde-hierro-fundido-3.png'
+        ],
+        'in_stock' => true, 'color' => '',
+        'short_description' => 'Detalles del producto',
+        'ref' => '8436572635955',
+        'description' => 'Detalles del producto
+La estufa de pellets Matilde de hierro fundido combina potencia, diseño y robustez para proporcionar una calefacción eficiente y confortable en espacios de hasta 120 m². Su diseño panorámico con tres cristales ofrece una amplia visión de la llama desde diferentes ángulos, creando un ambiente cálido y acogedor en cualquier estancia.
+
+Equipada con una potencia total de 12 kW, distribuye el calor de manera equilibrada mediante 10 kW de potencia frontal y 2 kW de radiación térmica, favoreciendo una sensación de confort uniforme y constante.
+
+Su construcción en hierro fundido, tanto en el interior como en la puerta, proporciona una excelente resistencia al uso y una gran capacidad para acumular y transmitir el calor. Esta característica permite mantener una temperatura agradable durante más tiempo, al mismo tiempo que aporta una mayor durabilidad al equipo.
+
+Con unas dimensiones compactas de 110 × 52 × 50 cm y un peso de 81 kg, la Matilde combina una presencia elegante con una construcción sólida. Su tolva de 15 kg ofrece una buena capacidad de almacenamiento de pellets para facilitar el funcionamiento diario.
+
+Una opción ideal para quienes buscan una estufa que combine alto rendimiento térmico, diseño panorámico, materiales resistentes y un excelente confort de calefacción.
+
+Ficha técnica
+Rendimiento y calefacción
+
+Potencia total: 12 kW
+Potencia frontal: 10 kW
+Potencia por radiación: 2 kW
+Superficie calefactable: Hasta 120 m²
+Capacidad de la tolva: 15 kg
+Combustible: Pellet de madera
+
+Diseño y construcción
+
+Modelo: Matilde
+Tipo de producto: Estufa de pellets
+Diseño: Panorámico con 3 cristales
+Interior: Hierro fundido
+Puerta: Hierro fundido
+Acumulación térmica: Alta
+Difusión del calor: Eficiente y uniforme
+Construcción: Robusta y duradera
+
+Conexiones
+
+Salida de humos: Ø 80 mm, ubicada en la parte trasera
+
+Dimensiones y peso
+
+Altura: 110 cm
+Anchura: 52 cm
+Fondo: 50 cm
+Peso: 81 kg
+
+Ventajas destacadas
+
+Diseño panorámico: Tres cristales que permiten disfrutar de una amplia visión de la llama.
+Alta resistencia: Construcción en hierro fundido para una mayor durabilidad.
+Excelente rendimiento térmico: Combinación de potencia frontal y radiación para una distribución equilibrada del calor.
+Buena capacidad de almacenamiento: Tolva de 15 kg para un funcionamiento cómodo.
+Confort prolongado: El hierro fundido favorece la acumulación y difusión gradual del calor.
+Calefacción eficiente: Ideal para estancias de hasta 120 m².',
+        'slug' => 'estufa-de-pellets-modelo-matilde-hierro-fundido'
+    ],
+    [
+        'id' => 29110,
+        'title' => 'Estufa de pellets – modelo BESTIA 15,3kw triple salida',
+        'hover_image' => 'wp-content/uploads/estufas-pellets/modelo-bestia-153kw-triple-salida-2.png',
+        'old_price' => '',
+        'price' => '395.00',
+        'category' => 'estufas-de-pellets',
+        'images' => [
+            'wp-content/uploads/estufas-pellets/modelo-bestia-153kw-triple-salida-1.png',
+            'wp-content/uploads/estufas-pellets/modelo-bestia-153kw-triple-salida-2.png',
+            'wp-content/uploads/estufas-pellets/modelo-bestia-153kw-triple-salida-3.png'
+        ],
+        'in_stock' => true, 'color' => '',
+        'short_description' => 'Detalles del producto',
+        'ref' => '8436572635395',
+        'description' => 'Detalles del producto
+La estufa de pellets de 15,3 kW está diseñada para proporcionar una calefacción potente, eficiente y confortable en espacios de hasta 150 m². Su elevado rendimiento del 92 % permite aprovechar de forma óptima el combustible, proporcionando una generación de calor constante con un consumo eficiente.
+
+Uno de sus principales puntos fuertes es su sistema de triple salida de aire caliente, compuesto por una salida frontal y dos salidas orientables. Esta configuración permite dirigir el calor hacia diferentes zonas de la vivienda y mejorar la distribución térmica, adaptándose a las necesidades de cada espacio.
+
+El encendido automático y el sistema de programación permiten configurar fácilmente el funcionamiento de la estufa para disfrutar de una temperatura confortable sin necesidad de realizar ajustes constantes. Además, el mando a distancia incluido facilita el control diario, mientras que la posibilidad de incorporar conectividad Wi-Fi permite gestionar la estufa de forma más cómoda e inteligente.
+
+El cestillo quemador fabricado en hierro fundido proporciona una elevada resistencia al uso y contribuye a la durabilidad del equipo. Con unas dimensiones de 112 × 53 × 63 cm y un peso de 120 kg, ofrece una combinación equilibrada entre potencia, prestaciones y diseño.
+
+Una solución ideal para quienes buscan alta capacidad de calefacción, distribución eficiente del calor, programación avanzada y control remoto en un único equipo.
+
+Ficha técnica
+Rendimiento y funcionamiento
+
+Potencia térmica: 15,3 kW
+Rendimiento: 92 %
+Superficie calefactable: Hasta 150 m²
+Combustible: Pellet de madera
+Capacidad del depósito: 15 kg
+Encendido: Automático
+Programación: Totalmente programable
+
+Sistema de ventilación
+
+Sistema de triple salida de aire caliente
+
+1 salida frontal
+2 salidas orientables
+
+Ventaja: Permite distribuir y dirigir el calor hacia diferentes zonas del hogar
+
+Conexiones
+
+Salida de humos: Ø 80 mm, ubicada en la parte trasera
+
+Construcción y materiales
+
+Cestillo quemador: Hierro fundido
+Ventaja: Alta resistencia y mayor durabilidad
+
+Dimensiones y peso
+
+Altura: 112 cm
+Anchura: 53 cm
+Fondo: 63 cm
+Peso: 120 kg
+
+Control y funciones
+
+Mando a distancia: Incluido
+Conectividad Wi-Fi: Opcional
+Programación: Sistema totalmente programable
+Encendido: Automático
+
+Ventajas destacadas
+
+Alta potencia: 15,3 kW para calentar superficies de hasta 150 m²
+Elevada eficiencia: Rendimiento del 92 %
+Distribución optimizada: Triple salida de aire caliente con dos salidas orientables
+Mayor comodidad: Encendido automático y programación configurable
+Control remoto: Mando a distancia incluido
+Control inteligente: Posibilidad de gestionar la estufa mediante conectividad Wi-Fi
+Construcción resistente: Cestillo quemador de hierro fundido para una mayor durabilidad',
+        'slug' => 'estufa-de-pellets-modelo-bestia-153kw-triple-salida'
+    ],
+    [
+        'id' => 29106,
+        'title' => 'Estufa – cocina de pellets – modelo SAMANTHA inox',
+        'hover_image' => 'wp-content/uploads/estufas-pellets/cocina-modelo-samantha-inox-2.png',
+        'old_price' => '',
+        'price' => '955.00',
+        'category' => 'estufas-de-pellets',
+        'images' => [
+            'wp-content/uploads/estufas-pellets/cocina-modelo-samantha-inox-1.png',
+            'wp-content/uploads/estufas-pellets/cocina-modelo-samantha-inox-2.png'
+        ],
+        'in_stock' => true, 'color' => '',
+        'short_description' => 'Detalles del producto',
+        'ref' => '8033123611145',
+        'description' => 'Detalles del producto
+La estufa de pellets de 11 kW combina potencia, eficiencia y una construcción resistente para ofrecer una calefacción confortable y fiable en el hogar. Diseñada para calentar superficies de hasta 110 m², distribuye el calor de manera equilibrada mediante su sistema de potencia frontal y radiación adicional, proporcionando una temperatura agradable y uniforme.
+
+Su estructura de acero inoxidable aporta resistencia y durabilidad, mientras que el interior fabricado en fundición favorece la acumulación y transmisión del calor, ayudando a mantener una sensación térmica estable durante más tiempo.
+
+Con un diseño compacto y unas dimensiones de 85 × 60 × 60 cm, esta estufa se adapta fácilmente a diferentes espacios domésticos. Su depósito de 15 kg permite disponer de una buena autonomía de funcionamiento, convirtiéndola en una solución práctica para la calefacción diaria.
+
+Una opción ideal para quienes buscan combinar potencia, eficiencia térmica, materiales de calidad y un diseño compacto en un único sistema de calefacción.
+
+Ficha técnica
+Rendimiento y funcionamiento
+
+Potencia térmica total: 11 kW
+Potencia frontal: 9 kW
+Potencia por radiación: 2 kW
+Superficie calefactable: Hasta 110 m²
+Combustible: Pellet de madera
+Capacidad del depósito: 15 kg
+
+Construcción y materiales
+
+Estructura: Acero inoxidable
+Interior: Fundición
+Características: Construcción robusta y diseñada para un uso prolongado
+
+Conexiones
+
+Salida de humos: Ø 80 mm, ubicada en la parte superior
+
+Dimensiones y peso
+
+Altura: 85 cm
+Anchura: 60 cm
+Fondo: 60 cm
+Peso: 81 kg
+
+Ventajas destacadas
+
+Calefacción eficiente: Distribución del calor mediante potencia frontal y radiación
+Amplia capacidad de calefacción: Adecuada para espacios de hasta 110 m²
+Construcción resistente: Acero inoxidable para una mayor durabilidad
+Excelente acumulación térmica: Interior de fundición que favorece la conservación y transmisión del calor
+Buena autonomía: Depósito de pellets de 15 kg
+Diseño compacto: Fácil de integrar en diferentes espacios del hogar',
+        'slug' => 'estufa-cocina-de-pellets-modelo-samantha-inox'
     ]
+,
+    [
+        'id' => 31001,
+        'title' => 'Coterram Generación – pellets, lote de 100 sacos',
+        'hover_image' => '',
+        'old_price' => '',
+        'price' => '335.00',
+        'category' => 'pellets-de-madera',
+        'images' => [
+            'wp-content/uploads/agro-pellets/coterram-generacion-pellets-lote-de-100-saco-1.jpg'
+        ],
+        'in_stock' => true, 'color' => '',
+        'short_description' => 'Coterram Generación es un pellet de biomasa elaborado con materia prima 100 % natural, diseñado para ofrecer una calefacción eficiente, sostenible y de alto rendimiento.',
+        'ref' => '8425402028797',
+        'description' => 'Coterram Generación es un pellet de biomasa elaborado con materia prima 100 % natural, diseñado para ofrecer una calefacción eficiente, sostenible y de alto rendimiento. Su calidad certificada garantiza un combustible fiable, homogéneo y respetuoso con el medio ambiente, ideal para sistemas de calefacción domésticos y profesionales.
+
+Gracias a su elevada densidad y a su bajo contenido de humedad, este pellet proporciona un excelente poder calorífico, favoreciendo una combustión limpia, estable y eficiente. Estas características permiten obtener un mayor aprovechamiento energético, optimizando el consumo de combustible y mejorando el rendimiento de estufas y calderas automáticas de pellets.
+
+Su composición y calidad de fabricación ayudan a reducir la generación de residuos, produciendo una cantidad mínima de cenizas y disminuyendo las tareas de limpieza y mantenimiento de los equipos. Además, su combustión uniforme contribuye a un funcionamiento más fiable, reduciendo el riesgo de obstrucciones y favoreciendo una mayor durabilidad de las instalaciones.
+
+El suministro se presenta en un práctico lote de 100 sacos de 15 kg, con un peso total de 1.500 kg, ofreciendo una reserva amplia para cubrir las necesidades de calefacción durante toda la temporada. Una solución ideal para hogares, negocios y usuarios profesionales que buscan confort térmico, ahorro energético y sostenibilidad.
+
+Ventajas principales
+
+• Pellet fabricado con materia prima 100 % natural.
+
+• Calidad certificada para un rendimiento fiable.
+
+• Alta densidad para un mejor aprovechamiento energético.
+
+• Bajo contenido de humedad.
+
+• Elevado poder calorífico.
+
+• Combustión limpia, estable y eficiente.
+
+• Producción de cenizas muy reducida.
+
+• Menor frecuencia de limpieza y mantenimiento.
+
+• Compatible con estufas y calderas automáticas.
+
+• Formato profesional de 100 sacos de 15 kg.
+
+• Combustible sostenible y respetuoso con el medio ambiente.
+
+Ficha técnica
+
+Característica
+Especificación
+
+Marca
+Coterram Generación
+
+Tipo de producto
+Pellet para calefacción
+
+Composición
+Materia prima 100 % natural
+
+Certificación
+Calidad certificada
+
+Formato de suministro
+Lote de 100 sacos
+
+Peso por saco
+15 kg
+
+Peso total del lote
+1.500 kg
+
+Densidad
+Alta
+
+Contenido de humedad
+Bajo
+
+Poder calorífico
+Elevado
+
+Producción de cenizas
+Muy reducida
+
+Compatibilidad
+Estufas y calderas automáticas
+
+Uso recomendado
+Calefacción doméstica y profesional
+
+Características ecológicas
+Producto sostenible y respetuoso con el medio ambiente
+
+El pellet Coterram Generación de 1.500 kg es una alternativa eficiente y sostenible para quienes buscan un combustible de biomasa con alto rendimiento, bajo mantenimiento y una combustión limpia. Su formato de gran capacidad garantiza un suministro cómodo y continuo para disfrutar de una calefacción eficiente durante toda la temporada.
+
+EAN:8425402028797',
+        'slug' => 'coterram-generacion-pellets-lote-de-100-sacos'
+    ],
+    [
+        'id' => 31002,
+        'title' => 'CYL Pellet – 100 sacos, calidad DIN Plus',
+        'hover_image' => '',
+        'old_price' => '',
+        'price' => '335.00',
+        'category' => 'pellets-de-madera',
+        'images' => [
+            'wp-content/uploads/agro-pellets/cyl-pellet-100-sacos-din-plus-1.png'
+        ],
+        'in_stock' => true, 'color' => '',
+        'short_description' => 'CYL Pellet es un pellet de biomasa de alta calidad diseñado para ofrecer un elevado rendimiento térmico, una combustión limpia y una eficiencia energética superior.',
+        'ref' => '8437012351441',
+        'description' => 'CYL Pellet es un pellet de biomasa de alta calidad diseñado para ofrecer un elevado rendimiento térmico, una combustión limpia y una eficiencia energética superior. Certificado bajo la norma DIN Plus, cumple con exigentes estándares de calidad que garantizan un combustible fiable, homogéneo y preparado para obtener el máximo rendimiento en estufas y calderas de pellets.
+
+Gracias a su alto poder calorífico y a su muy bajo contenido de cenizas, este pellet permite generar más calor con una menor cantidad de residuos, optimizando el consumo de combustible y reduciendo las necesidades de mantenimiento de los equipos de calefacción.
+
+Fabricado por Hijos de Tomás Martín, S.L. – BURPELLET, en su planta de valorización de biomasa de Huerta de Rey, CYL Pellet incorpora procesos de producción avanzados que aseguran una calidad constante, un control riguroso del producto y un funcionamiento eficiente en cada suministro.
+
+Su formato en lote de 100 sacos de 15 kg, con un peso total de 1.500 kg, ofrece una reserva amplia y práctica para afrontar toda la temporada de calefacción. Una solución ideal para hogares, comercios y usuarios profesionales que buscan combinar confort térmico, ahorro energético y sostenibilidad.
+
+Ventajas principales
+
+• Pellet de biomasa certificado bajo norma DIN Plus.
+
+• Alto rendimiento energético y gran capacidad calorífica.
+
+• Muy bajo contenido de cenizas.
+
+• Combustión limpia, eficiente y estable.
+
+• Menor acumulación de residuos en estufas y calderas.
+
+• Reduce las tareas de mantenimiento.
+
+• Calidad homogénea garantizada en cada saco.
+
+• Fabricado por BURPELLET con procesos avanzados de producción.
+
+• Formato profesional de 100 sacos de 15 kg.
+
+• Ideal para calefacción residencial y comercial.
+
+• Combustible renovable y sostenible.
+
+Ficha técnica
+
+Característica
+Especificación
+
+Marca
+CYL Pellet
+
+Fabricante
+Hijos de Tomás Martín, S.L. – BURPELLET
+
+Tipo de producto
+Pellet de biomasa para calefacción
+
+Certificación
+DIN Plus
+
+Formato de suministro
+Lote de 100 sacos
+
+Peso por saco
+15 kg
+
+Peso total del lote
+1.500 kg
+
+Poder calorífico
+Alto
+
+Contenido de cenizas
+Muy bajo
+
+Tipo de combustión
+Eficiente y limpia
+
+Compatibilidad
+Estufas y calderas de pellets
+
+Aplicaciones
+Uso residencial y comercial
+
+Origen de fabricación
+Planta de valorización de biomasa de Huerta de Rey
+
+Características ecológicas
+Biomasa renovable y sostenible
+
+El pellet CYL Pellet DIN Plus es una solución energética eficiente para quienes buscan un combustible de biomasa de alta calidad, con gran rendimiento térmico y un funcionamiento limpio. Su formato de gran capacidad garantiza un suministro cómodo y continuo para mantener una calefacción eficiente durante toda la temporada.
+
+EAN:8437012351441',
+        'slug' => 'cyl-pellet-100-sacos-din-plus'
+    ],
+    [
+        'id' => 31003,
+        'title' => 'Naturpellet – palet de 70 sacos (1.050 kg)',
+        'hover_image' => '',
+        'old_price' => '',
+        'price' => '310.00',
+        'category' => 'pellets-de-madera',
+        'images' => [
+            'wp-content/uploads/agro-pellets/naturpellet-palet-de-70-sacos-1050-kg-1.jpeg'
+        ],
+        'in_stock' => true, 'color' => '',
+        'short_description' => 'Naturpellet es un pellet premium elaborado exclusivamente con madera de pino descortezada, sin aditivos químicos ni presencia de corteza, diseñado para ofrecer un rendimiento energético superior y una combustión limpia, estable y ',
+        'ref' => '8437015545004',
+        'description' => 'Naturpellet es un pellet premium elaborado exclusivamente con madera de pino descortezada, sin aditivos químicos ni presencia de corteza, diseñado para ofrecer un rendimiento energético superior y una combustión limpia, estable y eficiente.
+
+Su calidad está respaldada por las certificaciones europeas ENplus A1 y DINplus, que garantizan un combustible de altas prestaciones, con una fabricación controlada y adaptada a los estándares más exigentes del mercado de la biomasa.
+
+Gracias a su bajo contenido de humedad y a su reducido nivel de cenizas, este pellet proporciona un elevado poder calorífico, permitiendo optimizar el consumo de combustible y mejorar el rendimiento de estufas y calderas de pellets. Su combustión homogénea favorece un funcionamiento más limpio, reduce la acumulación de residuos y disminuye las necesidades de mantenimiento de los equipos.
+
+Se suministra en un práctico palet de 70 sacos de 15 kg, con un peso total de 1.050 kg, ofreciendo una reserva amplia y cómoda para periodos prolongados de calefacción. Su formato facilita el almacenamiento y permite disponer del combustible organizado y protegido.
+
+Además, sus sacos fabricados con papel vegetal 100 % biodegradable refuerzan el compromiso medioambiental de Naturpellet, ofreciendo una alternativa sostenible para hogares y negocios que buscan combinar eficiencia energética, ahorro y respeto por el entorno.
+
+Ventajas principales
+
+• Pellet premium de 100 % madera de pino descortezada.
+
+• Sin aditivos ni cortezas.
+
+• Certificaciones ENplus A1 y DINplus.
+
+• Alto poder calorífico para un mayor rendimiento.
+
+• Humedad inferior al 10 %.
+
+• Contenido de cenizas inferior al 0,7 %.
+
+• Combustión limpia, estable y eficiente.
+
+• Menor acumulación de residuos en estufas y calderas.
+
+• Reduce las tareas de mantenimiento de los equipos.
+
+• Formato profesional de 70 sacos de 15 kg.
+
+• Envasado sostenible con papel vegetal 100 % biodegradable.
+
+• Biomasa renovable de origen certificado.
+
+Ficha técnica
+
+Característica
+Especificación
+
+Marca
+Naturpellet
+
+Tipo de producto
+Pellet de biomasa para calefacción
+
+Composición
+100 % madera de pino descortezada
+
+Aditivos
+No contiene aditivos ni cortezas
+
+Certificaciones
+ENplus A1 y DINplus
+
+Formato de suministro
+Palet de 70 sacos
+
+Peso por saco
+15 kg
+
+Peso total del palet
+1.050 kg
+
+Diámetro del pellet
+6 mm
+
+Humedad
+< 10 %
+
+Contenido de cenizas
+< 0,7 %
+
+Poder calorífico
+Alto
+
+Tipo de combustión
+Limpia, estable y eficiente
+
+Compatibilidad
+Estufas y calderas de pellets
+
+Envasado
+Papel vegetal 100 % biodegradable
+
+Uso recomendado
+Calefacción residencial y comercial
+
+Características ecológicas
+Biomasa renovable, certificada y sostenible
+
+Entrega
+Servicio a domicilio incluido según zona, con entrega a pie de calle
+
+El pellet Naturpellet ENplus A1 y DINplus es una solución ideal para quienes buscan un combustible de biomasa de alta calidad, eficiente y respetuoso con el medio ambiente. Su excelente rendimiento energético, su baja generación de residuos y su formato de gran capacidad garantizan una calefacción fiable y confortable durante toda la temporada.
+
+EAN:8437015545004',
+        'slug' => 'naturpellet-palet-de-70-sacos-1050-kg'
+    ],
+    [
+        'id' => 31004,
+        'title' => 'Naturpellet – palé de 70 sacos de 15 kg',
+        'hover_image' => '',
+        'old_price' => '',
+        'price' => '310.00',
+        'category' => 'pellets-de-madera',
+        'images' => [
+            'wp-content/uploads/agro-pellets/naturpellet-pale-de-70-sacos-de-15-kg-1.png'
+        ],
+        'in_stock' => true, 'color' => '',
+        'short_description' => 'Naturpellet es un pellet de biomasa de calidad premium fabricado exclusivamente con madera virgen 100 % natural, sin aditivos químicos ni agentes aglutinantes.',
+        'ref' => '31004',
+        'description' => 'Naturpellet es un pellet de biomasa de calidad premium fabricado exclusivamente con madera virgen 100 % natural, sin aditivos químicos ni agentes aglutinantes. Su doble certificación ENplus A1 y DINplus garantiza un combustible de alta calidad que cumple con los estándares europeos más exigentes en eficiencia, limpieza y rendimiento.
+
+Gracias a su elevado poder calorífico y a su bajo contenido de cenizas, este pellet proporciona una combustión estable, uniforme y altamente eficiente, permitiendo optimizar el consumo de combustible y reducir las necesidades de mantenimiento de estufas y calderas de pellets.
+
+Su excelente durabilidad mecánica del 99,2 % y su contenido de finos inferior al 0,1 % reducen notablemente la generación de polvo durante el transporte, almacenamiento y alimentación del equipo, favoreciendo un funcionamiento más limpio, seguro y fiable.
+
+Además de sus prestaciones energéticas, Naturpellet apuesta por la sostenibilidad mediante el uso de sacos fabricados con papel 100 % reciclado, reduciendo el uso de plásticos y ofreciendo una solución responsable desde la selección de la materia prima hasta el embalaje final.
+
+Ideal para usuarios domésticos y profesionales que buscan un pellet certificado, eficiente y respetuoso con el medio ambiente, capaz de ofrecer un calor constante con un mantenimiento reducido.
+
+Ventajas principales
+
+• Pellet premium elaborado con 100 % madera virgen.
+
+• Sin aditivos químicos ni aglutinantes.
+
+• Doble certificación ENplus A1 y DINplus.
+
+• Alto poder calorífico para un mayor rendimiento energético.
+
+• Bajo contenido de cenizas para reducir la limpieza del equipo.
+
+• Combustión limpia, estable y eficiente.
+
+• Durabilidad mecánica del 99,2 %.
+
+• Menos del 0,1 % de finos para minimizar polvo y residuos.
+
+• Compatible con estufas y calderas de pellets.
+
+• Sacos fabricados con papel 100 % reciclado.
+
+• Biomasa renovable con enfoque sostenible.
+
+Ficha técnica
+
+Característica
+Especificación
+
+Marca
+Naturpellet
+
+Tipo de producto
+Pellet de biomasa para calefacción
+
+Composición
+100 % madera virgen
+
+Aditivos químicos
+No contiene
+
+Certificaciones
+ENplus A1 y DINplus
+
+Envasado
+Sacos de papel 100 % reciclado
+
+Humedad
+5,4 %
+
+Poder calorífico
+18,1 MJ/kg
+
+Contenido de finos
+< 0,1 %
+
+Durabilidad mecánica
+99,2 %
+
+Contenido de cenizas
+0,5 %
+
+Tipo de combustión
+Limpia y eficiente
+
+Generación de polvo
+Muy reducida
+
+Compatibilidad
+Estufas y calderas de pellets
+
+Aplicaciones
+Uso residencial y profesional
+
+Características ecológicas
+Biomasa renovable con embalaje sostenible
+
+Mantenimiento
+Menor acumulación de residuos y limpieza más sencilla
+
+Naturpellet Premium es una elección ideal para quienes buscan un pellet de alto rendimiento, certificado y sostenible. Su excelente calidad de fabricación garantiza una combustión eficiente, un calor constante y un funcionamiento más limpio de los equipos de calefacción durante toda la temporada.',
+        'slug' => 'naturpellet-pale-de-70-sacos-de-15-kg'
+    ],
+    [
+        'id' => 31005,
+        'title' => 'Mi Pellet – pellets premium certificados, 77 sacos',
+        'hover_image' => '',
+        'old_price' => '',
+        'price' => '309.00',
+        'category' => 'pellets-de-madera',
+        'images' => [
+            'wp-content/uploads/agro-pellets/mi-pellet-pellets-premium-certificados-77-sa-1.jpg'
+        ],
+        'in_stock' => true, 'color' => '',
+        'short_description' => 'Mi Pellet y Más es un pellet premium de biomasa elaborado exclusivamente con serrín de pino descortezado 100 % natural, sin aditivos ni aglutinantes químicos.',
+        'ref' => '2000000005157',
+        'description' => 'Mi Pellet y Más es un pellet premium de biomasa elaborado exclusivamente con serrín de pino descortezado 100 % natural, sin aditivos ni aglutinantes químicos. Su certificación ENplus-A1 garantiza una calidad constante y un alto nivel de rendimiento, cumpliendo con los estándares europeos más exigentes para combustibles de biomasa.
+
+Gracias a su elevado poder calorífico, este pellet permite obtener una gran producción de calor con un consumo optimizado de combustible. Su bajo contenido de cenizas favorece una combustión más limpia y eficiente, reduciendo la acumulación de residuos y facilitando el mantenimiento de estufas y calderas de pellets.
+
+La elevada durabilidad mecánica de los pellets minimiza la generación de polvo y evita roturas durante el transporte, almacenamiento y alimentación automática de los equipos. Esto contribuye a un funcionamiento más estable, fiable y eficiente durante toda la temporada de calefacción.
+
+Se presenta en un práctico pack de 77 sacos, ofreciendo una reserva amplia de combustible para hogares, negocios e instalaciones profesionales. Una solución ideal para quienes buscan combinar eficiencia energética, sostenibilidad y máximo confort térmico con un mantenimiento reducido.
+
+Ventajas principales
+
+• Pellet fabricado con 100 % serrín de pino descortezado natural.
+
+• Sin aditivos ni aglutinantes.
+
+• Certificación ENplus-A1 de calidad europea.
+
+• Alto poder calorífico para un mayor rendimiento energético.
+
+• Bajo contenido de cenizas.
+
+• Combustión limpia, estable y eficiente.
+
+• Alta durabilidad mecánica.
+
+• Generación de polvo muy reducida.
+
+• Menor acumulación de residuos en los equipos.
+
+• Compatible con todo tipo de estufas y calderas de pellets.
+
+• Formato práctico de 77 sacos.
+
+• Producto natural y de origen sostenible.
+
+Ficha técnica
+
+Característica
+Especificación
+
+Marca
+Mi Pellet y Más
+
+Tipo de producto
+Pellet de biomasa para calefacción
+
+Certificación
+ENplus-A1
+
+Composición
+100 % serrín de pino descortezado
+
+Aditivos
+No contiene aditivos ni aglutinantes
+
+Poder calorífico
+Alto
+
+Contenido de cenizas
+Bajo
+
+Durabilidad mecánica
+Elevada
+
+Generación de polvo
+Muy reducida
+
+Tipo de combustión
+Limpia y eficiente
+
+Compatibilidad
+Estufas y calderas de pellets
+
+Formato de suministro
+Pack de 77 sacos
+
+Calidad
+Homogénea y certificada
+
+Uso recomendado
+Calefacción residencial y profesional
+
+Características ecológicas
+Producto natural y de origen sostenible
+
+El pellet Mi Pellet y Más ENplus-A1 es una opción de alto rendimiento para quienes buscan un combustible de biomasa fiable, eficiente y respetuoso con el medio ambiente. Su excelente calidad de fabricación garantiza una combustión limpia, un calor constante y un funcionamiento optimizado de los sistemas de calefacción por pellets.
+
+EAN:2000000005157',
+        'slug' => 'mi-pellet-pellets-premium-certificados-77-sacos'
+    ],
+    [
+        'id' => 31006,
+        'title' => 'Naturpellet – palet de 40 sacos premium',
+        'hover_image' => '',
+        'old_price' => '',
+        'price' => '225.00',
+        'category' => 'pellets-de-madera',
+        'images' => [
+            'wp-content/uploads/agro-pellets/naturpellet-palet-de-40-sacos-premium-1.jpg'
+        ],
+        'in_stock' => true, 'color' => '',
+        'short_description' => 'Naturpellet es un pellet de biomasa de alta calidad elaborado con madera 100 % virgen, sin tratamientos químicos ni aditivos, diseñado para ofrecer una combustión eficiente, segura y respetuosa con el medio ambiente.',
+        'ref' => '8437015545004',
+        'description' => 'Naturpellet es un pellet de biomasa de alta calidad elaborado con madera 100 % virgen, sin tratamientos químicos ni aditivos, diseñado para ofrecer una combustión eficiente, segura y respetuosa con el medio ambiente.
+
+Su proceso de fabricación optimizado garantiza un combustible homogéneo, con excelentes prestaciones energéticas y un rendimiento constante, ideal para aprovechar al máximo la eficiencia de estufas y calderas de pellets tanto en instalaciones domésticas como profesionales.
+
+La calidad de Naturpellet está avalada por las certificaciones ENplus A1 y DINplus, que garantizan el cumplimiento de los estándares europeos más exigentes en materia de calidad, pureza y rendimiento. Además, cuenta con la certificación forestal PEFC, que asegura que la madera utilizada procede de bosques gestionados de forma responsable y sostenible.
+
+Gracias a su combustión limpia y eficiente, este pellet ayuda a reducir la acumulación de residuos en los equipos de calefacción, favoreciendo un menor mantenimiento y contribuyendo a prolongar la vida útil de estufas y calderas.
+
+Se suministra en un práctico palet de 40 sacos, un formato cómodo para el almacenamiento y la gestión del combustible. Sus sacos de papel ecológico reducen el impacto ambiental del embalaje y refuerzan el compromiso sostenible de la marca.
+
+Ventajas principales
+
+• Pellet premium fabricado con 100 % madera virgen.
+
+• Sin aditivos ni tratamientos químicos.
+
+• Certificaciones ENplus A1 y DINplus.
+
+• Certificación forestal PEFC de origen sostenible.
+
+• Combustión limpia, estable y eficiente.
+
+• Alto rendimiento energético.
+
+• Calidad homogénea en cada suministro.
+
+• Menor generación de residuos y mantenimiento reducido.
+
+• Compatible con estufas y calderas de pellets.
+
+• Formato paletizado práctico para almacenamiento.
+
+• Sacos de papel ecológicos de bajo impacto ambiental.
+
+Ficha técnica
+
+Característica
+Especificación
+
+Marca
+Naturpellet
+
+Tipo de producto
+Pellet de biomasa para calefacción
+
+Composición
+Madera 100 % virgen
+
+Aditivos químicos
+No contiene
+
+Certificaciones
+ENplus A1 y DINplus
+
+Certificación forestal
+PEFC
+
+Formato de suministro
+Palet de 40 sacos
+
+Envasado
+Sacos de papel ecológicos
+
+Poder calorífico
+Alto
+
+Tipo de combustión
+Limpia y eficiente
+
+Producción de residuos
+Reducida
+
+Calidad
+Homogénea y certificada
+
+Compatibilidad
+Estufas y calderas de pellets
+
+Uso recomendado
+Calefacción residencial y profesional
+
+Características ecológicas
+Madera de origen sostenible y embalaje de bajo impacto ambiental
+
+El pellet Naturpellet certificado es una solución ideal para quienes buscan combinar eficiencia energética, sostenibilidad y fiabilidad. Su fabricación con madera virgen, sus certificaciones de calidad y su excelente comportamiento en combustión garantizan un calor confortable y un funcionamiento eficiente durante toda la temporada de calefacción.
+
+EAN:8437015545004',
+        'slug' => 'naturpellet-palet-de-40-sacos-premium'
+    ],
+    [
+        'id' => 31007,
+        'title' => 'Palé de pellets certificados Asturias – 72 sacos de 15 kg',
+        'hover_image' => '',
+        'old_price' => '',
+        'price' => '307.00',
+        'category' => 'pellets-de-madera',
+        'images' => [
+            'wp-content/uploads/agro-pellets/pale-de-pellets-certificados-asturias-72-sac-1.jpeg'
+        ],
+        'in_stock' => true, 'color' => '',
+        'short_description' => 'Este palé de pellets certificados ofrece una solución de calefacción eficiente, sostenible y de alto rendimiento para hogares, negocios e instalaciones profesionales.',
+        'ref' => '8437013149016',
+        'description' => 'Este palé de pellets certificados ofrece una solución de calefacción eficiente, sostenible y de alto rendimiento para hogares, negocios e instalaciones profesionales. Fabricados con 100 % madera natural y sin aditivos químicos, estos pellets proporcionan una combustión limpia, estable y optimizada para aprovechar al máximo la energía del combustible en estufas y calderas de pellets.
+
+Su reducido contenido de humedad, inferior al 8 %, junto con su bajo nivel de cenizas, favorece una combustión más eficiente y un elevado poder calorífico. Esto permite obtener más calor con un menor consumo de combustible, mejorando el rendimiento del sistema de calefacción y reduciendo los costes de uso.
+
+Además, la baja generación de residuos ayuda a disminuir las tareas de mantenimiento, evitando una acumulación excesiva de cenizas y depósitos en los equipos. De esta forma, contribuye a mantener las instalaciones de calefacción en óptimas condiciones durante más tiempo.
+
+El producto se suministra en un práctico palé de 72 sacos de 15 kg, con un peso total de 1.080 kg, proporcionando una reserva amplia de combustible para toda la temporada. Su formato paletizado facilita el almacenamiento, la organización y la manipulación, siendo una opción ideal tanto para viviendas particulares como para instalaciones comerciales y profesionales.
+
+Fabricado en Asturias, España, este pellet representa una alternativa energética renovable, eficiente y con una baja huella de carbono, combinando confort térmico, ahorro y respeto por el medio ambiente.
+
+Ventajas principales
+
+• Pellet fabricado con 100 % madera natural.
+
+• Sin aditivos químicos.
+
+• Calidad certificada para una combustión fiable.
+
+• Humedad inferior al 8 % para un mayor rendimiento energético.
+
+• Contenido de cenizas inferior al 0,7 %.
+
+• Alto poder calorífico.
+
+• Combustión limpia, estable y eficiente.
+
+• Menor generación de residuos y menos limpiezas.
+
+• Compatible con estufas y calderas de pellets domésticas y profesionales.
+
+• Formato de gran capacidad: 72 sacos de 15 kg.
+
+• Fabricado en Asturias con biomasa renovable de baja huella de carbono.
+
+Ficha técnica
+
+Característica
+Especificación
+
+Tipo de producto
+Pellet de biomasa para calefacción
+
+Formato de suministro
+Palé de 72 sacos
+
+Peso por saco
+15 kg
+
+Peso total del palé
+1.080 kg
+
+Composición
+100 % madera natural
+
+Aditivos químicos
+No contiene
+
+Certificación
+Pellet certificado de calidad garantizada
+
+Humedad
+< 8 %
+
+Contenido de cenizas
+< 0,7 %
+
+Poder calorífico
+Alto
+
+Tipo de combustión
+Limpia y eficiente
+
+Compatibilidad
+Estufas y calderas de pellets domésticas y profesionales
+
+Aplicaciones
+Uso residencial, comercial y profesional
+
+Origen de fabricación
+Asturias, España
+
+Características ecológicas
+Combustible renovable y de baja huella de carbono
+
+Mantenimiento
+Baja generación de residuos y menor frecuencia de limpieza
+
+El pellet certificado de 1.080 kg es una solución ideal para quienes buscan un combustible de biomasa eficiente, limpio y sostenible. Su excelente calidad, su bajo nivel de humedad y su formato de gran capacidad garantizan un suministro fiable de calor durante toda la temporada de calefacción.
+
+EAN:8437013149016',
+        'slug' => 'pale-de-pellets-certificados-asturias-72-sacos-de-15-kg'
+    ],
+    [
+        'id' => 31008,
+        'title' => 'Palet de pellets – 70 sacos (1.050 kg)',
+        'hover_image' => '',
+        'old_price' => '',
+        'price' => '309.00',
+        'category' => 'pellets-de-madera',
+        'images' => [
+            'wp-content/uploads/agro-pellets/palet-de-pellets-70-sacos-1050-kg-1.jpg'
+        ],
+        'in_stock' => true, 'color' => '',
+        'short_description' => 'El palé de pellets de madera de 1.050 kg es una solución práctica y eficiente para quienes necesitan un suministro amplio y organizado de combustible de biomasa.',
+        'ref' => '8437012678012',
+        'description' => 'El palé de pellets de madera de 1.050 kg es una solución práctica y eficiente para quienes necesitan un suministro amplio y organizado de combustible de biomasa. Su formato paletizado permite una gestión cómoda del almacenamiento, el transporte y la distribución, siendo ideal tanto para usuarios domésticos con un elevado consumo como para instalaciones profesionales e industriales.
+
+Los pellets se suministran en 70 sacos resistentes de 15 kg, diseñados para conservar correctamente el producto y facilitar su manipulación diaria. Este formato permite disponer de una reserva de combustible duradera, manteniendo los sacos protegidos, ordenados y listos para su utilización.
+
+La estructura del palé está preparada para una manipulación segura mediante carretillas elevadoras estándar, optimizando las operaciones de carga, descarga y traslado. Esto convierte este formato en una opción especialmente adecuada para distribuidores, empresas, comunidades de vecinos, hoteles e instalaciones que requieren continuidad en el suministro.
+
+Gracias a su formato de gran capacidad, este palé de pellets ofrece una solución logística eficiente que reduce la manipulación manual, mejora la organización del almacenamiento y garantiza disponibilidad de combustible durante periodos prolongados.
+
+Ventajas principales
+
+• Formato profesional de 1.050 kg de pellets de madera.
+
+• 70 sacos individuales de 15 kg para facilitar el uso.
+
+• Almacenamiento limpio, ordenado y optimizado.
+
+• Sacos resistentes para una mejor conservación del producto.
+
+• Fácil manipulación mediante carretillas elevadoras estándar.
+
+• Reduce tiempos de carga, descarga y gestión logística.
+
+• Ideal para consumos elevados y suministro continuado.
+
+• Adecuado para viviendas de alto consumo, empresas e instalaciones profesionales.
+
+• Combustible renovable y sostenible procedente de biomasa.
+
+Ficha técnica
+
+Característica
+Especificación
+
+Tipo de producto
+Pellet de madera para calefacción
+
+Formato de suministro
+Palé completo
+
+Número de sacos
+70 unidades
+
+Peso por saco
+15 kg
+
+Peso total del palé
+1.050 kg
+
+Composición
+Pellets de madera de alta calidad
+
+Envasado
+Sacos resistentes para almacenamiento y transporte
+
+Manipulación logística
+Compatible con carretillas elevadoras estándar
+
+Almacenamiento
+Seguro, ordenado y optimizado
+
+Aplicaciones
+Uso residencial intensivo, comercial e industrial
+
+Usuarios recomendados
+Distribuidores, hoteles, industrias, comunidades de vecinos y profesionales energéticos
+
+Características ecológicas
+Combustible renovable y sostenible
+
+Ventajas operativas
+Menor manipulación manual y gestión logística simplificada
+
+El palé de pellets de madera de 1.050 kg es una solución ideal para quienes buscan un suministro fiable, cómodo y eficiente. Su gran capacidad, su formato organizado y su facilidad de manejo lo convierten en una opción perfecta para garantizar una calefacción continua con una logística sencilla y optimizada.
+
+EAN:8437012678012',
+        'slug' => 'palet-de-pellets-70-sacos-1050-kg'
+    ],
+    [
+        'id' => 31009,
+        'title' => 'Palet premium de pellets ecológicos Bioforestal – 42 sacos de 15 kg',
+        'hover_image' => '',
+        'old_price' => '',
+        'price' => '230.00',
+        'category' => 'pellets-de-madera',
+        'images' => [
+            'wp-content/uploads/agro-pellets/palet-premium-de-pellets-ecologicos-biofores-1.png'
+        ],
+        'in_stock' => true, 'color' => '',
+        'short_description' => 'El Palet Premium BIOFORESTAL es un pellet de biomasa de alta calidad diseñado para ofrecer una calefacción eficiente, sostenible y de máximo rendimiento.',
+        'ref' => '8437013149115',
+        'description' => 'El Palet Premium BIOFORESTAL es un pellet de biomasa de alta calidad diseñado para ofrecer una calefacción eficiente, sostenible y de máximo rendimiento. Fabricado exclusivamente con 100 % madera virgen y sin tratamientos químicos, proporciona una combustión limpia, estable y segura, ideal para estufas y calderas de pellets tanto de uso doméstico como profesional.
+
+Su certificación ENplus A1 garantiza el cumplimiento de los estándares europeos más exigentes en cuanto a calidad, eficiencia energética y control de producción. Gracias a su elevado poder calorífico y a su muy bajo contenido de cenizas, este pellet permite obtener un calor constante, optimizar el consumo de combustible y reducir las tareas de mantenimiento de los equipos.
+
+Además, cuenta con certificación PEFC, que asegura que la materia prima procede de bosques gestionados de forma responsable, favoreciendo una producción sostenible y respetuosa con el medio ambiente.
+
+Su baja generación de residuos y sus reducidas emisiones contribuyen a una combustión más limpia, ayudando a mantener los equipos en mejores condiciones y prolongando su eficiencia de funcionamiento. El formato en palet de 42 sacos de 15 kg ofrece una reserva práctica y cómoda para afrontar toda la temporada de calefacción.
+
+Ventajas principales
+
+• Pellet premium elaborado con 100 % madera virgen.
+
+• Sin tratamientos químicos ni sustancias perjudiciales.
+
+• Certificación ENplus A1 de alta calidad.
+
+• Certificación forestal PEFC de gestión sostenible.
+
+• Alto poder calorífico para un mayor rendimiento energético.
+
+• Muy bajo contenido de cenizas.
+
+• Combustión limpia, estable y eficiente.
+
+• Menor acumulación de residuos en estufas y calderas.
+
+• Emisiones reducidas de nitrógeno y cloro.
+
+• Balance de emisiones de CO₂ prácticamente neutro.
+
+• Compatible con sistemas de calefacción domésticos y profesionales.
+
+• Formato paletizado cómodo de almacenar y gestionar.
+
+Ficha técnica
+
+Característica
+Especificación
+
+Marca
+BIOFORESTAL
+
+Tipo de producto
+Pellet de biomasa para calefacción
+
+Composición
+100 % madera virgen
+
+Tratamientos químicos
+No contiene
+
+Formato de suministro
+Palet de 42 sacos
+
+Peso por saco
+15 kg
+
+Peso total del palet
+630 kg
+
+Certificación de calidad
+ENplus A1
+
+Certificación forestal
+PEFC
+
+Poder calorífico
+Alto
+
+Contenido de cenizas
+Muy bajo
+
+Emisiones de nitrógeno
+Reducidas
+
+Emisiones de cloro
+Reducidas
+
+Sustancias peligrosas
+No contiene
+
+Tipo de combustión
+Limpia y eficiente
+
+Compatibilidad
+Estufas y calderas de pellets
+
+Uso recomendado
+Calefacción residencial y profesional
+
+Características ecológicas
+Biomasa renovable procedente de bosques gestionados sosteniblemente
+
+Mantenimiento
+Menor acumulación de residuos y reducción de limpiezas
+
+El Pellet BIOFORESTAL Premium es una solución energética ideal para quienes buscan combinar eficiencia térmica, calidad certificada y compromiso medioambiental. Su fabricación con madera virgen, sus certificaciones ENplus A1 y PEFC, y su excelente comportamiento en combustión garantizan un calor confortable, limpio y sostenible durante toda la temporada.
+
+EAN:8437013149115',
+        'slug' => 'palet-premium-de-pellets-ecologicos-bioforestal-42-sacos-de-15-kg'
+    ]
+
 ];

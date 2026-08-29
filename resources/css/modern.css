@@ -1898,3 +1898,25 @@ del,
 .elementor-element-ce2e2b5 {
     display: none !important;
 }
+
+/* ---- Home: "Estufas de pellets" zone ---- */
+.lv-home-estufas {
+    padding: 56px 0 20px;
+    background: var(--lv-bg, #f9f8f6);
+}
+.lv-home-estufas__head { text-align: center; margin-bottom: 32px; }
+.lv-home-estufas__subtitle {
+    display: block;
+    font-size: 13px;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--lv-primary, #d97706);
+    margin-bottom: 6px;
+}
+.lv-home-estufas__title {
+    font-family: var(--lv-font-display, Georgia, serif);
+    font-size: clamp(24px, 4vw, 34px);
+    color: var(--lv-brand, #1b3022);
+    margin: 0;
+}
+.lv-home-estufas__cta { text-align: center; margin-top: 32px; }

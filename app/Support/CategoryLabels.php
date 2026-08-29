@@ -13,6 +13,7 @@ class CategoryLabels
     protected static array $labels = [
         // canonical ES slugs
         'pellets-de-madera' => 'Pellets de madera',
+        'estufas-de-pellets' => 'Estufas de pellets',
         'cocinas-de-lena' => 'Cocinas de leña',
         'calderas-de-lena' => 'Calderas de leña',
         'lena' => 'Leña',
@@ -38,6 +39,7 @@ class CategoryLabels
         return [
             'lena' => 'Leña',
             'pellets-de-madera' => 'Pellets de madera',
+            'estufas-de-pellets' => 'Estufas de pellets',
             'cocinas-de-lena' => 'Cocinas de leña',
             'calderas-de-lena' => 'Calderas de leña',
             'madera-densificada' => 'Madera densificada',

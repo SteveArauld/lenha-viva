@@ -26,18 +26,18 @@ class ViewServiceProvider extends ServiceProvider
             $categories = [];
 
             if (config()->has('loja_products')) {
-                $allProducts = collect(config('loja_products'));
-                $categories = $allProducts
+                $present = collect(config('loja_products'))
                     ->pluck('category')
+                    ->filter()
                     ->unique()
-                    ->mapWithKeys(function ($category) {
-                        $categoryName = strtoupper(str_replace('-', ' ', $category));
-                        return [$category => $categoryName];
-                    })
-                    ->toArray();
+                    ->all();
 
-                // Optionnel : trier les catégories par ordre alphabétique
-                asort($categories);
+                // Canonical order + Spanish labels; only categories that have products.
+                foreach (\App\Support\CategoryLabels::all() as $slug => $label) {
+                    if (in_array($slug, $present, true)) {
+                        $categories[$slug] = $label;
+                    }
+                }
             }
 
             $view->with('categories', $categories);

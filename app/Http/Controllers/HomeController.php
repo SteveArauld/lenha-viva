@@ -39,6 +39,15 @@ class HomeController extends Controller
             ->applyFilters(['category' => 'lena'])
             ->paginate(8);
 
+        $estufasPelletsProducts = LojaProduct::query()
+            ->applyFilters(['category' => 'estufas-de-pellets'])
+            ->paginate(12);
+
+        // Nuevos pellets importados (ids 31001-31009) — zona propia en la home.
+        $nuevosPelletsProducts = collect(config('loja_products'))
+            ->filter(fn ($p) => is_array($p) && ($p['id'] ?? 0) >= 31001 && ($p['id'] ?? 0) <= 31099)
+            ->values();
+
         return view('home', compact(
             'pelletProducts',
             'lenhaProducts',
@@ -46,7 +55,9 @@ class HomeController extends Controller
             'compactadaProducts',
             'caldeiraProducts',
             'granelProducts',
-            'madeiraFogoProducts'
+            'madeiraFogoProducts',
+            'estufasPelletsProducts',
+            'nuevosPelletsProducts'
         ));
     }
 
