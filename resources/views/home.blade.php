@@ -100,27 +100,6 @@
                                 </section>
 
 
-                                @if (isset($estufasPelletsProducts) && count($estufasPelletsProducts) > 0)
-                                    <section class="lv-home-estufas">
-                                        <div class="container">
-                                            <div class="lv-home-estufas__head">
-                                                <span class="lv-home-estufas__subtitle">Calefacción eficiente</span>
-                                                <h2 class="lv-home-estufas__title">Estufas de pellets</h2>
-                                            </div>
-                                            <div class="lv-product-grid">
-                                                @foreach ($estufasPelletsProducts as $estufa)
-                                                    <x-product-card :product="$estufa" />
-                                                @endforeach
-                                            </div>
-                                            <div class="lv-home-estufas__cta">
-                                                <a class="lv-btn lv-btn--primary"
-                                                    href="{{ route('category', ['category' => 'estufas-de-pellets']) }}">Ver
-                                                    todas las estufas de pellets</a>
-                                            </div>
-                                        </div>
-                                    </section>
-                                @endif
-
                                 @if (isset($nuevosPelletsProducts) && count($nuevosPelletsProducts) > 0)
                                     <section class="lv-home-estufas">
                                         <div class="container">
@@ -1657,6 +1636,28 @@
                                         </div>
                                     </div>
                                 </section>
+
+
+                                @if (isset($estufasPelletsProducts) && count($estufasPelletsProducts) > 0)
+                                    <section class="lv-home-estufas">
+                                        <div class="container">
+                                            <div class="lv-home-estufas__head">
+                                                <span class="lv-home-estufas__subtitle">Calefacción eficiente</span>
+                                                <h2 class="lv-home-estufas__title">Estufas de pellets</h2>
+                                            </div>
+                                            <div class="lv-product-grid">
+                                                @foreach ($estufasPelletsProducts as $estufa)
+                                                    <x-product-card :product="$estufa" />
+                                                @endforeach
+                                            </div>
+                                            <div class="lv-home-estufas__cta">
+                                                <a class="lv-btn lv-btn--primary"
+                                                    href="{{ route('category', ['category' => 'estufas-de-pellets']) }}">Ver
+                                                    todas las estufas de pellets</a>
+                                            </div>
+                                        </div>
+                                    </section>
+                                @endif
 
 
                                 {{-- Avis clients masqués à la demande du client --}}
