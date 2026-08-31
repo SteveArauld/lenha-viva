@@ -37,7 +37,7 @@
 
 
 
-                        <p><strong>Correo electrónico:</strong> contacto@lenhaviva.es <br>
+                        <p><strong>Correo electrónico:</strong> contacto@casacubertatrias.es <br>
                             <strong>Teléfono / WhatsApp:</strong> +34 683 573 516</p>
 
 
@@ -119,7 +119,7 @@
 
 
 
-                        <p>Correo electrónico: contacto@lenhaviva.es </p>
+                        <p>Correo electrónico: contacto@casacubertatrias.es </p>
 
 
 

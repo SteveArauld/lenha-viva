@@ -32,21 +32,21 @@
                     <div id="main" class="site-main">
 
                         <p>1 – ALOJAMIENTO EN UNA PLATAFORMA SÓLIDA Y PROFESIONAL<br>El <a
-                                href="{{ route('home') }}">https://lenhaviva.com</a> está alojado en un servidor
+                                href="{{ route('home') }}">https://casacubertatrias.es</a> está alojado en un servidor
                             profesional mantenido por una empresa especializada. Los servidores también se actualizan
                             con regularidad.</p>
 
 
 
                         <p>2 – USO DE UN CERTIFICADO SSL PARA PROTEGER SUS DATOS
-                            PERSONALES<br>lenhaviva.com utiliza un certificado SSL para proteger la
+                            PERSONALES<br>casacubertatrias.es utiliza un certificado SSL para proteger la
                             información transmitida entre usted y el sitio web. Con este certificado, la información se
                             cifra y no puede ser interceptada.</p>
 
 
 
                         <p>Un candado (o icono equivalente) en la barra de direcciones de su navegador indica esto
-                            mismo, así como la S en la dirección del sitio: <a href="{{ route('home') }}">https://lenhaviva.com</a>
+                            mismo, así como la S en la dirección del sitio: <a href="{{ route('home') }}">https://casacubertatrias.es</a>
                         </p>
 
 
@@ -60,7 +60,7 @@
 
 
 
-                        <p>Actualmente el único medio de pago aceptado en lenhaviva.com es la
+                        <p>Actualmente el único medio de pago aceptado en casacubertatrias.es es la
                             <strong>transferencia bancaria</strong>. Tras confirmar el pedido, el cliente recibe
                             por correo electrónico los datos bancarios (titular, IBAN y BIC) de Casacuberta Trias S.L.
                             El pedido se prepara una vez confirmada la recepción del pago íntegro.</p>

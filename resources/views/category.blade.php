@@ -1,6 +1,35 @@
 @extends('layouts.app')
 
-@section('title', __($categoryName))
+@php
+    $catSlug = $filters['category'] ?? '';
+    $catIntros = [
+        'lena' => 'Compra leña seca lista para arder en chimenea y estufa. Leña de encina y otras maderas duras de alto poder calorífico, con baja humedad y entrega a domicilio en España.',
+        'pellets-de-madera' => 'Pellets de madera certificados para estufas y calderas de biomasa. Alto poder calorífico, bajo nivel de cenizas y combustión limpia, con entrega a domicilio en España.',
+        'estufas-de-pellets' => 'Estufas de pellets de bajo consumo y alta eficiencia para calentar tu hogar. Modelos programables con entrega a domicilio en España.',
+        'cocinas-de-lena' => 'Cocinas y estufas de leña para calentar y cocinar. Fabricación robusta, alto rendimiento y entrega a domicilio en España.',
+        'calderas-de-lena' => 'Calderas de leña para calefacción central y agua caliente sanitaria. Alta potencia y combustión eficiente, con entrega a domicilio en España.',
+        'madera-densificada' => 'Madera densificada de alto poder calorífico: briquetas y troncos compactados de larga duración, con baja humedad y entrega a domicilio en España.',
+        'a-granel' => 'Leña y combustible sólido a granel con entrega a domicilio en España.',
+    ];
+    $catIntro = $catIntros[$catSlug] ?? ('Compra '.mb_strtolower($categoryName).' con entrega a domicilio en España. Productos de calidad para calefacción con leña y pellets.');
+@endphp
+
+@section('title', $categoryName . ' a domicilio en España')
+@section('meta_description', $catIntro)
+@section('canonical', url('categoria/'.$catSlug))
+
+@push('head')
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'BreadcrumbList',
+    'itemListElement' => [
+        ['@type' => 'ListItem', 'position' => 1, 'name' => 'Inicio', 'item' => url('/')],
+        ['@type' => 'ListItem', 'position' => 2, 'name' => $categoryName, 'item' => url('categoria/'.$catSlug)],
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+@endpush
 
 @push('styles')
     <style>
@@ -151,7 +180,8 @@
 
                         <div id="main" class="archive-shop col-12 col-xl-9 content col-12">
                             <header class="woocommerce-products-header">
-                                <h1 class="woocommerce-products-header__title page-title">{{ $categoryName }}</h1>
+                                <h1 class="woocommerce-products-header__title page-title">{{ $categoryName }} a domicilio en España</h1>
+                                <p class="lv-cat-intro" style="max-width:900px;color:#444;line-height:1.7;margin:10px 0 4px;">{{ $catIntro }}</p>
                             </header>
 
                             <div class="display-products products products-grid">

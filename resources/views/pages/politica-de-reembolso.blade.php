@@ -117,7 +117,7 @@
 
 
                         <p>Póngase en contacto con nuestro servicio de atención al cliente por correo electrónico a
-                            contacto@lenhaviva.es </p>
+                            contacto@casacubertatrias.es </p>
 
 
 

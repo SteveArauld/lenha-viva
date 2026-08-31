@@ -404,7 +404,7 @@
                                 <div class="header-logo">
 
                                     <a href="{{ route('home') }}">
-                                        <img width="100" height="100"
+                                        <img width="150" 
                                             src="{{ asset('wp-content/uploads/2022/01/er-01-scaled.png') }}"
                                             class="header-logo-img" alt="" decoding="async" /> </a>
                                 </div>
@@ -613,7 +613,7 @@
                                         <div id="cart-xsaAl" class="cart-dropdown cart-popup dropdown">
                                             <a class="dropdown-toggle mini-cart" data-bs-toggle="dropdown"
                                                 data-bs-auto-close="outside" href="javascript:void(0);"
-                                                title="Visualizar o seu carrinho de compras">
+                                                title="Ver tu carrito de la compra">
                                                 <span class="cart-icon">
                                                     <i class="tb-icon tb-icon-bag-happy"></i>
                                                     <span class="mini-cart-items">0</span>

@@ -35,7 +35,7 @@
 
                         <p>Los presentes Términos Generales de Uso (en adelante &#8220;TCG&#8221;) definen los
                             términos y condiciones de acceso y uso del sitio web <a
-                                href="{{ route('home') }}">https://lenhaviva.com</a>, operado por LENHA VIVA, así como
+                                href="{{ route('home') }}">https://casacubertatrias.es</a>, operado por LENHA VIVA, así como
                             los derechos y obligaciones de los usuarios.</p>
 
 
@@ -62,7 +62,7 @@
 
 
 
-                        <p>Correo electrónico: contacto@lenhaviva.es </p>
+                        <p>Correo electrónico: contacto@casacubertatrias.es </p>
 
 
 
@@ -112,9 +112,10 @@
 
 
 
-                        <p>El sitio <a href="{{ route('home') }}">https://lenhaviva.com</a> presenta y ofrece joyas y
-                            accesorios a la venta. Las condiciones de compra, entrega y devolución se especifican
-                            en las Condiciones Generales de Venta (CGV) disponibles en el sitio.</p>
+                        <p>El sitio <a href="{{ route('home') }}">https://casacubertatrias.es</a> presenta y ofrece leña,
+                            pellets de madera, madera densificada y equipos de calefacción a la venta. Las condiciones
+                            de compra, entrega y devolución se especifican en las Condiciones Generales de Venta (CGV)
+                            disponibles en el sitio.</p>
 
 
 

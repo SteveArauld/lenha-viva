@@ -157,6 +157,22 @@
                 @endif
             </div>
 
+            @if (config('bank.iban'))
+                <div class="order-info">
+                    <h3>🏦 Datos para la transferencia</h3>
+                    <p>Indica tu NIF como concepto y envía el justificante a contacto@casacubertatrias.es. El pedido se
+                        prepara una vez recibido el pago.</p>
+                    <p><strong>Titular:</strong> {{ config('bank.holder') }}</p>
+                    @if (config('bank.bank_name'))
+                        <p><strong>Banco:</strong> {{ config('bank.bank_name') }}</p>
+                    @endif
+                    <p><strong>IBAN:</strong> {{ config('bank.iban') }}</p>
+                    @if (config('bank.bic'))
+                        <p><strong>BIC/SWIFT:</strong> {{ config('bank.bic') }}</p>
+                    @endif
+                </div>
+            @endif
+
             <h3 class="section-title">👤 Información del cliente</h3>
             <div class="order-info">
                 <p><strong>Email:</strong> {{ $order['customer']['email'] }}</p>
@@ -240,7 +256,7 @@
 
         <div class="footer">
             <p>Lenha Viva &copy; {{ date('Y') }}</p>
-            <p>Si tienes alguna duda, contáctanos: contacto@lenhaviva.es</p>
+            <p>Si tienes alguna duda, contáctanos: contacto@casacubertatrias.es</p>
             <p><strong>WhatsApp:</strong> +34 683 573 516</p>
         </div>
     </div>

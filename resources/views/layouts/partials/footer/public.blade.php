@@ -120,7 +120,7 @@
                         <div class="elementor-element elementor-element-4d89dafe elementor-widget elementor-widget-text-editor"
                             data-id="4d89dafe" data-element_type="widget" data-widget_type="text-editor.default">
                             <p><span style="color: #191919;"><strong>E-mail:</strong></span>
-                                contacto@lenhaviva.es </p>
+                                contacto@casacubertatrias.es </p>
                         </div>
                         <div class="elementor-element elementor-element-4cf5ce6 elementor-widget elementor-widget-text-editor"
                             data-id="4cf5ce6" data-element_type="widget" data-widget_type="text-editor.default">
@@ -384,7 +384,7 @@
 
                 <div class="chaty-channel Email-channel-link" id="Email-0-channel" data-id="Email-0" data-widget="0"
                     data-channel="Email">
-                    <a href="mailto:contacto@lenhaviva.es?subject=Solicitud%20de%20informaci%C3%B3n&body=Hola%2C%0D%0A%0D%0AMe%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios%20o%20productos.%0D%0A%0D%0AAtentamente%2C"
+                    <a href="mailto:contacto@casacubertatrias.es?subject=Solicitud%20de%20informaci%C3%B3n&body=Hola%2C%0D%0A%0D%0AMe%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios%20o%20productos.%0D%0A%0D%0AAtentamente%2C"
                         target="_blank" rel="nofollow noopener" aria-label="Enviar email"
                         class="chaty-tooltip Email-channel chaty-link chaty-email-channel pos-left"
                         data-form="chaty-form-0-Email" data-hover="Enviar email">

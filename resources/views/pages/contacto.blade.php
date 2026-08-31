@@ -1,6 +1,37 @@
 @extends('layouts.app')
 
-@section('title', __('Contacto'))
+@section('title', 'Contacto | Leña y pellets a domicilio')
+@section('meta_description', 'Contacta con LENHA VIVA: leña, pellets de madera y equipos de calefacción con entrega a domicilio en España. Dirección en Gurb (Barcelona), teléfono, email y WhatsApp.')
+@section('canonical', url('contacto'))
+
+@push('head')
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'ContactPage',
+    'url' => url('contacto'),
+    'name' => 'Contacto — '.config('app.name'),
+    'mainEntity' => [
+        '@type' => 'LocalBusiness',
+        'name' => config('app.name'),
+        'legalName' => 'Casacuberta Trias S.L.',
+        'vatID' => 'ESB64055007',
+        'url' => url('/'),
+        'email' => 'contacto@casacubertatrias.es',
+        'telephone' => '+34683573516',
+        'address' => [
+            '@type' => 'PostalAddress',
+            'streetAddress' => 'Carrer Narcís Monturiol, 23 Bajo',
+            'postalCode' => '08503',
+            'addressLocality' => 'Gurb',
+            'addressRegion' => 'Barcelona',
+            'addressCountry' => 'ES',
+        ],
+        'areaServed' => 'ES',
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+@endpush
 
 @push('styles')
     <link rel='stylesheet' id='wpforms-modern-full-css'
@@ -1476,7 +1507,7 @@
                                                                 data-widget_type="text-editor.default">
                                                                 <p><strong><span
                                                                             style="color: #191919;">E-mail:</span></strong>
-                                                                    contacto@lenhaviva.es </p>
+                                                                    contacto@casacubertatrias.es </p>
                                                             </div>
                                                         </div>
                                                     </div>

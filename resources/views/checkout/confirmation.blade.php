@@ -52,23 +52,29 @@
 
 
                             </div>
-                            {{-- <p>Caro cliente,</p>
-                            <p>Obrigado pelo seu pedido. Para confirmar o seu pedido, transfira o valor do mesmo para o
-                                conta bancária do nosso gestor de contas e envie-nos por e-mail o seu comprovativo de
-                                confirmação para: contacto@lenhaviva.es antes da entrega.</p>
-                            <p>Titular: MARIA NEVES ALVES MAIA </p>
-                            <p>IBAN: PT50 0189 0006 0642 6010 0055 5</p>
-                            <p>BIC: BAPAPTPL</p>
-                            <p>TRANSFERÊNCIA IMEDIATA</p>
-                            <p>Toda a equipa da LENHA VIVA agradece a sua confiança e deseja-lhe um bom dia.</p>
-                            <section class="woocommerce-bacs-bank-details"><h2 class="wc-bacs-bank-details-heading">Os
-                                    nossos dados bancários</h2>
-                                <h3 class="wc-bacs-bank-details-account-name">MARIA NEVES ALVES MAIA:</h3>
-                                <ul class="wc-bacs-bank-details order_details bacs_details">
-                                    <li class="iban">IBAN: <strong>PT50 0189 0006 0642 6010 0055 5</strong></li>
-                                    <li class="bic">BIC: <strong>BAPAPTPL</strong></li>
-                                </ul>
-                            </section> --}}
+                            <p>Estimado cliente:</p>
+                            <p>Gracias por tu pedido. Para confirmarlo, realiza una transferencia por el importe total
+                                indicando tu NIF como concepto y envíanos el justificante por correo electrónico a
+                                <a href="mailto:contacto@casacubertatrias.es">contacto@casacubertatrias.es</a> antes de la
+                                entrega. Tu pedido no se enviará hasta que se reciba el pago.</p>
+
+                            @if (config('bank.iban'))
+                                <section class="woocommerce-bacs-bank-details">
+                                    <h2 class="wc-bacs-bank-details-heading">Nuestros datos bancarios</h2>
+                                    <h3 class="wc-bacs-bank-details-account-name">{{ config('bank.holder') }}</h3>
+                                    <ul class="wc-bacs-bank-details order_details bacs_details">
+                                        @if (config('bank.bank_name'))
+                                            <li class="bank_name">Banco: <strong>{{ config('bank.bank_name') }}</strong></li>
+                                        @endif
+                                        <li class="iban">IBAN: <strong>{{ config('bank.iban') }}</strong></li>
+                                        @if (config('bank.bic'))
+                                            <li class="bic">BIC/SWIFT: <strong>{{ config('bank.bic') }}</strong></li>
+                                        @endif
+                                    </ul>
+                                </section>
+                            @endif
+
+                            <p>Todo el equipo de LENHA VIVA te agradece tu confianza.</p>
                             <section class="woocommerce-order-details">
 
                                 <h2 class="woocommerce-order-details__title">Detalles del pedido</h2>

@@ -1969,7 +1969,7 @@ Los troncos de alto rendimiento están revolucionando la leña. Producida a part
 El palé contiene varios tipos de madera de frondosas: fresno, haya, roble y carpe. Es ideal para obtener un buen equilibrio entre las brasas y las llamas.
 Estos son los mejores tipos de madera combinados en un único palé para un elevado poder calorífico y una buena combustión.
 Esta madera secada en horno consume un 30% menos de combustible que la madera convencional secada al 35% de humedad durante 12 meses, garantizando el máximo rendimiento del aparato de calefacción.
-La madera está dividida en troncos de 30 cm, un tamaño ideal para una pequeña salamandra o recuperador de calor.
+La madera está dividida en troncos de 30 cm, un tamaño ideal para una pequeña estufa o recuperador de calor.
 ¿Especies de madera preferidas para calefacción?
 Existen diferentes tipos de madera que pueden utilizarse en su estufa de leña: haya, roble, carpe y fresno.
 Se trata de maderas duras, ideales para la calefacción porque tienen un elevado poder calorífico y los troncos producen buenas brasas y bonitas llamas.
@@ -2317,7 +2317,7 @@ La Madera Densificada – Madera Dura es la elección perfecta para quienes busc
              'ref' => '53745639',
              'description' => 'Madera Densificada – Madera Dura + Madera Blanda – 1/2 Palé de 480 kg
 La Madera Densificada – Madera Dura + Madera Blanda es una solución ideal para quienes buscan un combustible versátil, de alta calidad y eficiente para sus sistemas de calefacción. Este producto combina madera dura y blanda, proporcionando una combustión equilibrada, con una liberación constante de calor. La densificación de la madera mejora su rendimiento térmico y prolonga la duración de la combustión, permitiendo disfrutar de un ambiente cálido y acogedor durante más tiempo.
-Presentado en 1/2 palé de 480 kg, es fácil de manejar y almacenar, facilitando su uso en salamandras, chimeneas y calderas. La mezcla de madera dura y blanda asegura una combustión eficiente y limpia, con bajo contenido de humedad que reduce las emisiones y la cantidad de cenizas producidas.
+Presentado en 1/2 palé de 480 kg, es fácil de manejar y almacenar, facilitando su uso en estufas, chimeneas y calderas. La mezcla de madera dura y blanda asegura una combustión eficiente y limpia, con bajo contenido de humedad que reduce las emisiones y la cantidad de cenizas producidas.
 Características:
 
 Combinación de madera dura y blanda, ofreciendo un equilibrio perfecto entre poder calorífico y eficiencia de combustión
@@ -2330,7 +2330,7 @@ Bajo contenido de humedad, para una combustión limpia y eficiente con menos res
 
 Bajas emisiones de CO₂, contribuyendo a un ambiente más limpio y respetuoso con el medio ambiente
 
-Ideal para salamandras, chimeneas y calderas, proporcionando calor constante durante el invierno
+Ideal para estufas, chimeneas y calderas, proporcionando calor constante durante el invierno
 
 Beneficios:
 
@@ -2427,10 +2427,10 @@ Con el palé de Madera Densificada – Madera Dura + Madera Blanda, podrá disfr
 
         'in_stock' => true, 'color' => '',
         'short_description' => 'Palé de 96 lotes de 5 barras de madera densificada
-Palé compuesto por 96 lotes, cada uno con 5 barras de madera densificada, producidas a partir de una mezcla de maderas resinosas. Producto 100% natural, sin cola ni aditivos. Cada barra mide aproximadamente 30 cm de longitud y 9 cm de diámetro. Alto poder calorífico (> 5 kWh/kg). Índice de humedad inferior al 10%. Combustión eficiente y prolongada. Producto sostenible y ecológico. Ideal para chimeneas, salamandras y calderas, garantizando una calefacción potente y duradera.',
+Palé compuesto por 96 lotes, cada uno con 5 barras de madera densificada, producidas a partir de una mezcla de maderas resinosas. Producto 100% natural, sin cola ni aditivos. Cada barra mide aproximadamente 30 cm de longitud y 9 cm de diámetro. Alto poder calorífico (> 5 kWh/kg). Índice de humedad inferior al 10%. Combustión eficiente y prolongada. Producto sostenible y ecológico. Ideal para chimeneas, estufas y calderas, garantizando una calefacción potente y duradera.',
              'ref' => '53745641',
              'description' => 'Madera Densificada – Madera Blanda – Palé de 960 kg
-La madera densificada es la elección ideal para quienes buscan una fuente de calefacción ecológica, eficiente y de alto rendimiento. Este palé de 960 kg de madera blanda densificada ofrece una combustión excelente, garantizando un calor constante y duradero. Es ideal para chimeneas, salamandras y calderas, destacándose por su bajo contenido de humedad, que reduce significativamente la producción de humo y cenizas, maximizando la eficiencia energética.
+La madera densificada es la elección ideal para quienes buscan una fuente de calefacción ecológica, eficiente y de alto rendimiento. Este palé de 960 kg de madera blanda densificada ofrece una combustión excelente, garantizando un calor constante y duradero. Es ideal para chimeneas, estufas y calderas, destacándose por su bajo contenido de humedad, que reduce significativamente la producción de humo y cenizas, maximizando la eficiencia energética.
 Características:
 
 Tipo de madera: Madera blanda densificada
@@ -2443,7 +2443,7 @@ Elevado poder calorífico, proporcionando calor continuo y eficaz
 
 Bajo nivel de cenizas, facilitando la limpieza y mantenimiento
 
-Ideal para chimeneas, salamandras y calderas
+Ideal para chimeneas, estufas y calderas
 
 Fácil de almacenar y manejar gracias al formato en palé
 
@@ -2694,7 +2694,7 @@ El principio es simple: una corriente de aire caliente y húmedo pasa entre los 
 El secado en horno permite mantener niveles de humedad de hasta el 10%.
 Este rendimiento es, sin embargo, más caro debido a las técnicas utilizadas. Pero las ventajas son un mejor control de los niveles de humedad y un secado más rápido.
 Este tipo de secado es una garantía de calidad, ya que la madera permanecerá limpia y también evitará el riesgo de proliferación de mohos y hongos, si se almacena adecuadamente en un lugar protegido de la humedad.
-Es ideal para salamandras y recuperadores de calor para troncos de hasta 33 cm de longitud.',
+Es ideal para estufas y recuperadores de calor para troncos de hasta 33 cm de longitud.',
 
 
 
@@ -2718,9 +2718,7 @@ Es ideal para salamandras y recuperadores de calor para troncos de hasta 33 cm d
         'short_description' => 'Entrega en cualquier lugar de España en 3 a 5 días.
 Los Troncos de Madera con Secado Garantizado Brazeco, con un contenido de humedad inferior al 10%, se producen a partir de las especies roble, carpe y haya. Provenientes de Francia, secos, partidos y descortezados, cuentan con certificación NF.
 Nuestros troncos de leña de 25 cm garantizan un rendimiento energético óptimo. Tienen la ventaja de ser prácticos de manejar y fáciles de almacenar, gracias al embalaje en palé.',
-             'ref' => 'Entrega em qualquer lugar de Espanha em 3 a 5 dias.
-Os Troncos de Madeira com Secagem Garantida Brazeco, com teor de humidade inferior a 10%, são produzidos a partir das espécies carvalho, carpe e faia. Provenientes da França, secos, partidos e descascados, possuem certificação NF.
-Nossos troncos de lenha de 25 cm garantem um desempenho energético ótimo. Têm a vantagem de serem práticos para manusear e fáceis de armazenar, graças à embalagem em palete.',
+             'ref' => 'LV-5614',
              'description' => 'Palé de Leña – 25 cm – 3 Estrellas
 El Palé de Leña – 25 cm – 3 Estrellas es una excelente opción para quienes buscan un combustible de calidad para sus estufas, chimeneas y calderas. Este palé contiene madera de alta calidad cortada en 25 cm, ideal para adaptarse a la mayoría de los sistemas de calefacción. La madera se selecciona y procesa para garantizar una quema eficiente y duradera, con bajo nivel de humedad que permite una combustión limpia y con poco residuo.
 Con 3 estrellas de calidad, este palé ofrece un excelente rendimiento térmico y es perfecto para mantener su casa caliente durante los meses más fríos. La madera se seca cuidadosamente para asegurar una combustión óptima, proporcionando calor constante y prolongado.
@@ -2776,7 +2774,7 @@ Los troncos de madera seca garantizada Brazeco, con menos del 10% de humedad, se
 Nuestros troncos de leña de 33 cm garantizan un rendimiento energético óptimo. Además, son prácticos de manejar y fáciles de almacenar gracias al embalaje en palé.',
              'ref' => '53745615',
              'description' => 'Palé de Leña – 33 cm – 3 Esteros
-El Palé de Leña – 33 cm – 3 Esteros es la elección ideal para quienes buscan leña de alta calidad para calefacción. Con troncos de 33 cm de longitud y clasificación de 3 Esteros, esta leña ofrece un excelente rendimiento térmico, garantizando calor constante y duradero. Los troncos se seleccionan cuidadosamente, se secan y están listos para usar, asegurando una combustión eficiente y limpia en salamandras, chimeneas y calderas de leña.
+El Palé de Leña – 33 cm – 3 Esteros es la elección ideal para quienes buscan leña de alta calidad para calefacción. Con troncos de 33 cm de longitud y clasificación de 3 Esteros, esta leña ofrece un excelente rendimiento térmico, garantizando calor constante y duradero. Los troncos se seleccionan cuidadosamente, se secan y están listos para usar, asegurando una combustión eficiente y limpia en estufas, chimeneas y calderas de leña.
 Características:
 
 Tamaño de los troncos: 33 cm de longitud
@@ -2785,7 +2783,7 @@ Clasificación: 3 Esteros, garantizando alto rendimiento
 
 Secado natural, para una combustión eficiente y baja emisión de humo
 
-Ideal para salamandras, chimeneas y calderas de leña
+Ideal para estufas, chimeneas y calderas de leña
 
 Fácil de almacenar gracias a la presentación en palé
 
@@ -2825,7 +2823,7 @@ Con el Palé de Leña – 33 cm – 3 Esteros, podrá disfrutar de una fuente de
         'short_description' => 'Entrega en cualquier lugar de España en 3 a 5 días. Los Troncos de Madera Secos Garantizados Brazeco, con un contenido de humedad inferior al 10%, se producen a partir de las especies roble, carpe y haya. De origen portugués, secos, partidos y descortezados, cuentan con certificación NF. Nuestros troncos de leña de 40 cm garantizan un rendimiento energético óptimo. Tienen la ventaja de ser prácticos de manejar y fáciles de almacenar gracias al embalaje en palé.',
              'ref' => '53745616',
              'description' => 'Palé de Leña – 40 cm – 3 Esteros
-El Palé de Leña – 40 cm – 3 Esteros es la opción perfecta para quienes buscan leña de alta calidad para calefacción. Con troncos de 40 cm de longitud y clasificación de 3 esteros, esta leña ofrece un excelente rendimiento térmico, proporcionando calor constante y duradero. Los troncos se seleccionan cuidadosamente y se secan, garantizando una combustión eficiente y limpia en salamandras, chimeneas y calderas de leña.
+El Palé de Leña – 40 cm – 3 Esteros es la opción perfecta para quienes buscan leña de alta calidad para calefacción. Con troncos de 40 cm de longitud y clasificación de 3 esteros, esta leña ofrece un excelente rendimiento térmico, proporcionando calor constante y duradero. Los troncos se seleccionan cuidadosamente y se secan, garantizando una combustión eficiente y limpia en estufas, chimeneas y calderas de leña.
 Características:
 
 Longitud de los troncos: 40 cm
@@ -2834,7 +2832,7 @@ Clasificación: 3 esteros, garantizando alto rendimiento y calor duradero
 
 Secado natural, asegurando combustión eficiente y baja emisión de humo
 
-Ideal para salamandras, chimeneas y calderas de leña
+Ideal para estufas, chimeneas y calderas de leña
 
 Fácil de almacenar y manejar gracias a la presentación en palé
 
@@ -2876,7 +2874,7 @@ Los Troncos de Madera con Humedad Garantizada Brazeco, con menos del 10% de hume
 Nuestros troncos de leña de 45 cm garantizan un rendimiento energético óptimo. Tienen la ventaja de ser prácticos de manejar y fáciles de almacenar gracias a su embalaje en palé.',
              'ref' => '53745617',
              'description' => 'Palé de Leña – 45 cm – 3 Esteros
-El Palé de Leña – 45 cm – 3 Esteros es la solución ideal para quienes buscan leña de alta calidad para calefacción. Con troncos de 45 cm de longitud y clasificación de 3 esteros, este producto garantiza un excelente rendimiento térmico, proporcionando calor constante y duradero. La leña se selecciona cuidadosamente y se seca naturalmente, lo que asegura una combustión eficiente y limpia, perfecta para salamandras, chimeneas y calderas de leña.
+El Palé de Leña – 45 cm – 3 Esteros es la solución ideal para quienes buscan leña de alta calidad para calefacción. Con troncos de 45 cm de longitud y clasificación de 3 esteros, este producto garantiza un excelente rendimiento térmico, proporcionando calor constante y duradero. La leña se selecciona cuidadosamente y se seca naturalmente, lo que asegura una combustión eficiente y limpia, perfecta para estufas, chimeneas y calderas de leña.
 Características:
 
 Longitud de los troncos: 45 cm
@@ -2885,7 +2883,7 @@ Clasificación: 3 esteros, garantizando alto rendimiento térmico y calor consta
 
 Secado natural, mejorando la combustión y reduciendo la emisión de humo
 
-Ideal para salamandras, chimeneas y calderas de leña
+Ideal para estufas, chimeneas y calderas de leña
 
 Presentación en palé, facilitando el almacenamiento y manejo
 
@@ -2963,7 +2961,7 @@ Un almacenamiento correcto evitará que la madera se vuelva negra o mohosa e imp
 Alto poder calorífico y bajo contenido de cenizas y polvo.
 ¡Compre nuestros pellets por camión! La descarga del camión es responsabilidad del cliente (se necesita una carretilla elevadora).',
              'ref' => '53745814',
-             'description' => 'Los pellets que entregamos por camión son perfectos para todas las marcas de salamandras de pellets, inserts y calderas.
+             'description' => 'Los pellets que entregamos por camión son perfectos para todas las marcas de estufas de pellets, inserts y calderas.
 La marca entregada depende de su ubicación y de las existencias disponibles. No dude en contactar con nuestro servicio de atención al cliente para cualquier información adicional.
 Su calidad es muy elevada y, al elegir un pellet fabricado en Francia, está contribuyendo a la reducción de las emisiones de CO2.
 Con un bajo contenido de polvo y cenizas y un elevado poder calorífico, no obstruirá su sistema de calefacción y obtendrá un calor bueno y constante en su casa.
@@ -2995,7 +2993,7 @@ Los sacos deben estar elevados del suelo sobre un palé y alejados de las parede
 
         'in_stock' => true, 'color' => '',
         'short_description' => 'Pellets MM ROYAL – Palé con 78 Sacos de 15 kg (1170 kg)
-El palé de Pellets MM ROYAL, producido por la prestigiosa empresa Mayr-Melnhof (Austria), es sinónimo de calidad superior en la calefacción por biomasa. Con 78 sacos de plástico ultra resistentes de 15 kg cada uno, totaliza 1170 kg de pellets cuidadosamente acondicionados. Ideal para calderas, salamandras y chimeneas, ofrece una combustión eficiente, limpia y de alto rendimiento.',
+El palé de Pellets MM ROYAL, producido por la prestigiosa empresa Mayr-Melnhof (Austria), es sinónimo de calidad superior en la calefacción por biomasa. Con 78 sacos de plástico ultra resistentes de 15 kg cada uno, totaliza 1170 kg de pellets cuidadosamente acondicionados. Ideal para calderas, estufas y chimeneas, ofrece una combustión eficiente, limpia y de alto rendimiento.',
              'ref' => '53745623',
              'description' => 'Palé de Pellets MM ROYAL – 78 Sacos Plásticos
 El palé de Pellets MM ROYAL ofrece una solución de calefacción de alto rendimiento, ecológica y práctica. Compuesto por 78 sacos plásticos resistentes, este palé proporciona una excelente autonomía para sistemas de calefacción por biomasa. Producidos con madera 100% natural, los pellets MM ROYAL garantizan una combustión eficiente, bajo contenido de cenizas y elevada durabilidad.
@@ -3021,7 +3019,7 @@ Producto ecológico y sostenible
 
 Fácil de almacenar y manejar
 
-Ideal para chimeneas, calderas y salamandras de pellets
+Ideal para chimeneas, calderas y estufas de pellets
 
 Combustión limpia, con bajas emisiones y menos residuos
 
@@ -3050,7 +3048,7 @@ Con los Pellets MM ROYAL, disfrute de una calefacción eficiente, económica y r
 Los Pellets de Madera Prima, producidos en Bélgica, son una solución de calefacción de alta calidad, pensada para garantizar eficiencia, durabilidad y respeto por el medio ambiente. Este palé contiene 66 sacos de plástico ultra resistentes, de 15 kg cada uno, totalizando 990 kg de pellets cuidadosamente embalados para proteger el producto y facilitar el almacenamiento.',
              'ref' => '53745624',
              'description' => 'Palé de Pellets Proxima Star
-El Palé de Pellets Proxima Star es la solución ideal para una calefacción eficiente y ecológica. Producidos con madera de alta calidad, estos pellets garantizan una combustión limpia, con bajo contenido de cenizas y excelente rendimiento térmico. Son perfectos para su uso en salamandras, calderas y chimeneas, asegurando un calor constante y duradero durante los meses más fríos.
+El Palé de Pellets Proxima Star es la solución ideal para una calefacción eficiente y ecológica. Producidos con madera de alta calidad, estos pellets garantizan una combustión limpia, con bajo contenido de cenizas y excelente rendimiento térmico. Son perfectos para su uso en estufas, calderas y chimeneas, asegurando un calor constante y duradero durante los meses más fríos.
 Características:
 
 Cantidad: Palé con varios sacos (cantidad exacta según el formato disponible)
@@ -3063,7 +3061,7 @@ Alto poder calorífico, para una calefacción prolongada y constante
 
 Bajas emisiones y producción mínima de cenizas, facilitando el mantenimiento
 
-Ideal para salamandras, calderas y chimeneas
+Ideal para estufas, calderas y chimeneas
 
 Beneficios:
 
@@ -3104,7 +3102,7 @@ Alto poder calorífico y bajo contenido de cenizas y polvo.
 ¡Compre nuestros pellets por camión! La descarga del camión es responsabilidad del cliente (se necesita una carretilla elevadora).',
              'ref' => '53745813',
              'description' => 'Los pellets de madera que ofrecemos por camión son perfectos para compras en grupo, ayuntamientos locales y comités de empresa.
-Son adecuados para todas las marcas de salamandras, recuperadores y calderas de pellets.
+Son adecuados para todas las marcas de estufas, recuperadores y calderas de pellets.
 Estos pellets cumplen con la norma EN Plus, que es el equivalente europeo de la norma alemana DIN Plus. ¡La calidad es, por lo tanto, la misma!
 La marca entregada depende de su ubicación y de las existencias disponibles. No dude en contactar con nuestro servicio de atención al cliente para cualquier información adicional.
 Almacenamiento de los granulados:
@@ -3133,7 +3131,7 @@ Los sacos deben estar elevados del suelo sobre un palé y alejados de las parede
         'short_description' => 'Entrega en cualquier lugar de España en 3 a 5 días. Los pellets de madera HELIOS están certificados por DIN Plus (norma alemana) y EN Plus A1 (norma europea) y son 100% resinosos.',
              'ref' => '53745622',
              'description' => 'Palé HELIOS – 65 sacos de 15 kg
-El Palé HELIOS es una excelente opción para quienes buscan pellets de alta calidad, eficientes y ecológicos. Este palé con 65 sacos de 15 kg está compuesto por pellets producidos con madera 100% natural y renovable, diseñados para ofrecer una combustión limpia y eficiente. Gracias a su bajo contenido de humedad y elevado poder calorífico, los pellets HELIOS garantizan un rendimiento térmico excepcional, siendo ideales para salamandras, calderas y otros sistemas de calefacción por biomasa.
+El Palé HELIOS es una excelente opción para quienes buscan pellets de alta calidad, eficientes y ecológicos. Este palé con 65 sacos de 15 kg está compuesto por pellets producidos con madera 100% natural y renovable, diseñados para ofrecer una combustión limpia y eficiente. Gracias a su bajo contenido de humedad y elevado poder calorífico, los pellets HELIOS garantizan un rendimiento térmico excepcional, siendo ideales para estufas, calderas y otros sistemas de calefacción por biomasa.
 Características:
 
 Cantidad: 65 sacos de 15 kg por palé
@@ -3146,7 +3144,7 @@ Alto poder calorífico, proporcionando calor duradero y constante
 
 Bajo nivel de cenizas, facilitando la limpieza y mantenimiento
 
-Ideal para salamandras, calderas y sistemas de calefacción por biomasa
+Ideal para estufas, calderas y sistemas de calefacción por biomasa
 
 Beneficios:
 
@@ -3296,7 +3294,7 @@ Son 100% de madera blanda y 100% naturales.',
              'ref' => '53745799',
              'description' => 'Los pellets de madera BEAR están certificados ENplus A1, la norma europea que garantiza el cumplimiento riguroso de las normas de calidad y que somete al fabricante a controles regulares, tanto en la fabricación como en el almacenamiento de los pellets.
 Estos pellets de madera son de calidad superior: 100% naturales, de alto rendimiento y respetuosos con el medio ambiente.
-Estos pellets son ideales para usarse en varios sistemas de calefacción de pellets de madera: salamandras, calderas y aparatos de pellets, sin obstruirlos.
+Estos pellets son ideales para usarse en varios sistemas de calefacción de pellets de madera: estufas, calderas y aparatos de pellets, sin obstruirlos.
 Son fabricados por una empresa dedicada a la producción de biocombustibles y comprometida con el medio ambiente.
 Tiene la garantía de un pellet económico y de alto rendimiento.
 Al elegir este pellet, está eligiendo calidad a un muy buen precio.',
@@ -3377,9 +3375,9 @@ Con los pellets Bio Energy, podrá disfrutar de una calefacción de alto rendimi
 
         'in_stock' => true, 'color' => '',
         'short_description' => 'DIN PELLETS – Pellets de madera, certificados DIN Plus y 100% madera blanda. Fabricados en el norte de Portugal, para un producto de proximidad y de alta calidad.',
-             'ref' => 'DIN PELLETS – Pellets de madeira, certificados DIN Plus e 100% madeira macia.Fabricados no norte de Portugal, para um produto de proximidade e de alta qualidade.',
+             'ref' => 'LV-5628',
              'description' => 'Pellet Din Pellets – Palé con 65 sacos de 15 kg
-Los Pellet Din Pellets son la opción perfecta para quienes buscan una calefacción eficiente, económica y ecológica. Este palé con 65 sacos de 15 kg está compuesto por pellets de alta calidad, fabricados con madera 100% natural y renovable. Con bajo contenido de humedad y elevado poder calorífico, estos pellets garantizan una combustión eficiente y limpia, ideal para salamandras, calderas y sistemas de calefacción por biomasa.
+Los Pellet Din Pellets son la opción perfecta para quienes buscan una calefacción eficiente, económica y ecológica. Este palé con 65 sacos de 15 kg está compuesto por pellets de alta calidad, fabricados con madera 100% natural y renovable. Con bajo contenido de humedad y elevado poder calorífico, estos pellets garantizan una combustión eficiente y limpia, ideal para estufas, calderas y sistemas de calefacción por biomasa.
 Características:
 
 Cantidad: 65 sacos de 15 kg por palé
@@ -3392,7 +3390,7 @@ Elevado poder calorífico, proporcionando un calor constante y duradero
 
 Bajo nivel de cenizas, facilitando la limpieza
 
-Ideal para salamandras, calderas y sistemas de calefacción por biomasa
+Ideal para estufas, calderas y sistemas de calefacción por biomasa
 
 Beneficios:
 
@@ -3471,7 +3469,7 @@ El color de los pellets puede, por lo tanto, variar de un lote a otro sin afecta
         'short_description' => 'Los pellets de madera LIMOUZI cuentan con dos certificaciones: DIN Plus y PEFC, siendo 100% provenientes de madera resinosa. Estos pellets de calidad se fabrican en Portugal, en la región de Limousin. Económicos, eficientes y 100% naturales.',
              'ref' => '53745631',
              'description' => 'Pellet Limouzi – Palé con 66 sacos de 15 kg
-Los Pellet Limouzi son ideales para quienes buscan una calefacción eficiente, ecológica y de alta calidad. Este palé con 66 sacos de 15 kg está compuesto por pellets producidos con madera 100% natural y renovable, diseñados para ofrecer una combustión limpia y eficiente. Con bajo contenido de humedad y elevado poder calorífico, estos pellets garantizan un rendimiento térmico excepcional, ideal para salamandras, calderas y otros sistemas de calefacción por biomasa.
+Los Pellet Limouzi son ideales para quienes buscan una calefacción eficiente, ecológica y de alta calidad. Este palé con 66 sacos de 15 kg está compuesto por pellets producidos con madera 100% natural y renovable, diseñados para ofrecer una combustión limpia y eficiente. Con bajo contenido de humedad y elevado poder calorífico, estos pellets garantizan un rendimiento térmico excepcional, ideal para estufas, calderas y otros sistemas de calefacción por biomasa.
 Características:
 
 Cantidad: 66 sacos de 15 kg por palé
@@ -3484,7 +3482,7 @@ Elevado poder calorífico, proporcionando calor constante y duradero
 
 Bajo nivel de cenizas, facilitando la limpieza y mantenimiento
 
-Ideal para salamandras, calderas y sistemas de calefacción por biomasa
+Ideal para estufas, calderas y sistemas de calefacción por biomasa
 
 Beneficios:
 
@@ -3704,7 +3702,7 @@ Producto local de buena calidad a un precio bajo.
 Fabricado en Francia.',
              'ref' => '53745802',
              'description' => 'Los pellets VALBOVAL son uno de nuestros productos de gama alta, con una calidad que supera las exigencias de la norma DIN Plus.
-Con un bajo contenido de cenizas y polvo, no obstruye su salamandra, insert o caldera.
+Con un bajo contenido de cenizas y polvo, no obstruye su estufa, insert o caldera.
 Gracias a su elevado poder calorífico (5 kWh/kg), puede tener la certeza de un calor constante en su chimenea y de una subida rápida de la temperatura.
 Es ideal para todos los sistemas de calefacción de pellets.
 Este pellet se fabrica en Francia, por lo que, al comprarlo, está eligiendo un método de calefacción ecológico y económico, preservando su aparato.',
@@ -3785,7 +3783,7 @@ Los pellets de madera Crépito® Pellets Premium son 100% naturales y provienen 
              'ref' => '53745636',
              'description' => 'Pellets de Crema Premium
 Los Pellets de Crema Premium son la elección perfecta para quienes buscan una solución de calefacción de alta calidad, eficiente y ecológica. Fabricados con madera seleccionada de la mejor calidad, estos pellets tienen elevada densidad y alto poder calorífico, asegurando un rendimiento excepcional con un consumo mínimo de combustible. Su combustión limpia y eficiente minimiza las emisiones y reduce la cantidad de cenizas, facilitando el mantenimiento.
-Los Pellets de Crema Premium son ideales para salamandras, calderas y sistemas de calefacción que requieren un combustible de alta calidad para maximizar la eficiencia y prolongar la vida útil de los equipos. Gracias a su bajo contenido de humedad, ofrecen una combustión más eficiente y un calor constante durante más tiempo.
+Los Pellets de Crema Premium son ideales para estufas, calderas y sistemas de calefacción que requieren un combustible de alta calidad para maximizar la eficiencia y prolongar la vida útil de los equipos. Gracias a su bajo contenido de humedad, ofrecen una combustión más eficiente y un calor constante durante más tiempo.
 Características:
 
 Fabricados con madera de alta calidad, garantizando un producto natural y limpio
@@ -3798,7 +3796,7 @@ Bajas emisiones de CO₂ y cenizas mínimas, contribuyendo a un ambiente más li
 
 Fácil almacenamiento y manejo, con sacos prácticos que facilitan el transporte y uso
 
-Adecuados para salamandras y calderas, ideales para sistemas de calefacción doméstica y comercial
+Adecuados para estufas y calderas, ideales para sistemas de calefacción doméstica y comercial
 
 Beneficios:
 
@@ -3812,7 +3810,7 @@ Mayor confort térmico, con calefacción constante y duradera
 
 Fácil de usar y mantener, con bajo nivel de cenizas que facilita la limpieza
 
-Ideal para salamandras y calderas, prolongando la vida útil de los equipos
+Ideal para estufas y calderas, prolongando la vida útil de los equipos
 
 Los Pellets de Crema Premium son la opción perfecta para quienes buscan un producto de calidad, eficiente y respetuoso con el medio ambiente, asegurando el máximo rendimiento y una casa caliente durante todo el invierno.',
 
@@ -3924,8 +3922,8 @@ Son ideales para todos los sistemas de calefacción de pellets de madera.',
         'short_description' => 'Pellets de madera NATURKRAFT, embalados en medios palés, certificados DIN Plus y EN Plus A1.
 Estos pellets se fabrican a partir de 100% madera blanda.',
              'ref' => '53745798',
-             'description' => 'Este pellet es adecuado para todos los tipos de salamandras y calderas de pellets.
-Sus características técnicas permiten reducir la frecuencia de limpieza de la salamandra y no obstruyen el cristal, haciendo su uso más agradable.',
+             'description' => 'Este pellet es adecuado para todos los tipos de estufas y calderas de pellets.
+Sus características técnicas permiten reducir la frecuencia de limpieza de la estufa y no obstruyen el cristal, haciendo su uso más agradable.',
 
 
 
@@ -3953,8 +3951,8 @@ Estos pellets son 100% de madera blanda y de calidad muy elevada.',
              'description' => 'Los pellets NATURKRAFT son un producto de alta calidad, con doble certificación DIN Plus (norma alemana) y EN Plus (norma europea).
 Al elegir los pellets DIN Plus y EN Plus A1, puede tener la certeza de que está comprando un pellet que cumple con las rigurosas normas de fabricación y almacenamiento de combustible.
 La certificación EN Plus A1 responde a los mismos criterios que la DIN Plus, en cuanto a contenido de humedad (inferior al 10%), contenido de cenizas (inferior al 0,7%), densidad y longitud (inferior a 40 mm).
-Este granulado de madera es adecuado para todos los tipos de salamandras.
-Sus características técnicas permiten reducir la frecuencia de limpieza de la salamandra y no obstruyen el cristal.',
+Este granulado de madera es adecuado para todos los tipos de estufas.
+Sus características técnicas permiten reducir la frecuencia de limpieza de la estufa y no obstruyen el cristal.',
 
 
 
@@ -4031,12 +4029,12 @@ Con el Starforest Pellet, podrá disfrutar de una calefacción de alto rendimien
         'short_description' => 'Entrega en cualquier lugar de España en 3 a 5 días. Especies: Roble Blanco, Haya, Carpe. Origen: 100% madera francesa. Longitud: 50 cm. Cantidad: 12 esteros. Unidad de venta: 4 palés.',
              'ref' => '53745618',
              'description' => 'Troncos 50 cm: 4 Palés – 2 Roble Blanco + 2 Haya/Carpe
-Este palé de troncos de 50 cm es la opción perfecta para quienes buscan leña de alta calidad, ideal para salamandras, chimeneas y calderas. El palé incluye 4 palés con una mezcla de 2 palés de Roble Blanco y 2 palés de Haya/Carpe, dos maderas conocidas por su elevada densidad y combustión eficiente y duradera. Con troncos de 50 cm de longitud, este producto está preparado para ofrecer un calor prolongado y constante durante todo el invierno.
+Este palé de troncos de 50 cm es la opción perfecta para quienes buscan leña de alta calidad, ideal para estufas, chimeneas y calderas. El palé incluye 4 palés con una mezcla de 2 palés de Roble Blanco y 2 palés de Haya/Carpe, dos maderas conocidas por su elevada densidad y combustión eficiente y duradera. Con troncos de 50 cm de longitud, este producto está preparado para ofrecer un calor prolongado y constante durante todo el invierno.
 Características:
 
 Cantidad: 4 palés (2 de Roble Blanco + 2 de Haya/Carpe)
 
-Tamaño de los troncos: 50 cm de longitud, ideal para salamandras y chimeneas
+Tamaño de los troncos: 50 cm de longitud, ideal para estufas y chimeneas
 
 Maderas: Mezcla de Roble Blanco y Haya/Carpe, conocidas por su alta densidad y calor duradero
 
@@ -4052,7 +4050,7 @@ Bajo contenido de humedad, garantizando una combustión eficiente y baja emisió
 
 Durabilidad y rendimiento prolongado, proporcionando calor constante durante más tiempo
 
-Ideal para chimeneas, salamandras y calderas de leña
+Ideal para chimeneas, estufas y calderas de leña
 
 Ecológica y natural, sin aditivos ni químicos
 
@@ -4081,7 +4079,7 @@ Con los Troncos 50 cm: 4 Palés de Roble Blanco y Haya/Carpe, disfrutará de un 
         'short_description' => 'Entrega en cualquier lugar de España en 3 a 5 días. Especie: Roble Blanco. Origen: 100% madera francesa. Longitud: 50 cm. Cantidad: 1,32 m³ por palé (2 esteros).',
              'ref' => '53745620',
              'description' => 'Troncos de Roble Blanco – 50 cm (2 Esteros)
-Los Troncos de Roble Blanco de 50 cm son ideales para quienes buscan leña de alta calidad para calefacción. Con una longitud de 50 cm y una cantidad de 2 esteros, estos troncos se seleccionan cuidadosamente para ofrecer una combustión eficiente, prolongada y con baja producción de humo. El roble blanco es una madera densa que proporciona calor constante y duradero, siendo perfecto para salamandras, chimeneas y calderas de leña.
+Los Troncos de Roble Blanco de 50 cm son ideales para quienes buscan leña de alta calidad para calefacción. Con una longitud de 50 cm y una cantidad de 2 esteros, estos troncos se seleccionan cuidadosamente para ofrecer una combustión eficiente, prolongada y con baja producción de humo. El roble blanco es una madera densa que proporciona calor constante y duradero, siendo perfecto para estufas, chimeneas y calderas de leña.
 Características:
 
 Tamaño: Troncos con 50 cm de longitud
@@ -4092,7 +4090,7 @@ Cantidad: 2 esteros, garantizando un rendimiento eficiente y de calidad
 
 Secado natural, asegurando una combustión limpia y baja emisión de humo
 
-Ideal para salamandras, chimeneas y calderas de leña
+Ideal para estufas, chimeneas y calderas de leña
 
 Beneficios:
 
@@ -4233,10 +4231,10 @@ Con los pellets Vimasol, podrá disfrutar de una calefacción eficiente y econó
 
         'in_stock' => true, 'color' => '',
         'short_description' => 'Entrega en cualquier lugar de España en 3 a 5 días.
-Estos pellets se fabrican en Francia y no contienen ningún elemento o sustancia química. El pellet mide 20 mm de longitud y 6 mm de diámetro, medidas bastante adecuadas. De hecho, un pellet suele medir entre 15 y 20 mm, con un diámetro máximo de 8 mm. Estos pellets WOODSTOCK de primera calidad se entregan en palés con 78 sacos. Cada saco pesa 15 kg. Este producto es adecuado para todos los aparatos de leña destinados a pellets (insert, salamandra o caldera).',
+Estos pellets se fabrican en Francia y no contienen ningún elemento o sustancia química. El pellet mide 20 mm de longitud y 6 mm de diámetro, medidas bastante adecuadas. De hecho, un pellet suele medir entre 15 y 20 mm, con un diámetro máximo de 8 mm. Estos pellets WOODSTOCK de primera calidad se entregan en palés con 78 sacos. Cada saco pesa 15 kg. Este producto es adecuado para todos los aparatos de leña destinados a pellets (insert, estufa o caldera).',
              'ref' => '53745621',
              'description' => 'WOODSTOCK Calidad Premium – Palé con 78 sacos de 15 kg
-Los pellets WOODSTOCK Calidad Premium son la opción ideal para quienes buscan una calefacción eficiente y ecológica. Este palé con 78 sacos de 15 kg ofrece la cantidad perfecta para mantener su casa caliente durante los meses más fríos. Fabricados con madera de la más alta calidad, estos pellets presentan bajo contenido de humedad, garantizando una combustión eficiente y limpia. Además, su elevado poder calorífico los convierte en una opción económica y sostenible para su salamandra o caldera de biomasa.
+Los pellets WOODSTOCK Calidad Premium son la opción ideal para quienes buscan una calefacción eficiente y ecológica. Este palé con 78 sacos de 15 kg ofrece la cantidad perfecta para mantener su casa caliente durante los meses más fríos. Fabricados con madera de la más alta calidad, estos pellets presentan bajo contenido de humedad, garantizando una combustión eficiente y limpia. Además, su elevado poder calorífico los convierte en una opción económica y sostenible para su estufa o caldera de biomasa.
 Características:
 
 Cantidad: 78 sacos de 15 kg por palé
@@ -4249,7 +4247,7 @@ Alto poder calorífico, para un calor duradero y constante
 
 Bajo nivel de cenizas, facilitando la limpieza
 
-Ideal para salamandras y calderas de biomasa
+Ideal para estufas y calderas de biomasa
 
 Beneficios:
 

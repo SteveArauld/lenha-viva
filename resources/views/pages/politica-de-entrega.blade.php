@@ -84,7 +84,7 @@
 
 
 
-                        <p>En https://lenhaviva.com, la entrega de todos los productos adquiridos es gratuita en
+                        <p>En https://casacubertatrias.es, la entrega de todos los productos adquiridos es gratuita en
                             España y en el resto de Europa.</p>
 
 
@@ -161,7 +161,7 @@
 
 
                         <p>Contacte con nuestro servicio de atención al cliente a través del correo electrónico
-                            contacto@lenhaviva.es en un plazo de 48 horas tras la entrega.</p>
+                            contacto@casacubertatrias.es en un plazo de 48 horas tras la entrega.</p>
 
 
 

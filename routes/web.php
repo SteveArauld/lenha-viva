@@ -13,9 +13,6 @@ Route::get('/loja',[App\Http\Controllers\HomeController::class,'loja'])->name('l
 Route::get('/carrinho',[App\Http\Controllers\HomeController::class,'carrinho'])->name('carrinho');
 Route::get('/lista-de-desejos',[App\Http\Controllers\HomeController::class,'listaDeDesejos'])->name('lista-de-desejos');
 
-//Route::get('/contacto',[App\Http\Controllers\HomeController::class,'contacto'])->name('contacto');
-//Route::get('/finalizacao-de-compra',[App\Http\Controllers\HomeController::class,'finalizacaoDeCompra'])->name('finalizacao-de-compra');
-//Route::get('finalizacao-de-compra/order-received',[App\Http\Controllers\HomeController::class,'orderReceived'])->name('order-received');
 
 
 Route::get('/producto/{slug}', [HomeController::class, 'show'])->name('product.show');
@@ -24,11 +21,19 @@ Route::get('/categoria/{category}', [HomeController::class, 'category'])->name('
 
 
 
-Route::get('/debug/products', [HomeController::class, 'debugProducts']);
+if (config('app.debug')) {
+    Route::get('/debug/products', [HomeController::class, 'debugProducts']);
+}
 
 Route::get('/feed/google-merchant.xml', [FeedController::class, 'googleMerchant'])->name('feed.google-merchant');
 
-Route::get('/sobre-nos',[App\Http\Controllers\HomeController::class,'sobreNos'])->name('sobre-nos');
+Route::get('/sitemap.xml', [App\Http\Controllers\SitemapController::class, 'index'])->name('sitemap');
+
+Route::get('/{slug}', [App\Http\Controllers\LandingController::class, 'show'])
+    ->where('slug', implode('|', array_keys(config('landing_pages', []))))
+    ->name('landing');
+
+Route::get('/sobre-nosotros',[App\Http\Controllers\HomeController::class,'sobreNos'])->name('sobre-nos');
 Route::get('/avisos-legais',[App\Http\Controllers\HomeController::class,'avisosLegais'])->name('avisos-legais');
 Route::get('/contacto',[App\Http\Controllers\HomeController::class,'contacto'])->name('contacto');
 Route::get('/politica-de-privacidade',[App\Http\Controllers\HomeController::class,'politicaDePrivacidade'])->name('politica-de-privacidade');
@@ -84,6 +89,7 @@ Route::get('/refresh-csrf-token', function() {
 })->middleware('web')->name('refresh');
 
 Route::get('/debug/session', function () {
+    abort_unless(config('app.debug'), 404);
     echo '<h1>Session Debug</h1>';
 
     echo '<h2>Toutes les données de session :</h2>';

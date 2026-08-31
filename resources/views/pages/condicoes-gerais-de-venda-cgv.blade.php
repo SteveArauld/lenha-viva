@@ -34,9 +34,10 @@
 
 
                         <p>Las presentes Condiciones Generales de Venta (en adelante &#8220;CGV&#8221;) rigen las
-                            ventas realizadas en el sitio <a href="{{ route('home') }}">https://lenhaviva.com</a>, operado
+                            ventas realizadas en el sitio <a href="{{ route('home') }}">https://casacubertatrias.es</a>, operado
                             por LENHA VIVA, y definen los derechos y obligaciones de las partes en la venta online de
-                            joyas y accesorios.</p>
+                            leña, pellets de madera, madera densificada y equipos de calefacción (estufas, cocinas y
+                            calderas de leña, y estufas de pellets).</p>
 
 
 
@@ -67,7 +68,7 @@
 
 
 
-                        <p>Correo electrónico: contacto@lenhaviva.es </p>
+                        <p>Correo electrónico: contacto@casacubertatrias.es </p>
 
 
 
@@ -157,11 +158,12 @@
 
 
 
-                        <p>Joyas personalizadas o grabadas,</p>
+                        <p>Productos preparados a medida según las indicaciones del cliente (por ejemplo, leña
+                            cortada a una longitud específica o pedidos a granel personalizados).</p>
 
 
 
-                        <p>Productos que hayan sido utilizados por motivos de higiene.</p>
+                        <p>Productos precintados que hayan sido desprecintados, montados o utilizados tras la entrega.</p>
 
 
 
@@ -206,7 +208,7 @@
 
 
                         <p>Para cualquier duda o reclamación, el cliente puede ponerse en contacto con el servicio
-                            de atención al cliente a través de la siguiente dirección:<br>📧 contacto@lenhaviva.es </p>
+                            de atención al cliente a través de la siguiente dirección:<br>📧 contacto@casacubertatrias.es </p>
 
 
 

@@ -182,7 +182,7 @@
 
 
                         <p>Puede obtenerse más información sobre las medidas de seguridad adoptadas y los países a los que se
-                            transfieren los datos a través de la dirección contacto@lenhaviva.es
+                            transfieren los datos a través de la dirección contacto@casacubertatrias.es
                         </p>
 
 
@@ -308,7 +308,7 @@
 
 
 
-                        <p>Por correo electrónico: contacto@lenhaviva.es </p>
+                        <p>Por correo electrónico: contacto@casacubertatrias.es </p>
 
 
 
@@ -328,7 +328,7 @@
 
 
 
-                        <p>Correo electrónico: contacto@lenhaviva.es </p>
+                        <p>Correo electrónico: contacto@casacubertatrias.es </p>
 
 
 

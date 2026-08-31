@@ -30,7 +30,7 @@ class ContactController extends Controller
         $subject = $fields[4] ?: 'Nuevo mensaje desde el formulario de contacto';
         $message = $fields[3];
 
-        $to = config('mail.admin_email', 'contacto@lenhaviva.es');
+        $to = config('mail.admin_email', 'contacto@casacubertatrias.es');
 
         $body = "Nombre: {$name}\n"
             ."Email: {$fromEmail}\n"
@@ -40,7 +40,7 @@ class ContactController extends Controller
         try {
             Mail::raw($body, function ($mail) use ($to, $subject, $fromEmail, $name) {
                 $mail->to($to)
-                    ->subject('[Contacto lenhaviva.com] '.$subject)
+                    ->subject('[Contacto casacubertatrias.es] '.$subject)
                     ->replyTo($fromEmail, $name ?: $fromEmail);
             });
         } catch (\Throwable $e) {

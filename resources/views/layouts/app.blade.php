@@ -1,25 +1,99 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8" />
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>
-        {{ trim(View::yieldContent('title') . ' | ' . config('app.name')) }}
-    </title>
-    <meta name="description"
-        content="{{ trim(View::yieldContent('meta_description')) ?: 'Lenha Viva: venta online de leña, pellets de madera, estufas, cocinas y calderas de leña. Envío gratis a toda España y Europa en 3-5 días laborables.' }}">
+    @php
+        $seoTitle = trim(View::yieldContent('title') . ' | ' . config('app.name'));
+        $seoDescription = trim(View::yieldContent('meta_description'))
+            ?: 'Lenha Viva: venta online de leña, leña de encina seca, pellets de madera, estufas, cocinas y calderas de leña con entrega a domicilio en España. Envío en 3-5 días laborables.';
+        $seoCanonical = trim(View::yieldContent('canonical')) ?: url()->current();
+        $seoImage = trim(View::yieldContent('og_image')) ?: asset('wp-content/uploads/2022/01/er-01-scaled.png');
+        $seoRobots = trim(View::yieldContent('meta_robots')) ?: 'index, follow, max-image-preview:large';
+    @endphp
+    <title>{{ $seoTitle }}</title>
+    <meta name="description" content="{{ $seoDescription }}">
+    <meta name="robots" content="{{ $seoRobots }}">
+    <link rel="canonical" href="{{ $seoCanonical }}">
+    <link rel="alternate" hreflang="es-es" href="{{ $seoCanonical }}">
+    <link rel="alternate" hreflang="x-default" href="{{ $seoCanonical }}">
+
     <meta property="og:locale" content="es_ES">
     <meta property="og:site_name" content="{{ config('app.name') }}">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="{{ trim(View::yieldContent('title') . ' | ' . config('app.name')) }}">
-    <link rel="alternate" hreflang="es-ES" href="{{ url()->current() }}">
+    <meta property="og:title" content="{{ $seoTitle }}">
+    <meta property="og:description" content="{{ $seoDescription }}">
+    <meta property="og:url" content="{{ $seoCanonical }}">
+    <meta property="og:image" content="{{ $seoImage }}">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{ $seoTitle }}">
+    <meta name="twitter:description" content="{{ $seoDescription }}">
+    <meta name="twitter:image" content="{{ $seoImage }}">
+
+    <script type="application/ld+json">
+    {!! json_encode([
+        '@context' => 'https://schema.org',
+        '@graph' => [
+            [
+                '@type' => 'Organization',
+                '@id' => url('/') . '/#organization',
+                'name' => config('app.name'),
+                'legalName' => 'Casacuberta Trias S.L.',
+                'vatID' => 'ESB64055007',
+                'taxID' => 'B64055007',
+                'url' => url('/'),
+                'logo' => asset('wp-content/uploads/2022/01/er-01-scaled.png'),
+                'email' => 'contacto@casacubertatrias.es',
+                'telephone' => '+34683573516',
+                'address' => [
+                    '@type' => 'PostalAddress',
+                    'streetAddress' => 'Carrer Narcís Monturiol, 23 Bajo',
+                    'postalCode' => '08503',
+                    'addressLocality' => 'Gurb',
+                    'addressRegion' => 'Barcelona',
+                    'addressCountry' => 'ES',
+                ],
+            ],
+            [
+                '@type' => 'WebSite',
+                '@id' => url('/') . '/#website',
+                'url' => url('/'),
+                'name' => config('app.name'),
+                'inLanguage' => 'es-ES',
+                'publisher' => ['@id' => url('/') . '/#organization'],
+            ],
+            [
+                '@type' => 'LocalBusiness',
+                '@id' => url('/') . '/#localbusiness',
+                'name' => config('app.name'),
+                'legalName' => 'Casacuberta Trias S.L.',
+                'vatID' => 'ESB64055007',
+                'parentOrganization' => ['@id' => url('/') . '/#organization'],
+                'url' => url('/'),
+                'image' => asset('wp-content/uploads/2022/01/er-01-scaled.png'),
+                'email' => 'contacto@casacubertatrias.es',
+                'telephone' => '+34683573516',
+                'address' => [
+                    '@type' => 'PostalAddress',
+                    'streetAddress' => 'Carrer Narcís Monturiol, 23 Bajo',
+                    'postalCode' => '08503',
+                    'addressLocality' => 'Gurb',
+                    'addressRegion' => 'Barcelona',
+                    'addressCountry' => 'ES',
+                ],
+                'areaServed' => 'ES',
+            ],
+        ],
+    ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+    </script>
+    @stack('head')
 
     <link rel="icon" type="image/png" href="{{ asset('/wp-content/uploads/2022/01/er-01-scaled.png') }}" sizes="96x96">
     <link rel="icon" type="image/svg+xml" href="{{ asset('/wp-content/uploads/2022/01/er-01-scaled.png') }}">
-    <link rel="shortcut icon" href="{{ asset('/wp-content/uploads/2022/01/er-01-scaled.png') }} ">
+    <link rel="shortcut icon" href="{{ asset('/wp-content/uploads/2022/01/er-01-scaled.png') }}">
 
 
     <script type="text/javascript"
@@ -184,24 +258,22 @@
         }
     </style>
 
-    <!-- Event snippet for Page vue conversion page -->
-<script>
-  gtag('event', 'conversion', {'send_to': 'AW-17798780713/RgASCMbum9obEKmuj6dC'});
-</script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MX4HS3ZTPP"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'G-MX4HS3ZTPP');
+        gtag('config', 'AW-17798780713');
+        gtag('event', 'conversion', {
+            'send_to': 'AW-17798780713/RgASCMbum9obEKmuj6dC'
+        });
+    </script>
 </head>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-MX4HS3ZTPP"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'G-MX4HS3ZTPP');
-</script>
 
 <body>
     <main>
@@ -433,10 +505,10 @@
                             <div class="mini_cart_inner">
                                 <div class="mcart-border">
                                     <div class="alert alert-warning m-2">
-                                        Não foi possível carregar o carrinho. Tente novamente.
+                                        No se ha podido cargar el carrito. Inténtalo de nuevo.
                                     </div>
                                     <button class="btn btn-sm btn-primary reload-mini-cart" onclick="location.reload()">
-                                        <i class="tb-icon tb-icon-refresh"></i> Recarregar
+                                        <i class="tb-icon tb-icon-refresh"></i> Recargar
                                     </button>
                                 </div>
                             </div>
@@ -578,7 +650,7 @@
                         }
                     },
                     error: function() {
-                        console.log('Não foi possível carregar o carrinho');
+                        console.log('No se ha podido cargar el carrito');
                     }
                 });
             }

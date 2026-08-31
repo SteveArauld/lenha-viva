@@ -167,7 +167,7 @@ class CheckoutController extends Controller
             Mail::to($validated['email'])->send(new OrderConfirmation($orderData));
 
             // Envoyer la notification à l'admin
-            $adminEmail = config('mail.admin_email', 'contacto@lenhaviva.es');
+            $adminEmail = config('mail.admin_email', 'contacto@casacubertatrias.es');
             if ($adminEmail) {
                 Mail::to($adminEmail)->send(new AdminOrderNotification($orderData));
             }

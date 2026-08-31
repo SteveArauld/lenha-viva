@@ -1,6 +1,14 @@
 RewriteEngine On
+
+# Forzar HTTPS
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Dominio canónico único: redirigir cualquier otro host (www, dominios
+# antiguos lenhaviva.es / lenhaviva.com) a https://casacubertatrias.es con 301
+RewriteCond %{HTTP_HOST} !^casacubertatrias\.es$ [NC]
+RewriteRule ^(.*)$ https://casacubertatrias.es/$1 [L,R=301]
+
+# Enrutar todo hacia public/
 RewriteRule ^$ public/ [L]
 RewriteRule (.*) public/$1 [L]
-

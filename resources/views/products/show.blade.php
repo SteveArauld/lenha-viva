@@ -2,6 +2,47 @@
 
 @section('title', $product['title'])
 @section('meta_description', \Illuminate\Support\Str::limit(strip_tags($product['short_description'] ?? $product['title']), 155))
+@section('canonical', url('producto/'.$product['slug']))
+@section('og_image', !empty($product['images'][0]) ? asset($product['images'][0]) : '')
+
+@push('head')
+@php
+    $ldPrice = number_format((float) str_replace(',', '', (string) ($product['price'] ?? 0)), 2, '.', '');
+    $ldImage = !empty($product['images'][0]) ? asset($product['images'][0]) : asset('wp-content/uploads/2022/01/er-01-scaled.png');
+    $ldAvailability = ($product['in_stock'] ?? true) ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock';
+    $ldCategoryLabel = \App\Support\CategoryLabels::label($product['category'] ?? null);
+@endphp
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'Product',
+    'name' => $product['title'] ?? '',
+    'description' => trim(strip_tags($product['short_description'] ?? $product['title'] ?? '')),
+    'image' => $ldImage,
+    'sku' => (string) ($product['ref'] ?? $product['id'] ?? ''),
+    'category' => $ldCategoryLabel,
+    'offers' => [
+        '@type' => 'Offer',
+        'url' => url('producto/'.$product['slug']),
+        'priceCurrency' => 'EUR',
+        'price' => $ldPrice,
+        'availability' => $ldAvailability,
+        'seller' => ['@type' => 'Organization', 'name' => config('app.name')],
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'BreadcrumbList',
+    'itemListElement' => [
+        ['@type' => 'ListItem', 'position' => 1, 'name' => 'Inicio', 'item' => url('/')],
+        ['@type' => 'ListItem', 'position' => 2, 'name' => $ldCategoryLabel, 'item' => url('categoria/'.($product['category'] ?? ''))],
+        ['@type' => 'ListItem', 'position' => 3, 'name' => $product['title'] ?? ''],
+    ],
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+@endpush
 
 @section('content')
     @include('layouts.partials.navbar.public-show')

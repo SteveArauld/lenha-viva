@@ -3,6 +3,7 @@
 // Legacy URL 301 map — ES-only migration. old path => new path
 
 return [
+    '/sobre-nos' => '/sobre-nosotros',
     '/category/product-category/lenha' => '/categoria/lena',
     '/categoria/lenha' => '/categoria/lena',
     '/category/product-category/madeira-de-fogo' => '/categoria/lena',

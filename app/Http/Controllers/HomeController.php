@@ -811,8 +811,8 @@ class HomeController extends Controller
             \Log::error('Erreur getMiniCartHtml: ' . $e->getMessage());
             return response()->json([
                 'success' => false,
-                'desktop_html' => '<div class="mcart-border"><p>Erro ao carregar o carrinho</p></div>',
-                'mobile_html' => '<div class="mcart-border"><p>Erro ao carregar o carrinho</p></div>'
+                'desktop_html' => '<div class="mcart-border"><p>Error al cargar el carrito</p></div>',
+                'mobile_html' => '<div class="mcart-border"><p>Error al cargar el carrito</p></div>'
             ]);
         }
     }
@@ -888,9 +888,4 @@ class HomeController extends Controller
             'certificaciones' => \App\Support\Certifications::all(),
         ]);
     }
-    public function finalizacaoDeCompra()
-    {
-        return view('finalizacao-de-compra');
-    }
-
 }

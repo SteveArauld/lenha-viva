@@ -267,7 +267,7 @@
                                                         ` : ''}
                                                         <small class="woocommerce-price-suffix">IVA incluido</small>
                                                     </p>
-                                                    <h1 class="product_title entry-title">${product.title}</h1>
+                                                    <h2 class="product_title entry-title">${product.title}</h2>
                                                     <div class="woocommerce-product-rating">
                                                         <div class="star-rating"></div>
                                                         <a href="#reviews" class="woocommerce-review-link">
@@ -291,7 +291,7 @@
                                                     <div class="mobile-infor-wrapper d-none">
                                                         <div class="d-flex">
                                                             <div class="me-3">
-                                                                <img width="100" height="100" src="{{ asset('${product.images[0]}') }}"
+                                                                <img width="150"  src="{{ asset('${product.images[0]}') }}"
                                                                      class="attachment-woocommerce_gallery_thumbnail size-woocommerce_gallery_thumbnail"
                                                                      alt="${product.title}" decoding="async">
                                                             </div>
@@ -591,7 +591,7 @@
                             if (data.success && data.product) {
                                 showQuickViewModal(data.product);
                             } else {
-                                alert('Erro ao carregar o produto');
+                                alert('Error al cargar el producto');
                             }
                         } catch (error) {
                             console.error('Error:', error);

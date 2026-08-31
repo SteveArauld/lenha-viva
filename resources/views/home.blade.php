@@ -1,7 +1,8 @@
 @extends('layouts.app')
 
-@section('title', 'Leña, pellets de madera y estufas de leña con envío gratis')
-@section('meta_description', 'Compra online leña seca, pellets de madera certificados, estufas, cocinas y calderas de leña. Envío gratis a toda España y Europa en 3-5 días laborables. Pago seguro por transferencia.')
+@section('title', 'Leña y pellets a domicilio en España')
+@section('meta_description', 'Compra leña de encina seca, leña para chimenea y estufa, pellets de madera certificados y madera densificada con entrega a domicilio en España. Pago seguro y envío en 3-5 días laborables.')
+@section('canonical', url('/'))
 
 @push('styles')
     @vite(['resources/css/home.css'])
@@ -350,7 +351,7 @@
                                                                         <a href="javascript:void(0)" data-bs-toggle="pill"
                                                                             data-bs-target="#best_selling-LkjyJ-c11dc16"
                                                                             data-value="best_selling"
-                                                                            class="active">LENHA</a>
+                                                                            class="active">LEÑA</a>
                                                                     </li>
                                                                 </ul>
                                                             </div>
@@ -574,8 +575,8 @@
                                                                     <li>
                                                                         <a href="javascript:void(0)" data-bs-toggle="pill"
                                                                             data-bs-target="#best_selling-kAljt-c11dc16"
-                                                                            data-value="best_selling" class="active">CHEF
-                                                                            DE MADEIRA</a>
+                                                                            data-value="best_selling" class="active">COCINAS
+                                                                            DE LEÑA</a>
                                                                     </li>
                                                                 </ul>
                                                             </div>
@@ -854,8 +855,8 @@
                                                                         <a href="javascript:void(0)" data-bs-toggle="pill"
                                                                             data-bs-target="#best_selling-ktTFY-c11dc16"
                                                                             data-value="best_selling"
-                                                                            class="active">MADEIRA
-                                                                            COMPACTADA</a>
+                                                                            class="active">MADERA
+                                                                            DENSIFICADA</a>
                                                                     </li>
                                                                 </ul>
                                                             </div>
@@ -1055,8 +1056,8 @@
                                                                         <a href="javascript:void(0)" data-bs-toggle="pill"
                                                                             data-bs-target="#best_selling-P94n5-c11dc16"
                                                                             data-value="best_selling"
-                                                                            class="active">CALDEIRA
-                                                                            DE LENHA</a>
+                                                                            class="active">CALDERAS
+                                                                            DE LEÑA</a>
                                                                     </li>
                                                                 </ul>
                                                             </div>
@@ -1458,8 +1459,8 @@
                                                                         <a href="javascript:void(0)" data-bs-toggle="pill"
                                                                             data-bs-target="#best_selling-2Rht9-c11dc16"
                                                                             data-value="best_selling"
-                                                                            class="active">MADEIRA
-                                                                            DE FOGO</a>
+                                                                            class="active">LEÑA
+                                                                            PARA CHIMENEA</a>
                                                                     </li>
                                                                 </ul>
                                                             </div>
@@ -1673,9 +1674,128 @@
 
     </div>
 
+    <section class="lv-seo-home">
+        <div class="container">
+            <h1 class="lv-seo-home__h1">Leña y pellets a domicilio en España</h1>
+            <p class="lv-seo-home__lead">
+                En <strong>LENHA VIVA</strong> somos especialistas en la venta online de <strong>leña</strong>,
+                <strong>leña de encina</strong>, <strong>leña seca</strong> para chimenea y estufa,
+                <strong>pellets de madera</strong> certificados y <strong>madera densificada</strong>.
+                También ofrecemos estufas de leña, cocinas de leña, calderas de leña y estufas de pellets.
+                Compra leña barata de calidad y recíbela cómodamente con <strong>entrega a domicilio</strong>.
+            </p>
+
+            <h2>Compra leña de calidad para chimenea y estufa</h2>
+            <p>
+                Nuestra leña está <strong>seca y lista para arder</strong>: baja humedad, alto poder calorífico
+                y una combustión limpia con menos humo y menos residuos. Es ideal tanto para
+                <a href="{{ route('category', ['category' => 'lena']) }}">leña para chimenea</a> como para
+                leña para estufa, y también para cocinas y calderas de leña.
+            </p>
+
+            <h2>Tipos de leña disponibles</h2>
+            <ul>
+                <li><a href="{{ route('category', ['category' => 'lena']) }}">Leña de encina seca</a>: la más demandada por su densidad y su larga duración de brasa.</li>
+                <li>Leña seca de maderas duras, cortada en tamaños aptos para chimeneas y estufas.</li>
+                <li><a href="{{ route('category', ['category' => 'madera-densificada']) }}">Madera densificada</a>: briquetas y troncos compactados de alto rendimiento y baja humedad.</li>
+            </ul>
+
+            <h2>Pellets de madera</h2>
+            <p>
+                Vendemos <a href="{{ route('category', ['category' => 'pellets-de-madera']) }}">pellets de madera</a>
+                certificados para estufas y calderas de biomasa, con alto poder calorífico y bajo nivel de cenizas.
+                Disponibles por saco y por palé, con <strong>pellets a domicilio</strong> en toda España.
+                Descubre también nuestras
+                <a href="{{ route('category', ['category' => 'estufas-de-pellets']) }}">estufas de pellets</a>,
+                <a href="{{ route('category', ['category' => 'cocinas-de-lena']) }}">cocinas de leña</a> y
+                <a href="{{ route('category', ['category' => 'calderas-de-lena']) }}">calderas de leña</a>.
+            </p>
+
+            <h2>Leña y pellets con entrega a domicilio</h2>
+            <p>
+                Realizamos <strong>entrega a domicilio</strong> de leña y pellets en España. Preparamos cada pedido
+                y lo enviamos en 3-5 días laborables. Si tienes dudas sobre la cobertura de reparto en tu zona,
+                <a href="{{ route('contacto') }}">contáctanos</a> antes de comprar y te confirmamos plazos y condiciones.
+            </p>
+
+            <h2>¿Por qué comprar en LENHA VIVA?</h2>
+            <ul>
+                <li>Especialistas en leña, pellets y calefacción con biomasa.</li>
+                <li>Leña seca de alto poder calorífico y pellets certificados.</li>
+                <li>Entrega a domicilio y atención al cliente por teléfono, email y WhatsApp.</li>
+                <li>Compra online con pago seguro.</li>
+            </ul>
+
+            <h2>Preguntas frecuentes sobre la leña y los pellets</h2>
+            <div class="lv-seo-home__faq">
+                <details>
+                    <summary>¿Dónde comprar leña a domicilio?</summary>
+                    <p>Puedes comprar leña a domicilio online en LENHA VIVA. Añade los productos al carrito, finaliza la compra e indícanos tu dirección de entrega en España.</p>
+                </details>
+                <details>
+                    <summary>¿Qué tipo de leña es mejor para una chimenea?</summary>
+                    <p>Las maderas duras como la encina son las más recomendables: arden despacio, generan mucha brasa y aportan calor durante más tiempo. Siempre debe usarse leña seca.</p>
+                </details>
+                <details>
+                    <summary>¿La leña de encina está seca?</summary>
+                    <p>Sí. Nuestra leña de encina se comercializa seca y lista para usar, con baja humedad para una combustión eficiente y limpia.</p>
+                </details>
+                <details>
+                    <summary>¿Qué tamaño de leña necesito para mi estufa?</summary>
+                    <p>Depende de la cámara de combustión de tu estufa. Consulta la longitud indicada en cada ficha de producto y, si tienes dudas, escríbenos y te asesoramos.</p>
+                </details>
+                <details>
+                    <summary>¿Cuánto tarda la entrega de la leña?</summary>
+                    <p>Preparamos y enviamos los pedidos normalmente en 3-5 días laborables. El plazo final depende de la zona de entrega.</p>
+                </details>
+                <details>
+                    <summary>¿Cuál es la diferencia entre leña y pellets?</summary>
+                    <p>La leña son troncos de madera natural para chimeneas, estufas y calderas de leña. Los pellets son cilindros de serrín prensado para estufas y calderas de pellets, con dosificación automática y almacenamiento más cómodo.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
     @include('layouts.partials.footer.public')
 
 @endsection
+
+@push('head')
+<script type="application/ld+json">
+{!! json_encode([
+    '@context' => 'https://schema.org',
+    '@type' => 'FAQPage',
+    'mainEntity' => collect([
+        ['¿Dónde comprar leña a domicilio?', 'Puedes comprar leña a domicilio online en LENHA VIVA. Añade los productos al carrito, finaliza la compra e indícanos tu dirección de entrega en España.'],
+        ['¿Qué tipo de leña es mejor para una chimenea?', 'Las maderas duras como la encina son las más recomendables: arden despacio, generan mucha brasa y aportan calor durante más tiempo. Siempre debe usarse leña seca.'],
+        ['¿La leña de encina está seca?', 'Sí. Nuestra leña de encina se comercializa seca y lista para usar, con baja humedad para una combustión eficiente y limpia.'],
+        ['¿Qué tamaño de leña necesito para mi estufa?', 'Depende de la cámara de combustión de tu estufa. Consulta la longitud indicada en cada ficha de producto y, si tienes dudas, escríbenos y te asesoramos.'],
+        ['¿Cuánto tarda la entrega de la leña?', 'Preparamos y enviamos los pedidos normalmente en 3-5 días laborables. El plazo final depende de la zona de entrega.'],
+        ['¿Cuál es la diferencia entre leña y pellets?', 'La leña son troncos de madera natural para chimeneas, estufas y calderas de leña. Los pellets son cilindros de serrín prensado para estufas y calderas de pellets, con dosificación automática y almacenamiento más cómodo.'],
+    ])->map(fn ($q) => [
+        '@type' => 'Question',
+        'name' => $q[0],
+        'acceptedAnswer' => ['@type' => 'Answer', 'text' => $q[1]],
+    ])->all(),
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+</script>
+@endpush
+
+@push('styles')
+<style>
+    .lv-seo-home { padding: 48px 0; background: #fafafa; border-top: 1px solid #ececec; }
+    .lv-seo-home .container { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+    .lv-seo-home__h1 { font-size: 1.9rem; line-height: 1.25; margin: 0 0 16px; }
+    .lv-seo-home__lead { font-size: 1.05rem; }
+    .lv-seo-home h2 { font-size: 1.3rem; margin: 32px 0 10px; }
+    .lv-seo-home p, .lv-seo-home li { line-height: 1.7; color: #333; }
+    .lv-seo-home a { color: #F55F1E; text-decoration: underline; }
+    .lv-seo-home__faq details { border-bottom: 1px solid #e2e2e2; padding: 12px 0; }
+    .lv-seo-home__faq summary { cursor: pointer; font-weight: 600; }
+    .lv-seo-home__faq details p { margin: 10px 0 0; }
+    @media (max-width: 600px) { .lv-seo-home__h1 { font-size: 1.5rem; } }
+</style>
+@endpush
 
 @push('scripts')
     @include('section.modeldetail');
