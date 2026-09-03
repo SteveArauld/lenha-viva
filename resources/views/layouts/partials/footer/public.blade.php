@@ -187,7 +187,7 @@
                         </div>
                         <div class="elementor-element elementor-element-3b979dd elementor-widget elementor-widget-image"
                             data-id="3b979dd" data-element_type="widget" data-widget_type="image.default">
-                            <a href="{{ route('certificaciones') }}" title="Ver nuestras certificaciones"><img width="503" height="170" src="/wp-content/uploads/2022/01/Enplus-e-ISO9001-cor-1.png" class="attachment-large size-large wp-image-6038" alt="Certificaciones ENplus A1, DINplus, ISO 9001 y NF de Lenha Viva" loading="lazy" /></a>
+                            <a href="{{ route('certificaciones') }}" title="Ver nuestras certificaciones"><img width="503" height="170" src="/wp-content/uploads/2022/01/Enplus-e-ISO9001-cor-1.png" class="attachment-large size-large wp-image-6038" alt="Certificaciones ENplus A1, DINplus, ISO 9001 y NF de Casacuberta Trias S.L." loading="lazy" /></a>
                         </div>
                     </div>
                 </div>
@@ -321,7 +321,7 @@
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-429a145d elementor-widget elementor-widget-text-editor"
                             data-id="429a145d" data-element_type="widget" data-widget_type="text-editor.default">
-                            <p>Copyright © <strong><span style="color: #191919;">LENHA VIVA</span></strong>.
+                            <p>Copyright © <strong><span style="color: #191919;">Casacuberta Trias S.L.</span></strong>.
                                 Todos los derechos reservados.</p>
                         </div>
                     </div>

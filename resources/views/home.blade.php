@@ -40,13 +40,13 @@
                                                                         height="832"
                                                                         src="{{ asset('wp-content/uploads/2025/10/765424359870807610.jpeg') }}"
                                                                         class="attachment-full size-full wp-image-5734"
-                                                                        alt="Leña y pellets de madera de calidad — Lenha Viva" />
+                                                                        alt="Leña y pellets de madera de calidad — Casacuberta Trias S.L." />
                                                                 </div>
                                                             </div>
                                                             <div class="wrapper-content-banner">
                                                                 <div class="content-banner">
                                                                     <h3 class="banner-tbay-title">
-                                                                        <span class="title">LENHA VIVA</span>
+                                                                        <span class="title">Casacuberta Trias S.L.</span>
 
                                                                         <span class="subtitle">Especialista en pellets de
                                                                             madera, leña y troncos comprimidos</span>
@@ -76,13 +76,13 @@
                                                                         height="800"
                                                                         src="{{ asset('wp-content/uploads/2025/10/765424359870807621.jpg') }}"
                                                                         class="attachment-full size-full wp-image-5736"
-                                                                        alt="Leña y pellets de madera de calidad — Lenha Viva" />
+                                                                        alt="Leña y pellets de madera de calidad — Casacuberta Trias S.L." />
                                                                 </div>
                                                             </div>
                                                             <div class="wrapper-content-banner">
                                                                 <div class="content-banner">
                                                                     <h3 class="banner-tbay-title">
-                                                                        <span class="title">LENHA VIVA</span>
+                                                                        <span class="title">Casacuberta Trias S.L.</span>
 
                                                                         <span class="subtitle">La mejor experiencia de
                                                                             calefacción a leña.</span>
@@ -787,7 +787,7 @@
                                                                                         width="1280" height="800"
                                                                                         src="wp-content/uploads/2025/10/765424359870807617.jpg"
                                                                                         class="attachment-full size-full wp-image-5738"
-                                                                                        alt="Leña y pellets de madera de calidad — Lenha Viva" />
+                                                                                        alt="Leña y pellets de madera de calidad — Casacuberta Trias S.L." />
                                                                                 </div>
                                                                             </div>
                                                                             <div class="wrapper-content-banner">
@@ -1678,7 +1678,7 @@
         <div class="container">
             <h1 class="lv-seo-home__h1">Leña y pellets a domicilio en España</h1>
             <p class="lv-seo-home__lead">
-                En <strong>LENHA VIVA</strong> somos especialistas en la venta online de <strong>leña</strong>,
+                En <strong>Casacuberta Trias S.L.</strong> somos especialistas en la venta online de <strong>leña</strong>,
                 <strong>leña de encina</strong>, <strong>leña seca</strong> para chimenea y estufa,
                 <strong>pellets de madera</strong> certificados y <strong>madera densificada</strong>.
                 También ofrecemos estufas de leña, cocinas de leña, calderas de leña y estufas de pellets.
@@ -1718,7 +1718,7 @@
                 <a href="{{ route('contacto') }}">contáctanos</a> antes de comprar y te confirmamos plazos y condiciones.
             </p>
 
-            <h2>¿Por qué comprar en LENHA VIVA?</h2>
+            <h2>¿Por qué comprar en Casacuberta Trias S.L.?</h2>
             <ul>
                 <li>Especialistas en leña, pellets y calefacción con biomasa.</li>
                 <li>Leña seca de alto poder calorífico y pellets certificados.</li>
@@ -1730,7 +1730,7 @@
             <div class="lv-seo-home__faq">
                 <details>
                     <summary>¿Dónde comprar leña a domicilio?</summary>
-                    <p>Puedes comprar leña a domicilio online en LENHA VIVA. Añade los productos al carrito, finaliza la compra e indícanos tu dirección de entrega en España.</p>
+                    <p>Puedes comprar leña a domicilio online en Casacuberta Trias S.L. Añade los productos al carrito, finaliza la compra e indícanos tu dirección de entrega en España.</p>
                 </details>
                 <details>
                     <summary>¿Qué tipo de leña es mejor para una chimenea?</summary>
@@ -1766,7 +1766,7 @@
     '@context' => 'https://schema.org',
     '@type' => 'FAQPage',
     'mainEntity' => collect([
-        ['¿Dónde comprar leña a domicilio?', 'Puedes comprar leña a domicilio online en LENHA VIVA. Añade los productos al carrito, finaliza la compra e indícanos tu dirección de entrega en España.'],
+        ['¿Dónde comprar leña a domicilio?', 'Puedes comprar leña a domicilio online en Casacuberta Trias S.L. Añade los productos al carrito, finaliza la compra e indícanos tu dirección de entrega en España.'],
         ['¿Qué tipo de leña es mejor para una chimenea?', 'Las maderas duras como la encina son las más recomendables: arden despacio, generan mucha brasa y aportan calor durante más tiempo. Siempre debe usarse leña seca.'],
         ['¿La leña de encina está seca?', 'Sí. Nuestra leña de encina se comercializa seca y lista para usar, con baja humedad para una combustión eficiente y limpia.'],
         ['¿Qué tamaño de leña necesito para mi estufa?', 'Depende de la cámara de combustión de tu estufa. Consulta la longitud indicada en cada ficha de producto y, si tienes dudas, escríbenos y te asesoramos.'],

@@ -3,7 +3,7 @@
 namespace App\Support;
 
 /**
- * Certifications held by Casacuberta Trias S.L. (brand "Lenha Viva").
+ * Certifications held by Casacuberta Trias S.L.
  *
  * Certificate numbers / validity dates are placeholders — replace the
  * "[POR COMPLETAR]" values with the real data from each certificate.

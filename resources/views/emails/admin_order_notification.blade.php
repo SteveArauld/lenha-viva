@@ -96,7 +96,7 @@
         </div>
 
         <div class="content">
-            <p class="urgent">Une nouvelle commande a été reçue sur le site Lenha Viva !</p>
+            <p class="urgent">Une nouvelle commande a été reçue sur le site Casacuberta Trias S.L. !</p>
 
             <div class="order-info">
                 <h3>📋 Détails de la Commande</h3>

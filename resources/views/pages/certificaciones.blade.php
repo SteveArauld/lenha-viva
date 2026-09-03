@@ -68,7 +68,7 @@
                 <div id="main-content" class="main-page col-12">
                     <div id="main" class="site-main">
 
-                        <p>Casacuberta Trias S.L., titular de la marca LENHA VIVA, comercializa productos de
+                        <p>Casacuberta Trias S.L. comercializa productos de
                             calefacción a base de biomasa que cumplen las principales normas de calidad europeas.
                             A continuación se detallan las certificaciones de la empresa y de sus productos.</p>
 

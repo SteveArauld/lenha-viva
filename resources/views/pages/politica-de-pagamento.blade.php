@@ -68,7 +68,7 @@
 
 
                         <p>El cliente deberá comprobar con su banco que el importe total del pedido se ha
-                            abonado en la cuenta facilitada por LENHA VIVA y que su nombre y número de pedido
+                            abonado en la cuenta facilitada por Casacuberta Trias S.L. y que su nombre y número de pedido
                             se han introducido correctamente en la transferencia.</p>
 
 
@@ -78,9 +78,9 @@
 
 
                         <figure class="wp-block-image size-large is-resized"><a
-                                href="../wp-content/uploads/2025/10/er-01-1-scaled.png"><img loading="lazy"
-                                                                                             decoding="async" width="770" height="361"
-                                                                                             src="../wp-content/uploads/2025/10/er-01-1-770x361.png" alt=""
+                                href="/wp-content/uploads/2022/01/er-01-scaled.png"><img loading="lazy"
+                                                                                             decoding="async" width="658" height="379"
+                                                                                             src="/wp-content/uploads/2022/01/er-01-scaled.png" alt=""
                                                                                              class="wp-image-6024" style="width:272px;height:auto" /></a></figure>
                     </div><!-- .site-main -->
 

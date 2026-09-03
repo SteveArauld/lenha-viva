@@ -32,11 +32,11 @@
 
 
 
-                        <p>LENHA VIVA se compromete a garantizar el tratamiento de los datos personales en su sitio web y en
+                        <p>Casacuberta Trias S.L. se compromete a garantizar el tratamiento de los datos personales en su sitio web y en
                             el contexto de sus actividades, de conformidad con el Reglamento General de Protección
-                            de Datos (RGPD) y la legislación italiana aplicable en materia de protección de datos. La
+                            de Datos (RGPD) y la legislación española aplicable en materia de protección de datos. La
                             presente Política de Privacidad se aplica al tratamiento de datos a través del sitio web de
-                            LENHA VIVA y en el contexto de las relaciones comerciales. Contiene información sobre las
+                            Casacuberta Trias S.L. y en el contexto de las relaciones comerciales. Contiene información sobre las
                             finalidades del tratamiento, las bases legales, los destinatarios de los datos, los periodos de
                             conservación, las medidas de seguridad (descripción general), las eventuales transferencias de
                             datos fuera de la Unión Europea o los procesos de decisión automatizados, la utilización y
@@ -45,25 +45,21 @@
 
 
                         <p>¿Quién es responsable del tratamiento de los datos en este sitio web y en el contexto de las
-                            actividades de LENHA VIVA?</p>
+                            actividades de Casacuberta Trias S.L.?</p>
 
 
 
-                        <p>El responsable del tratamiento es <strong>Casacuberta Trias S.L.</strong>, titular de la marca
-                            LENHA VIVA, con NIF <strong>B64055007</strong> y domicilio en Carrer Narcís Monturiol, 23 Bajo,
+                        <p>El responsable del tratamiento es <strong>Casacuberta Trias S.L.</strong>, con NIF
+                            <strong>B64055007</strong> y domicilio en Carrer Narcís Monturiol, 23 Bajo,
                             08503 Gurb (Barcelona), España.</p>
 
 
 
-                        <p>LENHA VIVA</p>
-
-
-
                         <p>De acuerdo con el artículo 4, apartado 1, del RGPD, los datos personales son cualquier información
-                            que identifique directa o indirectamente a una persona física. LENHA VIVA recopila
+                            que identifique directa o indirectamente a una persona física. Casacuberta Trias S.L. recopila
                             datos personales a través de su sitio web (formularios de contacto, solicitudes de presupuesto),
                             por teléfono, por correo electrónico y en el marco de interacciones de marketing directo. El suministro
-                            de datos personales a LENHA VIVA por parte de los titulares de los datos es voluntario, sujeto al
+                            de datos personales a Casacuberta Trias S.L. por parte de los titulares de los datos es voluntario, sujeto al
                             consentimiento para el tratamiento y a la aceptación de la presente política de privacidad. Los
                             datos recopilados son adecuados, pertinentes, necesarios y limitados al mínimo
                             necesario. Esto incluye, en particular:</p>
@@ -121,11 +117,11 @@
 
 
 
-                        <p>¿Cuál es la base legal para el tratamiento por parte de LENHA VIVA?</p>
+                        <p>¿Cuál es la base legal para el tratamiento por parte de Casacuberta Trias S.L.?</p>
 
 
 
-                        <p>El tratamiento de datos personales por parte de LENHA VIVA se basa en:</p>
+                        <p>El tratamiento de datos personales por parte de Casacuberta Trias S.L. se basa en:</p>
 
 
 
@@ -145,16 +141,16 @@
 
 
 
-                        <p>Interés legítimo de LENHA VIVA: Protección de documentos e información, mejora de los
+                        <p>Interés legítimo de Casacuberta Trias S.L.: Protección de documentos e información, mejora de los
                             servicios y prevención del fraude.</p>
 
 
 
-                        <p>¿Quiénes son los destinatarios de los datos tratados por LENHA VIVA?</p>
+                        <p>¿Quiénes son los destinatarios de los datos tratados por Casacuberta Trias S.L.?</p>
 
 
 
-                        <p>Los datos personales se destinan principalmente a LENHA VIVA. Son procesados por los
+                        <p>Los datos personales se destinan principalmente a Casacuberta Trias S.L. Son procesados por los
                             colaboradores de los distintos departamentos implicados en las consultas (ventas, atención al
                             cliente, contabilidad). El tratamiento se realiza exclusivamente para las finalidades
                             antes mencionadas. Los datos pueden, ocasionalmente, ser gestionados por encargados
@@ -165,14 +161,14 @@
 
 
                         <p>¿Se transfieren los datos personales fuera de la Unión Europea?<br>Sí, los datos personales
-                            recopilados por LENHA VIVA pueden ser transferidos y almacenados en países fuera de la Unión
+                            recopilados por Casacuberta Trias S.L. pueden ser transferidos y almacenados en países fuera de la Unión
                             Europea (UE) y del Espacio Económico Europeo (EEE). Estas transferencias pueden producirse en
                             países que no ofrecen un nivel de protección de datos equivalente al ofrecido por la UE.
                         </p>
 
 
 
-                        <p>Para dichas transferencias, LENHA VIVA implementa garantías adecuadas para asegurar
+                        <p>Para dichas transferencias, Casacuberta Trias S.L. implementa garantías adecuadas para asegurar
                             un nivel adecuado de protección de datos, en particular mediante el uso de cláusulas
                             contractuales tipo aprobadas por la Comisión Europea o de otros mecanismos de
                             transferencia reconocidos como adecuados por el RGPD. Estas garantías contractuales
@@ -187,11 +183,11 @@
 
 
 
-                        <p>¿Cómo se protegen los datos personales tratados por LENHA VIVA?</p>
+                        <p>¿Cómo se protegen los datos personales tratados por Casacuberta Trias S.L.?</p>
 
 
 
-                        <p>LENHA VIVA está comprometida con la protección de los datos personales que trata. Las medidas de
+                        <p>Casacuberta Trias S.L. está comprometida con la protección de los datos personales que trata. Las medidas de
                             seguridad más importantes son:</p>
 
 
@@ -214,7 +210,7 @@
 
 
 
-                        <p>¿Durante cuánto tiempo almacena LENHA VIVA los datos personales?</p>
+                        <p>¿Durante cuánto tiempo almacena Casacuberta Trias S.L. los datos personales?</p>
 
 
 
@@ -240,7 +236,7 @@
 
 
 
-                        <p>Sí, el sitio de LENHA VIVA utiliza cookies. Las cookies son pequeños archivos de texto
+                        <p>Sí, el sitio de Casacuberta Trias S.L. utiliza cookies. Las cookies son pequeños archivos de texto
                             almacenados en su dispositivo cuando visita nuestro sitio web. Utilizamos diferentes
                             tipos de cookies:</p>
 
@@ -279,7 +275,7 @@
 
 
                         <p>¿Cuáles son los derechos de los titulares de los datos en relación con el tratamiento de los datos por
-                            parte de LENHA VIVA?<br>De acuerdo con el RGPD, usted tiene los siguientes derechos:</p>
+                            parte de Casacuberta Trias S.L.?<br>De acuerdo con el RGPD, usted tiene los siguientes derechos:</p>
 
 
 
@@ -333,8 +329,8 @@
 
 
                         <figure class="wp-block-image size-large is-resized"><a
-                                href="../wp-content/uploads/2025/10/er-01-1-scaled.png"><img loading="lazy" decoding="async"
-                                    width="770" height="361" src="../wp-content/uploads/2025/10/er-01-1-770x361.png"
+                                href="/wp-content/uploads/2022/01/er-01-scaled.png"><img loading="lazy" decoding="async"
+                                    width="658" height="379" src="/wp-content/uploads/2022/01/er-01-scaled.png"
                                     alt="" class="wp-image-6024" style="width:262px;height:auto" /></a></figure>
                     </div><!-- .site-main -->
 

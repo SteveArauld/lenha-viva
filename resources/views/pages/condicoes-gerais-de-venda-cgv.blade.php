@@ -35,7 +35,7 @@
 
                         <p>Las presentes Condiciones Generales de Venta (en adelante &#8220;CGV&#8221;) rigen las
                             ventas realizadas en el sitio <a href="{{ route('home') }}">https://casacubertatrias.es</a>, operado
-                            por LENHA VIVA, y definen los derechos y obligaciones de las partes en la venta online de
+                            por Casacuberta Trias S.L., y definen los derechos y obligaciones de las partes en la venta online de
                             leña, pellets de madera, madera densificada y equipos de calefacción (estufas, cocinas y
                             calderas de leña, y estufas de pellets).</p>
 
@@ -91,7 +91,7 @@
 
 
                         <p>Los precios que figuran en el sitio están expresados en euros, con todos los impuestos
-                            incluidos (IVA incluido), excluyendo los gastos de envío.<br>LENHA VIVA se reserva el
+                            incluidos (IVA incluido), excluyendo los gastos de envío.<br>Casacuberta Trias S.L. se reserva el
                             derecho de modificar sus precios en cualquier momento, si bien los productos se
                             facturarán con base en los precios vigentes en el momento del pedido.</p>
 
@@ -103,7 +103,7 @@
 
                         <p>El cliente realiza su pedido seleccionando los productos y confirmando el proceso de
                             compra en línea.<br>El pedido solo se considerará finalizado tras la recepción del pago
-                            íntegro.<br>LENHA VIVA se reserva el derecho de rechazar o cancelar cualquier
+                            íntegro.<br>Casacuberta Trias S.L. se reserva el derecho de rechazar o cancelar cualquier
                             pedido en caso de disputa de pago o sospecha de fraude.</p>
 
 
@@ -184,7 +184,7 @@
 
 
 
-                        <p>En caso de detectar un defecto, el cliente deberá notificarlo a LENHA VIVA lo antes
+                        <p>En caso de detectar un defecto, el cliente deberá notificarlo a Casacuberta Trias S.L. lo antes
                             posible para gestionar el cambio, la reparación o el reembolso.</p>
 
 
@@ -195,7 +195,7 @@
 
 
 
-                        <p>LENHA VIVA no se hace responsable de los daños derivados de un uso indebido del
+                        <p>Casacuberta Trias S.L. no se hace responsable de los daños derivados de un uso indebido del
                             producto o de un uso no conforme con su finalidad prevista.<br>La
                             empresa no se hace responsable de los retrasos en la entrega por motivos de fuerza mayor.</p>
 

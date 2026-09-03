@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Contacto | Leña y pellets a domicilio')
-@section('meta_description', 'Contacta con LENHA VIVA: leña, pellets de madera y equipos de calefacción con entrega a domicilio en España. Dirección en Gurb (Barcelona), teléfono, email y WhatsApp.')
+@section('meta_description', 'Contacta con Casacuberta Trias S.L.: leña, pellets de madera y equipos de calefacción con entrega a domicilio en España. Dirección en Gurb (Barcelona), teléfono, email y WhatsApp.')
 @section('canonical', url('contacto'))
 
 @push('head')

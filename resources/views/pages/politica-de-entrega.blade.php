@@ -29,7 +29,7 @@
                 <div id="main-content" class="main-page col-12">
                     <div id="main" class="site-main">
 
-                        <p>En LENHA VIVA, hacemos todo lo posible para garantizar que sus productos de
+                        <p>En Casacuberta Trias S.L., hacemos todo lo posible para garantizar que sus productos de
                             calefacción se entreguen de forma rápida y segura. Entregamos en su domicilio tras el
                             prepago.</p>
 
@@ -185,8 +185,8 @@
 
 
                         <figure class="wp-block-image size-large is-resized"><a
-                                href="../wp-content/uploads/2025/10/er-01-1-scaled.png"><img loading="lazy" decoding="async"
-                                    width="770" height="361" src="../wp-content/uploads/2025/10/er-01-1-770x361.png"
+                                href="/wp-content/uploads/2022/01/er-01-scaled.png"><img loading="lazy" decoding="async"
+                                    width="658" height="379" src="/wp-content/uploads/2022/01/er-01-scaled.png"
                                     alt="" class="wp-image-6024" style="width:342px;height:auto" /></a></figure>
                     </div><!-- .site-main -->
 

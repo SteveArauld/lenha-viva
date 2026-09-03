@@ -88,14 +88,14 @@
 
                         <p>Todo el contenido de este sitio, incluyendo, entre otros, textos, imágenes, gráficos,
                             logotipos, vídeos y todos los demás elementos que contiene, está protegido por las leyes
-                            de propiedad intelectual y pertenece exclusivamente a LENHA VIVA, salvo indicación en
+                            de propiedad intelectual y pertenece exclusivamente a Casacuberta Trias S.L., salvo indicación en
                             contrario.</p>
 
 
 
                         <p>Cualquier reproducción, representación, modificación, publicación o adaptación de la
                             totalidad o parte de los elementos del sitio, por cualquier medio o procedimiento, está
-                            prohibida sin la autorización previa por escrito de LENHA VIVA. Cualquier uso no
+                            prohibida sin la autorización previa por escrito de Casacuberta Trias S.L. Cualquier uso no
                             autorizado del sitio o de sus elementos constituye una infracción y será perseguido de
                             acuerdo con la legislación aplicable.</p>
 
@@ -105,7 +105,7 @@
 
 
 
-                        <p>El sitio puede contener hiperenlaces a sitios de terceros. LENHA VIVA no tiene ningún
+                        <p>El sitio puede contener hiperenlaces a sitios de terceros. Casacuberta Trias S.L. no tiene ningún
                             control sobre estos sitios y declina cualquier responsabilidad por su contenido y
                             políticas de privacidad.</p>
 
@@ -128,8 +128,8 @@
 
 
                         <figure class="wp-block-image size-large is-resized"><a
-                                href="../wp-content/uploads/2025/10/er-01-1-scaled.png"><img loading="lazy" decoding="async"
-                                    width="770" height="361" src="../wp-content/uploads/2025/10/er-01-1-770x361.png"
+                                href="/wp-content/uploads/2022/01/er-01-scaled.png"><img loading="lazy" decoding="async"
+                                    width="658" height="379" src="/wp-content/uploads/2022/01/er-01-scaled.png"
                                     alt="" class="wp-image-6024" style="width:273px;height:auto" /></a></figure>
                     </div><!-- .site-main -->
 

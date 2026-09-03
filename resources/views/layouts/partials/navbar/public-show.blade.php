@@ -74,7 +74,7 @@
                 class="tb-icon tb-icon-cross"></i></a></div>
     <div class="mobile-logo"><a href="{{ route('home') }}"><img fetchpriority="high"
                 src="{{ asset('wp-content/uploads/2022/01/er-01-scaled.png') }}" width="70" height="100"
-                alt="Lenha Viva"></a></div>
+                alt="Casacuberta Trias S.L."></a></div>
     <div class="device-mini_cart top-cart tbay-element-mini-cart">
         <div class="tbay-offcanvas-cart sidebar-right offcanvas offcanvas-end" id="cart-offcanvas-mobile">
             <div class="offcanvas-header widget-header-cart">

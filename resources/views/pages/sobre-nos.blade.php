@@ -59,7 +59,7 @@
 
 
 
-                                                            <span class="title">LENHA VIVA</span>
+                                                            <span class="title">Casacuberta Trias S.L.</span>
 
 
 
@@ -72,7 +72,7 @@
                                             <div class="elementor-element elementor-element-5363a05 elementor-widget elementor-widget-text-editor"
                                                  data-id="5363a05" data-element_type="widget"
                                                  data-widget_type="text-editor.default">
-                                                <p>LENHA VIVA es un mayorista a nivel europeo, especializado en
+                                                <p>Casacuberta Trias S.L. es un mayorista a nivel europeo, especializado en
                                                     Biomasa, Granulados de Producción Agrícola y Soluciones de
                                                     Bioenergía para uso doméstico, industrial y animal.</p>
                                                 <p>Con acuerdos de producción con las principales fábricas de varios
@@ -131,7 +131,7 @@
 
 
 
-                                                            <span class="title">LENHA VIVA</span>
+                                                            <span class="title">Casacuberta Trias S.L.</span>
 
 
 
@@ -147,10 +147,10 @@
                                                 <p>En el actual período de fuerte desregulación en el suministro de
                                                     Energía, como resultado del aumento exponencial de la demanda debido
                                                     al incremento de los precios del gas y la electricidad y al bloqueo de las
-                                                    importaciones de países productores, LENHA VIVA se presenta
+                                                    importaciones de países productores, Casacuberta Trias S.L. se presenta
                                                     como una solución diferenciadora para el suministro de Productos
                                                     de Biomasa y Energía.</p>
-                                                <p>LENHA VIVA cuenta con centros de distribución ubicados en España,
+                                                <p>Casacuberta Trias S.L. cuenta con centros de distribución ubicados en España,
                                                     en Gurb y Manlleu (Barcelona), realizándose la comercialización en
                                                     toda España y el resto de Europa.</p>
                                             </div>
@@ -181,7 +181,7 @@
 
 
 
-                                                            <span class="title">Disponible con LENHA VIVA</span>
+                                                            <span class="title">Disponible con Casacuberta Trias S.L.</span>
 
 
 
@@ -242,7 +242,7 @@
 
 
 
-                                                            <span class="title">LENHA VIVA</span>
+                                                            <span class="title">Casacuberta Trias S.L.</span>
 
 
 

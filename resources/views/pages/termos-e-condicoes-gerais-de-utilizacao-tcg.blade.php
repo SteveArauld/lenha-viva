@@ -35,7 +35,7 @@
 
                         <p>Los presentes Términos Generales de Uso (en adelante &#8220;TCG&#8221;) definen los
                             términos y condiciones de acceso y uso del sitio web <a
-                                href="{{ route('home') }}">https://casacubertatrias.es</a>, operado por LENHA VIVA, así como
+                                href="{{ route('home') }}">https://casacubertatrias.es</a>, operado por Casacuberta Trias S.L., así como
                             los derechos y obligaciones de los usuarios.</p>
 
 
@@ -78,7 +78,7 @@
 
 
 
-                        <p>LENHA VIVA se reserva el derecho de suspender, limitar o interrumpir el acceso al sitio
+                        <p>Casacuberta Trias S.L. se reserva el derecho de suspender, limitar o interrumpir el acceso al sitio
                             por motivos técnicos, de mantenimiento o de seguridad.</p>
 
 
@@ -102,7 +102,7 @@
 
 
 
-                        <p>Perjudicar los derechos de propiedad intelectual o la imagen de LENHA VIVA.</p>
+                        <p>Perjudicar los derechos de propiedad intelectual o la imagen de Casacuberta Trias S.L.</p>
 
 
 
@@ -126,7 +126,7 @@
 
 
                         <p>Todo el contenido del sitio (textos, imágenes, logotipos, vídeos, gráficos, etc.) es
-                            propiedad exclusiva de LENHA VIVA, salvo indicación en contrario.<br>Cualquier
+                            propiedad exclusiva de Casacuberta Trias S.L., salvo indicación en contrario.<br>Cualquier
                             reproducción, distribución, explotación o modificación, incluso parcial, sin autorización
                             previa por escrito, está estrictamente prohibida.</p>
 
@@ -150,7 +150,7 @@
 
 
 
-                        <p>LENHA VIVA hace todo lo posible para garantizar la exactitud y la actualización de la
+                        <p>Casacuberta Trias S.L. hace todo lo posible para garantizar la exactitud y la actualización de la
                             información publicada en el sitio. No obstante, la empresa no puede ser responsabilizada
                             por:
                         </p>
@@ -175,7 +175,7 @@
 
 
 
-                        <p>El sitio puede contener enlaces a otros sitios. LENHA VIVA declina cualquier
+                        <p>El sitio puede contener enlaces a otros sitios. Casacuberta Trias S.L. declina cualquier
                             responsabilidad por el contenido y la disponibilidad de estos sitios externos.</p>
 
 
@@ -186,7 +186,7 @@
 
 
 
-                        <p>LENHA VIVA se reserva el derecho de modificar las presentes Condiciones en
+                        <p>Casacuberta Trias S.L. se reserva el derecho de modificar las presentes Condiciones en
                             cualquier momento, con el fin de adaptarlas a la evolución legal, técnica o funcional del
                             sitio.<br>La versión aplicable es la que esté en vigor en la fecha en que el usuario
                             navegue por el sitio.</p>
@@ -204,8 +204,8 @@
 
 
                         <figure class="wp-block-image size-large is-resized"><a
-                                href="../wp-content/uploads/2025/10/er-01-1-scaled.png"><img loading="lazy" decoding="async"
-                                    width="770" height="361" src="../wp-content/uploads/2025/10/er-01-1-770x361.png"
+                                href="/wp-content/uploads/2022/01/er-01-scaled.png"><img loading="lazy" decoding="async"
+                                    width="658" height="379" src="/wp-content/uploads/2022/01/er-01-scaled.png"
                                     alt="" class="wp-image-6024" style="width:276px;height:auto" /></a></figure>
                     </div><!-- .site-main -->
 

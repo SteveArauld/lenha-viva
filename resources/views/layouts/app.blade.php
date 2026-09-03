@@ -9,7 +9,7 @@
     @php
         $seoTitle = trim(View::yieldContent('title') . ' | ' . config('app.name'));
         $seoDescription = trim(View::yieldContent('meta_description'))
-            ?: 'Lenha Viva: venta online de leña, leña de encina seca, pellets de madera, estufas, cocinas y calderas de leña con entrega a domicilio en España. Envío en 3-5 días laborables.';
+            ?: 'Casacuberta Trias S.L.: venta online de leña, leña de encina seca, pellets de madera, estufas, cocinas y calderas de leña con entrega a domicilio en España. Envío en 3-5 días laborables.';
         $seoCanonical = trim(View::yieldContent('canonical')) ?: url()->current();
         $seoImage = trim(View::yieldContent('og_image')) ?: asset('wp-content/uploads/2022/01/er-01-scaled.png');
         $seoRobots = trim(View::yieldContent('meta_robots')) ?: 'index, follow, max-image-preview:large';

@@ -22406,8 +22406,8 @@ body.error404 #tbay-main-content {
 
 @font-face {
     font-family: "slick";
-    src: url(https://lenhaviva.com/wp-content/themes/maia/fonts/slick/slick.eot);
-    src: url(https://lenhaviva.com/wp-content/themes/maia/fonts/slick/slick.eot?#iefix) format("embedded-opentype"), url(https://lenhaviva.com/wp-content/themes/maia/fonts/slick/slick.woff) format("woff"), url(https://lenhaviva.com/wp-content/themes/maia/fonts/slick/slick.ttf) format("truetype"), url(https://lenhaviva.com/wp-content/themes/maia/fonts/slick/slick.svg#slick) format("svg");
+    src: url(/wp-content/themes/maia/fonts/slick/slick.eot);
+    src: url(/wp-content/themes/maia/fonts/slick/slick.eot?#iefix) format("embedded-opentype"), url(/wp-content/themes/maia/fonts/slick/slick.woff) format("woff"), url(/wp-content/themes/maia/fonts/slick/slick.ttf) format("truetype"), url(/wp-content/themes/maia/fonts/slick/slick.svg#slick) format("svg");
     font-weight: normal;
     font-style: normal
 }

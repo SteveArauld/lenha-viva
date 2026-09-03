@@ -124,7 +124,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>Lenha Viva</h1>
+            <h1>Casacuberta Trias S.L.</h1>
             <h2>Confirmación del pedido #{{ $order['order_number'] }}</h2>
         </div>
 
@@ -251,11 +251,11 @@
             </div>
 
             <p>Nos pondremos en contacto contigo en breve para confirmar los detalles de la entrega.</p>
-            <p>¡Gracias por elegir Lenha Viva!</p>
+            <p>¡Gracias por elegir Casacuberta Trias S.L.!</p>
         </div>
 
         <div class="footer">
-            <p>Lenha Viva &copy; {{ date('Y') }}</p>
+            <p>Casacuberta Trias S.L. &copy; {{ date('Y') }}</p>
             <p>Si tienes alguna duda, contáctanos: contacto@casacubertatrias.es</p>
             <p><strong>WhatsApp:</strong> +34 683 573 516</p>
         </div>

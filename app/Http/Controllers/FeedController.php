@@ -31,9 +31,9 @@ class FeedController extends Controller
         $channel = $dom->createElement('channel');
         $rss->appendChild($channel);
 
-        $channel->appendChild($this->text($dom, 'title', config('app.name', 'Lenha Viva')));
+        $channel->appendChild($this->text($dom, 'title', config('app.name', 'Casacuberta Trias S.L.')));
         $channel->appendChild($this->text($dom, 'link', route('home')));
-        $channel->appendChild($this->text($dom, 'description', 'Catálogo de productos Lenha Viva — pellets de madera, leña y equipos de calefacción.'));
+        $channel->appendChild($this->text($dom, 'description', 'Catálogo de productos Casacuberta Trias S.L. — pellets de madera, leña y equipos de calefacción.'));
         $channel->appendChild($this->text($dom, 'language', 'es'));
 
         foreach ($products as $product) {

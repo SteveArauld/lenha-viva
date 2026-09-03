@@ -74,7 +74,7 @@
                                 </section>
                             @endif
 
-                            <p>Todo el equipo de LENHA VIVA te agradece tu confianza.</p>
+                            <p>Todo el equipo de Casacuberta Trias S.L. te agradece tu confianza.</p>
                             <section class="woocommerce-order-details">
 
                                 <h2 class="woocommerce-order-details__title">Detalles del pedido</h2>

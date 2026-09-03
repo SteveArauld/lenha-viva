@@ -51,7 +51,7 @@
                                                     </div>
 
                                                     <div class="excerpt">Estoy muy satisfecha
-                                                        con mi compra en LENHA VIVA. La
+                                                        con mi compra en Casacuberta Trias S.L. La
                                                         leña de calefacción es de excelente
                                                         calidad y tiene un gran rendimiento
                                                         térmico. La web es fácil de navegar y la
@@ -87,7 +87,7 @@
                                                     </div>
 
                                                     <div class="excerpt">Como clienta habitual,
-                                                        puedo afirmar que LENHA VIVA es una de
+                                                        puedo afirmar que Casacuberta Trias S.L. es una de
                                                         las mejores webs para comprar leña
                                                         de calefacción y pellets. La calidad de
                                                         la madera está siempre garantizada y me gusta
