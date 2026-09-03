@@ -59,7 +59,13 @@
 
 
 
-                        <p><strong>España</strong>: de 3 a 5 días hábiles tras la confirmación del pedido</p>
+                        <p><strong>España (Península e Islas Baleares)</strong></p>
+
+                        <p>Plazo de preparación: de 0 a 1 día hábil</p>
+
+                        <p>Plazo de transporte: de 2 a 3 días hábiles</p>
+
+                        <p><strong>Plazo total estimado: de 2 a 4 días hábiles</strong> tras la confirmación del pago.</p>
 
 
 
@@ -72,9 +78,9 @@
 
 
 
-                        <p>Plazo de Procesamiento: Procesamos los pedidos en un plazo de 24 horas (1 día). Los
-                            pedidos realizados antes de las 17:00 se procesarán el mismo día. Los pedidos
-                            realizados después de las 17:00 se procesarán al día siguiente.</p>
+                        <p>Plazo de preparación: preparamos los pedidos en un plazo de 0 a 1 día hábil. Los
+                            pedidos realizados antes de las 17:00 pueden prepararse el mismo día; los realizados
+                            después de las 17:00 se preparan al día siguiente.</p>
 
 
 

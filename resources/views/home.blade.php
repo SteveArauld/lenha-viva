@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title', 'Leña y pellets a domicilio en España')
-@section('meta_description', 'Compra leña de encina seca, leña para chimenea y estufa, pellets de madera certificados y madera densificada con entrega a domicilio en España. Pago seguro y envío en 3-5 días laborables.')
+@section('meta_description', 'Compra leña de encina seca, leña para chimenea y estufa, pellets de madera certificados y madera densificada con entrega a domicilio en España. Pago seguro y envío en 2-4 días laborables.')
 @section('canonical', url('/'))
 
 @push('styles')
@@ -1714,7 +1714,7 @@
             <h2>Leña y pellets con entrega a domicilio</h2>
             <p>
                 Realizamos <strong>entrega a domicilio</strong> de leña y pellets en España. Preparamos cada pedido
-                y lo enviamos en 3-5 días laborables. Si tienes dudas sobre la cobertura de reparto en tu zona,
+                y lo enviamos en 2-4 días laborables. Si tienes dudas sobre la cobertura de reparto en tu zona,
                 <a href="{{ route('contacto') }}">contáctanos</a> antes de comprar y te confirmamos plazos y condiciones.
             </p>
 
@@ -1746,7 +1746,7 @@
                 </details>
                 <details>
                     <summary>¿Cuánto tarda la entrega de la leña?</summary>
-                    <p>Preparamos y enviamos los pedidos normalmente en 3-5 días laborables. El plazo final depende de la zona de entrega.</p>
+                    <p>Preparamos y enviamos los pedidos normalmente en 2-4 días laborables. El plazo final depende de la zona de entrega.</p>
                 </details>
                 <details>
                     <summary>¿Cuál es la diferencia entre leña y pellets?</summary>
@@ -1770,7 +1770,7 @@
         ['¿Qué tipo de leña es mejor para una chimenea?', 'Las maderas duras como la encina son las más recomendables: arden despacio, generan mucha brasa y aportan calor durante más tiempo. Siempre debe usarse leña seca.'],
         ['¿La leña de encina está seca?', 'Sí. Nuestra leña de encina se comercializa seca y lista para usar, con baja humedad para una combustión eficiente y limpia.'],
         ['¿Qué tamaño de leña necesito para mi estufa?', 'Depende de la cámara de combustión de tu estufa. Consulta la longitud indicada en cada ficha de producto y, si tienes dudas, escríbenos y te asesoramos.'],
-        ['¿Cuánto tarda la entrega de la leña?', 'Preparamos y enviamos los pedidos normalmente en 3-5 días laborables. El plazo final depende de la zona de entrega.'],
+        ['¿Cuánto tarda la entrega de la leña?', 'Preparamos y enviamos los pedidos normalmente en 2-4 días laborables. El plazo final depende de la zona de entrega.'],
         ['¿Cuál es la diferencia entre leña y pellets?', 'La leña son troncos de madera natural para chimeneas, estufas y calderas de leña. Los pellets son cilindros de serrín prensado para estufas y calderas de pellets, con dosificación automática y almacenamiento más cómodo.'],
     ])->map(fn ($q) => [
         '@type' => 'Question',

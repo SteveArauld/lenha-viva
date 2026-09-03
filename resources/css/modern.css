@@ -1920,3 +1920,64 @@ del,
     margin: 0;
 }
 .lv-home-estufas__cta { text-align: center; margin-top: 32px; }
+
+/* ============================================================
+   Mobile header: logo size only.
+   app.css forces `.mobile-logo a img { width: 40px }` while the
+   markup still carries height="100", so the logo renders tiny and
+   stretched. Only fix the logo size — leave the rest of the mobile
+   header layout untouched.
+   ============================================================ */
+@media (max-width: 1199.98px) {
+    /* no page-wide horizontal scroll on mobile */
+    html,
+    body {
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+
+    .mobile-logo a img {
+        width: auto !important;
+        height: 44px !important;
+        max-height: 44px !important;
+        max-width: 45vw !important;
+        padding-top: 0 !important;
+    }
+}
+
+/* ============================================================
+   Floating WhatsApp / e-mail buttons (Chaty): on mobile they
+   sat at bottom:25px, overlapping the fixed bottom navigation
+   bar. Lift them above it.
+   ============================================================ */
+@media (max-width: 1199.98px) {
+    .chaty-widget,
+    #chaty-widget-0 .chaty-widget {
+        bottom: 80px !important;
+        right: 16px !important;
+    }
+    .chaty-widget.chaty-open + .chaty-chat-view {
+        bottom: 80px !important;
+    }
+}
+
+/* ============================================================
+   Mobile cart drawer: the fixed black info bar at the top of
+   the page (z-index 100000) was covering the drawer's header,
+   hiding the close button. Start the drawer below that bar and
+   lift it above everything so its header is always reachable.
+   ============================================================ */
+@media (max-width: 1199.98px) {
+    #cart-offcanvas-mobile.offcanvas {
+        top: var(--lv-topbar-h, 42px) !important;
+        height: calc(100% - var(--lv-topbar-h, 42px)) !important;
+        z-index: 100001 !important;
+    }
+
+    #cart-offcanvas-mobile .offcanvas-header {
+        position: sticky;
+        top: 0;
+        background: #fff;
+        z-index: 2;
+    }
+}

@@ -746,7 +746,7 @@
                             </h3>
 
                             <p class="elementor-icon-box-description">
-                                🚚 Envío gratuito: 3 a 5 días laborables </p>
+                                🚚 Envío gratuito: 2 a 4 días laborables </p>
 
                         </div>
 

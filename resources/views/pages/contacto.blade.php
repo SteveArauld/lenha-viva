@@ -1593,8 +1593,8 @@
                                                             <div class="elementor-element elementor-element-1f04b7f elementor-widget elementor-widget-text-editor"
                                                                 data-id="1f04b7f" data-element_type="widget"
                                                                 data-widget_type="text-editor.default">
-                                                                <p><strong>🚚 Envío gratuito: 3 a 5 días
-                                                                        laborables</strong></p>
+                                                                <p><strong>🚚 Envío gratuito: 2 a 4 días
+                                                                        laborables (España)</strong></p>
                                                             </div>
                                                         </div>
                                                     </div>

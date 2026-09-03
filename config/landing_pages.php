@@ -48,7 +48,7 @@ return [
             ['¿Qué leña es mejor para una chimenea?', 'Maderas duras y secas como la encina: arden despacio, dan mucha brasa y generan menos humo.'],
             ['¿Puedo usar esta leña en un insertable?', 'Sí, es apta para chimeneas abiertas, insertables y hogares cerrados.'],
             ['¿La leña viene cortada a medida?', 'Cada producto indica su longitud. Consulta la ficha o pregúntanos antes de comprar.'],
-            ['¿Cuánto tarda la entrega?', 'Normalmente 3-5 días laborables, según la zona de entrega en España.'],
+            ['¿Cuánto tarda la entrega?', 'Normalmente 2-4 días laborables, según la zona de entrega en España.'],
         ],
     ],
 

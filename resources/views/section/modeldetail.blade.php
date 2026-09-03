@@ -388,7 +388,7 @@
                                                                                                     <span>Envío</span>
                                                                                                 </h3>
                                                                                                 <p class="elementor-icon-box-description">
-                                                                                                    🚚 Entrega gratuita: 3 a 5 días laborables
+                                                                                                    🚚 Entrega gratuita: 2 a 4 días laborables
                                                                                                 </p>
                                                                                             </div>
                                                                                         </div>

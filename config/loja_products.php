@@ -2715,7 +2715,7 @@ Es ideal para estufas y recuperadores de calor para troncos de hasta 33 cm de lo
         ],
 
         'in_stock' => true, 'color' => '',
-        'short_description' => 'Entrega en cualquier lugar de España en 3 a 5 días.
+        'short_description' => 'Entrega en cualquier lugar de España en 2 a 4 días laborables.
 Los Troncos de Madera con Secado Garantizado Brazeco, con un contenido de humedad inferior al 10%, se producen a partir de las especies roble, carpe y haya. Provenientes de Francia, secos, partidos y descortezados, cuentan con certificación NF.
 Nuestros troncos de leña de 25 cm garantizan un rendimiento energético óptimo. Tienen la ventaja de ser prácticos de manejar y fáciles de almacenar, gracias al embalaje en palé.',
              'ref' => 'LV-5614',
@@ -2769,7 +2769,7 @@ El Palé de Leña – 25 cm – 3 Estrellas es la elección perfecta para quiene
         ],
 
         'in_stock' => true, 'color' => '',
-        'short_description' => 'Entrega en cualquier lugar de España en 3 a 5 días.
+        'short_description' => 'Entrega en cualquier lugar de España en 2 a 4 días laborables.
 Los troncos de madera seca garantizada Brazeco, con menos del 10% de humedad, se producen a partir de las especies roble, carpe y haya. Provenientes de Francia, están secos, partidos y descortezados, y cuentan con certificación NF.
 Nuestros troncos de leña de 33 cm garantizan un rendimiento energético óptimo. Además, son prácticos de manejar y fáciles de almacenar gracias al embalaje en palé.',
              'ref' => '53745615',
@@ -2820,7 +2820,7 @@ Con el Palé de Leña – 33 cm – 3 Esteros, podrá disfrutar de una fuente de
         ],
 
         'in_stock' => true, 'color' => '',
-        'short_description' => 'Entrega en cualquier lugar de España en 3 a 5 días. Los Troncos de Madera Secos Garantizados Brazeco, con un contenido de humedad inferior al 10%, se producen a partir de las especies roble, carpe y haya. De origen portugués, secos, partidos y descortezados, cuentan con certificación NF. Nuestros troncos de leña de 40 cm garantizan un rendimiento energético óptimo. Tienen la ventaja de ser prácticos de manejar y fáciles de almacenar gracias al embalaje en palé.',
+        'short_description' => 'Entrega en cualquier lugar de España en 2 a 4 días laborables. Los Troncos de Madera Secos Garantizados Brazeco, con un contenido de humedad inferior al 10%, se producen a partir de las especies roble, carpe y haya. De origen portugués, secos, partidos y descortezados, cuentan con certificación NF. Nuestros troncos de leña de 40 cm garantizan un rendimiento energético óptimo. Tienen la ventaja de ser prácticos de manejar y fáciles de almacenar gracias al embalaje en palé.',
              'ref' => '53745616',
              'description' => 'Palé de Leña – 40 cm – 3 Esteros
 El Palé de Leña – 40 cm – 3 Esteros es la opción perfecta para quienes buscan leña de alta calidad para calefacción. Con troncos de 40 cm de longitud y clasificación de 3 esteros, esta leña ofrece un excelente rendimiento térmico, proporcionando calor constante y duradero. Los troncos se seleccionan cuidadosamente y se secan, garantizando una combustión eficiente y limpia en estufas, chimeneas y calderas de leña.
@@ -2869,7 +2869,7 @@ Con el Palé de Leña – 40 cm – 3 Esteros, disfrutará de una fuente de calo
         ],
 
         'in_stock' => true, 'color' => '',
-        'short_description' => 'Entrega en cualquier lugar de España en 3 a 5 días.
+        'short_description' => 'Entrega en cualquier lugar de España en 2 a 4 días laborables.
 Los Troncos de Madera con Humedad Garantizada Brazeco, con menos del 10% de humedad, se producen a partir de las especies roble, carpe y haya. Provenientes de Francia, secos, partidos y descortezados, cuentan con certificación NF.
 Nuestros troncos de leña de 45 cm garantizan un rendimiento energético óptimo. Tienen la ventaja de ser prácticos de manejar y fáciles de almacenar gracias a su embalaje en palé.',
              'ref' => '53745617',
@@ -3128,7 +3128,7 @@ Los sacos deben estar elevados del suelo sobre un palé y alejados de las parede
         ],
 
         'in_stock' => true, 'color' => '',
-        'short_description' => 'Entrega en cualquier lugar de España en 3 a 5 días. Los pellets de madera HELIOS están certificados por DIN Plus (norma alemana) y EN Plus A1 (norma europea) y son 100% resinosos.',
+        'short_description' => 'Entrega en cualquier lugar de España en 2 a 4 días laborables. Los pellets de madera HELIOS están certificados por DIN Plus (norma alemana) y EN Plus A1 (norma europea) y son 100% resinosos.',
              'ref' => '53745622',
              'description' => 'Palé HELIOS – 65 sacos de 15 kg
 El Palé HELIOS es una excelente opción para quienes buscan pellets de alta calidad, eficientes y ecológicos. Este palé con 65 sacos de 15 kg está compuesto por pellets producidos con madera 100% natural y renovable, diseñados para ofrecer una combustión limpia y eficiente. Gracias a su bajo contenido de humedad y elevado poder calorífico, los pellets HELIOS garantizan un rendimiento térmico excepcional, siendo ideales para estufas, calderas y otros sistemas de calefacción por biomasa.
@@ -4026,7 +4026,7 @@ Con el Starforest Pellet, podrá disfrutar de una calefacción de alto rendimien
 
 
         'in_stock' => true, 'color' => '',
-        'short_description' => 'Entrega en cualquier lugar de España en 3 a 5 días. Especies: Roble Blanco, Haya, Carpe. Origen: 100% madera francesa. Longitud: 50 cm. Cantidad: 12 esteros. Unidad de venta: 4 palés.',
+        'short_description' => 'Entrega en cualquier lugar de España en 2 a 4 días laborables. Especies: Roble Blanco, Haya, Carpe. Origen: 100% madera francesa. Longitud: 50 cm. Cantidad: 12 esteros. Unidad de venta: 4 palés.',
              'ref' => '53745618',
              'description' => 'Troncos 50 cm: 4 Palés – 2 Roble Blanco + 2 Haya/Carpe
 Este palé de troncos de 50 cm es la opción perfecta para quienes buscan leña de alta calidad, ideal para estufas, chimeneas y calderas. El palé incluye 4 palés con una mezcla de 2 palés de Roble Blanco y 2 palés de Haya/Carpe, dos maderas conocidas por su elevada densidad y combustión eficiente y duradera. Con troncos de 50 cm de longitud, este producto está preparado para ofrecer un calor prolongado y constante durante todo el invierno.
@@ -4076,7 +4076,7 @@ Con los Troncos 50 cm: 4 Palés de Roble Blanco y Haya/Carpe, disfrutará de un 
 
 
         'in_stock' => true, 'color' => '',
-        'short_description' => 'Entrega en cualquier lugar de España en 3 a 5 días. Especie: Roble Blanco. Origen: 100% madera francesa. Longitud: 50 cm. Cantidad: 1,32 m³ por palé (2 esteros).',
+        'short_description' => 'Entrega en cualquier lugar de España en 2 a 4 días laborables. Especie: Roble Blanco. Origen: 100% madera francesa. Longitud: 50 cm. Cantidad: 1,32 m³ por palé (2 esteros).',
              'ref' => '53745620',
              'description' => 'Troncos de Roble Blanco – 50 cm (2 Esteros)
 Los Troncos de Roble Blanco de 50 cm son ideales para quienes buscan leña de alta calidad para calefacción. Con una longitud de 50 cm y una cantidad de 2 esteros, estos troncos se seleccionan cuidadosamente para ofrecer una combustión eficiente, prolongada y con baja producción de humo. El roble blanco es una madera densa que proporciona calor constante y duradero, siendo perfecto para estufas, chimeneas y calderas de leña.
@@ -4126,7 +4126,7 @@ Con los Troncos de Roble Blanco de 50 cm (2 esteros), tendrá una fuente de calo
 
 
         'in_stock' => true, 'color' => '',
-        'short_description' => 'Entrega en cualquier lugar de España en 3 a 5 días. Especies: roble blanco, haya, carpe. Origen: 100% madera portuguesa. Longitud: 50 cm. Cantidad: 6 ESTEROS (4,80 m³). Unidad de venta: 2 palés.',
+        'short_description' => 'Entrega en cualquier lugar de España en 2 a 4 días laborables. Especies: roble blanco, haya, carpe. Origen: 100% madera portuguesa. Longitud: 50 cm. Cantidad: 6 ESTEROS (4,80 m³). Unidad de venta: 2 palés.',
              'ref' => '53745619',
              'description' => 'Troncos de 50 cm: 2 Palés – 1 de Roble Blanco + 1 de Haya/Carpe
 Este conjunto de troncos de 50 cm incluye 2 palés de leña seleccionada, perfecta para mantener su casa caliente durante el invierno. Cada conjunto contiene 1 palé de roble blanco y 1 palé de haya/carpe, dos tipos de madera de alta calidad que ofrecen excelente rendimiento térmico. El roble blanco es conocido por su alto poder calorífico y larga duración, mientras que la haya y el carpe proporcionan una quema rápida y eficiente.
@@ -4230,7 +4230,7 @@ Con los pellets Vimasol, podrá disfrutar de una calefacción eficiente y econó
 
 
         'in_stock' => true, 'color' => '',
-        'short_description' => 'Entrega en cualquier lugar de España en 3 a 5 días.
+        'short_description' => 'Entrega en cualquier lugar de España en 2 a 4 días laborables.
 Estos pellets se fabrican en Francia y no contienen ningún elemento o sustancia química. El pellet mide 20 mm de longitud y 6 mm de diámetro, medidas bastante adecuadas. De hecho, un pellet suele medir entre 15 y 20 mm, con un diámetro máximo de 8 mm. Estos pellets WOODSTOCK de primera calidad se entregan en palés con 78 sacos. Cada saco pesa 15 kg. Este producto es adecuado para todos los aparatos de leña destinados a pellets (insert, estufa o caldera).',
              'ref' => '53745621',
              'description' => 'WOODSTOCK Calidad Premium – Palé con 78 sacos de 15 kg
