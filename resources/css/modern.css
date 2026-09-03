@@ -1938,9 +1938,9 @@ del,
 
     .mobile-logo a img {
         width: auto !important;
-        height: 44px !important;
-        max-height: 44px !important;
-        max-width: 45vw !important;
+        height: 64px !important;
+        max-height: 64px !important;
+        max-width: 55vw !important;
         padding-top: 0 !important;
     }
 }
