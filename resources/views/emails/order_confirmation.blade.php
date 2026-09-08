@@ -136,12 +136,12 @@
             <div class="whatsapp-container">
                 <h3>📱 ¿Necesitas ayuda?</h3>
                 <p>¿Tienes alguna duda sobre tu pedido? ¡Contáctanos fácilmente por WhatsApp!</p>
-                <a href="https://wa.me/34683573516?text=¡Hola! Tengo una consulta sobre mi pedido #{{ $order['order_number'] }}"
+                <a href="https://wa.me/34679245597?text=¡Hola! Tengo una consulta sobre mi pedido #{{ $order['order_number'] }}"
                     class="whatsapp-button" target="_blank">
                     <span class="whatsapp-icon">💬</span> Contactar por WhatsApp
                 </a>
                 <p style="margin-top: 10px; font-size: 14px; color: #666;">
-                    <strong>Número:</strong> +34 683 573 516
+                    <strong>Número:</strong> +34 679 24 55 97
                 </p>
             </div>
 
@@ -244,7 +244,7 @@
 
             <!-- Bouton WhatsApp répété avant la fermeture -->
             <div style="text-align: center; margin: 30px 0;">
-                <a href="https://wa.me/34683573516?text=¡Hola! Tengo una consulta sobre mi pedido #{{ $order['order_number'] }}"
+                <a href="https://wa.me/34679245597?text=¡Hola! Tengo una consulta sobre mi pedido #{{ $order['order_number'] }}"
                     class="whatsapp-button" target="_blank">
                     <span class="whatsapp-icon">💬</span> Contactar por WhatsApp
                 </a>
@@ -257,7 +257,7 @@
         <div class="footer">
             <p>Casacuberta Trias S.L. &copy; {{ date('Y') }}</p>
             <p>Si tienes alguna duda, contáctanos: contacto@casacubertatrias.es</p>
-            <p><strong>WhatsApp:</strong> +34 683 573 516</p>
+            <p><strong>WhatsApp:</strong> +34 679 24 55 97</p>
         </div>
     </div>
 </body>

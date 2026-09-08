@@ -38,7 +38,7 @@
 
 
                         <p><strong>Correo electrónico:</strong> contacto@casacubertatrias.es <br>
-                            <strong>Teléfono / WhatsApp:</strong> +34 683 573 516</p>
+                            <strong>Teléfono / WhatsApp:</strong> +34 679 24 55 97</p>
 
 
 
@@ -123,7 +123,7 @@
 
 
 
-                        <p>WhatsApp: +34 683 573 516</p>
+                        <p>WhatsApp: +34 679 24 55 97</p>
 
 
 

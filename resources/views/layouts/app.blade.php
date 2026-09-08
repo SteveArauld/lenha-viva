@@ -47,7 +47,7 @@
                 'url' => url('/'),
                 'logo' => asset('wp-content/uploads/2022/01/er-01-scaled.png'),
                 'email' => 'contacto@casacubertatrias.es',
-                'telephone' => '+34683573516',
+                'telephone' => '+34679245597',
                 'address' => [
                     '@type' => 'PostalAddress',
                     'streetAddress' => 'Carrer Narcís Monturiol, 23 Bajo',
@@ -75,7 +75,7 @@
                 'url' => url('/'),
                 'image' => asset('wp-content/uploads/2022/01/er-01-scaled.png'),
                 'email' => 'contacto@casacubertatrias.es',
-                'telephone' => '+34683573516',
+                'telephone' => '+34679245597',
                 'address' => [
                     '@type' => 'PostalAddress',
                     'streetAddress' => 'Carrer Narcís Monturiol, 23 Bajo',

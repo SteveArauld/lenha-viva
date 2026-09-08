@@ -18,7 +18,7 @@
         'vatID' => 'ESB64055007',
         'url' => url('/'),
         'email' => 'contacto@casacubertatrias.es',
-        'telephone' => '+34683573516',
+        'telephone' => '+34679245597',
         'address' => [
             '@type' => 'PostalAddress',
             'streetAddress' => 'Carrer Narcís Monturiol, 23 Bajo',
@@ -1556,7 +1556,7 @@
                                                             <div class="elementor-element elementor-element-6ba2899 elementor-widget elementor-widget-text-editor"
                                                                 data-id="6ba2899" data-element_type="widget"
                                                                 data-widget_type="text-editor.default">
-                                                                <p><strong>+34 683 573 516 </strong></p>
+                                                                <p><strong>+34 679 24 55 97 </strong></p>
                                                             </div>
                                                         </div>
                                                     </div>

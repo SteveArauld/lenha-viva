@@ -14,7 +14,7 @@
                             <div class="elementor-icon-box-wrapper">
 
                                 <div class="elementor-icon-box-icon">
-                                    <a href="https://wa.me/34683573516" target="_blank" rel="noopener" class="elementor-icon" tabindex="-1"
+                                    <a href="https://wa.me/34679245597" target="_blank" rel="noopener" class="elementor-icon" tabindex="-1"
                                         aria-label="¿Necesitas ayuda? Whatsapp:">
                                         <svg aria-hidden="true" class="e-font-icon-svg e-fab-whatsapp-square"
                                             viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg">
@@ -28,12 +28,12 @@
                                 <div class="elementor-icon-box-content">
 
                                     <h3 class="elementor-icon-box-title">
-                                        <a href="https://wa.me/34683573516" target="_blank" rel="noopener">
+                                        <a href="https://wa.me/34679245597" target="_blank" rel="noopener">
                                             ¿Necesitas ayuda? Whatsapp: </a>
                                     </h3>
 
                                     <p class="elementor-icon-box-description">
-                                        +34 683 573 516 </p>
+                                        +34 679 24 55 97 </p>
 
                                 </div>
 
@@ -357,7 +357,7 @@
             <div class="chaty-channel-list" id="csaas-channels-0">
                 <div class="chaty-channel Whatsapp-channel-link" id="Whatsapp-0-channel" data-id="Whatsapp-0"
                     data-widget="0" data-channel="Whatsapp">
-                    <a href="https://wa.me/34683573516?text=Hola,%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n"
+                    <a href="https://wa.me/34679245597?text=Hola,%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n"
                         target="_blank" rel="nofollow noopener" aria-label="WhatsApp"
                         class="chaty-tooltip Whatsapp-channel chaty-link chaty-whatsapp-channel pos-left"
                         data-form="chaty-form-0-Whatsapp" data-hover="WhatsApp">
