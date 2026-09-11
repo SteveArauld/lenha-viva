@@ -15,7 +15,9 @@ class CheckoutController extends Controller
     public function __construct()
     {
 
-        $this->pays = config('countries');
+        // Le site ne livre actuellement qu'en Espagne (voir validation ci-dessous) :
+        // le sélecteur de pays ne doit pas laisser croire à une livraison internationale.
+        $this->pays = ['ES' => 'España'];
 
     }
 

@@ -124,7 +124,7 @@
 
 
 
-                        <p>Las entregas se realizan en España y en el resto de Europa (según las zonas atendidas).
+                        <p>Las entregas se realizan actualmente únicamente en España (Península e Islas Baleares).
                         </p>
 
 

@@ -51,8 +51,8 @@
 
 
                         <p><strong>Datos registrales:</strong> Sociedad inscrita en el Registro Mercantil de
-                            Barcelona — Tomo [POR COMPLETAR], Folio [POR COMPLETAR], Hoja [POR COMPLETAR],
-                            Inscripción [POR COMPLETAR].</p>
+                            Barcelona. [PENDIENTE: el titular del sitio debe facilitar Tomo, Folio, Hoja e
+                            Inscripción exactos para completar esta ficha registral].</p>
 
 
 

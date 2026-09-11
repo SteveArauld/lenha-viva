@@ -41,15 +41,11 @@
 
 
 
-                        <p>Realizamos entregas en:</p>
+                        <p>Actualmente realizamos entregas únicamente en:</p>
 
 
 
                         <p>España (Península e Islas Baleares)</p>
-
-
-
-                        <p>Resto de Europa (zonas disponibles indicadas en el momento del pedido)</p>
 
 
 
@@ -66,10 +62,6 @@
                         <p>Plazo de transporte: de 2 a 3 días hábiles</p>
 
                         <p><strong>Plazo total estimado: de 2 a 4 días hábiles</strong> tras la confirmación del pago.</p>
-
-
-
-                        <p><strong>Resto de Europa</strong>: de 5 a 10 días hábiles</p>
 
 
 
@@ -91,7 +83,7 @@
 
 
                         <p>En https://casacubertatrias.es, la entrega de todos los productos adquiridos es gratuita en
-                            España y en el resto de Europa.</p>
+                            toda España.</p>
 
 
 

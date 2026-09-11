@@ -78,7 +78,7 @@
                                                 <p>Con acuerdos de producción con las principales fábricas de varios
                                                     países, ofrecemos el suministro inmediato y programado de
                                                     Pellets, Carbón Vegetal y Biomasa de diversos tipos, con
-                                                    entrega en toda Europa.</p>
+                                                    entrega en toda España.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -152,7 +152,7 @@
                                                     de Biomasa y Energía.</p>
                                                 <p>Casacuberta Trias S.L. cuenta con centros de distribución ubicados en España,
                                                     en Gurb y Manlleu (Barcelona), realizándose la comercialización en
-                                                    toda España y el resto de Europa.</p>
+                                                    toda España.</p>
                                             </div>
                                         </div>
                                     </div>

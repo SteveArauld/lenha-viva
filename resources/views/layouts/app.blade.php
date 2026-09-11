@@ -258,20 +258,26 @@
         }
     </style>
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MX4HS3ZTPP"></script>
+    <!-- Google tag (gtag.js) — loaded with Consent Mode default = denied until the visitor accepts cookies -->
     <script>
         window.dataLayer = window.dataLayer || [];
 
         function gtag() {
             dataLayer.push(arguments);
         }
+        gtag('consent', 'default', {
+            'ad_storage': 'denied',
+            'ad_user_data': 'denied',
+            'ad_personalization': 'denied',
+            'analytics_storage': 'denied',
+            'wait_for_update': 500
+        });
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MX4HS3ZTPP"></script>
+    <script>
         gtag('js', new Date());
         gtag('config', 'G-MX4HS3ZTPP');
         gtag('config', 'AW-17798780713');
-        gtag('event', 'conversion', {
-            'send_to': 'AW-17798780713/RgASCMbum9obEKmuj6dC'
-        });
     </script>
 </head>
 
@@ -1295,6 +1301,59 @@
             document.head.appendChild(style);
         });
     </script>
+
+    <div id="cookie-consent-banner" style="display:none;position:fixed;left:0;right:0;bottom:0;z-index:99999;background:#1f1f1f;color:#fff;padding:16px 20px;font-size:14px;line-height:1.5;box-shadow:0 -2px 10px rgba(0,0,0,.25);">
+        <div style="max-width:1100px;margin:0 auto;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;">
+            <p style="margin:0;flex:1 1 320px;">
+                Utilizamos cookies propias necesarias para el funcionamiento del sitio y, si nos lo permite, cookies
+                de análisis y publicidad (Google Analytics, Google Ads). Puede aceptarlas todas, rechazar las no
+                necesarias, o consultar nuestra
+                <a href="{{ route('politica-de-privacidade') }}" style="color:#F55F1E;">Política de privacidad</a>.
+            </p>
+            <div style="display:flex;gap:10px;flex-wrap:wrap;">
+                <button type="button" id="cookie-consent-reject" style="background:transparent;border:1px solid #fff;color:#fff;padding:8px 16px;border-radius:5px;cursor:pointer;">Rechazar no necesarias</button>
+                <button type="button" id="cookie-consent-accept" style="background:#F55F1E;border:none;color:#fff;padding:8px 16px;border-radius:5px;cursor:pointer;">Aceptar todas</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        (function () {
+            var STORAGE_KEY = 'cookie_consent_v1';
+
+            function applyConsent(granted) {
+                if (typeof gtag !== 'function') return;
+                gtag('consent', 'update', {
+                    'ad_storage': granted ? 'granted' : 'denied',
+                    'ad_user_data': granted ? 'granted' : 'denied',
+                    'ad_personalization': granted ? 'granted' : 'denied',
+                    'analytics_storage': granted ? 'granted' : 'denied'
+                });
+            }
+
+            var stored;
+            try { stored = localStorage.getItem(STORAGE_KEY); } catch (e) { stored = null; }
+
+            if (stored === 'granted' || stored === 'denied') {
+                applyConsent(stored === 'granted');
+            } else {
+                var banner = document.getElementById('cookie-consent-banner');
+                if (banner) banner.style.display = 'block';
+            }
+
+            function choose(value) {
+                try { localStorage.setItem(STORAGE_KEY, value); } catch (e) {}
+                applyConsent(value === 'granted');
+                var banner = document.getElementById('cookie-consent-banner');
+                if (banner) banner.style.display = 'none';
+            }
+
+            var acceptBtn = document.getElementById('cookie-consent-accept');
+            var rejectBtn = document.getElementById('cookie-consent-reject');
+            if (acceptBtn) acceptBtn.addEventListener('click', function () { choose('granted'); });
+            if (rejectBtn) rejectBtn.addEventListener('click', function () { choose('denied'); });
+        })();
+    </script>
+
     @stack('scripts')
 
 </body>

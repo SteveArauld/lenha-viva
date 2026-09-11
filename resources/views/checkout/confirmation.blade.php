@@ -222,4 +222,11 @@
 @endsection
 
 @push('scripts')
+<script>
+    if (typeof gtag === 'function') {
+        gtag('event', 'conversion', {
+            'send_to': 'AW-17798780713/RgASCMbum9obEKmuj6dC'
+        });
+    }
+</script>
 @endpush

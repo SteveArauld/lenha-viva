@@ -291,8 +291,8 @@
 
 
 
-                        <p>Derecho a presentar una reclamación ante la autoridad de control competente (Autoridad
-                            Italiana de Protección de Datos).</p>
+                        <p>Derecho a presentar una reclamación ante la autoridad de control competente (Agencia
+                            Española de Protección de Datos, AEPD).</p>
 
 
 
