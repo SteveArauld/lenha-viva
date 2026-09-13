@@ -13,6 +13,7 @@ class Product extends Model
     protected $fillable = [
         'id', 'title', 'slug', 'category', 'ref', 'price', 'old_price',
         'in_stock', 'color', 'hover_image', 'images', 'short_description', 'description',
+        'unit_measure_value', 'unit_measure_unit', 'eprel_code',
     ];
 
     protected $casts = [
@@ -20,6 +21,7 @@ class Product extends Model
         'in_stock' => 'boolean',
         'price' => 'decimal:2',
         'old_price' => 'decimal:2',
+        'unit_measure_value' => 'decimal:3',
     ];
 
     public function categoryModel()
@@ -47,6 +49,9 @@ class Product extends Model
             'description' => $this->description ?? '',
             'ref' => $this->ref ?? '',
             'slug' => $this->slug,
+            'unit_measure_value' => $this->unit_measure_value,
+            'unit_measure_unit' => $this->unit_measure_unit,
+            'eprel_code' => $this->eprel_code,
         ];
     }
 }

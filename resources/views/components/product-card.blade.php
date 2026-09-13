@@ -53,6 +53,16 @@
         <span class="lv-product-card__price">
             {{ \App\Support\Money::eur($product['price']) }}
         </span>
+        @php
+            $unitPriceLabel = \App\Support\UnitPricing::displayString(
+                \App\Support\Money::toFloat($product['price']),
+                isset($product['unit_measure_value']) ? (float) $product['unit_measure_value'] : null,
+                $product['unit_measure_unit'] ?? null
+            );
+        @endphp
+        @if ($unitPriceLabel)
+            <span class="lv-product-card__unit-price">{{ $unitPriceLabel }}</span>
+        @endif
         <h3 class="lv-product-card__title">
             <a href="{{ route('product.show', ['slug' => $product['slug']]) }}">{{ $product['title'] }}</a>
         </h3>

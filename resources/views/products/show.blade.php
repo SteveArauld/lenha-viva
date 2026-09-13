@@ -103,6 +103,16 @@
                         <span class="lv-product__price">{{ \App\Support\Money::eur($product['price']) }}</span>
                         <span class="lv-product__price-note">(IVA incluido)</span>
                     </div>
+                    @php
+                        $unitPriceLabel = \App\Support\UnitPricing::displayString(
+                            \App\Support\Money::toFloat($product['price']),
+                            isset($product['unit_measure_value']) ? (float) $product['unit_measure_value'] : null,
+                            $product['unit_measure_unit'] ?? null
+                        );
+                    @endphp
+                    @if ($unitPriceLabel)
+                        <div class="lv-product__unit-price">{{ $unitPriceLabel }}</div>
+                    @endif
 
                     <div class="lv-product__stock {{ $product['in_stock'] ? 'lv-product__stock--in' : 'lv-product__stock--out' }}">
                         <i class="tb-icon {{ $product['in_stock'] ? 'tb-icon-check-circle' : 'tb-icon-close-01' }}"></i>

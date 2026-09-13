@@ -2,8 +2,16 @@
 
 namespace App\Http\Controllers;
 
+use App\Repositories\LojaProduct;
+use App\Support\UnitPricing;
+
 class FeedController extends Controller
 {
+    /**
+     * Categories whose products carry the EU energy label (EPREL) —
+     * solid-fuel estufas and calderas only.
+     */
+    private const EPREL_CATEGORIES = ['estufas-de-pellets', 'calderas-de-lena'];
     /**
      * Google Merchant Center namespace for the g: prefixed elements.
      */
@@ -15,7 +23,10 @@ class FeedController extends Controller
      */
     public function googleMerchant()
     {
-        $products = collect(config('loja_products', []));
+        // Reads from the `products` table (falls back to config/loja_products.php
+        // only if that table doesn't exist yet), so unit-pricing and EPREL
+        // columns added to the catalog actually reach the feed.
+        $products = LojaProduct::query()->get();
 
         $dom = new \DOMDocument('1.0', 'UTF-8');
         $dom->formatOutput = false;
@@ -42,7 +53,22 @@ class FeedController extends Controller
             }
         }
 
-        return response($dom->saveXML(), 200, [
+        $xml = $dom->saveXML();
+
+        // Never serve malformed XML: re-parse the output we just built and
+        // fail loudly rather than publish something Google can't ingest.
+        $check = new \DOMDocument();
+        libxml_use_internal_errors(true);
+        $valid = $check->loadXML($xml);
+        $errors = libxml_get_errors();
+        libxml_clear_errors();
+
+        if (! $valid) {
+            report(new \RuntimeException('Flux Google Merchant invalide: '.implode('; ', array_map(fn ($e) => trim($e->message), $errors))));
+            abort(500, 'Flux invalide');
+        }
+
+        return response($xml, 200, [
             'Content-Type' => 'application/xml; charset=UTF-8',
         ]);
     }
@@ -95,11 +121,61 @@ class FeedController extends Controller
             $item->appendChild($this->gText($dom, 'product_type', \App\Support\CategoryLabels::label($product['category'])));
         }
 
+        $this->appendUnitPricing($dom, $item, $product, $price);
+        $this->appendCertification($dom, $item, $product);
+
         $shipping = $dom->createElementNS(self::G_NS, 'g:shipping');
         $item->appendChild($shipping);
         $shipping->appendChild($this->gText($dom, 'country', 'ES'));
         $shipping->appendChild($this->gText($dom, 'service', 'Estándar'));
         $shipping->appendChild($this->gText($dom, 'price', '0.00 EUR'));
+    }
+
+    /**
+     * unit_pricing_measure / unit_pricing_base_measure — always emitted
+     * together, never one without the other, and only when the stored
+     * value/unit are both present and pass Google's closed validation
+     * lists (an invalid value is omitted, never "corrected").
+     */
+    private function appendUnitPricing(\DOMDocument $dom, \DOMElement $item, array $product, float $price): void
+    {
+        $value = isset($product['unit_measure_value']) ? (float) $product['unit_measure_value'] : null;
+        $unit = $product['unit_measure_unit'] ?? null;
+
+        $measure = UnitPricing::measureString($value, $unit);
+        $base = UnitPricing::baseMeasureString($unit);
+
+        if ($measure === null || $base === null) {
+            return;
+        }
+
+        $item->appendChild($this->gText($dom, 'unit_pricing_measure', $measure));
+        $item->appendChild($this->gText($dom, 'unit_pricing_base_measure', $base));
+    }
+
+    /**
+     * EPREL certification block for solid-fuel estufas/calderas only.
+     * Never emits energy_efficiency_class: since April 2025 Google only
+     * accepts it for CH/NO/GB, and its presence can prevent the newer
+     * certification attribute from being picked up.
+     */
+    private function appendCertification(\DOMDocument $dom, \DOMElement $item, array $product): void
+    {
+        if (! in_array($product['category'] ?? null, self::EPREL_CATEGORIES, true)) {
+            return;
+        }
+
+        $code = trim((string) ($product['eprel_code'] ?? ''));
+
+        if ($code === '' || ! preg_match('/^\d+$/', $code)) {
+            return;
+        }
+
+        $certification = $dom->createElementNS(self::G_NS, 'g:certification');
+        $item->appendChild($certification);
+        $certification->appendChild($this->gText($dom, 'certification_authority', 'EC'));
+        $certification->appendChild($this->gText($dom, 'certification_name', 'EPREL'));
+        $certification->appendChild($this->gText($dom, 'certification_code', $code));
     }
 
     /**
