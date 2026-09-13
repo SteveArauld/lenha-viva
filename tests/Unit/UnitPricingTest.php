@@ -34,8 +34,10 @@ class UnitPricingTest extends TestCase
 
     public function test_measure_string_formats_whole_and_decimal_values(): void
     {
-        $this->assertSame('990kg', UnitPricing::measureString(990.0, 'kg'));
-        $this->assertSame('2.5cbm', UnitPricing::measureString(2.5, 'cbm'));
+        // Google's format has a space between value and unit for
+        // unit_pricing_measure (unlike the unspaced base measure).
+        $this->assertSame('990 kg', UnitPricing::measureString(990.0, 'kg'));
+        $this->assertSame('2.5 cbm', UnitPricing::measureString(2.5, 'cbm'));
     }
 
     public function test_measure_string_omits_invalid_unit_instead_of_correcting_it(): void

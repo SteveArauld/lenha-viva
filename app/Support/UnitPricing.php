@@ -183,12 +183,17 @@ class UnitPricing
             return null;
         }
 
-        return self::formatNumber($value).$unit;
+        // Google's own unit_pricing_measure examples ("9 l", "125 ml",
+        // "2.38 sqm") put a space between the value and the unit — unlike
+        // unit_pricing_base_measure, which is unspaced ("1kg", "750ml").
+        // https://support.google.com/merchants/answer/6324455
+        return self::formatNumber($value).' '.$unit;
     }
 
     /**
      * Base measure string for the unit actually stored ("1kg", "1cbm",
-     * "1l" per the Phase 1 convention). Validated against Google's closed
+     * "1l" per the Phase 1 convention). Unspaced, per Google's
+     * unit_pricing_base_measure format. Validated against Google's closed
      * list of accepted base measures before being returned.
      */
     public static function baseMeasureString(?string $unit): ?string
