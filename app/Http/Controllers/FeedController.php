@@ -78,7 +78,13 @@ class FeedController extends Controller
         $price = $this->cleanPrice($product['price'] ?? 0);
         $oldPrice = isset($product['old_price']) ? $this->cleanPrice($product['old_price']) : null;
         $images = array_values(array_filter($product['images'] ?? [], fn ($i) => ! empty($i)));
-        $mainImage = $images[0] ?? ($product['hover_image'] ?? null);
+        // Prefer, as the main image, the first one (resolved to its largest
+        // on-disk variant) that already meets Google's minimum dimensions —
+        // rather than blindly taking images[0]. A product's gallery often
+        // has one compliant photo buried behind smaller ones; this picks it
+        // up for free instead of flagging "image too small" needlessly.
+        // Falls back to images[0]/hover_image, unchanged, when none qualify.
+        $mainImage = $this->firstCompliantImage($images) ?? ($images[0] ?? ($product['hover_image'] ?? null));
         $title = $this->plainText($product['title'] ?? '');
         $description = $this->plainText($product['description'] ?? ($product['short_description'] ?? ''));
 
@@ -99,8 +105,24 @@ class FeedController extends Controller
         $item->appendChild($this->text($dom, 'link', route('product.show', ['slug' => $product['slug']])));
         $item->appendChild($this->gText($dom, 'image_link', asset($this->largestVariant($mainImage))));
 
-        foreach (array_slice(array_diff($images, [$mainImage]), 0, 10) as $extraImage) {
-            $item->appendChild($this->gText($dom, 'additional_image_link', asset($this->largestVariant($extraImage))));
+        // additional_image_link is optional for Google — unlike image_link,
+        // omitting a too-small photo is always safer than submitting one
+        // that trips the "image too small" check, so non-compliant extra
+        // photos are simply dropped instead of served.
+        $extraCount = 0;
+        foreach (array_diff($images, [$mainImage]) as $extraImage) {
+            if ($extraCount >= 10) {
+                break;
+            }
+
+            $resolved = $this->largestVariant($extraImage);
+
+            if (! $this->meetsMinImageDimensions($resolved)) {
+                continue;
+            }
+
+            $item->appendChild($this->gText($dom, 'additional_image_link', asset($resolved)));
+            $extraCount++;
         }
 
         $item->appendChild($this->gText($dom, 'availability', ! empty($product['in_stock']) ? 'in_stock' : 'out_of_stock'));
@@ -218,6 +240,35 @@ class FeedController extends Controller
      * 800x800, so prefer the un-suffixed original when it exists on disk and is
      * genuinely larger than the thumbnail referenced in the catalog.
      */
+    /**
+     * Google's upcoming minimum for image_link / additional_image_link
+     * (enforced from 2027-01-31). Kept in sync with
+     * AuditFeedImages::MIN_DIMENSION.
+     */
+    private const MIN_IMAGE_DIMENSION = 500;
+
+    /**
+     * First image (largest on-disk variant of each candidate) that already
+     * meets Google's minimum dimensions, or null if none do.
+     */
+    private function firstCompliantImage(array $images): ?string
+    {
+        foreach ($images as $image) {
+            if ($this->meetsMinImageDimensions($this->largestVariant($image))) {
+                return $image;
+            }
+        }
+
+        return null;
+    }
+
+    private function meetsMinImageDimensions(string $servedPath): bool
+    {
+        $size = @getimagesize(public_path($servedPath));
+
+        return $size && $size[0] >= self::MIN_IMAGE_DIMENSION && $size[1] >= self::MIN_IMAGE_DIMENSION;
+    }
+
     private function largestVariant(string $path): string
     {
         if (! preg_match('/^(.*)-(\d+)x(\d+)(\.[a-zA-Z]+)$/', $path, $m)) {
