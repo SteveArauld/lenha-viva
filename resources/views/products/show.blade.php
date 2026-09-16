@@ -27,7 +27,30 @@
         'priceCurrency' => 'EUR',
         'price' => $ldPrice,
         'availability' => $ldAvailability,
+        'itemCondition' => 'https://schema.org/NewCondition',
         'seller' => ['@type' => 'Organization', 'name' => config('app.name')],
+        // Matches politica-de-reembolso.blade.php: 14-day legal withdrawal
+        // period (Directiva 2011/83/UE), refund via the original payment method.
+        'hasMerchantReturnPolicy' => [
+            '@type' => 'MerchantReturnPolicy',
+            'applicableCountry' => 'ES',
+            'returnPolicyCategory' => 'https://schema.org/MerchantReturnFiniteReturnWindow',
+            'merchantReturnDays' => 14,
+            'returnMethod' => 'https://schema.org/ReturnByMail',
+            'returnFees' => 'https://schema.org/ReturnShippingFees',
+        ],
+        // Matches politica-de-entrega.blade.php: free delivery in Spain,
+        // 0-1 business day handling + 2-3 business days transit.
+        'shippingDetails' => [
+            '@type' => 'OfferShippingDetails',
+            'shippingRate' => ['@type' => 'MonetaryAmount', 'value' => '0.00', 'currency' => 'EUR'],
+            'shippingDestination' => ['@type' => 'DefinedRegion', 'addressCountry' => 'ES'],
+            'deliveryTime' => [
+                '@type' => 'ShippingDeliveryTime',
+                'handlingTime' => ['@type' => 'QuantitativeValue', 'minValue' => 0, 'maxValue' => 1, 'unitCode' => 'd'],
+                'transitTime' => ['@type' => 'QuantitativeValue', 'minValue' => 2, 'maxValue' => 3, 'unitCode' => 'd'],
+            ],
+        ],
     ],
 ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
 </script>

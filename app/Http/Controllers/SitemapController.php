@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Repositories\LojaProduct;
 use App\Support\CategoryLabels;
 
 class SitemapController extends Controller
@@ -43,8 +44,10 @@ class SitemapController extends Controller
             $urls[] = ['loc' => url($slug), 'priority' => '0.8', 'changefreq' => 'weekly'];
         }
 
-        // Product pages
-        foreach (config('loja_products', []) as $product) {
+        // Product pages — read from the same source as the catalog (DB table,
+        // falling back to config/loja_products.php) so every product actually
+        // sold is discoverable, matching what the Google Merchant feed lists.
+        foreach (LojaProduct::query()->get() as $product) {
             if (! empty($product['slug'])) {
                 $urls[] = [
                     'loc' => url('producto/'.$product['slug']),
