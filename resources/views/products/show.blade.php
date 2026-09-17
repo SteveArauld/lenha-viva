@@ -2,57 +2,12 @@
 
 @section('title', $product['title'])
 @section('meta_description', \Illuminate\Support\Str::limit(strip_tags($product['short_description'] ?? $product['title']), 155))
-@section('canonical', url('producto/'.$product['slug']))
-@section('og_image', !empty($product['images'][0]) ? asset($product['images'][0]) : '')
+@section('canonical', $offer->link)
+@section('og_image', $offer->imageLink ?: (!empty($product['images'][0]) ? asset($product['images'][0]) : ''))
 
 @push('head')
-@php
-    $ldPrice = number_format((float) str_replace(',', '', (string) ($product['price'] ?? 0)), 2, '.', '');
-    $ldImage = !empty($product['images'][0]) ? asset($product['images'][0]) : asset('wp-content/uploads/2022/01/er-01-scaled.png');
-    $ldAvailability = ($product['in_stock'] ?? true) ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock';
-    $ldCategoryLabel = \App\Support\CategoryLabels::label($product['category'] ?? null);
-@endphp
 <script type="application/ld+json">
-{!! json_encode([
-    '@context' => 'https://schema.org',
-    '@type' => 'Product',
-    'name' => $product['title'] ?? '',
-    'description' => trim(strip_tags($product['short_description'] ?? $product['title'] ?? '')),
-    'image' => $ldImage,
-    'sku' => (string) ($product['ref'] ?? $product['id'] ?? ''),
-    'category' => $ldCategoryLabel,
-    'offers' => [
-        '@type' => 'Offer',
-        'url' => url('producto/'.$product['slug']),
-        'priceCurrency' => 'EUR',
-        'price' => $ldPrice,
-        'availability' => $ldAvailability,
-        'itemCondition' => 'https://schema.org/NewCondition',
-        'seller' => ['@type' => 'Organization', 'name' => config('app.name')],
-        // Matches politica-de-reembolso.blade.php: 14-day legal withdrawal
-        // period (Directiva 2011/83/UE), refund via the original payment method.
-        'hasMerchantReturnPolicy' => [
-            '@type' => 'MerchantReturnPolicy',
-            'applicableCountry' => 'ES',
-            'returnPolicyCategory' => 'https://schema.org/MerchantReturnFiniteReturnWindow',
-            'merchantReturnDays' => 14,
-            'returnMethod' => 'https://schema.org/ReturnByMail',
-            'returnFees' => 'https://schema.org/ReturnShippingFees',
-        ],
-        // Matches politica-de-entrega.blade.php: free delivery in Spain,
-        // 0-1 business day handling + 2-3 business days transit.
-        'shippingDetails' => [
-            '@type' => 'OfferShippingDetails',
-            'shippingRate' => ['@type' => 'MonetaryAmount', 'value' => '0.00', 'currency' => 'EUR'],
-            'shippingDestination' => ['@type' => 'DefinedRegion', 'addressCountry' => 'ES'],
-            'deliveryTime' => [
-                '@type' => 'ShippingDeliveryTime',
-                'handlingTime' => ['@type' => 'QuantitativeValue', 'minValue' => 0, 'maxValue' => 1, 'unitCode' => 'd'],
-                'transitTime' => ['@type' => 'QuantitativeValue', 'minValue' => 2, 'maxValue' => 3, 'unitCode' => 'd'],
-            ],
-        ],
-    ],
-], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+{!! json_encode($offer->toJsonLd(), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
 </script>
 <script type="application/ld+json">
 {!! json_encode([
@@ -60,7 +15,7 @@
     '@type' => 'BreadcrumbList',
     'itemListElement' => [
         ['@type' => 'ListItem', 'position' => 1, 'name' => 'Inicio', 'item' => url('/')],
-        ['@type' => 'ListItem', 'position' => 2, 'name' => $ldCategoryLabel, 'item' => url('categoria/'.($product['category'] ?? ''))],
+                        ['@type' => 'ListItem', 'position' => 2, 'name' => \App\Support\CategoryLabels::label($product['category'] ?? null), 'item' => url('categoria/'.($product['category'] ?? ''))],
         ['@type' => 'ListItem', 'position' => 3, 'name' => $product['title'] ?? ''],
     ],
 ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
@@ -100,7 +55,7 @@
                                 <i class="tb-icon tb-icon-angle-left"></i>
                             </button>
                         @endif
-                        <img id="lv-gallery-main-img" src="{{ asset($product['images'][0]) }}" alt="{{ $product['title'] }}">
+                        <img id="lv-gallery-main-img" src="{{ $offer->imageLink ?: asset($product['images'][0] ?? '') }}" alt="{{ $offer->title }}" width="800" height="800">
                         @if(count($product['images']) > 1)
                             <button type="button" class="lv-gallery__arrow lv-gallery__arrow--next" aria-label="Imagen siguiente">
                                 <i class="tb-icon tb-icon-angle-right"></i>
@@ -120,10 +75,13 @@
 
                 {{-- Info panel --}}
                 <div class="lv-product__info">
-                    <h1 class="lv-product__title">{{ $product['title'] }}</h1>
+                    <h1 class="lv-product__title">{{ $offer->title }}</h1>
 
                     <div class="lv-product__price-row">
-                        <span class="lv-product__price">{{ \App\Support\Money::eur($product['price']) }}</span>
+                        @if ($offer->salePrice)
+                            <span class="lv-product__price-old">{{ \App\Support\Money::eur($product['old_price']) }}</span>
+                        @endif
+                        <span class="lv-product__price" data-offer-price="{{ number_format($offer->offerAmount, 2, '.', '') }}">{{ \App\Support\Money::eur($offer->offerAmount) }}</span>
                         <span class="lv-product__price-note">(IVA incluido)</span>
                     </div>
                     @php
@@ -137,13 +95,13 @@
                         <div class="lv-product__unit-price">{{ $unitPriceLabel }}</div>
                     @endif
 
-                    <div class="lv-product__stock {{ $product['in_stock'] ? 'lv-product__stock--in' : 'lv-product__stock--out' }}">
-                        <i class="tb-icon {{ $product['in_stock'] ? 'tb-icon-check-circle' : 'tb-icon-close-01' }}"></i>
-                        {{ $product['in_stock'] ? 'En stock - Listo para enviar' : 'Agotado' }}
+                    <div class="lv-product__stock {{ $offer->inStock ? 'lv-product__stock--in' : 'lv-product__stock--out' }}" data-availability="{{ $offer->availability->value }}">
+                        <i class="tb-icon {{ $offer->inStock ? 'tb-icon-check-circle' : 'tb-icon-close-01' }}"></i>
+                        {{ $offer->inStock ? 'En stock — envío en 2-4 días laborables' : 'Agotado' }}
                     </div>
 
                     <ul class="lv-product__benefits">
-                        <li><i class="tb-icon tb-icon-check-circle"></i> Envío gratis a España y Europa</li>
+                        <li><i class="tb-icon tb-icon-check-circle"></i> Envío gratis en toda España (2-4 días laborables)</li>
                         <li><i class="tb-icon tb-icon-check-circle"></i> Pago seguro por transferencia bancaria</li>
                         <li><i class="tb-icon tb-icon-check-circle"></i> Devolución en un plazo de 14 días</li>
                     </ul>

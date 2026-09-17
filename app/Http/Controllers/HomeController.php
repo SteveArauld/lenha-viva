@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Domain\Merchant\GoogleProductMapper;
 use App\Repositories\LojaProduct;
 use Illuminate\Http\Request;
 
@@ -177,52 +178,38 @@ class HomeController extends Controller
      */
     public function show($slug)
     {
-        // Récupérer le produit par son slug
-        $allProducts = collect(config('loja_products'));
-        $product = $allProducts->firstWhere('slug', $slug);
+        $product = LojaProduct::query()->where('slug', $slug)->get()->first();
 
-
-
-        // Si le produit n'existe pas, rediriger vers la page d'accueil
-        if (!$product) {
+        if (! $product) {
             abort(404);
         }
 
-        // Récupérer les produits de la même catégorie (pour la section "Produits liés")
+        $allProducts = LojaProduct::query()->get();
+
         $relatedProducts = $allProducts
             ->where('category', $product['category'])
             ->where('id', '!=', $product['id'])
             ->take(4);
 
-        // Récupérer les produits précédent et suivant
         $allProductsSorted = $allProducts->values();
         $currentIndex = $allProductsSorted->search(function ($item) use ($product) {
             return $item['id'] == $product['id'];
         });
 
-        $prevProduct = null;
-        $nextProduct = null;
+        $prevProduct = $currentIndex > 0 ? $allProductsSorted[$currentIndex - 1] : null;
+        $nextProduct = ($currentIndex !== false && $currentIndex < $allProductsSorted->count() - 1)
+            ? $allProductsSorted[$currentIndex + 1]
+            : null;
 
-        if ($currentIndex > 0) {
-            $prevProduct = $allProductsSorted[$currentIndex - 1];
-        }
-
-        if ($currentIndex < $allProductsSorted->count() - 1) {
-            $nextProduct = $allProductsSorted[$currentIndex + 1];
-        }
-
-        // Formater les prix
         $formatPrice = function ($price) {
             return number_format(floatval($price), 2, ',', '.');
         };
 
-        //dd($relatedProducts);
+        $offer = app(GoogleProductMapper::class)->map($product);
 
-
-
-        // Passer les données à la vue
         return view('products.show', compact(
             'product',
+            'offer',
             'relatedProducts',
             'prevProduct',
             'nextProduct',

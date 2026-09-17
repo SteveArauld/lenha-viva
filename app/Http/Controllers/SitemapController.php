@@ -20,7 +20,7 @@ class SitemapController extends Controller
         // Static informational pages
         foreach ([
             'loja' => 'weekly',
-            'sobre-nos' => 'monthly',
+            'sobre-nosotros' => 'monthly',
             'contacto' => 'monthly',
             'certificaciones' => 'monthly',
             'avisos-legais' => 'yearly',

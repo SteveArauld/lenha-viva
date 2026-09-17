@@ -34,60 +34,7 @@
     <meta name="twitter:image" content="{{ $seoImage }}">
 
     <script type="application/ld+json">
-    {!! json_encode([
-        '@context' => 'https://schema.org',
-        '@graph' => [
-            [
-                '@type' => 'Organization',
-                '@id' => url('/') . '/#organization',
-                'name' => config('app.name'),
-                'legalName' => 'Casacuberta Trias S.L.',
-                'vatID' => 'ESB64055007',
-                'taxID' => 'B64055007',
-                'url' => url('/'),
-                'logo' => asset('wp-content/uploads/2022/01/er-01-scaled.png'),
-                'email' => 'contacto@casacubertatrias.es',
-                'telephone' => '+34679245597',
-                'address' => [
-                    '@type' => 'PostalAddress',
-                    'streetAddress' => 'Carrer Narcís Monturiol, 23 Bajo',
-                    'postalCode' => '08503',
-                    'addressLocality' => 'Gurb',
-                    'addressRegion' => 'Barcelona',
-                    'addressCountry' => 'ES',
-                ],
-            ],
-            [
-                '@type' => 'WebSite',
-                '@id' => url('/') . '/#website',
-                'url' => url('/'),
-                'name' => config('app.name'),
-                'inLanguage' => 'es-ES',
-                'publisher' => ['@id' => url('/') . '/#organization'],
-            ],
-            [
-                '@type' => 'LocalBusiness',
-                '@id' => url('/') . '/#localbusiness',
-                'name' => config('app.name'),
-                'legalName' => 'Casacuberta Trias S.L.',
-                'vatID' => 'ESB64055007',
-                'parentOrganization' => ['@id' => url('/') . '/#organization'],
-                'url' => url('/'),
-                'image' => asset('wp-content/uploads/2022/01/er-01-scaled.png'),
-                'email' => 'contacto@casacubertatrias.es',
-                'telephone' => '+34679245597',
-                'address' => [
-                    '@type' => 'PostalAddress',
-                    'streetAddress' => 'Carrer Narcís Monturiol, 23 Bajo',
-                    'postalCode' => '08503',
-                    'addressLocality' => 'Gurb',
-                    'addressRegion' => 'Barcelona',
-                    'addressCountry' => 'ES',
-                ],
-                'areaServed' => 'ES',
-            ],
-        ],
-    ], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
+    {!! json_encode(\App\Support\MerchantSchema::graph(), JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) !!}
     </script>
     @stack('head')
 

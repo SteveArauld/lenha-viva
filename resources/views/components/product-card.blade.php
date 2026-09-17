@@ -51,6 +51,9 @@
 
     <div class="lv-product-card__body">
         <span class="lv-product-card__price">
+            @if ($hasDiscount)
+                <span class="lv-product-card__price-old">{{ \App\Support\Money::eur($product['old_price']) }}</span>
+            @endif
             {{ \App\Support\Money::eur($product['price']) }}
         </span>
         @php

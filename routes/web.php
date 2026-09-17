@@ -3,6 +3,7 @@
 use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\FeedController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\Merchant\GoogleFeedController;
 use App\Http\Controllers\WishlistController;
 use Illuminate\Support\Facades\Route;
 
@@ -26,6 +27,8 @@ if (config('app.debug')) {
 }
 
 Route::get('/feed/google-merchant.xml', [FeedController::class, 'googleMerchant'])->name('feed.google-merchant');
+Route::get('/feeds/google-shopping.xml', [GoogleFeedController::class, 'view'])->name('feed.google-shopping');
+Route::get('/feeds/google-shopping/descargar.xml', [GoogleFeedController::class, 'download'])->name('feed.google-shopping.download');
 
 Route::get('/sitemap.xml', [App\Http\Controllers\SitemapController::class, 'index'])->name('sitemap');
 

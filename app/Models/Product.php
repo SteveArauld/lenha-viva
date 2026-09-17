@@ -2,17 +2,21 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class Product extends Model
 {
+    use HasFactory;
+
     public $incrementing = false;
 
     protected $keyType = 'int';
 
     protected $fillable = [
-        'id', 'title', 'slug', 'category', 'ref', 'price', 'old_price',
-        'in_stock', 'color', 'hover_image', 'images', 'short_description', 'description',
+        'id', 'title', 'slug', 'category', 'ref', 'brand', 'google_product_category',
+        'price', 'old_price', 'in_stock', 'color', 'hover_image', 'images',
+        'short_description', 'description',
         'unit_measure_value', 'unit_measure_unit', 'eprel_code',
     ];
 
@@ -48,6 +52,8 @@ class Product extends Model
             'short_description' => $this->short_description ?? '',
             'description' => $this->description ?? '',
             'ref' => $this->ref ?? '',
+            'brand' => $this->brand ?? null,
+            'google_product_category' => $this->google_product_category ?? null,
             'slug' => $this->slug,
             'unit_measure_value' => $this->unit_measure_value,
             'unit_measure_unit' => $this->unit_measure_unit,

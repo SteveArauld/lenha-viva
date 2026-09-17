@@ -41,11 +41,7 @@
 
 
 
-                        <p>Actualmente realizamos entregas únicamente en:</p>
-
-
-
-                        <p>España (Península e Islas Baleares)</p>
+                        <p>Actualmente realizamos entregas en <strong>toda España</strong> (península, islas Baleares, Canarias, Ceuta y Melilla).</p>
 
 
 
@@ -55,7 +51,7 @@
 
 
 
-                        <p><strong>España (Península e Islas Baleares)</strong></p>
+                        <p><strong>España</strong></p>
 
                         <p>Plazo de preparación: de 0 a 1 día hábil</p>
 
@@ -83,7 +79,7 @@
 
 
                         <p>En https://casacubertatrias.es, la entrega de todos los productos adquiridos es gratuita en
-                            toda España.</p>
+                            <strong>toda España</strong>. No enviamos fuera de España.</p>
 
 
 
