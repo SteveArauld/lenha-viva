@@ -154,11 +154,10 @@
                                 </div>
 
                                 <div class="lv-field">
-                                    <label for="shipping-nif">DNI / NIF</label>
+                                    <label for="shipping-nif">DNI / NIF (opcional)</label>
                                     <input type="text" id="shipping-nif" name="shipping-nif" inputmode="text"
-                                        placeholder="12345678Z"
                                         class="lv-input @error('shipping-nif') is-invalid @enderror"
-                                        value="{{ old('shipping-nif') }}" required>
+                                        value="{{ old('shipping-nif') }}">
                                     @error('shipping-nif')
                                         <span class="lv-field-error">{{ $message }}</span>
                                     @enderror
@@ -275,8 +274,8 @@
                                 </div>
 
                                 <div class="lv-field">
-                                    <label for="billing-nif">DNI / NIF</label>
-                                    <input type="text" id="billing-nif" name="billing-nif" placeholder="12345678Z"
+                                    <label for="billing-nif">DNI / NIF (opcional)</label>
+                                    <input type="text" id="billing-nif" name="billing-nif"
                                         class="lv-input @error('billing-nif') is-invalid @enderror"
                                         value="{{ old('billing-nif') }}">
                                     @error('billing-nif')
@@ -434,7 +433,7 @@
 
             function copyShippingToBilling() {
                 const fields = ['first_name', 'last_name', 'address_1', 'address_2', 'city', 'postcode',
-                    'country', 'phone'
+                    'country', 'phone', 'nif', 'state'
                 ];
                 fields.forEach(field => {
                     $(`#billing-${field}`).val($(`#shipping-${field}`).val());
@@ -461,6 +460,10 @@
 
             // Field validation on submit
             $form.on('submit', function(e) {
+                if ($sameAddress.is(':checked')) {
+                    copyShippingToBilling();
+                }
+
                 $submitBtn.prop('disabled', true);
                 $submitBtn.find('.lv-btn__text').text('Procesando...');
 

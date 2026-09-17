@@ -80,9 +80,9 @@ class CheckoutController extends Controller
             'shipping-address_1' => 'required|string|max:500',
             'shipping-address_2' => 'nullable|string|max:500',
             'shipping-city' => 'required|string|max:255',
-            'shipping-state' => 'required|string|in:'.implode(',', config('spain.provinces')),
-            'shipping-nif' => ['required', 'string', 'regex:/^([0-9]{8}[A-Za-z]|[XYZxyz][0-9]{7}[A-Za-z]|[A-HJ-NP-SUVWa-hj-np-suvw][0-9]{7}[0-9A-Ja-j])$/'],
-            'shipping-postcode' => ['required', 'string', 'regex:/^(0[1-9]|[1-4][0-9]|5[0-2])[0-9]{3}$/'],
+            'shipping-state' => 'required|string|max:255',
+            'shipping-nif' => 'nullable|string|max:50',
+            'shipping-postcode' => 'required|string|max:20',
             'shipping-phone' => 'nullable|string|max:20',
 
             'billing-country' => 'required|string|max:100',
@@ -91,16 +91,10 @@ class CheckoutController extends Controller
             'billing-address_1' => 'required|string|max:500',
             'billing-address_2' => 'nullable|string|max:500',
             'billing-city' => 'required|string|max:255',
-            'billing-state' => 'nullable|string|in:'.implode(',', config('spain.provinces')),
-            'billing-nif' => ['nullable', 'string', 'regex:/^([0-9]{8}[A-Za-z]|[XYZxyz][0-9]{7}[A-Za-z]|[A-HJ-NP-SUVWa-hj-np-suvw][0-9]{7}[0-9A-Ja-j])$/'],
-            'billing-postcode' => ['required', 'string', 'regex:/^(0[1-9]|[1-4][0-9]|5[0-2])[0-9]{3}$/'],
+            'billing-state' => 'nullable|string|max:255',
+            'billing-nif' => 'nullable|string|max:50',
+            'billing-postcode' => 'required|string|max:20',
             'billing-phone' => 'nullable|string|max:20',
-        ], [
-            'shipping-nif.regex' => 'Introduce un DNI/NIF español válido (p. ej. 12345678Z).',
-            'billing-nif.regex' => 'Introduce un DNI/NIF español válido (p. ej. 12345678Z).',
-            'shipping-postcode.regex' => 'Introduce un código postal español válido (5 dígitos).',
-            'billing-postcode.regex' => 'Introduce un código postal español válido (5 dígitos).',
-            'shipping-state.in' => 'Selecciona una provincia española.',
         ]);
 
         // Récupérer le panier
@@ -139,7 +133,7 @@ class CheckoutController extends Controller
                 'address_2' => $validated['shipping-address_2'] ?? '',
                 'city' => $validated['shipping-city'],
                 'state' => $validated['shipping-state'],
-                'nif' => strtoupper($validated['shipping-nif']),
+                'nif' => strtoupper($validated['shipping-nif'] ?? ''),
                 'postcode' => $validated['shipping-postcode'],
                 'country' => $validated['shipping-country'],
                 'phone' => $validated['shipping-phone'] ?? '',
