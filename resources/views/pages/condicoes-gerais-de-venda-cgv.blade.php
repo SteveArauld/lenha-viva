@@ -91,7 +91,7 @@
 
 
                         <p>Los precios que figuran en el sitio están expresados en euros, con todos los impuestos
-                            incluidos (IVA incluido), excluyendo los gastos de envío.<br>Casacuberta Trias S.L. se reserva el
+                            incluidos (IVA incluido). Los gastos de envío se muestran antes de confirmar el pedido; actualmente el envío es gratuito.<br>Casacuberta Trias S.L. se reserva el
                             derecho de modificar sus precios en cualquier momento, si bien los productos se
                             facturarán con base en los precios vigentes en el momento del pedido.</p>
 
@@ -139,7 +139,7 @@
 
 
 
-                        <p>Los gastos de entrega se indican en la confirmación del pedido.</p>
+                        <p>Los gastos de entrega se indican en la ficha de producto, en el carrito y antes de confirmar el pedido (actualmente, envío gratuito).</p>
 
 
 

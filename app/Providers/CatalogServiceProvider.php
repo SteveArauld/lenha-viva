@@ -18,17 +18,13 @@ class CatalogServiceProvider extends ServiceProvider
     public function boot(): void
     {
         try {
-            if (! Schema::hasTable('products')) {
-                return;
+            if (Schema::hasTable('products')) {
+                $products = Product::query()->orderBy('id')->get();
+
+                if ($products->isNotEmpty()) {
+                    config(['loja_products' => $products->map->toCatalogArray()->all()]);
+                }
             }
-
-            $products = Product::query()->orderBy('id')->get();
-
-            if ($products->isEmpty()) {
-                return;
-            }
-
-            config(['loja_products' => $products->map->toCatalogArray()->all()]);
         } catch (Throwable $e) {
             // During install / before migrations the table may not exist yet —
             // fall back to the array already loaded from the config file.

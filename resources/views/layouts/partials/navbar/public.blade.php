@@ -693,12 +693,14 @@
                                                 </a>
                                             </li>
 
-                                            <li
+                                            @if (\App\Support\Certifications::all())
+<li
                                                 class="menu-item {{ request()->routeIs('certificaciones') ? 'active' : '' }}">
                                                 <a class="elementor-item" href="{{ route('certificaciones') }}">
                                                     <span class="menu-title">Certificaciones</span>
                                                 </a>
                                             </li>
+                                            @endif
 
                                         </ul>
 

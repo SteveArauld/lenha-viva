@@ -871,8 +871,12 @@ class HomeController extends Controller
 
     public function certificaciones()
     {
+        $certificaciones = \App\Support\Certifications::all();
+
+        abort_if(empty($certificaciones), 404);
+
         return view('pages.certificaciones', [
-            'certificaciones' => \App\Support\Certifications::all(),
+            'certificaciones' => $certificaciones,
         ]);
     }
 }

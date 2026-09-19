@@ -312,8 +312,8 @@
 
                             <div class="lv-readonly-option lv-readonly-option--stacked">
                                 <span>Transferencia bancaria</span>
-                                <p>Realiza el pago directamente desde tu cuenta bancaria. Utiliza tu NIF como
-                                    referencia del pago. Tu pedido no se enviará hasta que se reciban los
+                                <p>Realiza el pago directamente desde tu cuenta bancaria. Indica tu número de pedido como
+                                    concepto de la transferencia. Tu pedido no se enviará hasta que se reciban los
                                     fondos.</p>
                             </div>
                         </section>

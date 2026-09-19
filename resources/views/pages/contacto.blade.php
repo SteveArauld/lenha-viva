@@ -1397,8 +1397,7 @@
 
 
 
-                                                            <span class="title">Entre em contacto connosco
-                                                                agora!</span>
+                                                            <span class="title">¡Contacta con nosotros!</span>
 
 
 
@@ -1410,9 +1409,7 @@
                                             <div class="elementor-element elementor-element-1698e20 elementor-widget elementor-widget-text-editor"
                                                 data-id="1698e20" data-element_type="widget"
                                                 data-widget_type="text-editor.default">
-                                                <p>Tem alguma dúvida, sugestão ou precisa de ajuda? Entre em
-                                                    contacto connosco; a nossa equipa terá todo o prazer em
-                                                    responder rapidamente!</p>
+                                                <p>¿Tienes alguna duda sobre un producto, un pedido o una entrega? Escríbenos y te responderemos lo antes posible.</p>
                                             </div>
                                         </div>
                                     </div>

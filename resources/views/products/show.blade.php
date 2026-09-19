@@ -102,7 +102,7 @@
 
                     <ul class="lv-product__benefits">
                         <li><i class="tb-icon tb-icon-check-circle"></i> Envío gratis en toda España (2-4 días laborables)</li>
-                        <li><i class="tb-icon tb-icon-check-circle"></i> Pago seguro por transferencia bancaria</li>
+                        <li><i class="tb-icon tb-icon-check-circle"></i> Pago por transferencia bancaria (pedido enviado tras recibir el pago)</li>
                         <li><i class="tb-icon tb-icon-check-circle"></i> Devolución en un plazo de 14 días</li>
                     </ul>
 

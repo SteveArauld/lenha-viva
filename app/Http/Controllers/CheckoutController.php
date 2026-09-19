@@ -158,33 +158,29 @@ class CheckoutController extends Controller
             'order_date' => now()->format('Y-m-d H:i:s'),
         ];
 
+        session()->put('last_order', $orderData);
+
         try {
-            // Envoyer l'email de confirmation au client
             Mail::to($validated['email'])->send(new OrderConfirmation($orderData));
 
-            // Envoyer la notification à l'admin
             $adminEmail = config('mail.admin_email', 'contacto@casacubertatrias.es');
             if ($adminEmail) {
                 Mail::to($adminEmail)->send(new AdminOrderNotification($orderData));
             }
-
-            // Sauvegarder la commande dans la session et localStorage
-            session()->put('last_order', $orderData);
-
-            // Vider le panier après la commande
-            session()->forget('cart');
-
-            // Rediriger vers la page de confirmation
-            return redirect()->route('checkout.confirmation')->with([
-                'order_data' => $orderData,
-                'success' => '¡Tu pedido se ha recibido correctamente!',
+        } catch (\Throwable $e) {
+            // Orders are not stored in a table yet: keep the full order in the
+            // log so a paid transfer can always be matched to its order.
+            \Log::error('Checkout mail failed: '.$e->getMessage(), [
+                'order' => $orderData,
             ]);
-
-        } catch (\Exception $e) {
-            \Log::error('Erro no checkout: '.$e->getMessage());
-
-            return back()->with('error', 'Se ha producido un error al procesar tu pedido. Por favor, inténtalo de nuevo.')->withInput();
         }
+
+        session()->forget('cart');
+
+        return redirect()->route('checkout.confirmation')->with([
+            'order_data' => $orderData,
+            'success' => '¡Tu pedido se ha recibido correctamente!',
+        ]);
     }
 
     private function cleanPrice($price)

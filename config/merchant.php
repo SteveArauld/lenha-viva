@@ -14,6 +14,11 @@ return [
     'default_brand' => env('MERCHANT_DEFAULT_BRAND', ''),
     'feed_id_prefix' => 'lv-',
 
+    // true ONLY once each old_price is documented as the lowest price really
+    // charged in the 30 days before the discount. Otherwise no strike-through
+    // price nor sale_price is published anywhere.
+    'reference_prices_verified' => (bool) env('MERCHANT_REFERENCE_PRICES_VERIFIED', false),
+
     'nap' => [
         'legal_name' => 'Casacuberta Trias S.L.',
         'vat_id' => 'ESB64055007',

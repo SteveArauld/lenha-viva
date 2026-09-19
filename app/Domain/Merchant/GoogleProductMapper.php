@@ -142,7 +142,9 @@ class GoogleProductMapper
             return null;
         }
 
-        if (Gtin::isValid($ref)) {
+        // A bare 8–14 digit code is a barcode, not a part number: a valid one
+        // is already sent as gtin, an invalid one must not be recycled as mpn.
+        if (preg_match('/^\d{8,14}$/', $ref)) {
             return null;
         }
 

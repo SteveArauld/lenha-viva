@@ -176,9 +176,11 @@
                                             <li class="menu-item">
                                                 <a href="{{ route('contacto') }}">Contacto</a>
                                             </li>
-                                            <li class="menu-item">
+                                            @if (\App\Support\Certifications::all())
+<li class="menu-item">
                                                 <a href="{{ route('certificaciones') }}">Certificaciones</a>
                                             </li>
+                                            @endif
                                         </ul>
                                     </div>
                                 </div>
@@ -187,7 +189,9 @@
                         </div>
                         <div class="elementor-element elementor-element-3b979dd elementor-widget elementor-widget-image"
                             data-id="3b979dd" data-element_type="widget" data-widget_type="image.default">
-                            <a href="{{ route('certificaciones') }}" title="Ver nuestras certificaciones"><img width="503" height="170" src="/wp-content/uploads/2022/01/Enplus-e-ISO9001-cor-1.png" class="attachment-large size-large wp-image-6038" alt="Certificaciones ENplus A1, DINplus, ISO 9001 y NF de Casacuberta Trias S.L." loading="lazy" /></a>
+                            @if (\App\Support\Certifications::all())
+<a href="{{ route('certificaciones') }}" title="Ver nuestras certificaciones"><img width="503" height="170" src="/wp-content/uploads/2022/01/Enplus-e-ISO9001-cor-1.png" class="attachment-large size-large wp-image-6038" alt="Certificaciones ENplus A1, DINplus, ISO 9001 y NF de Casacuberta Trias S.L." loading="lazy" /></a>
+                            @endif
                         </div>
                     </div>
                 </div>
@@ -296,11 +300,13 @@
                                                 </a>
                                             </li>
 
-                                            <li class="menu-item">
+                                            @if (\App\Support\Certifications::all())
+<li class="menu-item">
                                                 <a href="{{ route('certificaciones') }}">
                                                     Certificaciones
                                                 </a>
                                             </li>
+                                            @endif
                                         </ul>
                                     </div>
                                 </div>

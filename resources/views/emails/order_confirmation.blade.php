@@ -160,7 +160,7 @@
             @if (config('bank.iban'))
                 <div class="order-info">
                     <h3>🏦 Datos para la transferencia</h3>
-                    <p>Indica tu NIF como concepto y envía el justificante a contacto@casacubertatrias.es. El pedido se
+                    <p>Indica tu número de pedido como concepto y envía el justificante a contacto@casacubertatrias.es. El pedido se
                         prepara una vez recibido el pago.</p>
                     <p><strong>Titular:</strong> {{ config('bank.holder') }}</p>
                     @if (config('bank.bank_name'))

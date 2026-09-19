@@ -24,19 +24,44 @@ class LojaProduct
 
     protected static function source(): Collection
     {
+        return self::rawSource()
+            ->map(fn (array $item) => self::withoutUnverifiedReferencePrice($item))
+            ->values();
+    }
+
+    protected static function rawSource(): Collection
+    {
         try {
             if (Schema::hasTable('products')) {
                 $rows = Product::query()->orderBy('id')->get();
 
                 if ($rows->isNotEmpty()) {
-                    return $rows->map->toCatalogArray()->values();
+                    return $rows->map->toCatalogArray();
                 }
             }
         } catch (\Throwable $e) {
             // fall through to the config array
         }
 
-        return collect(config('loja_products', []))->filter(fn ($e) => is_array($e))->values();
+        return collect(config('loja_products', []))->filter(fn ($e) => is_array($e));
+    }
+
+    /**
+     * A struck-through "old" price is only lawful (Directive 98/6/CE art. 6
+     * bis, RDL 1/2007) and Merchant-Center-compliant when it is the lowest
+     * price actually charged in the previous 30 days. Until that history is
+     * documented per product, old_price is blanked for every consumer:
+     * storefront, JSON-LD and the Google feed.
+     */
+    protected static function withoutUnverifiedReferencePrice(array $item): array
+    {
+        if (config('merchant.reference_prices_verified')) {
+            return $item;
+        }
+
+        $item['old_price'] = '';
+
+        return $item;
     }
 
     public static function query(): self

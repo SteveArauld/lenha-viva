@@ -793,8 +793,7 @@
                                                                             <div class="wrapper-content-banner">
                                                                                 <div class="content-banner">
                                                                                     <h3 class="banner-tbay-title">
-                                                                                        <span class="title">LENHA
-                                                                                            VIVA</span>
+                                                                                        <span class="title">Casacuberta Trias S.L.</span>
 
                                                                                         <span class="subtitle">¿Buscas un
                                                                                             proveedor de PELLETS?</span>

@@ -17,6 +17,33 @@ class Certifications
      */
     public static function all(): array
     {
+        return array_values(array_filter(
+            self::declared(),
+            fn (array $cert) => self::isDocumented($cert)
+        ));
+    }
+
+    /**
+     * A certificate is only published once its number and validity are real.
+     * Displaying a quality mark we cannot evidence is a Merchant Center
+     * "misrepresentation" trigger and misleading advertising under Spanish law.
+     */
+    private static function isDocumented(array $cert): bool
+    {
+        foreach (['issuer', 'number', 'validity'] as $field) {
+            if (trim((string) ($cert[$field] ?? '')) === '' || str_contains($cert[$field], 'POR COMPLETAR')) {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    /**
+     * @return array<int, array<string, mixed>>
+     */
+    private static function declared(): array
+    {
         return [
             [
                 'key' => 'enplus-a1',
@@ -101,6 +128,8 @@ class Certifications
             $badges['nf'] = ['name' => 'NF Bois de chauffage', 'key' => 'nf'];
         }
 
-        return array_values($badges);
+        $documented = array_column(self::all(), 'key');
+
+        return array_values(array_filter($badges, fn ($b) => in_array($b['key'], $documented, true)));
     }
 }

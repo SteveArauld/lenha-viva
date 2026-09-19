@@ -54,7 +54,7 @@
                             </div>
                             <p>Estimado cliente:</p>
                             <p>Gracias por tu pedido. Para confirmarlo, realiza una transferencia por el importe total
-                                indicando tu NIF como concepto y envíanos el justificante por correo electrónico a
+                                indicando tu número de pedido como concepto y envíanos el justificante por correo electrónico a
                                 <a href="mailto:contacto@casacubertatrias.es">contacto@casacubertatrias.es</a> antes de la
                                 entrega. Tu pedido no se enviará hasta que se reciba el pago.</p>
 
