@@ -205,27 +205,18 @@
         }
     </style>
 
-    <!-- Google tag (gtag.js) — loaded with Consent Mode default = denied until the visitor accepts cookies -->
-    <script>
-        window.dataLayer = window.dataLayer || [];
+    
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('consent', 'default', {
-            'ad_storage': 'denied',
-            'ad_user_data': 'denied',
-            'ad_personalization': 'denied',
-            'analytics_storage': 'denied',
-            'wait_for_update': 500
-        });
-    </script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MX4HS3ZTPP"></script>
-    <script>
-        gtag('js', new Date());
-        gtag('config', 'G-MX4HS3ZTPP');
-        gtag('config', 'AW-17798780713');
-    </script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18463540651"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-18463540651');
+</script>
 </head>
 
 <body>
