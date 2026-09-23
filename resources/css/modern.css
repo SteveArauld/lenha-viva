@@ -1512,6 +1512,25 @@
 
 .lv-product__cta {
     flex: 1 1 200px;
+    min-height: 48px;
+    white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+    .lv-product__actions {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .lv-product__qty,
+    .lv-product__cta {
+        width: 100%;
+        flex: 1 1 auto;
+    }
+
+    .lv-product__wishlist-btn {
+        align-self: center;
+    }
 }
 
 .lv-product__wishlist-btn {
